@@ -1,0 +1,377 @@
+== 2.5.1 - 2018/07/26 ==
+Add: option button target in single events.
+Add: custom button in single listings
+Add: listingsArchiveType method in Context
+Fix: various fix.
+
+== 2.5.0 - 2018/07/13 ==
+Fix: suggestions, given the support when the slug of taxonomies is changed.
+Fix: Various arrangements and removal of dirty code.
+Add: button for remove title group.
+Add: Support for Reviewer plugin.
+Add: option for set default address in google map.
+Add: Term color scoped style in listings card.
+
+== 2.4.0 - 2018/06/06 ==
+Add: Font Awesome 5 icons divided into two types, solid and regular.
+Add: conditional function removeHeaderPageIfJumbotronIsDisable.
+Add: Events settings page in theme options.
+Add: activate select2 input search box.
+Add: add Hero Map
+Add: added "tag groups" functionality in the taxonomy amenities
+Fix: fixed slug value for autocomplete and geocoded search
+
+== 2.3.0 - 2018/04/30 ==
+Add: Short-code listings, posts, maps and terms added layout option in visual composer.
+Add: Integrated Opening Hours plugin (visible in the listings sidebar).
+Add: Widget Area in Archive listings (visible before the listings).
+Add: Counter for checked amenities.
+Add: New Select2 theme for form filter.
+Add: If it is not active woocommerce-bookings, add tab for inserting personalized content instead of the booking form.
+Fix: Marker cluster in the same position it is moved to be clickable.
+Fix: Update googleapis version.
+Fix: Search geocoded permalink.
+Dev: Function Template infoBoxTmpl, added filter "qibla_engine_map_template_infobox" engine template for change template in other post type archive.
+
+== 2.2.2 - 2018/04/09 ==
+Add: added select2 templateResult.
+Fix: search geocoded evt error.
+Dev: added Kses Post data-markup and time tag.
+Dev: added Function Post filter for exclude icon title.
+Dev: added filter in JsonBuilder class for override template from plugin.
+Dev: added filter in LoopTemplate class for override template from plugin.
+Dev: added filter in WishListEndPoint class for override template from plugin.
+Dev: View archive listings filter for override template.
+
+== 2.2.1 - 2018/04/03 ==
+Add: New user registration, notification for password reset
+Dev: added filters for the "screen" argument in the termbox classes.
+
+== 2.2.0 - 2018/03/28 ==
+Add: Added Glyphs Icons.
+Add: support for wpml to create a cache for suggestions based on the current language.
+Add: Icon search feature for search icon by name.
+Add: Support for WooCommerce 3.3.4
+Fix: Invalid object type for subtitle for WP_User instance.
+Fix: isListingsArchive and isListingsMainQuery functions for taxonomy archive.
+Fix: Autocomplete suggestions based on the current language.
+Fix: Invalid object type for subtitle for WP_User instance.
+Fix: Search Geo fix default event in setValue function.
+Dev: Added file for the definition of the listings types, used in the registration of the taxonomy "listings_address".
+
+== 2.1.0 - 2018/02/10 ==
+Add: Ability to customize the My Wishlist endpoint via settings
+Add: introduced getArchiveDescription function for retrieved archive description from query object
+Add: include archive description in json data
+Add: Map Icons.
+Add: support for wpml to suggestions
+Add: support for wpml to localized site_url
+Add: introduced new function isWpMlActive
+Add: shortcode dl_maps to view a map, you can use one only per page.
+Add: shortcode dl_recently_viewed to view recently viewed listings.
+Add: filter categories and locations in listings short-code
+Add: Support for WooCommerce 3.3.1
+Add: add filter search_json_encoder_factory for filter json encoder factory args
+Add: added setCurrentLang function.
+Fix: ListingsPost icon method check if $termIcon is empty.
+Fix: add 'update_option_rewrite_rules' case in Autocomplete handler for update data
+Fix: TermBox Store checkAdminReferer only if $_REQUEST is "add-tag" or "edittag"
+
+== 2.0.1 - 2017/12/19 ==
+Fix: Amenities Filter: Fix wrong list when Listing Categories filter is set to 'all'.
+Fix: Correct selection of the loader object in the toggleLoader method of DL.Utils.UI since it did not refer to the loader object before
+Fix: In the filter method on map-listings to complete the event, a check has been introduced to check the presence of the loader and only if present there will be the call to the toggleLoader method as it caused a blocking of the loader and failure to display the content
+Fix: added a "WP_Post_Type" check on the object passed to the class and and recovery subtitle from the id "woocommerce_shop_page_id"
+Fix: remove fadeIn function because moved to the topic otherwise the header is not displayed.
+Fix: added a "WP_Post_Type" check on the object passed to the class and in case the current page is the woocommerce shop.
+Dev: Add filter `qibla_theme_option` to allow third party plugins to hook for theme option returned value.
+
+== 2.0.0 - 2017/12/16 ==
+Add: Wishlist.
+Add: Term Meta can now be set when creating the term within the edit tags page.
+Add: Amenties / Categories Listings Relation. You can now hide amenities based on Category context from within the edit term page.
+Add: Introduce Drag&Drop for map pin. You can now adjust the position of the marker by dragging it when create or edit a listings.
+Add: New Role 'manage_listings' for users that can manage the listings within the backend.
+Add: Search now allow administrator to select one search, search + geocode and combo that include the search, geocode and listings categories.
+Add: Typography font variant and font weight for base font family in theme option.
+Fix: Quote and double quote may truncate the listing content when submit one.
+Fix: Autocomplete appear twice when browser is set to use the auto fill forms.
+Fix: Remove the search classes from body if the context is for listings type.
+Fix: Updating a term in quick edit doesn't release the ajax spinner.
+Fix: Capabilities logic, not work well.
+Fix: Capabilities for Custom Post Type and Taxonomy Listings.
+Fix: Listings container height on archive listings for No map archive.
+Fix: Jumbotron defined in Framework hide archive titles like the author one.
+Fix: Search Geocoded doesn't load the correct page if locations term titles use more than one word.
+Fix: Archive Listings container collapse when images are not downloaded fast.
+Fix: Pagination ajax not trigger if no filtering has been executed at least once when no map archive option is set.
+Fix: Default archive descriptions giving support to the multi post type.
+Fix: Ajax loader stuck on quick edit terms.
+Fix: Search Submit label may disappear in some cases.
+Fix: Listings archive list won't scroll when full screen map is closed after a filtering action.
+Fix: Homepage template won't save meta options.
+Fix: Color picker doesn't work as expected within post meta boxes when site is viewed in firefox.
+Remove: Listings Format logic. Never used.
+Tweak: Improve search navigation responsiveness.
+Tweak: Various Css issues.
+Tweak: Improve typography settings load speed.
+Refactor: New Listings Filtering logic.
+Refactor: Move functions from `Front` and `Admin` namespace within the main one under the path `src/Functions`.
+Dev: Improve filter logic, the taxonomy redirect fragment now is dynamic, you can pass it as `data-taxonomy` to the input.
+Dev: Introduce `qibla_fw_default_map_location` filter to allow to change the default google map.
+Dev: Allow `picture` and `source` in `ksesPost` function.
+Dev: Introduce SubTitle template and relative view with `before` and `after` hook.
+Dev: Validate forms sometimes doesn't set the value of the inputs correctly. This happen when the submit page is different than the action page.
+Dev: Fix Select input type when set the `selected` attribute. Values must be exactly the same, so compare lowercase characters.
+Dev: Refactored the Autocomplete package, to allow to work with other post types of listings type.
+Dev: Listings fetching events are now dispatcher to form element instead of window.
+Dev: Fix propagation missed for events fired after the event pagination in archive listings is started.
+Dev: Introduce filters to the form type output before return it. The filter take the form of `qibla_fw_type_{type_slug}_output`.
+Dev: Introduce `QiblaFramework\Template\Thumbnail` template class.
+Dev: Introduce `QiblaFramework\Template\LoopTemplate` template class.
+Dev: Introduce js-url (a JavaScript url parser) library.
+Dev: Allow to create modals for login / register dynamically by every javascript file. Use DL.LoginRegisterFormFactory(triggerHTMLElement).
+Dev: Introduce basic CRUD interface.
+Dev: Introduce `UserFactory`. Move logic from `User` class.
+Dev: Improve `codearea` field type by using the newly function `wp_enqueue_code_editor`. Old codemirror has been removed.
+
+== 1.7.1 - 2017/10/21 ==
+Fix: Task for update listings geocode data must use ajaxurl because it is executed within the admin context.
+Fix: ScriptLoader doesn't recognize field slug in php < 7.
+Fix: Login/Register Modal doesn't open by default within the add listing submission page.
+Fix: Logout Url doesn't work within the my account page because of the wrong namespace in case sensitive Os.
+Fix: Logout url appear under every submenu items in main navigation when user is logged in and SignIn/SignUp is not the latest menu item.
+Fix: Some issues with the listings location meta updater when some listings canno be updated correctly.
+
+== 1.7.0 - 2017/10/18 ==
+Add: Introduce geolocalization feature for listings.
+Add: Support for WooCommerce 3.2.x.
+Add: Search now can get google addresses and geolocate users.
+Add: Allow to set the listings archives without a map from theme option. Qibla > Theme Options > Listings.
+Add: Amenities within the single listings are now links to the respective archive pages.
+Add: New option to set geocode search input in Qibla > Theme Options > Search.
+Add: Material Icons.
+Fix: A warning for WordPress Social Login when user is not logged in.
+Fix: Wrong logo image when header is set to sticky when the logo size is greater than the thumbnail image size.
+Fix: Google Analytics code strip tags. Switched to a text field to allow UA code.
+Fix: Select2 overlaps color picker within admin pages.
+Fix: Header Hero content not centered vertically if header is set as sticky.
+Fix: Prevent glitch on header hero content when page load because of the sticky header.
+Fix: Remove post type query arg from filter, cause context issues.
+Fix: Title doesn't appear in search page when framework is active.
+Remove: Removed locations taxonomy from the search suggestions.
+Remove: Static search navigation is now removed in favor of automatic suggestions based on listings categories.
+Tweak: Improve the navigation UX used in search.
+Refactor: Header search is now a generic search for listings and posts.
+Dev: Introduce filter named `qibla_listings_filter_form_output_before_close` to filter the listings form filter.
+Dev: Introduce Geo package, meta query args from bounding coords, latlng factory, Geolocation filtering.
+Dev: Introduce filter 'qibla_listings_allowed_taxonomies_filter' to modify the list of the allowed taxonomy form which retrieve the terms that goes into the search suggestions.
+Dev: Introduce Search field input type.
+Dev: Introduce filter `qibla_fw_prepare_json_builder` to insert extra data within the json send after listings filtering.
+Dev: Ajax filters can now be executed in both front-end and back-end context.
+Dev: SvgLoader is now included in back-end.
+
+== 1.6.1 - 2017/09/12 ==
+Fix: Rating on single listings doesn't get the hover state.
+Fix: Select input type z-index because of Visual Composer Panel.
+Fix: Missed social login support within the WooCommerce my account page.
+Fix: Extra space between header and main content when window is too small in desktop devices.
+Tweak: Modal, allow to close it by clicking outside of the modal itself.
+
+== 1.6.0 - 2017/09/06 ==
+Fix: Local video doesn't show up on homepage header.
+Fix: Encoding excaped quote when not needed.
+Fix: Notice when try to submit a review and Debug is enabled.
+Fix: Prevent issues on login register modal if no login/register element exists within the page.
+Fix: google map field type don't load time to time when loaded async.
+Fix: Use first and last name as user login if user provide both even if separated by space.
+Fix: Wrong namespace in case sensitive OS. props @Ilyo.
+Fix: Lost password form lost the submit button label after data has been submitted.
+Add: Sticky Header Option.
+Add: Slider Revolution support.
+Add: Localization for it_IT.
+Add: Autocomplete and custom menu attributes to search form shortcode.
+Add: Support to WP Social Login plugin.
+Add: Allow Listing Author to reply to customer reviews.
+Add: Map Qibla shortcode's into Visual Composer.
+Tweak: Improve Login/Register modal box model.
+Tweak: Set the phone anchors to be clickable.
+Tweak: Move the related post cta label as option under Theme Options > Listings to simplify a bulk edit.
+Dev: Fix Radio input type missed attributes values.
+Dev: Fix datetimepicker type doesn't load correctly on Firefox.
+
+== 1.5.1 - 2017/08/16 ==
+Update: Google Map version to 3.28.
+Update: Code Mirror: 5.27.4,
+Update: OwlCarousel: 2.2.0,
+Update: PhotoSwipe: 4.1.2
+Fix: The Listing Visibility Duration must be within Qibla Listings plugin not into the framework.
+Fix: Wrong translation string for uploaded_to_this_item when registering post type.
+Fix: Get comment data doesn't need a translation string. There is only a string that contain a positional argument.
+Fix: iOS issue within single listing page: "This website has been blocked from automatically composing an email" during contact form modal preloading.
+Fix: Login/Register form show the "Create an account" even if registration are off due to wrong value type evaluation.
+Fix: Prevent javascript errors when listings archive doesn't contain any filter or toggler.
+Fix: Email not send when a new user is registered.
+Fix: Allow to load the plugin textdomain directly from the plugin.
+Fix: Reset Password is not send. Generate a fatal error in non network installations.
+Fix: Page still allow scrolling on listings archive page on iOS when map is opened.
+Fix: Remove the Header skin and subtitle from Listings Categories, Locations and Amenties term boxes. Listings Archives doesn't show any hero image nor subtitles.
+Fix: Function get_current_screen may not exists whithin the Metabox\Store context because the handler is attached to the "save_post" and not all of the posts are saved within the edit post screen context.
+Fix: Security vulnerability for internal Textarea input type. Data is not escaped.
+Fix: Codearea type append slashes to the submitted value. Make it unusable.
+Fix: No way to store dynamic Css from theme option if child theme is active.
+Fix: Modal doesn't open correctly in Edge and IE10 Browser.
+Fix: Shortcode Term warning when term doesn't exists in database.
+Fix: Phone number within the single listings meta doesn't work as expected. Make it clickable, so it's possible to make a call directly from the site.
+Fix: Unexpected end of JSON input when there isn't listings data to retrieve. This include listings posts, categories, amenities etc...
+Fix: Impossible to update the map togglers on resize. Map opening/closing must be triggered only by user.
+Fix: Missed google_analytics default option.
+Fix: Prevent optional options to be marked as invalid during import.
+Tweak: Use translation context for default options strings.
+Tweak: Improve the username invalid description within the register form.
+Tweak: remove breadcrumb metabox field description.
+Tweak: Contextualize the settings translation strings.
+Tweak: Vertical center the loader within the archive listings map.
+Tweak: Add link to google developer site about how to create a map api key to Google Map Theme Option field.
+Tweak: Increase php ini variable before generate the dynamic.css file. Will prevent a time out issue in cheap hostings.
+Remove: "Password will be emailed to you.". WordPress doesn't send any password via mail when a new user is registered.
+Dev: Separate the enqueue for style and script for Testimonial shortcode, so we can deregister the script without loose the style.
+Dev: Move 'widgets_init' within the filters list definition. Make the Init class coherent with other plugins.
+Dev: Localize the autocomplete arguments for the ajax call. See dlautocomplete localized script arguments.
+Dev: Introduce new filter named 'qibla_fw_insert_localized_script_item' to filter the localized script arguments before output.
+Dev: Introduce new parameter for DataCacheTransient to allow to work with different transients data.
+Dev: Introduce new filter within Template Engine named 'qibla_fw_template_path' allowing you to filter the file path before include it.
+Dev: Refactor GoogleMap by implementing Template Interface. Filter callback has been changed too.
+Dev: Improve Map Field type, now it is possible to pass google map options via php. Use 'map_options' as argument for the field type.
+Dev: Introduce two new filters to manipulate the base Dir for Scss files and for output dynamic's css. 'qibla_fw_settings_handler_scss_base_dir_path' and 'qibla_fw_settings_css_output_file_path' respectively.
+Dev: Introduce two new filters to change the 'All Categories' and 'All Locations' filter labels under the listings archive page. Filters are named respectively: 'qibla_listings_filter_category_all_options_label', 'qibla_listings_filter_locations_all_options_label'.
+Dev: Introduce new filter to change the value of the scss importer string passed as content to generate the dynamic.scss file. Filter named 'qibla_fw_settings_dynamic_css'. Allowing you to include extra css within the dynamic file.
+Dev: Always load the 'dl-utils' script.
+
+== 1.5.0 - 2017/07/02 ==
+Add: Compatibility to WooCommerce 3.1.0
+Add: Login Register and Lost Password feature.
+Add: Modal Element.
+Add: Main Menu Item styles. Text or Button.
+Add: Required fields now have an asterisk associated to their labels.
+Add: Ability to change the post type and taxonomies base permalinks.
+Add: Contact Form within the singular Listings, allow to send email directly from the site instead of load OS application.
+Add: User logged in menu. A submenu within the main nav that allow to create the login/register action and menu.
+Add: Hide Breadcrumb within the singles and pages.
+Fix: Some Hero options not works after parallax was introduced in 1.4.0.
+Fix: Use https://www.google.com/maps instead of the .it in single listing map link.
+Fix: Don't convert htmlentities for query arguments when used for google map url. Some character may be converted incorrectly.
+Fix: Checkbox toggler style doesn't work if previously wasn't included another type that enqueue the 'qibla-form-types' stylesheet.
+Fix: ClassList polyfill add/remove extra spaces combining the class attribute values into one class value.
+Fix: Notice when the current screen is not set during working with metaboxes.
+Fix: Sanitize Html Class attribute values within the scopeClass function.
+Fix: Hidden Form Fields cause Fatal Error when used as standard field.
+Fix: Undefined index $ID within archive post type page when try to retrieve the sidebar position but the archive have no page associated.
+Tweak: Add placeholder to map search input to better clarify how to get suggestions.
+Remove: Unnecessary features from the tinyMCE for the listings archive description.
+Dev: ksesPost function by including select,option,optgroup and include extra attributes to the textarea tag.
+Dev: Wysiwyg Input class now take extra argument 'editor_settings' to able to edit the settings passed to wp_editor.
+Dev: Add new parameter $status to QiblaFramework\\Functions\\getPostByName().
+Dev: Introduce new class to able to convert Form data to a data that can be passed to the wp_insert_post().
+Dev: Introduce new function scopeID().
+Dev: Introduce new argument for Field to allow to show the label before or after the input.
+Dev: Introduce new UpdatePostException class.
+Dev: Introduce new Utils class Utils\TimeZone to get the timezone according to the Wp options.
+Dev: Introduce new Utils class Utils\FormToPostDataConverter to convert data from a form to a post data argument.
+Dev: Introduce new filter within the isJumbotronAllowed function named 'qibla_fw_is_jumbotron_allowed' before the value is returned.
+Dev: Introduce new filter after post meta storage named 'qibla_fw_metabox_after_store_meta'. Allow you to work with the new meta, value and post after meta has been saved.
+Dev: Introduce new type Password in Form library.
+Dev: Introduce new body class to know when a user is logged in or not.
+Dev: Introduce new template for Alert that use underscore template.
+Dev: Introduce new WooCommerceTemplate class to allow to override quickly the woocommerce templates.
+Dev: Introduce new function getPostThumbnailAndFallbackToJumbotronImage.
+Dev: Add "paste_as_text" option in wysiwyg editor when the editor is set to 'teeny' to strip markup characters.
+Dev: Allow markup within the fields description.
+Dev: Introduced a new filter 'qibla_fw_did_init' to allow other plugins to hook after the framework have did his stuffs.
+
+== 1.4.0 - 2017/05/19 ==
+Add: Parallax to hero image and section shortcode.
+Add: Custom order attribute value 'listorder' to the list of 'orderby' values for dl_terms shortcodes. Allowing to order the list of the terms by the order defined in shortcode.
+Add: 'orderby' and 'order' attributes to the Post and Listings shortcodes, reflecting the orderby and order clausules of \WP_Query.
+Fix: Wrong name for jumbotron.js file, will not be loaded under case sensitive filesystems.
+Fix: Header search closing on ESC keypress.
+Fix: Invalid arguments for autocomplete search when build the data. Some listings may not have terms assigned.
+Fix: Missed default option for posts_per_page when retrieving the theme option.
+Fix: Missed default icon for header search form. Caused blank screen if option is not set.
+Fix: Incorrect value number show on found posts within the archive listings when the option Listings per page is set to -1.
+Fix: Ajax pagination within the archive listings doesn't work as expected when click on next|prev link due to the icon.
+Fix: IconList type cannot be unset after the data is saved for the first time.
+Fix: Autocomplete cache not update when a post or terms are deleted.
+Fix: Don't show the close button for header search in IE10. The browser show his own close icon.
+Fix: $data value in TemplateEngine is not filtered correctly.
+Fix: Single Listing map marker. Cannot read property 'openedInfoWindows' of undefined.
+Fix: Wrong id attribute value for Review Metabox.
+Tweak: Don't allow values less than -1 in Listings per page option.
+Tweak: Improve admin post listings table columns. Give more space for other plugins to add extra columns.
+Remove: Registry Class. Never used.
+Dev: BaseForm arguments are now optionals for constructor.
+Dev: Introduce two new formatting functions: stringToBool and boolToString.
+Dev: Remove localization for Exception/Error's text.
+Dev: Introduce new filter 'qibla_fw_metabox_arguments' to filter the metabox arguments when the instance is created.
+Dev: AbstractMetaboxFieldset::setFieldsets now allow to insert additional fieldsets to a current list of fields.
+Dev: Add new parameter to 'qibla_fw_scope_attribute' $modifier.
+
+== 1.3.0 - 2017/05/02 ==
+Fix: Theme Options json heading colors doesn't match the default headings.
+Fix: Hero shrink in homepage when the search input get focus on mobile devices.
+Fix: Google map element is duplicated on Firefox within the single listings when navigate through the history browser buttons.
+Add: Autocomplete and suggestions for search inputs within the header and homepage.
+Add: Custom navigation menu search in mobile devices.
+Add: Taxonomy names to the custom search navigation menu items.
+Tweak: Speed improvements by micro optimizations.
+Remove: QiblaFramework\\Front\\Functions\\disableTermArchives function, no longer needed. Also removed the file src/Front/Functions/Term.php.
+Remove: Amenties column from listings table to prevent ugly table in small screens resolution.
+Dev: Add New Conditional functions to check for ajax requests. One for Autocomplete and one for listings filtering. The latter take the over for isAjaxRequest (now generic for ajax requests).
+Dev: Add New function to check and validate the referrer. getReferer() && isValidReferer().
+Dev: Add new localized variable named site_url.
+Dev: Improve the search callbacks by using the instance directly instead of the shortcode.
+Dev: Update Modernizr with touchevents.
+Dev: Move postFoundTmpl, breadcrumbTmpl and archivePaginationTmpl outside of archive description. Removed filters too.
+Dev: Change priority for theArchiveDescription hooked in qibla_after_archive_listings_list from 20 to 30.
+Dev: Introduce new function listingsArchiveFooterTmpl to group Move postFoundTmpl, breadcrumbTmpl and archivePaginationTmpl.
+
+== 1.2.1 - 2017/04/24 ==
+Fix: Wrong value for filter_input on listing's review submission.
+Fix: Missed reviews.min.js on production environment.
+Fix: Remove leading backslash from namespaced functions. It's not necessary and may create issues with some php configurations.
+Fix: Rating list doesn't show up within the admin comments edit form.
+Fix: Select style within the WooCommerce's checkout page is set to the default style after value is changed.
+
+== 1.2.0 - 2017/04/20 ==
+Fix: Wrong textdomain for 'all locations' string within the listings archive input select.
+Fix: Unmatched page slug doesn't show Theme Option within Admin if accessed by First Level admin menu item 'Qibla'.
+Add: Header Video Background within Homepage.
+Add: Reviews for listings post type.
+Improve: Set the google font and google map scripts protocol url to relative. Future thanks us.
+Dev: Deprecated getImageIdByUrl() in favor of attachment_url_to_postid().
+Dev: Introduce new classes for custom post's Exceptions.
+Dev: Add Conditional function isHeaderVideoEligible to check if the video is set and is eligible to shown into current page.
+
+== 1.1.0 - 2017/04/11 ==
+Fix: The search page of the theme loses jumbotron if the framework is active.
+Fix: Wrong textdomain for 'all locations' string within the listings archive input select.
+Fix: Blur event on search navigation doesn't work for some items. Introduce a 300ms of delay after click.
+Fix: Missed social mail post meta within the singular listings.
+Fix: Admin locked avatar image size issue.
+Fix: Section Shortcode cta button href attribute is empty.
+Fix: Listings Search doesn't work as expected. Wrong sync between the listings posts and the map.
+Add: Header Video Background within Homepage.
+Add: New Listings table columns for listing categories and amenities.
+Add: Flag to the listings marked as featured on archive loop.
+Add: TripAdvisor listings social icon. The post meta.
+Add: New Setting for Listings - Force Disable Reviews for all listings posts.
+Improve: Set the google font and google map scripts protocol url to relative.
+Remove: The Jumbotron (Hero) term box options from non blog and woocommerce terms archives.
+Dev: Add Template Tags for scope class markup attribute. The same of the theme.
+Dev: Add Conditional function isHeaderVideoEligible to check if the video is set and is eligible to shown into current page.
+Dev: Allow label field element to use html via wp_kses. Allow span with 'id' and 'class' attributes.
+Dev: Deprecated getImageIdByUrl() in favor of attachment_url_to_postid.
+Dev: Introduce new classes for custom post's Exceptions.
+
+== 2017/03/23 - 1.0.0 ==
+Initial release

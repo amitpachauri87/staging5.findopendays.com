@@ -1,0 +1,22 @@
+/* form #3690 */
+#footer_form .mc4wp-form-3690 label, 
+#footer_form .mc4wp-form-3690 input, 
+#footer_form .mc4wp-form-3690 textarea, 
+#footer_form .mc4wp-form-3690 select, 
+#footer_form .mc4wp-form-3690 button {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#footer_form .mc4wp-form-3690 {
+	display: block;
+	background-repeat: repeat;
+}
+
+#footer_form .mc4wp-form-3690 input[type='radio'],
+#footer_form .mc4wp-form-3690 input[type='checkbox'] {
+	margin-right: 6px;
+	display: inline-block
+}
+

@@ -1,0 +1,5 @@
+2018-11-13T09:26:24+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in /home/findopen/public_html/dates_cron.php:13
+Stack trace:
+#0 {main}
+  thrown
+

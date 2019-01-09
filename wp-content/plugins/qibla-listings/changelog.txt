@@ -1,0 +1,68 @@
+== 2.4.1 - 2018/07/26 ==
+Add: option button target in single events.
+
+== 2.4.0 - 2018/06/06 ==
+Add: allowed layout section for listing package in events search template.
+
+== 2.3.0 - 2018/04/30 ==
+Add: Short-code listing package, added layout option in visual composer.
+Add: Type columns in manager listings template.
+
+== 2.2.1 - 2018/04/09 ==
+Dev: added filter "qibla_listing_package_options_screen" in ListingPackageRelated
+
+== 2.2.0 - 2018/03/28 ==
+Add: Support for WooCommerce 3.3.4
+Tweak: Change placeholder for title and sub title, in add listings form.
+
+== 2.1.0 - 2018/02/10 ==
+Add: Ability to customize the My MyListingsEndPoint endpoint via settings
+Add: introduced new function isWpMlActive
+Add: Support for WooCommerce 3.3.1
+Fix: WpMl support for redirect at checkout after package creation.
+
+== 2.0.1 - 2017/12/19 ==
+Fix: Call to the MultiCheck class on tax term fields amenities, changed from multicheck to multi_check in order to be correctly loaded by the FieldFactory
+
+== 2.0.0 - 2017/12/16 ==
+Add: Introduce the package manager within the listings edit page for all listings even the ones created within the backend.
+Fix: Listing Location doesn't get update after ListingLocationStore has been introduced in 1.2.0
+Fix: Author Listings doesn't update in Quick edit.
+Fix: Incompatibility with WooCommerce 3.2.x where isn't possible to assign the listing ID when create the post. Prevent to automatically publish the listings on order complete.
+Fix: Product won't remove from the cart when a user delete an item not payed yet.
+
+== 1.2.0 - 2017/10/18 ==
+Add: Support for WooCommerce 3.2.x
+Update: Allow CRUD package to work with new location data. Lat / Lng are now separated meta where address is a term.
+Fix: Author page doesn't show because of the FilterProductsQuery set the queried_object too early.
+Fix: Listings cannot submit via front-end when a term of a taxonomy is a numeric like value. Es. zip code.
+Fix: Missed to introduce Listing Package Shortcode within the Qibla Visual Composer category.
+
+== 1.1.1 - 2017/09/12 ==
+Fix: Users when register must not obtain the Listings Author Role.
+
+== 1.1.0 - 2017/09/06 ==
+Fix: Wrong text-domain for "Add your listing" page title.
+Add: Visual Composer integration for Shortcodes.
+
+== 1.0.1 - 2017/08/16 ==
+Fix: The Listing Visibility Duration must be within Qibla Listings plugin not into the framework.
+Fix: Error when an order is set as completed and there are no listings associated to that order.
+Fix: Don't show the My Listings page for non listings authors.
+Fix: Authors Dropdown list doesn't show listings author within the admin edit screen.
+Fix: Missed to load the plugin language textdomain.
+Fix: Listings Actions within the my listings page not work as expected if site is not localized in english.
+Fix: Administrators, Editor, Author and Subscriber cannot access to admin because of Listings Author roles.
+Fix: Don't show Admin Bar on frontend for Listings Author. Related with the issue of admin access.
+Fix: Error within My Listings page when package related to a listing no longer exists.
+Fix: Notice on listing form when trying to remove the breadcrumb.
+Fix: Check for 'edit_listings' instead of 'publish_listings' for the edit listings form.
+Fix: User not allowed to create listing posts if user all-ready exists when 'qibla-listings' plugin is activated.
+Improve: Promote users to listings author when try to create a listing. This allow registered users like subscribers to be listings authors.
+Improve: Empty the cart before perform redirect the user to the checkout after a listing has been create.
+Improve: Remove unnecessary WooCommerce Navigation items from my account for users that can manage listings.
+Improve: UX by don't allow google map scrollwheel for map within the add listing page.
+Dev: Pass fields values and post as arguments to the listing form fields list.
+
+== 1.0.0 - 2017/07/02 ==
+Initial Release

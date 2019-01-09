@@ -1,0 +1,20 @@
+2018-12-06T09:19:58+00:00 CRITICAL Cannot redeclare iconic_account_menu_items() (previously declared in /home/findopen/staging/5/wp-content/themes/qibla/functions.php:563)
+
+2018-12-06T09:20:39+00:00 CRITICAL Cannot redeclare iconic_account_menu_items() (previously declared in /home/findopen/staging/5/wp-content/themes/qibla/functions.php:563)
+
+2018-12-06T09:22:39+00:00 CRITICAL Cannot redeclare iconic_account_menu_items() (previously declared in /home/findopen/staging/5/wp-content/themes/qibla/functions.php:563)
+
+2018-12-06T09:24:39+00:00 CRITICAL Cannot redeclare iconic_account_menu_items() (previously declared in /home/findopen/staging/5/wp-content/themes/qibla/functions.php:563)
+
+2018-12-06T13:21:35+00:00 CRITICAL Uncaught Error: Call to undefined function media_handle_upload() in /home/findopen/staging/5/wp-content/themes/qibla/functions.php:836
+Stack trace:
+#0 /home/findopen/staging/5/wp-includes/class-wp-hook.php(286): my_woocommerce_save_account_details(7)
+#1 /home/findopen/staging/5/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /home/findopen/staging/5/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home/findopen/staging/5/wp-content/plugins/woocommerce/includes/class-wc-form-handler.php(318): do_action('woocommerce_sav...', 7)
+#4 /home/findopen/staging/5/wp-includes/class-wp-hook.php(286): WC_Form_Handler::save_account_details('')
+#5 /home/findopen/staging/5/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#6 /home/findopen/staging/5/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#7 /home/findopen/staging/5/wp-includes/template-loader.php(12): do_action('template_redire...')
+#8 /home/findopen/staging/5/wp-blog-header.php(19): require_once('/home
+

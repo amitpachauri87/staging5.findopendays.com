@@ -1,0 +1,26 @@
+/* bundled styles */
+/* form #3405 */
+.mc4wp-form-3405 label, 
+.mc4wp-form-3405 input, 
+.mc4wp-form-3405 textarea, 
+.mc4wp-form-3405 select, 
+.mc4wp-form-3405 button {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.mc4wp-form-3405 {
+	display: block;
+	text-align: center;
+	background-repeat: repeat;
+}
+
+.mc4wp-form-3405 input[type='radio'],
+.mc4wp-form-3405 input[type='checkbox'] {
+	margin-right: 6px;
+	display: inline-block
+}
+
+
+

@@ -1,0 +1,12 @@
+[20-Nov-2018 07:05:47 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_title() in /home/findopen/staging/5/wp-content/themes/qibla/inc/booking_popup.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/findopen/staging/5/wp-content/themes/qibla/inc/booking_popup.php on line 3
+[20-Nov-2018 07:07:07 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_post_meta() in /home/findopen/staging/5/wp-content/themes/qibla/inc/booking_popup.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/findopen/staging/5/wp-content/themes/qibla/inc/booking_popup.php on line 3
+[20-Nov-2018 07:08:48 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_post_meta() in /home/findopen/staging/5/wp-content/themes/qibla/inc/booking_popup.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/findopen/staging/5/wp-content/themes/qibla/inc/booking_popup.php on line 3

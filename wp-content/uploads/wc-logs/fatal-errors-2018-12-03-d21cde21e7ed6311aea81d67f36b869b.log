@@ -1,0 +1,12 @@
+2018-12-03T15:22:32+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wc_get_endpoint_url(), 0 passed in /home/findopen/staging/5/wp-content/themes/qibla/footer.php on line 256 and at least 1 expected in /home/findopen/staging/5/wp-content/plugins/woocommerce/includes/wc-page-functions.php:87
+Stack trace:
+#0 /home/findopen/staging/5/wp-content/themes/qibla/footer.php(256): wc_get_endpoint_url()
+#1 /home/findopen/staging/5/wp-includes/template.php(688): require_once('/home/findopen/...')
+#2 /home/findopen/staging/5/wp-includes/template.php(647): load_template('/home/findopen/...', true)
+#3 /home/findopen/staging/5/wp-includes/general-template.php(76): locate_template(Array, true)
+#4 /home/findopen/staging/5/wp-content/themes/qibla/page.php(75): get_footer('page')
+#5 /home/findopen/staging/5/wp-includes/template-loader.php(74): include('/home/findopen/...')
+#6 /home/findopen/staging/5/wp-blog-header.php(19): require_once('/home/findopen/...')
+#7 /home/findopen/staging/5/index.php(17): require('/home/findopen/...')
+#8 {mai
+

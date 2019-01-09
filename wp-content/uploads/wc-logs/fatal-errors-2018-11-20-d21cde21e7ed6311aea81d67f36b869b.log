@@ -1,0 +1,21 @@
+2018-11-20T10:45:50+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (22/11/2018) at position 0 (2): Unexpected character in /home/findopen/staging/5/wp-content/plugins/qibla-events/src/Front/CustomFields/EventsDates.php:100
+Stack trace:
+#0 /home/findopen/staging/5/wp-content/plugins/qibla-events/src/Front/CustomFields/EventsDates.php(100): DateTime->__construct('22/11/2018')
+#1 /home/findopen/staging/5/wp-content/plugins/qibla-events/src/Front/CustomFields/EventsDates.php(161): AppMapEvents\Front\CustomFields\EventsDates->getData()
+#2 /home/findopen/staging/5/wp-includes/class-wp-hook.php(286): AppMapEvents\Front\CustomFields\EventsDates::eventsDatesFilter('')
+#3 /home/findopen/staging/5/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#4 /home/findopen/staging/5/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#5 /home/findopen/staging/5/wp-content/plugins/qibla-framework/views/singular/listingsArticle.php(56): do_action('qibla_single_li...')
+#6 /home/findopen/staging/5/wp-i
+
+2018-11-20T11:20:05+00:00 CRITICAL Uncaught Error: Call to undefined function inlcude() in /home/findopen/staging/5/wp-content/themes/qibla/functions.php:421
+Stack trace:
+#0 /home/findopen/staging/5/wp-includes/shortcodes.php(319): create_functionality_for_book_open_day('', '', 'book_open_day')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/findopen/staging/5/wp-includes/shortcodes.php(197): preg_replace_callback('/\\[(\\[?)(book_o...', 'do_shortcode_ta...', '[book_open_day]')
+#3 /home/findopen/staging/5/wp-content/plugins/popup-maker/classes/Helpers.php(18): do_shortcode('[book_open_day]')
+#4 /home/findopen/staging/5/wp-content/plugins/popup-maker/classes/Site/Popups.php(121): PUM_Helpers::do_shortcode('[book_open_day]')
+#5 /home/findopen/staging/5/wp-content/plugins/popup-maker/classes/Site/Popups.php(98): PUM_Site_Popups::preload_popup(Object(WP_Post))
+#6 /home/findopen/staging/5/wp-includes/class-wp-hook.php(286): PUM_Site_Popups::load_popups('')
+#7 /home/findopen/staging/5/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filte
+

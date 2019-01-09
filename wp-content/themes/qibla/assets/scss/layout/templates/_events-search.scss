@@ -1,0 +1,10 @@
+//
+// Events Search Template
+//
+.page-template-events-search {
+  #dlpage-wrapper > .dlwrapper {
+    // Reset the base page wrapper margin.
+    // see _singular.scss.
+    margin: 0;
+  }
+}

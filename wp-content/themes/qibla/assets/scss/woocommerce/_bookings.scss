@@ -1,0 +1,416 @@
+//
+// WooCommerce Booking Form Component
+// @link https://docs.woocommerce.com/document/woocommerce-bookings-calendar-css-style-elements/
+//
+
+// The form element.
+.dlbookings-form {
+  @include enumerate-props($boxmodel_boxed-widget);
+
+  // Submit Button
+  .wc-bookings-booking-form-button {
+    width: 100%;
+
+    // The Icon
+    .la-long-arrow-right {
+      font-size:      2rem;
+      margin-left:    .63em;
+      vertical-align: middle;
+    }
+  }
+
+  .dlbookings-booking-price + & {
+    border-top:              0;
+    border-top-left-radius:  0;
+    border-top-right-radius: 0;
+  }
+}
+
+// Booking Price
+.dlbookings-booking-price {
+  background: $color-primary;
+  color:      $color-white;
+  text-align: center;
+  padding:    .53em;
+
+  &__content {
+    margin: 0;
+  }
+}
+
+// The Div inside the form element.
+.wc-bookings-booking-form {
+  border:   0 !important;
+  margin:   0 !important;
+  padding:  0 !important;
+  position: relative;
+
+  // Hide the legend
+  legend {
+    @extend .screen-reader-text;
+  }
+
+  // Remove all box-model from fieldset.
+  fieldset {
+    border:  0;
+    margin:  0;
+    padding: 0;
+
+    .picker.hasDatepicker {
+      margin-bottom: 0;
+    }
+  }
+
+  label {
+    margin: 0;
+  }
+
+  // Form Fields
+  &__fields {
+    @include flexboxtweener((-ms-flex-pack:center));
+    display:         flex;
+    flex-wrap:       wrap;
+    justify-content: center;
+
+    // The field
+    .form-field {
+      margin: 0 0 .63em;
+
+      &:nth-child(2n+2) {
+        flex-grow:   1;
+        margin-left: .63em;
+      }
+
+      input {
+        display: block;
+        // Override every type of input
+        // scss-lint:disable ImportantRule
+        width:   auto !important;
+      }
+    }
+  }
+
+  // Previous/Next month arrows if not allowed, and calendar dates that are not available
+  .ui-state-disabled,
+  .ui-widget-content .ui-state-disabled,
+  .ui-widget-header .ui-state-disabled {
+    opacity: .35;
+  }
+
+  //
+  // Date Picker
+  //
+  .wc-bookings-date-picker {
+    flex: 1 0 100%;
+
+    &:last-child {
+      margin-bottom: 1.3em;
+    }
+
+    // Ui Date Picker
+    .ui-datepicker {
+      padding: 0;
+      width:   auto;
+
+      // Header
+      .ui-datepicker-header {
+        align-items:     center;
+        background:      transparent;
+        border:          0 !important;
+        border-radius:   0 !important;
+        color:           $color-white;
+        display:         flex;
+        justify-content: space-between;
+        margin-bottom:   .4em;
+        overflow:        hidden;
+        padding:         0;
+        position:        relative;
+        text-transform:  uppercase;
+
+        .ui-state-hover {
+          background:   transparent;
+          border-color: transparent;
+          cursor:       pointer;
+        }
+      }
+
+      // Title
+      .ui-datepicker-title {
+        color:          $color-font-body;
+        font-weight:    $font-weight--black;
+        line-height:    1em;
+        padding:        .75em 0;
+        text-transform: capitalize;
+      }
+
+      // Navigation
+      .ui-datepicker-prev,
+      .ui-datepicker-next {
+        background:    transparent;
+        border:        none;
+        border-radius: 0 !important;
+        font-weight:   $font-weight;
+        height:        auto !important;
+        top:           -1px;
+        width:         auto !important;
+
+        span {
+          margin-top: -4px;
+          top:        40%;
+        }
+
+        &.ui-state-hover {
+          background: transparent;
+          color:      $color-primary;
+        }
+      }
+
+      .ui-datepicker-prev {
+        left:   0;
+        border: 0;
+      }
+      .ui-datepicker-next {
+        right:  0;
+        border: 0;
+      }
+
+      // Table
+      table {
+        font-size: .78rem;
+        margin:    0;
+
+        th {
+          background:     transparent;
+          border:         0 !important;
+          color:          $color-gray--light;
+          display:        table-cell;
+          font-weight:    $font-weight--light;
+          padding:        .75em 0;
+          text-transform: uppercase;
+        }
+
+        td {
+          background:   transparent;
+          border:       none;
+          border-top:   1px solid lighten($color-border, 16%);
+          border-right: 1px solid lighten($color-border, 16%);
+          display:      table-cell;
+          padding:      0 !important;
+
+          &:last-child {
+            border-right: 0;
+          }
+
+          &.ui-datepicker-current-day a {
+            background: $color-primary !important;
+            opacity:    1 !important;
+          }
+
+          // States
+          .ui-state-default {
+            border:      0;
+            color:       $color-font-body;
+            font-weight: $font-weight--bold;
+            line-height: $global-line-height;
+            margin:      0;
+            padding:     .5em .4em .4em;
+            text-align:  center;
+          }
+
+          &.ui-state-disabled {
+            background-color: lighten($color-gray, 48%);
+            color:            lighten(desaturate($color-gray, 1.5385), 24.7059);
+            opacity:          .35;
+
+            &:hover {
+              cursor: not-allowed;
+            }
+          }
+
+          &.bookable-range .ui-state-default {
+            background: $color-primary;
+            color:      $color-white;
+          }
+
+          // Booking
+          &.bookable a {
+            background-color: $color-primary !important;
+            background-image: none !important;
+            border-color:     $color-border !important;
+            color:            $color-white !important;
+            text-shadow:      none;
+          }
+
+          &.bookable a.ui-state-hover,
+          a.ui-state-active,
+          a.ui-state-active.ui-state-hover {
+            background-color: $color-primary--dark !important;
+          }
+
+          &.partial_booked a {
+            background-color: $color-primary !important;
+            background-image: none !important;
+            border-color:     rgba(0, 0, 0, 0.1) !important;
+            color:            $color-white !important;
+            text-shadow:      none;
+            position:         relative;
+            z-index:          1;
+
+            &:before {
+              content:      "";
+              position:     absolute;
+              top:          0;
+              left:         0;
+              width:        0;
+              height:       0;
+              border-top:   2.5em solid $color-border;
+              border-right: 2.5em solid transparent;
+              z-index:      -10;
+              opacity:      .75;
+            }
+          }
+          &.fully_booked {
+            span, a {
+              background-color: #c0392b !important;
+              background-image: none !important;
+              border-color:     $color-border !important;
+              color:            $color-white !important;
+              text-shadow:      none;
+            }
+          }
+        }
+      }
+    }
+
+    // Widget
+    .ui-widget-content {
+      background: transparent;
+      border:     0;
+      box-shadow: none;
+    }
+
+    // Icons
+    .ui-icon-circle-triangle-w,
+    .ui-icon-circle-triangle-e {
+      background: none !important;
+    }
+
+    & + .form-field {
+      -ms-flex:   1 0 100%;
+      flex-basis: 100%;
+      margin:     0;
+    }
+  }
+
+  //
+  // Booking cost
+  //
+  .wc-bookings-booking-cost {
+    background: transparent;
+    border:     0;
+    margin:     0;
+    padding:    .63em 0;
+    position:   relative;
+    text-align: center;
+
+    &:empty {
+      padding: 0;
+    }
+  }
+
+  // Block Picker
+  .block-picker {
+    @extend .u-no-list-style;
+    @include flexboxtweener;
+    display:         flex;
+    flex-wrap:       wrap;
+    justify-content: space-between;
+    min-height:      1.3em;
+
+    li {
+      margin:  0;
+      padding: 0;
+
+      a {
+        // Override the Zebra effect of woocommerce booking plugin.
+        // scss-lint:disable ImportantRule
+        background-color: transparent !important;
+        border:           0;
+        box-shadow:       none;
+        color:            $color-font-body;
+        display:          block;
+        font-weight:      $font-weight--bold;
+        padding:          .5em;
+        text-align:       center;
+        text-decoration:  none;
+        vertical-align:   middle;
+
+        .booking-spaces-left {
+          display: block;
+        }
+
+        // Time Blocks Hover
+        &.selected,
+        &:hover,
+        &:focus {
+          background: transparent !important;
+          color:      $color-primary !important;
+        }
+
+        .booking-spaces-left {
+          color: $color-gray--light;
+        }
+      }
+    }
+  }
+}
+
+// Booking Summary
+.wc-booking-summary {
+  // The list
+  .wc-booking-summary-list {
+    @extend .u-no-list-style;
+  }
+
+  // Actions
+  .wc-booking-summary-actions {
+    margin-top: $global-vertical-margin / 2;
+  }
+}
+
+// Shop Table
+.my_account_bookings {
+  // Booked product
+  .booked-product {
+    width: 25%;
+  }
+
+  // Booking Cancel
+  .booking-cancel {
+    .button {
+      @include btn(false);
+      @include btn--tiny;
+    }
+  }
+}
+
+//
+// MEDIA QUERIES
+//
+@media only screen and (min-width: map-get($breakpoints, 'nm')) {
+
+  .dlbookings-booking-price {
+    background: transparentize($color-primary, $color-transparentize-module);
+  }
+
+  // The Div inside the form element.
+  .wc-bookings-booking-form {
+    // The Fields.
+    &__fields {
+      .form-field:nth-child(2n+2) {
+        max-width: 77%;
+      }
+    }
+  }
+
+}

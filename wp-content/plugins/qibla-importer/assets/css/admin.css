@@ -1,0 +1,65 @@
+.qbimpprogress {
+  align-items: center;
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.7);
+  bottom: 0;
+  color: #676767;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: .85rem;
+  justify-content: center;
+  left: 0;
+  line-height: 1.5;
+  margin: 0;
+  padding: 1em;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 0;
+  word-break: break-word; }
+  .qbimpprogress h5 {
+    flex: 1 0 100%; }
+
+.qbimpprogress--success {
+  background-color: #8bc34a;
+  background-color: rgba(139, 195, 74, 0.9);
+  color: #314b25; }
+.qbimpprogress__message {
+  display: block;
+  font-size: 1rem;
+  margin: 0 auto;
+  max-width: 65%; }
+.qbimpprogress .la::before {
+  font-size: 3rem; }
+
+.demo-actions {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 38px;
+  padding: 9px 10px 0;
+  background: rgba(244, 244, 244, 0.7);
+  border-left: 1px solid rgba(0, 0, 0, 0.05); }
+
+.toplevel_page_qb-importer .dlimppage-description,
+.qibla_page_qb-importer .dlimppage-description {
+  background-color: #fff;
+  border-radius: 6px;
+  margin-bottom: 2.8em;
+  padding: 2em 2em 2.6em; }
+  .toplevel_page_qb-importer .dlimppage-description::before,
+  .qibla_page_qb-importer .dlimppage-description::before {
+    background: url(../img/logo-theme.png) no-repeat center center;
+    content: '';
+    display: block;
+    height: 82px;
+    width: 244px;
+    margin: 0 auto 2.8em; }
+  .toplevel_page_qb-importer .dlimppage-description p,
+  .qibla_page_qb-importer .dlimppage-description p {
+    font-size: 1.25rem;
+    max-width: 65%;
+    margin: 0 auto;
+    text-align: center; }
+
+/*# sourceMappingURL=admin.css.map */

@@ -1,0 +1,8 @@
+2018-11-30T11:44:52+00:00 CRITICAL Uncaught Error: Class 'Html2Pdf' not found in /home/findopen/staging/5/wp-content/themes/qibla/templates/tpl_ticket_booking_confirmation.php:170
+Stack trace:
+#0 /home/findopen/staging/5/wp-includes/template-loader.php(74): include()
+#1 /home/findopen/staging/5/wp-blog-header.php(19): require_once('/home/findopen/...')
+#2 /home/findopen/staging/5/index.php(17): require('/home/findopen/...')
+#3 {main}
+  thrown
+

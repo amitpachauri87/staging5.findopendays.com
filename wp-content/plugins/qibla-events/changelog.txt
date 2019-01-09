@@ -1,0 +1,21 @@
+== 1.2.1 - 2018/07/26 ==
+Add: event_tags taxonomy for retrieved events
+Fix: various fix.
+
+== 1.2.0 - 2018/07/13 ==
+Fix: Related events order by date and time.
+Fix: Events shortcode add option for order by "Event Date".
+Fix: Undefined function get_current_screen in admin hook "qibla_fw_termbox_thumbnail_screen"
+Add: Geocoded add slug in nav suggestion data.
+Add: Term color scoped style in events card.
+
+== 1.1.0 - 2018/06/06 ==
+Add: Short-code search events '[dl_ev_search]'.
+Add: Short-code terms (locations and categories) '[dl_ev_term]' and '[dl_ev_term_locations]'.
+Add: Short-code maps '[dl_ev_map]'
+Add: added functionality to search for events, by date and / or category.
+Add: added ajax filtering for dates.
+Add: added in single events, socials, email.
+
+== 1.0.0 - 2018/04/30 ==
+Initial release

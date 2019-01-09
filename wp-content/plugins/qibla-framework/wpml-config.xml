@@ -1,0 +1,21 @@
+<wpml-config>
+    <admin-texts>
+        <key name="qibla_opt-search">
+            <key name="placeholder"/>
+            <key name="geocoded_placeholder"/>
+            <key name="submit_label"/>
+        </key>
+        <key name="qibla_opt-footer">
+            <key name="copyright"/>
+        </key>
+        <key name="qibla_opt-listings">
+            <key name="related_post_cta_label"/>
+            <key name="listings_archive_description"/>
+            <key name="expired_listing_email"/>
+        </key>
+        <key name="qibla_opt-page_404">
+            <key name="title"/>
+            <key name="subtitle"/>
+        </key>
+    </admin-texts>
+</wpml-config>

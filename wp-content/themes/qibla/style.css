@@ -1,0 +1,117 @@
+@charset "UTF-8";
+
+/**
+ * Theme Name: Qibla
+ * Theme URI: http://southemes.com/demos/qibla/
+ * Author: Southemes
+ * Author URI: http://www.southemes.com
+ * Description: A Flexible listings WordPress Theme
+ * Version: 2.5.1
+ * License: Envato License
+ * License URI: http://themeforest.net/licenses/terms/regular
+ * Tags: one-column, two-columns, right-sidebar, custom-menu, featured-images, sticky-post, translation-ready
+ * Text Domain: qibla
+ * WC requires at least: 3.2.0
+ * WC tested up to: 3.4.4
+ */
+
+/*noinspection CssUnusedSymbol*/
+.alignnone {
+  margin: 5px 20px 20px 0;
+}
+
+/*noinspection CssUnusedSymbol,CssUnusedSymbol*/
+.aligncenter,
+div.aligncenter {
+  display: block;
+  margin:  5px auto 5px auto;
+}
+
+/*noinspection CssUnusedSymbol*/
+.alignright {
+  float:  right;
+  margin: 5px 0 20px 20px;
+}
+
+/*noinspection CssUnusedSymbol*/
+.alignleft {
+  float:  left;
+  margin: 5px 20px 20px 0;
+}
+
+/*noinspection CssUnusedSymbol*/
+a img.alignright {
+  float:  right;
+  margin: 5px 0 20px 20px;
+}
+
+/*noinspection CssUnusedSymbol*/
+a img.alignnone {
+  margin: 5px 20px 20px 0;
+}
+
+/*noinspection CssUnusedSymbol*/
+a img.alignleft {
+  float:  left;
+  margin: 5px 20px 20px 0;
+}
+
+/*noinspection CssUnusedSymbol*/
+a img.aligncenter {
+  display:      block;
+  margin-left:  auto;
+  margin-right: auto
+}
+
+/*noinspection CssUnusedSymbol*/
+.wp-caption {
+  background: #fff;
+  border:     1px solid #f0f0f0;
+  max-width:  96%; /* Image does not overflow the content area */
+  padding:    5px 3px 10px;
+  text-align: center;
+}
+
+/*noinspection CssUnusedSymbol,CssUnusedSymbol*/
+.wp-caption.alignnone {
+  margin: 5px 20px 20px 0;
+}
+
+/*noinspection CssUnusedSymbol,CssUnusedSymbol*/
+.wp-caption.alignleft {
+  margin: 5px 20px 20px 0;
+}
+
+/*noinspection CssUnusedSymbol,CssUnusedSymbol*/
+.wp-caption.alignright {
+  margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+  border:    0 none;
+  height:    auto;
+  margin:    0;
+  max-width: 98.5%;
+  padding:   0;
+  width:     auto;
+}
+
+/*noinspection CssUnusedSymbol*/
+.wp-caption p.wp-caption-text {
+  font-size:   11px;
+  line-height: 17px;
+  margin:      0;
+  padding:     0 4px 5px;
+}
+
+.gallery-caption {
+  margin: 4px 0;
+}
+
+.sticky {
+  /* see assets/scss/layout/article-variants.scss */
+}
+
+.bypostauthor {
+
+}

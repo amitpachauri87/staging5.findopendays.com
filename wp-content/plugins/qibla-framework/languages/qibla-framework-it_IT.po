@@ -1,0 +1,3454 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: QiblaFramework 1.0.0\n"
+"POT-Creation-Date: 2018-07-26 15:52+0200\n"
+"PO-Revision-Date: 2018-07-26 15:53+0200\n"
+"Last-Translator: Alfio <alfio.piccione@gmail.com>\n"
+"Language-Team: \n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c;"
+"_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_ex:1,2c;esc_attr__;esc_attr_e;"
+"esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: bower_components\n"
+"X-Poedit-SearchPathExcluded-1: node_modules\n"
+"X-Poedit-SearchPathExcluded-2: vendor\n"
+"X-Poedit-SearchPathExcluded-3: assets\n"
+"X-Poedit-SearchPathExcluded-4: tests\n"
+
+#: inc/contactFormFields.php:43
+msgctxt "contact_form"
+msgid "Your Name"
+msgstr "Il tuo Nome"
+
+#: inc/contactFormFields.php:44
+msgctxt "contact_form"
+msgid "Only letters and numbers"
+msgstr "Solo lettere e numeri"
+
+#: inc/contactFormFields.php:47
+msgctxt "contact_form"
+msgid "Es. Joe Doe"
+msgstr "Es. Mario Rossi"
+
+#: inc/contactFormFields.php:59
+msgctxt "contact_form"
+msgid "Your Email"
+msgstr "La tua Email"
+
+#: inc/contactFormFields.php:60
+msgctxt "contact_form"
+msgid "Invalid email format."
+msgstr "Email non valida."
+
+#: inc/contactFormFields.php:63
+msgctxt "contact_form"
+msgid "Es. joe.doe@gmail.com"
+msgstr "Es. mario.rossi@gmail.com"
+
+#: inc/contactFormFields.php:75
+msgctxt "contact_form"
+msgid "Message"
+msgstr "Messaggio"
+
+#: inc/contactFormFields.php:76
+msgctxt "contact_form"
+msgid "Only plain text is allowed."
+msgstr "Solo testo normale, no html."
+
+#: inc/contactFormFields.php:92
+msgctxt "contact_form"
+msgid "Send"
+msgstr "Invia"
+
+#: inc/defaultOptions.php:103
+#, php-format
+msgctxt "default-options"
+msgid "Proudly by %1$s - Theme Name: %2$s"
+msgstr "Con orgoglio da %1$s - Nome Tema: %2$s"
+
+#: inc/defaultOptions.php:104
+msgid "Southemes"
+msgstr "Southemes"
+
+#: inc/defaultOptions.php:105
+msgid "Qibla"
+msgstr "Qibla"
+
+#: inc/defaultOptions.php:128
+msgctxt "default-options"
+msgid "Discover all activities"
+msgstr "Scopri tutte le attività"
+
+#: inc/defaultOptions.php:151
+msgctxt "default-options"
+msgid "Sorry this page doesn't exists"
+msgstr "Spiacenti la pagina non esiste"
+
+#: inc/defaultOptions.php:153
+msgctxt "default-options"
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+"Sembra che non ci sia nulla in questa pagina. Una ricerca pu&ograve; aiutare?"
+
+#: inc/defaultOptions.php:161
+msgctxt "default-options"
+msgid "What are you looking for?"
+msgstr "Cosa stai cercando?"
+
+#: inc/defaultOptions.php:162
+msgctxt "default-options"
+msgid "Where about?"
+msgstr "Dove?"
+
+#: inc/defaultOptions.php:163
+msgctxt "default-options"
+msgid "Search"
+msgstr "Cerca"
+
+#: inc/filtersAdmin.php:93
+msgid "Qibla Framework Warning"
+msgstr "Attenzione"
+
+#: inc/localizedScriptsList.php:82
+msgid "Search icon name"
+msgstr "Cerca il nome dell’icona"
+
+#: inc/localizedScriptsList.php:83
+msgid "Remove current title"
+msgstr "Rimuovi titolo"
+
+#: inc/localizedScriptsList.php:102
+msgid "There is no route with this mode"
+msgstr ""
+
+#: inc/localizedScriptsList.php:115
+msgid "Missed file. Some file that need to be send with the form is not set."
+msgstr "File mancante. Mancano alcuni file."
+
+#: inc/localizedScriptsList.php:119
+msgid "Ops! There are some file rejected. Please check them an try again."
+msgstr ""
+"Alcuni file sono stati respinti. Per favore controlla che i dati siano "
+"corretti."
+
+#: inc/localizedScriptsList.php:123
+msgid ""
+"Ops! An unknow error occurred. Please contact our support or try in a few "
+"minutes."
+msgstr "Si &egrave; verificato un errore sconosciuto."
+
+#: inc/localizedScriptsList.php:132
+msgid "Close Modal"
+msgstr "Chiudi la finestra"
+
+#: inc/localizedScriptsList.php:134
+#, php-format
+msgid "Not a member? %s"
+msgstr "Non sei registrato? %s"
+
+#: inc/localizedScriptsList.php:136
+msgid "Sign up"
+msgstr "Registrati"
+
+#: inc/localizedScriptsList.php:140
+#, php-format
+msgid "Returned User? %s"
+msgstr "Hai già un account? %s"
+
+#: inc/localizedScriptsList.php:142
+#: src/LoginRegister/Login/LoginFormFacade.php:95
+msgid "Sign In"
+msgstr "Login"
+
+#: inc/localizedScriptsList.php:147
+msgid "Forgot Password?"
+msgstr "Hai perso la Password?"
+
+#: inc/localizedScriptsList.php:149
+msgid "Back to login"
+msgstr "Torna al login"
+
+#: inc/localizedScriptsList.php:157
+msgid "Your Reply"
+msgstr "La tua recensione"
+
+#: inc/localizedScriptsList.php:158
+#, php-format
+msgid "Reply to %s"
+msgstr "Rispondi a %s"
+
+#: inc/localizedScriptsList.php:159
+msgid "Send Reply"
+msgstr "Invia risposta"
+
+#: inc/loginRegister/loginFields.php:39
+#: inc/loginRegister/lostPasswordFields.php:39
+msgid "Username or Email"
+msgstr "Nome utente o Email"
+
+#: inc/loginRegister/loginFields.php:40
+msgid "Email or username not valid"
+msgstr "Email o nome utente non validi"
+
+#: inc/loginRegister/loginFields.php:54
+msgid "Your Password"
+msgstr "La tua Password"
+
+#: inc/loginRegister/loginFields.php:55
+msgid "Password is not valid"
+msgstr "Password non valida"
+
+#: inc/loginRegister/loginFields.php:70
+msgid "Keep me signed in"
+msgstr "Ricordati di me"
+
+#: inc/loginRegister/loginFields.php:83
+msgid "Log In"
+msgstr "Accedi"
+
+#: inc/loginRegister/lostPasswordFields.php:40
+msgid "Username or Email not matched."
+msgstr "Nome utente o email non trovati."
+
+#: inc/loginRegister/lostPasswordFields.php:56
+#: src/LoginRegister/LostPassword/LostPasswordFormFacade.php:95
+msgid "Reset Password"
+msgstr "Reimposta la password"
+
+#: inc/loginRegister/registerFields.php:39
+msgid "Username"
+msgstr "Nome utente"
+
+#: inc/loginRegister/registerFields.php:41
+msgid "Only the following characters are allowed: a-zA-Z0-9-_\\s\\.,"
+msgstr "Solo i seguenti caratteri sono ammessi: a-zA-Z0-9-_\\s\\.,"
+
+#: inc/loginRegister/registerFields.php:58
+msgid "Your Email"
+msgstr "La tua email"
+
+#: inc/loginRegister/registerFields.php:59
+msgid "Email is not valid."
+msgstr "Email non valida."
+
+#: inc/loginRegister/registerFields.php:75
+msgid "Register"
+msgstr "Registrazione"
+
+#: inc/menuEditFields.php:50
+msgid "Choose the style of the item"
+msgstr "Seleziona uno stile per l'elemento"
+
+#: inc/menuEditFields.php:52
+msgid "Text"
+msgstr "Testo"
+
+#: inc/menuEditFields.php:53 src/Admin/Metabox/Listings.php:187
+msgid "Button"
+msgstr "Bottone"
+
+#: inc/menuEditFields.php:69
+msgid "Use this item as logged in user menu."
+msgstr "Usa questo elemento come menu per l'utente loggato."
+
+#: inc/menuEditFields.php:73 src/PostType/Listings.php:168
+msgid "No"
+msgstr "No"
+
+#: inc/menuEditFields.php:74 src/PostType/Listings.php:166
+msgid "Yes"
+msgstr "Si"
+
+#: inc/metaboxFields/buttonFields.php:45
+msgid "http://"
+msgstr ""
+
+#: inc/metaboxFields/buttonFields.php:48
+msgid "Button url"
+msgstr ""
+
+#: inc/metaboxFields/buttonFields.php:49
+msgid "Add the url for the button"
+msgstr ""
+
+#: inc/metaboxFields/buttonFields.php:64
+msgid "Button text"
+msgstr ""
+
+#: inc/metaboxFields/buttonFields.php:65
+msgid "Add the text of the button"
+msgstr ""
+
+#: inc/metaboxFields/buttonFields.php:78
+msgid "Button target"
+msgstr ""
+
+#: inc/metaboxFields/buttonFields.php:79
+msgid "Make this as internal link (default: external)"
+msgstr ""
+
+#: inc/metaboxFields/customContentFieldsets.php:55 inc/settingsMenuList.php:105
+#: inc/settingsMenuList.php:106 src/Admin/Metabox/CustomContentFieldset.php:51
+msgid "Custom Code"
+msgstr "Codice"
+
+#: inc/metaboxFields/customContentFieldsets.php:56
+msgid "Add your custom code (visible in the sidebar)"
+msgstr "Aggiungi il tuo codice personalizzato (visibile nella sidebar)"
+
+#: inc/metaboxFields/galleryFields.php:46
+msgid "Insert Gallery"
+msgstr "Inserisci una gallery"
+
+#: inc/metaboxFields/galleryFields.php:47
+msgid "Upload files to create a gallery."
+msgstr "Carica i files per creare la gallery."
+
+#: inc/metaboxFields/headerFields.php:54 inc/termboxFields/headerFields.php:47
+msgid "Header Skin"
+msgstr "Stile testata"
+
+#: inc/metaboxFields/headerFields.php:55 inc/termboxFields/headerFields.php:48
+msgid "The skin for the header to use."
+msgstr "Lo stile da usare per la testata della pagina."
+
+#: inc/metaboxFields/headerFields.php:58 inc/termboxFields/headerFields.php:51
+msgid "Transparent"
+msgstr "Trasparente"
+
+#: inc/metaboxFields/headerFields.php:59 inc/termboxFields/headerFields.php:52
+msgid "Light"
+msgstr "Chiaro"
+
+#: inc/metaboxFields/headerFields.php:75 inc/termboxFields/headerFields.php:68
+msgid "Sub Title"
+msgstr "Sotto titolo"
+
+#: inc/metaboxFields/headerFields.php:76 inc/termboxFields/headerFields.php:69
+msgid "The sub-title for this listing item."
+msgstr "Il sottotitolo per il tuo listing."
+
+#: inc/metaboxFields/headerFields.php:89
+msgid "Disable Breadcrumb"
+msgstr "Disabilita il breadcrumb"
+
+#: inc/metaboxFields/headerFields.php:90
+msgid "This will remove the breadcrumb within the page."
+msgstr "Questo rimuover&egrave; il breadcrumb dalla pagina."
+
+#: inc/metaboxFields/heroMapFields.php:79
+msgid "Active Hero Map"
+msgstr ""
+
+#: inc/metaboxFields/heroMapFields.php:80
+msgid "If you want to active the Hero Map but keep data"
+msgstr ""
+
+#: inc/metaboxFields/heroMapFields.php:93
+msgid "Disable Search bar"
+msgstr ""
+
+#: inc/metaboxFields/heroMapFields.php:94
+msgid "If you want to disable the search in Hero Map"
+msgstr ""
+
+#: inc/metaboxFields/heroMapFields.php:109
+msgid "Choose a post type"
+msgstr ""
+
+#: inc/metaboxFields/heroMapFields.php:111
+msgid "Select a post type (default: listings)"
+msgstr ""
+
+#: inc/metaboxFields/heroMapFields.php:131
+msgid "Choose a location"
+msgstr ""
+
+#: inc/metaboxFields/heroMapFields.php:133
+msgid ""
+"Select a location if you want to filter the map pins (filter by location)"
+msgstr ""
+
+#: inc/metaboxFields/heroMapFields.php:153
+msgid "Choose a category"
+msgstr ""
+
+#: inc/metaboxFields/heroMapFields.php:155
+msgid ""
+"Select a category if you want to filter the map pins (filter by category)"
+msgstr ""
+
+#: inc/metaboxFields/heroMapFields.php:175
+#: inc/metaboxFields/jumbotronFields.php:81
+#: inc/termboxFields/jumbotronFields.php:91
+msgid "Min Height"
+msgstr "Altezza minima"
+
+#: inc/metaboxFields/heroMapFields.php:177
+msgid ""
+"Set the minimum height for the hero map. Set 0 or less to not set. Unit in "
+"px. (default: 600px)"
+msgstr ""
+
+#: inc/metaboxFields/jumbotronFields.php:49
+#: inc/termboxFields/jumbotronFields.php:59
+msgid "Hero Background Color"
+msgstr "Colore di fondo per la Immagine di testata"
+
+#: inc/metaboxFields/jumbotronFields.php:50
+#: inc/termboxFields/jumbotronFields.php:60
+msgid "Select the background color."
+msgstr "Seleziona il colore di fondo."
+
+#: inc/metaboxFields/jumbotronFields.php:65
+#: inc/termboxFields/jumbotronFields.php:75
+msgid "Hero Background Image"
+msgstr "Immagine di fondo per la testata"
+
+#: inc/metaboxFields/jumbotronFields.php:66
+#: inc/termboxFields/jumbotronFields.php:76
+msgid "Upload a background image"
+msgstr "Carica una immagine"
+
+#: inc/metaboxFields/jumbotronFields.php:83
+#: inc/termboxFields/jumbotronFields.php:93
+msgid ""
+"Set the minimum height for the hero image. Set 0 or less to not set. Unit in "
+"px."
+msgstr ""
+"Imposta l'altezza minima per l'immagine della testata. Zero o meno per non "
+"impostare. Usa i pixel."
+
+#: inc/metaboxFields/jumbotronFields.php:98
+#: inc/termboxFields/jumbotronFields.php:112
+msgid "Disable Hero Image"
+msgstr "Disabilita l'immagine di testata"
+
+#: inc/metaboxFields/jumbotronFields.php:99
+#: inc/termboxFields/jumbotronFields.php:113
+msgid "If you want to disable the Hero Image but keep data"
+msgstr "Se vuoi disattivare l'immagine di testata ma mantenere i dati"
+
+#: inc/metaboxFields/jumbotronSliderFields.php:52
+#: inc/termboxFields/jumbotronSliderFields.php:52
+msgid "Choose a slider"
+msgstr "Scegli uno slider"
+
+#: inc/metaboxFields/jumbotronSliderFields.php:53
+msgid "The slider will override the hero image option."
+msgstr "Lo slider sovrascrive la hero image"
+
+#: inc/metaboxFields/listingsAdditionalInfoFields.php:51
+msgid "Featured"
+msgstr "In evidenza"
+
+#: inc/metaboxFields/listingsAdditionalInfoFields.php:52
+msgid "Make this listing featured."
+msgstr "Marca l'articolo come in evidenza."
+
+#: inc/metaboxFields/listingsAdditionalInfoFields.php:87
+msgid "Email"
+msgstr "Email"
+
+#: inc/metaboxFields/listingsAdditionalInfoFields.php:88
+msgid "Add your local business email"
+msgstr "Aggiungi la email"
+
+#: inc/metaboxFields/listingsAdditionalInfoFields.php:104
+msgid "Phone"
+msgstr "Telefono"
+
+#: inc/metaboxFields/listingsAdditionalInfoFields.php:105
+msgid "Add your local business phone"
+msgstr "Aggiungi il telefono"
+
+#: inc/metaboxFields/listingsAdditionalInfoFields.php:121
+msgid "WebSite Url"
+msgstr "Indirizzo sito web"
+
+#: inc/metaboxFields/listingsAdditionalInfoFields.php:122
+msgid "Add your web site url"
+msgstr "Aggiungi l'indirizzo del sito web"
+
+#: inc/metaboxFields/listingsAdditionalInfoFields.php:144
+#: src/Template/OpeningHours.php:56
+msgid "Opening Hours"
+msgstr "Orari di apertura"
+
+#: inc/metaboxFields/listingsAdditionalInfoFields.php:145
+msgid "Add your local business hours (visible in the sidebar)"
+msgstr "Aggiungi gli orari di apertura (visibile nella sidebar)"
+
+#: inc/metaboxFields/listingsAdditionalInfoFields.php:156
+msgid "Es. Mon-Fry 8:30-13:30 15:00-19:30"
+msgstr "Es. Lun-Ven 8:30-13:30 15:00-19:30"
+
+#: inc/metaboxFields/listingsAdditionalInfoFields.php:160
+#: src/Front/CustomFields/ListingsLocation.php:133
+msgid "Open Hours"
+msgstr "Orari di Apertura"
+
+#: inc/metaboxFields/listingsAdditionalInfoFields.php:161
+msgid "Add your local business hours"
+msgstr "Aggiungi le ore di apertura e chiusura"
+
+#: inc/metaboxFields/listingsLocationsFields.php:60
+#: src/Front/CustomFields/ListingsLocation.php:95
+#: src/Taxonomy/ListingsAddress.php:65
+msgid "Address"
+msgstr "Indirizzo"
+
+#: inc/metaboxFields/listingsLocationsFields.php:62
+#: inc/settingFields/googleMapFields.php:84
+msgid "Type the address of the location. Coordinate if no js."
+msgstr ""
+"Aggiungi l'indirizzo. Usa solo le coordinate se javascript &egrave; "
+"disattivato."
+
+#: inc/metaboxFields/relatedPostsFields.php:48
+#: src/Admin/Metabox/Listings.php:173 views/relatedPosts.php:36
+msgid "Related Posts"
+msgstr "Articoli Correlati"
+
+#: inc/metaboxFields/relatedPostsFields.php:49
+msgid "Check if you want to display related posts or not."
+msgstr "Se vuoi mostrare o meno gli articoli correlati."
+
+#: inc/metaboxFields/reviewsFields.php:47
+#: inc/metaboxFields/testimonialFields.php:46
+msgid "Rating"
+msgstr "Classificazione"
+
+#: inc/metaboxFields/reviewsFields.php:50
+msgid "Set the number of the rating."
+msgstr "Imposta un numero per la classificazione."
+
+#: inc/metaboxFields/reviewsFields.php:59
+msgid "Review Title"
+msgstr "Titolo Recensione"
+
+#: inc/metaboxFields/reviewsFields.php:61
+msgid "Type the title for the review."
+msgstr "Digita il titolo della recensione."
+
+#: inc/metaboxFields/sidebarFields.php:63 inc/settingFields/blogFields.php:78
+#: inc/settingFields/pageFields.php:61 inc/termboxFields/sidebarFields.php:48
+msgid "No Sidebar"
+msgstr "Nessuna barra laterale"
+
+#: inc/metaboxFields/sidebarFields.php:64
+#: inc/termboxFields/sidebarFields.php:49
+msgid "Default"
+msgstr "Default"
+
+#: inc/metaboxFields/sidebarFields.php:65 inc/settingFields/blogFields.php:79
+#: inc/settingFields/listingsFields.php:155 inc/settingFields/pageFields.php:62
+#: inc/termboxFields/sidebarFields.php:50
+msgid "Left"
+msgstr "Sinistra"
+
+#: inc/metaboxFields/sidebarFields.php:66 inc/settingFields/blogFields.php:80
+#: inc/settingFields/listingsFields.php:156 inc/settingFields/pageFields.php:63
+#: inc/termboxFields/sidebarFields.php:51
+msgid "Right"
+msgstr "Destra"
+
+#: inc/metaboxFields/sidebarFields.php:68
+#: inc/termboxFields/sidebarFields.php:53
+msgid "Sidebar Position"
+msgstr "Posizione Barra laterale"
+
+#: inc/metaboxFields/sidebarFields.php:69
+#: inc/termboxFields/sidebarFields.php:54
+msgid "Select the position of the sidebar."
+msgstr "Seleziona la posizione della barra laterale."
+
+#: inc/metaboxFields/socialsUrlsFields.php:50
+msgid "Facebook"
+msgstr "Facebook"
+
+#: inc/metaboxFields/socialsUrlsFields.php:51
+msgid "Your Facebook profile page url"
+msgstr "La url della tua pagina su Facebook"
+
+#: inc/metaboxFields/socialsUrlsFields.php:67
+msgid "Twitter"
+msgstr "Twitter"
+
+#: inc/metaboxFields/socialsUrlsFields.php:68
+msgid "Your Twitter profile url"
+msgstr "La url del tuo profilo su Twitter"
+
+#: inc/metaboxFields/socialsUrlsFields.php:84
+msgid "Instagram"
+msgstr "Instagram"
+
+#: inc/metaboxFields/socialsUrlsFields.php:85
+msgid "Your Instagram profile url"
+msgstr "La url della tua pagina profilo su Instagram"
+
+#: inc/metaboxFields/socialsUrlsFields.php:101
+msgid "Linkedin"
+msgstr "Linkedin"
+
+#: inc/metaboxFields/socialsUrlsFields.php:102
+msgid "Your Linkedin profile page url"
+msgstr "La url della tua pagina profilo su Linkedin"
+
+#: inc/metaboxFields/socialsUrlsFields.php:118
+msgid "Trip Advisor"
+msgstr "Trip Advisor"
+
+#: inc/metaboxFields/socialsUrlsFields.php:119
+msgid "Your tripadvisor profile page url"
+msgstr "La url della tua pagina profilo su TripAdvisor"
+
+#: inc/metaboxFields/testimonialFields.php:47
+msgid "Add the rating value for the testimonial"
+msgstr "Aggiunti il valore di rating per il testimonial"
+
+#: inc/permalinkSettingsFields.php:53
+msgctxt "settings-permalink"
+msgid "Listings cpt base"
+msgstr "Base per Listings Cpt"
+
+#: inc/permalinkSettingsFields.php:75
+msgctxt "settings-permalink"
+msgid "Amenities tax base"
+msgstr "Base per tassonomia Amenities"
+
+#: inc/permalinkSettingsFields.php:97
+msgctxt "settings-permalink"
+msgid "Listings Categories tax base"
+msgstr "Base per tassonomia Categorie Listings"
+
+#: inc/permalinkSettingsFields.php:119
+msgctxt "settings-permalink"
+msgid "Locations tax base"
+msgstr "Base per tassonomia Locations"
+
+#: inc/requirements.php:35
+#, php-format
+msgid ""
+"This plugin require at least php version 5.3 yours is %s. Continue at your "
+"own risk."
+msgstr ""
+"Il plugin richiede almeno php versione 5.3, la versione corrente &egrave; "
+"%s. Continua a tuo rischio."
+
+#: inc/requirements.php:48
+#, php-format
+msgid ""
+"This plugin require at least WordPress version 4.6 yours is %s. The plugin "
+"may not work properly."
+msgstr ""
+"Il plugin richiede almeno Wordpress versione 4.6, la versione attuale "
+"&egrave; %s. Il plugin potrebbe non funzionare correttamente."
+
+#: inc/settingFields/blogFields.php:62
+msgctxt "settings"
+msgid "Limit Excerpt"
+msgstr "Limite Riassunto"
+
+#: inc/settingFields/blogFields.php:63
+msgctxt "settings"
+msgid "How many words must show for excerpt article."
+msgstr "Quante parole devono essere mostrate per il riassunto."
+
+#: inc/settingFields/blogFields.php:82 inc/settingFields/listingsFields.php:158
+#: inc/settingFields/pageFields.php:65
+msgctxt "settings"
+msgid "Sidebar Position"
+msgstr "Posizione Barra laterale"
+
+#: inc/settingFields/blogFields.php:84
+msgctxt "settings"
+msgid "Select the position of the sidebar for (home) posts page."
+msgstr ""
+"Seleziona la posizione della barra laterale per la pagina degli articoli."
+
+#: inc/settingFields/colorsFields.php:49
+msgctxt "settings"
+msgid "Main Color"
+msgstr "Colore Principale"
+
+#: inc/settingFields/colorsFields.php:50
+msgctxt "settings"
+msgid "Select the Main color for the site"
+msgstr "Seleziona il colore principale del sito"
+
+#: inc/settingFields/colorsFields.php:65
+msgctxt "settings"
+msgid "Selected Text"
+msgstr "Testo Selezionato"
+
+#: inc/settingFields/colorsFields.php:66
+msgctxt "settings"
+msgid "Select the color for the selected text."
+msgstr ""
+"Seleziona il colore del testo quando &egrave; viene selezionato dall'utente."
+
+#: inc/settingFields/colorsFields.php:81
+msgctxt "settings"
+msgid "Background Selected Text"
+msgstr "Colore di fondo del testo selezionato"
+
+#: inc/settingFields/colorsFields.php:82
+msgctxt "settings"
+msgid "Select the color for the background text when selected."
+msgstr "Seleziona il colore di fondo per il testo quando viene selezionato."
+
+#: inc/settingFields/colorsFields.php:98
+msgctxt "settings"
+msgid "Background Body Color"
+msgstr "Colore di fondo per le pagine"
+
+#: inc/settingFields/colorsFields.php:99
+msgctxt "settings"
+msgid "Select the color for the background of the page."
+msgstr "Seleziona il colore di fondo per le pagine."
+
+#: inc/settingFields/colorsFields.php:114
+msgctxt "settings"
+msgid "Footer Text"
+msgstr "Testo nel  footer"
+
+#: inc/settingFields/colorsFields.php:115
+msgctxt "settings"
+msgid "Select the color for the footer text."
+msgstr "Seleziona il colore per il testo nel footer."
+
+#: inc/settingFields/colorsFields.php:130
+msgctxt "settings"
+msgid "Background Footer Color"
+msgstr "Colore di fondo per il footer"
+
+#: inc/settingFields/colorsFields.php:131
+msgctxt "settings"
+msgid "Select the color for the footer background."
+msgstr "Seleziona il colore di fondo per il footer"
+
+#: inc/settingFields/colorsFields.php:146
+msgctxt "settings"
+msgid "Colophon Text"
+msgstr "Testo per Colophon"
+
+#: inc/settingFields/colorsFields.php:147
+msgctxt "settings"
+msgid "Select the color for the colophon text."
+msgstr "Seleziona il colore per il testo del colophon."
+
+#: inc/settingFields/colorsFields.php:162
+msgctxt "settings"
+msgid "Background Colophon Color"
+msgstr "Colore di fondo per il colophon"
+
+#: inc/settingFields/colorsFields.php:163
+msgctxt "settings"
+msgid "Select the color for the background."
+msgstr "Seleziona il colore di fondo."
+
+#: inc/settingFields/customCodeFields.php:48
+msgid "Custom Javascript"
+msgstr "Codice JavaScript"
+
+#: inc/settingFields/customCodeFields.php:50
+msgid "Custom javascript will enqueued in footer. Press F11 for fullscreen."
+msgstr ""
+"Codice javascript che verr&egrave; inserito nel footer. Premi F11 per tutto "
+"schermo."
+
+#: inc/settingFields/eventsFields.php:51
+#: inc/settingFields/listingsFields.php:52 inc/settingFields/toursFields.php:52
+msgctxt "settings"
+msgid "Show Map on Archive"
+msgstr "Mostra mappa in archivio"
+
+#: inc/settingFields/eventsFields.php:53
+msgctxt "settings"
+msgid "Active to show or not the map within the events archive."
+msgstr ""
+
+#: inc/settingFields/eventsFields.php:67 inc/settingFields/searchFields.php:48
+#: inc/settingFields/toursFields.php:92
+#, fuzzy
+msgctxt "settings"
+msgid "Search Type"
+msgstr "Ricerca"
+
+#: inc/settingFields/eventsFields.php:68 inc/settingFields/searchFields.php:49
+#: inc/settingFields/toursFields.php:93
+#, fuzzy
+msgctxt "settings"
+msgid "Select the type of the search."
+msgstr "Seleziona lo stile dei font per i bottoni."
+
+#: inc/settingFields/eventsFields.php:73 inc/settingFields/searchFields.php:55
+#: inc/settingFields/toursFields.php:98
+#, fuzzy
+msgctxt "settings"
+msgid "Simple Search"
+msgstr "Ricerca"
+
+#: inc/settingFields/eventsFields.php:74
+msgctxt "settings"
+msgid "Dates and Categories"
+msgstr "Date e Categorie"
+
+#: inc/settingFields/eventsFields.php:75
+msgctxt "ssettings"
+msgid "Search and Geocode"
+msgstr ""
+
+#: inc/settingFields/eventsFields.php:76 inc/settingFields/searchFields.php:56
+#: inc/settingFields/toursFields.php:100
+msgctxt "settings"
+msgid "Search, Geocode and Categories"
+msgstr "Ricerca libera + Geolocalizzazione + Categorie"
+
+#: inc/settingFields/footerFields.php:47
+msgctxt "settings"
+msgid "Google Analytics UA"
+msgstr "Google Analytics"
+
+#: inc/settingFields/footerFields.php:48
+msgctxt "settings"
+msgid "Insert only the UA code."
+msgstr "Inserisci soltanto il codice UA"
+
+#: inc/settingFields/footerFields.php:49
+msgctxt "settings"
+msgid "For example: UA-123456789-1"
+msgstr "Per esempio: UA-123456789-1"
+
+#: inc/settingFields/footerFields.php:64
+msgctxt "settings"
+msgid "Show Social Links on footer"
+msgstr "Mostra i collegamenti socials nel footer"
+
+#: inc/settingFields/footerFields.php:66
+msgctxt "settings"
+msgid "Check it if you want to show the social links within the footer."
+msgstr "Seleziona se vuoi mostrare i collegamenti socials nel footer"
+
+#: inc/settingFields/footerFields.php:81
+msgctxt "settings"
+msgid "Copyright Text"
+msgstr "Testo Copyright"
+
+#: inc/settingFields/footerFields.php:82
+msgctxt "settings"
+msgid "Add your copyright text."
+msgstr "Aggiungi il testo per il copyright."
+
+#: inc/settingFields/googleMapFields.php:48
+msgctxt "settings"
+msgid "Api Key"
+msgstr "Chiave Api"
+
+#: inc/settingFields/googleMapFields.php:52
+#, php-format
+msgctxt "settings"
+msgid ""
+"Add the google map api key to able to show the maps within your site. More "
+"info about how to %s."
+msgstr ""
+"Inserisci la chiave per le api di google map, in modo da mostrare la mappa "
+"nel tuo sito. Per maggiori informazioni visita %s."
+
+#: inc/settingFields/googleMapFields.php:57
+msgctxt "settings"
+msgid "get the google api key"
+msgstr "Preleva la api key di google"
+
+#: inc/settingFields/googleMapFields.php:82
+msgid "Default Address"
+msgstr ""
+
+#: inc/settingFields/googleMapFields.php:98
+msgctxt "settings"
+msgid "Zoom Level"
+msgstr "Livello zoom"
+
+#: inc/settingFields/googleMapFields.php:100
+msgctxt "settings"
+msgid "Choose the level of the zoom for the google map. From 0 to 18"
+msgstr "Seleziona il livello dello zoom della mappa. Minimo 0, massimo 18"
+
+#: inc/settingFields/headerFields.php:47
+msgctxt "settings"
+msgid "Sticky Header"
+msgstr "Testata Fissa"
+
+#: inc/settingFields/headerFields.php:48
+msgctxt "settings"
+msgid "Set the header as sticky."
+msgstr "Imposta la navigazione fissa."
+
+#: inc/settingFields/importExportFields.php:46
+msgctxt "settings"
+msgid "Export Theme Options"
+msgstr "Exporta le opzioni del tema"
+
+#: inc/settingFields/importExportFields.php:47
+msgctxt "settings"
+msgid "Export"
+msgstr "Esporta"
+
+#: inc/settingFields/importExportFields.php:66
+msgctxt "settins"
+msgid "Import"
+msgstr "Importa"
+
+#: inc/settingFields/importExportFields.php:67
+msgctxt "settings"
+msgid "Import Theme Options"
+msgstr "Importa le opzioni del tema"
+
+#: inc/settingFields/importExportFields.php:68
+msgctxt "settings"
+msgid "Import data retrieved by a previous backup."
+msgstr "Importa i dati di un precedente backup."
+
+#: inc/settingFields/importExportFields.php:69
+msgctxt "settings"
+msgid "Import"
+msgstr "Importa"
+
+#: inc/settingFields/importExportFields.php:82
+msgctxt "settings"
+msgid "Reset Theme Options"
+msgstr "Resetta le opzioni del tema"
+
+#: inc/settingFields/importExportFields.php:84
+msgctxt "settings"
+msgid "This will reset all of the settings to their default values."
+msgstr "Reinizializza le opzioni del tema al loro stato originale."
+
+#: inc/settingFields/importExportFields.php:88
+msgctxt "settings"
+msgid "Reset"
+msgstr "Reinizializza"
+
+#: inc/settingFields/listingsFields.php:54
+msgctxt "settings"
+msgid "Active to show or not the map within the listings archive."
+msgstr "Attiva per mostare la mappa all'interno della pagina archivio"
+
+#: inc/settingFields/listingsFields.php:68
+msgctxt "settings"
+msgid "Listings per page"
+msgstr "Pagina Listings"
+
+#: inc/settingFields/listingsFields.php:70
+msgctxt "settings"
+msgid "Enter how many listing items must be showed per page."
+msgstr "Imposta quanti listing possono essere visualizzati per pagina."
+
+#: inc/settingFields/listingsFields.php:88
+msgid "Single Listing Cta Label"
+msgstr "Etichetta CTA pulsante nella pagina dettaglio del listing"
+
+#: inc/settingFields/listingsFields.php:90
+#, fuzzy
+msgid ""
+"Type the custom Call to Action label text. Leave empty to not show the cta "
+"section."
+msgstr ""
+"Digita il testo da mostrare nel bottone della Call to Action. Lascia vuoto "
+"per non mostrare il bottone."
+
+#: inc/settingFields/listingsFields.php:110
+msgctxt "settings"
+msgid "Featured Listings First"
+msgstr "Listings in evidenza per primi"
+
+#: inc/settingFields/listingsFields.php:112
+msgctxt "settings"
+msgid "Check if you want to show the featured listings first in archive."
+msgstr "Se vuoi mostrare i listing in evidenza per primi nell'archivio."
+
+#: inc/settingFields/listingsFields.php:127
+msgctxt "settings"
+msgid "Force Disable Reviews"
+msgstr "Forza disabilitazione recensioni"
+
+#: inc/settingFields/listingsFields.php:128
+msgctxt "settings"
+msgid "Force Disable reviews within single listings."
+msgstr "Forza la disabilitazione delle recensioni per tutti i listings."
+
+#: inc/settingFields/listingsFields.php:160
+msgctxt "settings"
+msgid ""
+"Select the default position of the sidebar for all single listings. Can be "
+"overwrite in edit listing."
+msgstr ""
+
+#: inc/settingFields/listingsFields.php:203
+#, fuzzy, php-format
+msgctxt "settings"
+msgid "Archive %s Description"
+msgstr "Descrizione archivio"
+
+#: inc/settingFields/listingsFields.php:208
+#, fuzzy, php-format
+msgctxt "settings"
+msgid "Type the listings %s archive description. Leave blank to not show."
+msgstr "La descrizione dell'archivio listings. Lascia vuoto per non mostrare."
+
+#: inc/settingFields/listingsFields.php:230
+msgctxt "settings"
+msgid "Reviewer template ID"
+msgstr ""
+
+#: inc/settingFields/listingsFields.php:232
+#, php-format
+msgctxt "settings"
+msgid "Type reviewer template ID for %s post type"
+msgstr ""
+
+#: inc/settingFields/logoFields.php:46
+msgctxt "settings"
+msgid "Site Logo"
+msgstr "Logo Sito"
+
+#: inc/settingFields/logoFields.php:47
+msgctxt "settings"
+msgid "Upload your custom logo"
+msgstr "Carica il logo per il sito"
+
+#: inc/settingFields/logoFields.php:61
+msgctxt "settings"
+msgid "Site Logo Dark"
+msgstr "Logo Sito su fondo scuro"
+
+#: inc/settingFields/logoFields.php:63
+msgctxt "settings"
+msgid "Upload your custom logo to use on dark background."
+msgstr "Carica il logo del sito che deve mostrarsi su colore scuro."
+
+#: inc/settingFields/logoFields.php:80
+msgctxt "settings"
+msgid "Site Logo Retina"
+msgstr "Logo sito retina"
+
+#: inc/settingFields/logoFields.php:82 inc/settingFields/logoFields.php:101
+msgctxt "settings"
+msgid "Upload your custom logo 2x for retina and high def display."
+msgstr ""
+"Carica l'immagine del logo del sito che andrà mostrato nei display retina."
+
+#: inc/settingFields/logoFields.php:99
+msgctxt "settings"
+msgid "Site Logo Dark Retina"
+msgstr "Logo sito scuro per retina"
+
+#: inc/settingFields/logoFields.php:118
+msgctxt "settings"
+msgid "Site Icon"
+msgstr "Icona sito"
+
+#: inc/settingFields/logoFields.php:120
+msgctxt "settings"
+msgid ""
+"The Site Icon is used as a browser and app icon for your site. Icons must be "
+"square, and at least 512 pixels wide and tall."
+msgstr ""
+"L'icona del sito usata nel browser e nell'applicazione mobile. L'icona deve "
+"essere quadrata, almeno 512pixel."
+
+#: inc/settingFields/page404Fields.php:49
+msgctxt "settings"
+msgid "Background Image"
+msgstr "Immagine di fondo"
+
+#: inc/settingFields/page404Fields.php:50
+msgctxt "settings"
+msgid "Choice the background image."
+msgstr "Scegli l'immagine di fondo."
+
+#: inc/settingFields/page404Fields.php:61
+msgctxt "settings"
+msgid "Page Title"
+msgstr "Titolo Pagina"
+
+#: inc/settingFields/page404Fields.php:75
+msgctxt "settings"
+msgid "Page Subtitle"
+msgstr "Sotto titolo"
+
+#: inc/settingFields/pageFields.php:67
+msgctxt "settings"
+msgid "Select the position of the sidebar for all pages."
+msgstr "Seleziona la posizione della barra laterale per le pagine."
+
+#: inc/settingFields/pageFields.php:83
+msgctxt "settings"
+msgid "Force Disabled Comments"
+msgstr "Forza disabilitazione commenti"
+
+#: inc/settingFields/pageFields.php:85
+msgctxt "settings"
+msgid ""
+"Force comments to be disabled within all pages. This option override the "
+"allow comments options."
+msgstr ""
+"Forza la disabilitazione dei commenti per tutte le pagine. Questa opzione "
+"sovrascrive le opzioni delle pagine."
+
+#: inc/settingFields/searchFields.php:54 inc/settingFields/toursFields.php:99
+#, fuzzy
+msgctxt "settings"
+msgid "Search and Geocode"
+msgstr "Cerca una location"
+
+#: inc/settingFields/searchFields.php:71
+#, fuzzy
+msgctxt "settings"
+msgid "Search Placeholder"
+msgstr "Testo segna posto per campi ricerca"
+
+#: inc/settingFields/searchFields.php:72
+msgctxt "settings"
+msgid "The placeholder for the search input text."
+msgstr "Il testo segna posto per campo di ricerca."
+
+#: inc/settingFields/searchFields.php:86
+#, fuzzy
+msgctxt "settings"
+msgid "Geocode Placeholder"
+msgstr "Testo segna posto per campi ricerca"
+
+#: inc/settingFields/searchFields.php:87
+#, fuzzy
+msgctxt "settings"
+msgid "The placeholder for the search geocoded field."
+msgstr "Il testo segna posto per campo di ricerca."
+
+#: inc/settingFields/searchFields.php:101
+msgctxt "settings"
+msgid "Input Submit Label"
+msgstr "Bottone Form"
+
+#: inc/settingFields/searchFields.php:102
+msgctxt "settings"
+msgid "The label for the submit button."
+msgstr "Testo per bottone invio form."
+
+#: inc/settingFields/searchFields.php:117
+msgctxt "settings"
+msgid "Input Submit Icon"
+msgstr "Icona bottone form"
+
+#: inc/settingFields/searchFields.php:118
+msgctxt "settings"
+msgid "The icon for the submit button."
+msgstr "L'icona da usare nel bottone della form."
+
+#: inc/settingFields/socialsFields.php:49
+msgctxt "settings"
+msgid "Facebook Page"
+msgstr "Pagina Facebook"
+
+#: inc/settingFields/socialsFields.php:50
+#: inc/settingFields/socialsFields.php:65
+#: inc/settingFields/socialsFields.php:79
+#: inc/settingFields/socialsFields.php:94
+#: inc/settingFields/socialsFields.php:109
+#: inc/settingFields/socialsFields.php:124
+#: inc/settingFields/socialsFields.php:139
+msgctxt "settings"
+msgid "Don't forget the http[s]:// string."
+msgstr "Non dimenticare di scrivere http[s]://."
+
+#: inc/settingFields/socialsFields.php:64
+msgctxt "settings"
+msgid "Twitter Account"
+msgstr "Account Twitter"
+
+#: inc/settingFields/socialsFields.php:78
+msgctxt "settings"
+msgid "Instagram Account"
+msgstr "Account Instagram"
+
+#: inc/settingFields/socialsFields.php:93
+msgctxt "settings"
+msgid "Pinterest page"
+msgstr "Account Pinterest"
+
+#: inc/settingFields/socialsFields.php:108
+msgctxt "settings"
+msgid "Linkedin Account"
+msgstr "Account Linkedin"
+
+#: inc/settingFields/socialsFields.php:123
+msgctxt "settings"
+msgid "Youtube Account"
+msgstr "Account Youtube"
+
+#: inc/settingFields/socialsFields.php:138
+msgctxt "settings"
+msgid "Vimeo Account"
+msgstr "Account Vimeo"
+
+#: inc/settingFields/toursFields.php:54
+msgctxt "settings"
+msgid "Active to show or not the map within the tours archive."
+msgstr ""
+
+#: inc/settingFields/toursFields.php:68
+msgctxt "settings"
+msgid "Travel Mode"
+msgstr ""
+
+#: inc/settingFields/toursFields.php:69
+msgctxt "settings"
+msgid "Select the default travel mode."
+msgstr ""
+
+#: inc/settingFields/toursFields.php:74
+msgctxt "settings"
+msgid "Driving"
+msgstr ""
+
+#: inc/settingFields/toursFields.php:75
+msgctxt "settings"
+msgid "Walking"
+msgstr ""
+
+#: inc/settingFields/toursFields.php:76
+msgctxt "settings"
+msgid "Bicycling"
+msgstr ""
+
+#: inc/settingFields/toursFields.php:77
+msgctxt "settings"
+msgid "Transit"
+msgstr ""
+
+#: inc/settingFields/typographyFields.php:55
+msgid "Base Font"
+msgstr "Font di base"
+
+#: inc/settingFields/typographyFields.php:56
+msgid "Select the font style for the document."
+msgstr "Seleziona lo stile del font di base."
+
+#: inc/settingFields/typographyFields.php:69
+msgid "Heading H1"
+msgstr "Titolo di Pagina H1"
+
+#: inc/settingFields/typographyFields.php:70
+msgid "Select the font style for H1."
+msgstr "Seleziona lo stile per i titoli di pagina."
+
+#: inc/settingFields/typographyFields.php:83
+msgid "Heading H2"
+msgstr "Titoli di pagina H2"
+
+#: inc/settingFields/typographyFields.php:84
+msgid "Select the font style for H2."
+msgstr "Seleziona lo stile per i titoli di pagina."
+
+#: inc/settingFields/typographyFields.php:97
+msgid "Heading H3"
+msgstr "Testata H3"
+
+#: inc/settingFields/typographyFields.php:98
+msgid "Select the font style for H3."
+msgstr "Seleziona lo stile per i titoli di pagina."
+
+#: inc/settingFields/typographyFields.php:111
+msgid "Heading H4"
+msgstr "Testata H4"
+
+#: inc/settingFields/typographyFields.php:112
+msgid "Select the font style for H4."
+msgstr "Seleziona lo stile per i titoli di pagina."
+
+#: inc/settingFields/typographyFields.php:125
+msgid "Heading H5"
+msgstr "Testata H5"
+
+#: inc/settingFields/typographyFields.php:126
+msgid "Select the font style for H5."
+msgstr "Seleziona lo stile per i titoli di pagina."
+
+#: inc/settingFields/typographyFields.php:139
+msgid "Heading H6"
+msgstr "Testata H6"
+
+#: inc/settingFields/typographyFields.php:140
+msgid "Select the font style for H6."
+msgstr "Seleziona lo stile per i titoli di pagina."
+
+#: inc/settingFields/typographyFields.php:153
+msgid "Main Navigation"
+msgstr "Navigazione Principale"
+
+#: inc/settingFields/typographyFields.php:154
+msgid "Select the font style for the main navigation."
+msgstr "Seleziona lo stile del font per la navigazione principale."
+
+#: inc/settingFields/typographyFields.php:167
+msgid "Buttons"
+msgstr "Bottoni"
+
+#: inc/settingFields/typographyFields.php:168
+msgid "Select the font style for the buttons."
+msgstr "Seleziona lo stile dei font per i bottoni."
+
+#: inc/settingsMenuList.php:33 inc/settingsMenuList.php:34
+msgid "Logo"
+msgstr "Logo"
+
+#: inc/settingsMenuList.php:39 inc/settingsMenuList.php:40
+msgid "Typography"
+msgstr "Tipografia"
+
+#: inc/settingsMenuList.php:45 inc/settingsMenuList.php:46
+msgid "Colors"
+msgstr "Colori"
+
+#: inc/settingsMenuList.php:51 inc/settingsMenuList.php:52
+#: src/Admin/Metabox/Listings.php:85 src/Admin/Metabox/Page.php:77
+#: src/Admin/Termbox/Header.php:47
+msgid "Header"
+msgstr "Testata"
+
+#: inc/settingsMenuList.php:57 inc/settingsMenuList.php:58
+msgid "Footer"
+msgstr "Footer"
+
+#: inc/settingsMenuList.php:63 inc/settingsMenuList.php:64
+msgid "Blog"
+msgstr "Blog"
+
+#: inc/settingsMenuList.php:69 inc/settingsMenuList.php:70
+msgid "Pages"
+msgstr "Pagine"
+
+#: inc/settingsMenuList.php:75 inc/settingsMenuList.php:76
+#: src/PostType/Listings.php:52
+msgid "Listings"
+msgstr "Listings"
+
+#: inc/settingsMenuList.php:81 inc/settingsMenuList.php:82
+msgid "404 Page Error"
+msgstr "Pagina 404"
+
+#: inc/settingsMenuList.php:87 inc/settingsMenuList.php:88
+msgid "Google Map"
+msgstr "Mappa Google"
+
+#: inc/settingsMenuList.php:93 inc/settingsMenuList.php:94
+msgid "Search"
+msgstr "Ricerca"
+
+#: inc/settingsMenuList.php:99 inc/settingsMenuList.php:100
+#: src/Admin/Metabox/Listings.php:145
+msgid "Socials"
+msgstr "Socials"
+
+#: inc/settingsMenuList.php:111 inc/settingsMenuList.php:112
+msgid "Import / Export"
+msgstr "Importazione / Esportazione"
+
+#: inc/settingsMenuList.php:123 inc/settingsMenuList.php:124
+msgid "Events"
+msgstr "Eventi"
+
+#: inc/settingsMenuList.php:139 inc/settingsMenuList.php:140
+msgid "Tours"
+msgstr ""
+
+#: inc/sidebarsList.php:31
+msgid "Listings Sidebar"
+msgstr "Barra laterale Listings"
+
+#: inc/sidebarsList.php:32
+msgid "This sidebar will appear within the single listings page"
+msgstr "Questa barra laterale verr&agrave; mostrata nelle pagine dei listings"
+
+#: inc/sidebarsList.php:35
+msgid "Archive Listings Sidebar"
+msgstr ""
+
+#: inc/sidebarsList.php:36
+msgid "This sidebar will appear within the Archive Listings page"
+msgstr ""
+
+#: inc/termboxFields/colorFields.php:50 src/Admin/Termbox/Color.php:49
+msgid "Term Color"
+msgstr ""
+
+#: inc/termboxFields/colorFields.php:51
+msgid "Select your color."
+msgstr ""
+
+#: inc/termboxFields/iconFields.php:58
+msgid "Select Icon"
+msgstr "Seleziona Icona"
+
+#: inc/termboxFields/iconFields.php:60
+msgid "Select the Icon to associate to this term"
+msgstr "Seleziona l'icona da associare al termine"
+
+#: inc/termboxFields/jumbotronSliderFields.php:53
+msgid "The slider will overrider the hero image option."
+msgstr ""
+
+#: inc/termboxFields/taxonomyRelationFields.php:40
+msgid "The group title"
+msgstr "Titolo del gruppo"
+
+#: inc/termboxFields/taxonomyRelationFields.php:41
+msgid "Enter or select the title for the group (default: none)."
+msgstr "Inserisci o seleziona il titolo per il gruppo (default: nessuno)."
+
+#: inc/termboxFields/taxonomyRelationFields.php:46
+msgid "No Group"
+msgstr "Nessun Gruppo"
+
+#: inc/termboxFields/taxonomyRelationFields.php:59
+msgid "Category Term Relation"
+msgstr ""
+
+#: inc/termboxFields/taxonomyRelationFields.php:61
+msgid ""
+"Choose the term from the Listings Categories related to the current one."
+msgstr ""
+
+#: inc/termboxFields/thumbnailFields.php:49
+msgid "Featured Image"
+msgstr "Immagine in evidenza"
+
+#: inc/termboxFields/thumbnailFields.php:51
+msgid "Upload or Select the Featured Image"
+msgstr "Carica o seleziona l'immagine in evidenza"
+
+#: inc/vcMapping/_postTypeFields.php:35
+#: inc/vcMapping/recentlyViewedListings.php:37
+msgctxt "shortcode-vc"
+msgid "Posts Per Page"
+msgstr "Elementi per pagina"
+
+#: inc/vcMapping/_postTypeFields.php:36
+#: inc/vcMapping/recentlyViewedListings.php:38
+msgctxt "shortcode-vc"
+msgid "Type the number of posts to show."
+msgstr "Imposta un numero per la classificazione."
+
+#: inc/vcMapping/_postTypeFields.php:44
+#: inc/vcMapping/recentlyViewedListings.php:46
+msgctxt "shortcode-vc"
+msgid "Show post title"
+msgstr "Mostra il titolo del post"
+
+#: inc/vcMapping/_postTypeFields.php:45
+#: inc/vcMapping/recentlyViewedListings.php:47
+msgctxt "shortcode-vc"
+msgid "To show or not the post title."
+msgstr "Mostra o meno il titolo del post"
+
+#: inc/vcMapping/_postTypeFields.php:50 inc/vcMapping/_postTypeFields.php:63
+#: inc/vcMapping/_postTypeFields.php:76 inc/vcMapping/_postTypeFields.php:89
+#: inc/vcMapping/_postTypeFields.php:102 inc/vcMapping/_postTypeFields.php:115
+#: inc/vcMapping/_postTypeFields.php:128
+#: inc/vcMapping/recentlyViewedListings.php:52
+#: inc/vcMapping/recentlyViewedListings.php:65
+#: inc/vcMapping/recentlyViewedListings.php:78
+#: inc/vcMapping/recentlyViewedListings.php:91
+#: inc/vcMapping/recentlyViewedListings.php:104
+#: inc/vcMapping/recentlyViewedListings.php:117
+#: inc/vcMapping/testimonial.php:75 inc/vcMapping/testimonial.php:88
+#: inc/vcMapping/testimonial.php:101
+#, fuzzy
+msgctxt "shortcode-vc"
+msgid "Yes"
+msgstr "Si"
+
+#: inc/vcMapping/_postTypeFields.php:51 inc/vcMapping/_postTypeFields.php:64
+#: inc/vcMapping/_postTypeFields.php:77 inc/vcMapping/_postTypeFields.php:90
+#: inc/vcMapping/_postTypeFields.php:103 inc/vcMapping/_postTypeFields.php:116
+#: inc/vcMapping/_postTypeFields.php:129
+#: inc/vcMapping/recentlyViewedListings.php:53
+#: inc/vcMapping/recentlyViewedListings.php:66
+#: inc/vcMapping/recentlyViewedListings.php:79
+#: inc/vcMapping/recentlyViewedListings.php:92
+#: inc/vcMapping/recentlyViewedListings.php:105
+#: inc/vcMapping/recentlyViewedListings.php:118
+#: inc/vcMapping/testimonial.php:76 inc/vcMapping/testimonial.php:89
+#: inc/vcMapping/testimonial.php:102
+#, fuzzy
+msgctxt "shortcode-vc"
+msgid "No"
+msgstr "No"
+
+#: inc/vcMapping/_postTypeFields.php:57
+#: inc/vcMapping/recentlyViewedListings.php:59
+#, fuzzy
+msgctxt "shortcode-vc"
+msgid "Show Sub-title"
+msgstr "Sotto titolo"
+
+#: inc/vcMapping/_postTypeFields.php:58
+#: inc/vcMapping/recentlyViewedListings.php:60
+msgctxt "shortcode-vc"
+msgid "To show or not the subtitle."
+msgstr ""
+
+#: inc/vcMapping/_postTypeFields.php:70
+#, fuzzy
+msgctxt "shortcode-vc"
+msgid "Show only Featured"
+msgstr "In evidenza"
+
+#: inc/vcMapping/_postTypeFields.php:71
+msgctxt "shortcode-vc"
+msgid "Flag to show only featured listings."
+msgstr "Se vuoi visualizzare solo i listings in evidenza"
+
+#: inc/vcMapping/_postTypeFields.php:83
+#: inc/vcMapping/recentlyViewedListings.php:72
+#, fuzzy
+msgctxt "shortcode-vc"
+msgid "Show Featured Image"
+msgstr "Immagine in evidenza"
+
+#: inc/vcMapping/_postTypeFields.php:84
+#: inc/vcMapping/recentlyViewedListings.php:73
+msgctxt "shortcode-vc"
+msgid "To show or not the featured image."
+msgstr "Carica o seleziona l'immagine in evidenza."
+
+#: inc/vcMapping/_postTypeFields.php:96
+#: inc/vcMapping/recentlyViewedListings.php:85
+#, fuzzy
+msgctxt "shortcode-vc"
+msgid "Show Address"
+msgstr "Indirizzo"
+
+#: inc/vcMapping/_postTypeFields.php:97
+#: inc/vcMapping/recentlyViewedListings.php:86
+msgctxt "shortcode-vc"
+msgid "To show or not the location address."
+msgstr "Per resettare la password, visita la seguente pagina."
+
+#: inc/vcMapping/_postTypeFields.php:109
+#: inc/vcMapping/recentlyViewedListings.php:98
+#, fuzzy
+msgctxt "shortcode-vc"
+msgid "Show Excerpt"
+msgstr "Limite Riassunto"
+
+#: inc/vcMapping/_postTypeFields.php:110
+#: inc/vcMapping/recentlyViewedListings.php:99
+msgctxt "shortcode-vc"
+msgid "To show or not the post excerpt"
+msgstr "Mostra o meno l'excerpt del post"
+
+#: inc/vcMapping/_postTypeFields.php:122
+#: inc/vcMapping/recentlyViewedListings.php:111
+msgctxt "shortcode-vc"
+msgid "Show Meta"
+msgstr "Mostra i meta"
+
+#: inc/vcMapping/_postTypeFields.php:123
+#: inc/vcMapping/recentlyViewedListings.php:112
+msgctxt "shortcode-vc"
+msgid "To show or not the meta information."
+msgstr "Mostra le informazioni meta"
+
+#: inc/vcMapping/_postTypeFields.php:135
+#: inc/vcMapping/recentlyViewedListings.php:124
+msgctxt "shortcode-vc"
+msgid "Columns"
+msgstr "Colonne"
+
+#: inc/vcMapping/_postTypeFields.php:136
+#: inc/vcMapping/recentlyViewedListings.php:125
+msgctxt "shortcode-vc"
+msgid "Number of columns per row."
+msgstr "Numero di colonne per riga"
+
+#: inc/vcMapping/_postTypeFields.php:142
+#: inc/vcMapping/recentlyViewedListings.php:131
+msgctxt "shortcode-vc"
+msgid "Two"
+msgstr "Due"
+
+#: inc/vcMapping/_postTypeFields.php:143
+#: inc/vcMapping/recentlyViewedListings.php:132
+msgctxt "shortcode-vc"
+msgid "Three"
+msgstr "Tre"
+
+#: inc/vcMapping/_postTypeFields.php:144
+#: inc/vcMapping/recentlyViewedListings.php:133
+msgctxt "shortcode-vc"
+msgid "Four"
+msgstr "Quattro"
+
+#: inc/vcMapping/_postTypeFields.php:150 inc/vcMapping/terms.php:49
+msgctxt "shortcode-vc"
+msgid "Order By"
+msgstr "Ordina per"
+
+#: inc/vcMapping/_postTypeFields.php:152
+msgctxt "shortcode-vc"
+msgid ""
+"In which order the posts must appear. See https://goo.gl/hvEHcL for more "
+"info."
+msgstr ""
+
+#: inc/vcMapping/_postTypeFields.php:160
+msgctxt "shortcode-vc"
+msgid "Date"
+msgstr "Data"
+
+#: inc/vcMapping/_postTypeFields.php:161
+msgctxt "shortcode-vc"
+msgid "ID"
+msgstr ""
+
+#: inc/vcMapping/_postTypeFields.php:162
+msgctxt "shortcode-vc"
+msgid "Author"
+msgstr "Autore"
+
+#: inc/vcMapping/_postTypeFields.php:163 inc/vcMapping/section.php:36
+#: inc/vcMapping/testimonial.php:35
+msgctxt "shortcode-vc"
+msgid "Title"
+msgstr "Titolo"
+
+#: inc/vcMapping/_postTypeFields.php:164
+msgctxt "shortcode-vc"
+msgid "Random"
+msgstr "Casuale"
+
+#: inc/vcMapping/_postTypeFields.php:170
+msgctxt "shortcode-vc"
+msgid "Order"
+msgstr "Ordine"
+
+#: inc/vcMapping/_postTypeFields.php:171
+msgctxt "shortcode-vc"
+msgid "Ascending or Descending order."
+msgstr ""
+
+#: inc/vcMapping/_postTypeFields.php:176
+msgctxt "shortcode-vc"
+msgid "Descending"
+msgstr ""
+
+#: inc/vcMapping/_postTypeFields.php:177
+msgctxt "shortcode-vc"
+msgid "Ascending"
+msgstr ""
+
+#: inc/vcMapping/alert.php:28
+#, fuzzy
+msgctxt "shortcode-vc"
+msgid "Qibla Alert"
+msgstr "Qibla"
+
+#: inc/vcMapping/alert.php:30
+msgctxt "shortcode-vc"
+msgid "Alert Shortcode"
+msgstr ""
+
+#: inc/vcMapping/alert.php:31 inc/vcMapping/button.php:29
+#: inc/vcMapping/listings.php:33 inc/vcMapping/maps.php:33
+#: inc/vcMapping/post.php:29 inc/vcMapping/recentlyViewedListings.php:31
+#: inc/vcMapping/search.php:36 inc/vcMapping/section.php:29
+#: inc/vcMapping/terms.php:35 inc/vcMapping/testimonial.php:29
+#: src/Shortcode/TermsLocationsFake.php:61
+#, fuzzy
+msgctxt "shortcode-vc"
+msgid "Qibla"
+msgstr "Qibla"
+
+#: inc/vcMapping/alert.php:32
+msgctxt "shortcode-vc"
+msgid "Alert message box"
+msgstr ""
+
+#: inc/vcMapping/alert.php:37
+msgctxt "shortcode-vc"
+msgid "Alert Style"
+msgstr ""
+
+#: inc/vcMapping/alert.php:38
+#, fuzzy
+msgctxt "shortcode-vc"
+msgid "Select the type of the alert to show."
+msgstr "Seleziona lo stile dei font per i bottoni."
+
+#: inc/vcMapping/alert.php:43
+msgctxt "shortcode-vc"
+msgid "Success"
+msgstr ""
+
+#: inc/vcMapping/alert.php:44
+msgctxt "shortcode-vc"
+msgid "Info"
+msgstr ""
+
+#: inc/vcMapping/alert.php:45
+msgctxt "shortcode-vc"
+msgid "Warning"
+msgstr ""
+
+#: inc/vcMapping/alert.php:46
+msgctxt "shortcode-vc"
+msgid "Error"
+msgstr ""
+
+#: inc/vcMapping/alert.php:52 inc/vcMapping/section.php:52
+msgctxt "shortcode-vc"
+msgid "Content"
+msgstr ""
+
+#: inc/vcMapping/alert.php:53
+msgctxt "shortcode-vc"
+msgid "The alert content"
+msgstr ""
+
+#: inc/vcMapping/button.php:27
+#, fuzzy
+msgctxt "shortcode-vc"
+msgid "Qibla Button"
+msgstr "Bottone"
+
+#: inc/vcMapping/button.php:30 inc/vcMapping/section.php:30
+msgctxt "shortcode-vc"
+msgid "Custom Button"
+msgstr "Pulsante personalizzato"
+
+#: inc/vcMapping/button.php:35
+msgctxt "shortcode-vc"
+msgid "Label"
+msgstr "Etichetta"
+
+#: inc/vcMapping/button.php:39
+msgctxt "shortcode-vc"
+msgid "The label of the button"
+msgstr "Testo per bottone invio form"
+
+#: inc/vcMapping/button.php:44
+msgctxt "shortcode-vc"
+msgid "Url"
+msgstr "Url"
+
+#: inc/vcMapping/button.php:52
+msgctxt "shortcode-vc"
+msgid "Style"
+msgstr "Stile"
+
+#: inc/vcMapping/button.php:57
+msgctxt "shortcode-vc"
+msgid "Tiny"
+msgstr "Piccolissimo"
+
+#: inc/vcMapping/button.php:58
+msgctxt "shortcode-vc"
+msgid "Small"
+msgstr "Piccolo"
+
+#: inc/vcMapping/button.php:59
+msgctxt "shortcode-vc"
+msgid "Medium"
+msgstr "Medio"
+
+#: inc/vcMapping/button.php:60
+msgctxt "shortcode-vc"
+msgid "Wide"
+msgstr "100% larghezza"
+
+#: inc/vcMapping/button.php:61
+msgctxt "shortcode-vc"
+msgid "Gray"
+msgstr "Grigio"
+
+#: inc/vcMapping/button.php:62
+msgctxt "shortcode-vc"
+msgid "White"
+msgstr "Bianco"
+
+#: inc/vcMapping/button.php:63 inc/vcMapping/section.php:239
+msgctxt "shortcode-vc"
+msgid "Ghost"
+msgstr "\"Fantasma\""
+
+#: inc/vcMapping/button.php:69
+msgctxt "shortcode-vc"
+msgid "Icon Before Label"
+msgstr "Icona prima della label"
+
+#: inc/vcMapping/button.php:77
+msgctxt "shortcode-vc"
+msgid "Icon After Label"
+msgstr "Icona dopo la label"
+
+#: inc/vcMapping/listings.php:31
+#, fuzzy
+msgctxt "shortcode-vc"
+msgid "Qibla Listings"
+msgstr "Listings"
+
+#: inc/vcMapping/listings.php:34
+#, fuzzy
+msgctxt "shortcode-vc"
+msgid "Listings Posts"
+msgstr "Listings"
+
+#: inc/vcMapping/listings.php:40 inc/vcMapping/maps.php:46
+#: inc/vcMapping/terms.php:36
+#, fuzzy
+msgctxt "shortcode-vc"
+msgid "Listing Categories"
+msgstr "Base per tassonomia Categorie Listings"
+
+#: inc/vcMapping/listings.php:41 inc/vcMapping/maps.php:47
+msgctxt "shortcode-vc"
+msgid "Category to show."
+msgstr ""
+
+#: inc/vcMapping/listings.php:47 inc/vcMapping/listings.php:62
+#: inc/vcMapping/maps.php:53 inc/vcMapping/maps.php:69
+#: src/Form/Types/MultiCheck.php:99
+msgid "All"
+msgstr "Tutti"
+
+#: inc/vcMapping/listings.php:55 inc/vcMapping/maps.php:62
+msgctxt "shortcode-vc"
+msgid "Listing Locations"
+msgstr ""
+
+#: inc/vcMapping/listings.php:56 inc/vcMapping/maps.php:63
+msgctxt "shortcode-vc"
+msgid "Location to show."
+msgstr ""
+
+#: inc/vcMapping/listings.php:70 inc/vcMapping/maps.php:98
+#: inc/vcMapping/post.php:37 inc/vcMapping/terms.php:88
+msgctxt "shortcode-vc"
+msgid "Layout"
+msgstr ""
+
+#: inc/vcMapping/listings.php:72 inc/vcMapping/listings.php:91
+#: inc/vcMapping/listings.php:102 inc/vcMapping/listings.php:116
+#: inc/vcMapping/maps.php:100 inc/vcMapping/maps.php:119
+#: inc/vcMapping/maps.php:130 inc/vcMapping/maps.php:144
+#: inc/vcMapping/post.php:39 inc/vcMapping/post.php:58
+#: inc/vcMapping/post.php:69 inc/vcMapping/post.php:83
+#: inc/vcMapping/terms.php:90 inc/vcMapping/terms.php:109
+#: inc/vcMapping/terms.php:120 inc/vcMapping/terms.php:134
+msgctxt "shortcode-vc-group"
+msgid "Layout"
+msgstr ""
+
+#: inc/vcMapping/listings.php:74 inc/vcMapping/maps.php:102
+#: inc/vcMapping/post.php:41 inc/vcMapping/terms.php:92
+msgctxt "shortcode-vc"
+msgid "Set the layout, container width or boxed (default: container width)"
+msgstr ""
+
+#: inc/vcMapping/listings.php:81 inc/vcMapping/maps.php:109
+#: inc/vcMapping/post.php:48 inc/vcMapping/terms.php:99
+msgctxt "shortcode-vc"
+msgid "Container Width"
+msgstr ""
+
+#: inc/vcMapping/listings.php:82 inc/vcMapping/maps.php:110
+#: inc/vcMapping/post.php:49 inc/vcMapping/terms.php:100
+msgctxt "shortcode-vc"
+msgid "Boxed"
+msgstr ""
+
+#: inc/vcMapping/listings.php:88 inc/vcMapping/maps.php:116
+#: inc/vcMapping/post.php:55 inc/vcMapping/section.php:64
+#: inc/vcMapping/terms.php:106 inc/vcMapping/testimonial.php:43
+#, fuzzy
+msgctxt "shortcode-vc"
+msgid "Background Color"
+msgstr "Colore di fondo per la Immagine di testata"
+
+#: inc/vcMapping/listings.php:93 inc/vcMapping/maps.php:121
+#: inc/vcMapping/post.php:60 inc/vcMapping/section.php:69
+#: inc/vcMapping/terms.php:111 inc/vcMapping/testimonial.php:48
+#, fuzzy
+msgctxt "shortcode-vc"
+msgid "Select the color for the background of the section."
+msgstr "Seleziona il colore di fondo per le pagine."
+
+#: inc/vcMapping/listings.php:101 inc/vcMapping/maps.php:129
+#: inc/vcMapping/post.php:68 inc/vcMapping/terms.php:119
+msgctxt "shortcode-vc"
+msgid "Padding Top"
+msgstr ""
+
+#: inc/vcMapping/listings.php:104 inc/vcMapping/maps.php:132
+#: inc/vcMapping/post.php:71 inc/vcMapping/terms.php:122
+msgctxt "shortcode-vc"
+msgid "Padding top for section es: (22px, 2em, 3rem)"
+msgstr ""
+
+#: inc/vcMapping/listings.php:115 inc/vcMapping/maps.php:143
+#: inc/vcMapping/post.php:82 inc/vcMapping/terms.php:133
+msgctxt "shortcode-vc"
+msgid "Padding Bottom"
+msgstr ""
+
+#: inc/vcMapping/listings.php:118 inc/vcMapping/maps.php:146
+#: inc/vcMapping/post.php:85 inc/vcMapping/terms.php:136
+msgctxt "shortcode-vc"
+msgid "Padding bottom for section es: (22px, 2em, 3rem)"
+msgstr ""
+
+#: inc/vcMapping/maps.php:31
+msgctxt "shortcode-vc"
+msgid "Map"
+msgstr ""
+
+#: inc/vcMapping/maps.php:34
+msgctxt "shortcode-vc"
+msgid "Google Map."
+msgstr ""
+
+#: inc/vcMapping/maps.php:78
+msgctxt "shortcode-vc"
+msgid "Map height"
+msgstr ""
+
+#: inc/vcMapping/maps.php:79
+msgctxt "shortcode-vc"
+msgid "Set the map height (default: 100vh)."
+msgstr ""
+
+#: inc/vcMapping/maps.php:88
+msgctxt "shortcode-vc"
+msgid "Map width"
+msgstr ""
+
+#: inc/vcMapping/maps.php:89
+msgctxt "shortcode-vc"
+msgid "Set the map width (default: 100%)."
+msgstr ""
+
+#: inc/vcMapping/post.php:27
+#, fuzzy
+msgctxt "shortcode-vc"
+msgid "Qibla Posts"
+msgstr "Articoli Correlati"
+
+#: inc/vcMapping/post.php:30
+msgctxt "shortcode-vc"
+msgid "Posts"
+msgstr ""
+
+#: inc/vcMapping/recentlyViewedListings.php:29
+msgctxt "shortcode-vc"
+msgid "Recently Viewed Listings"
+msgstr ""
+
+#: inc/vcMapping/recentlyViewedListings.php:32
+msgctxt "shortcode-vc"
+msgid "Listings Posts recently viewed"
+msgstr ""
+
+#: inc/vcMapping/search.php:33
+#, fuzzy
+msgctxt "shortcode-vc"
+msgid "Qibla Search"
+msgstr "Ricerca"
+
+#: inc/vcMapping/search.php:35
+msgctxt "shortcode-vc"
+msgid "Search Shortcode"
+msgstr "Cerca una location"
+
+#: inc/vcMapping/search.php:37
+msgctxt "shortcode-vc"
+msgid "The Qibla Search engine as shortcode."
+msgstr ""
+
+#: inc/vcMapping/search.php:42
+#, fuzzy
+msgctxt "shortcode-vc"
+msgid "Search Type"
+msgstr "Ricerca"
+
+#: inc/vcMapping/search.php:46
+#, fuzzy
+msgctxt "shortcode-sc"
+msgid "Select the type of the search to show."
+msgstr "Seleziona lo stile dei font per i bottoni."
+
+#: inc/vcMapping/search.php:48
+#, fuzzy
+msgctxt "shortcode-vc"
+msgid "Search and Geocode"
+msgstr "Cerca una location"
+
+#: inc/vcMapping/search.php:49
+#, fuzzy
+msgctxt "shortcode-vc"
+msgid "Simple Search"
+msgstr "Ricerca"
+
+#: inc/vcMapping/search.php:50
+msgctxt "shortcode-vc"
+msgid "Search, Geocode and Categories"
+msgstr "Ricerca libera + Geolocalizzazione + Categorie"
+
+#: inc/vcMapping/section.php:27
+msgctxt "shortcode-vc"
+msgid "Qibla Section"
+msgstr ""
+
+#: inc/vcMapping/section.php:39
+#, fuzzy
+msgctxt "shortcode-vc"
+msgid "The title to show within the section."
+msgstr "Il sottotitolo per il tuo listing."
+
+#: inc/vcMapping/section.php:44
+#, fuzzy
+msgctxt "shortcode-vc"
+msgid "Sub title"
+msgstr "Sotto titolo"
+
+#: inc/vcMapping/section.php:47
+msgctxt "shortcode-vc"
+msgid "The tagline of the section"
+msgstr ""
+
+#: inc/vcMapping/section.php:56
+msgctxt "shortcode-vc"
+msgid "Content of the section. You can use extra shortcodes."
+msgstr ""
+
+#: inc/vcMapping/section.php:67 inc/vcMapping/section.php:80
+#: inc/vcMapping/testimonial.php:46 inc/vcMapping/testimonial.php:59
+#, fuzzy
+msgctxt "shortcode-vc-group"
+msgid "Background"
+msgstr "Immagine di fondo"
+
+#: inc/vcMapping/section.php:77 inc/vcMapping/testimonial.php:56
+#, fuzzy
+msgctxt "shortcode-vc"
+msgid "Background Image"
+msgstr "Immagine di fondo"
+
+#: inc/vcMapping/section.php:82 inc/vcMapping/testimonial.php:61
+#, fuzzy
+msgctxt "shortcode-vc"
+msgid "Select the image for the background of the section."
+msgstr "Seleziona il colore di fondo per le pagine."
+
+#: inc/vcMapping/section.php:90
+msgctxt "shortcode-vc"
+msgid "Size"
+msgstr ""
+
+#: inc/vcMapping/section.php:92
+msgctxt "shortcode-vc"
+msgid "How big the section must be."
+msgstr ""
+
+#: inc/vcMapping/section.php:96
+#, fuzzy
+msgctxt "shortcode-vc"
+msgid "Normal"
+msgstr "Formato"
+
+#: inc/vcMapping/section.php:97
+msgctxt "shortcode-vc"
+msgid "Big"
+msgstr ""
+
+#: inc/vcMapping/section.php:107
+#, fuzzy
+msgctxt "shortcode-vc"
+msgid "Link Label"
+msgstr "Come aprire il link"
+
+#: inc/vcMapping/section.php:110 inc/vcMapping/section.php:123
+#: inc/vcMapping/section.php:136 inc/vcMapping/section.php:149
+#: inc/vcMapping/section.php:175 inc/vcMapping/section.php:188
+#: inc/vcMapping/section.php:201 inc/vcMapping/section.php:214
+#: inc/vcMapping/section.php:236
+#, fuzzy
+msgctxt "shortcode-vc-group"
+msgid "Links"
+msgstr "Linkedin"
+
+#: inc/vcMapping/section.php:112 inc/vcMapping/section.php:177
+msgctxt "shortcode-vc"
+msgid "The label link for the cta. Leave blank to now add button link"
+msgstr ""
+
+#: inc/vcMapping/section.php:120
+#, fuzzy
+msgctxt "shortcode-vc"
+msgid "Link Url"
+msgstr "Come aprire il link"
+
+#: inc/vcMapping/section.php:124 inc/vcMapping/section.php:189
+msgctxt "shortcode-vc"
+msgid "The link url for the first label link"
+msgstr ""
+
+#: inc/vcMapping/section.php:133
+#, fuzzy
+msgctxt "shortcode-vc"
+msgid "Link Icon"
+msgstr "Icona sito"
+
+#: inc/vcMapping/section.php:137 inc/vcMapping/section.php:202
+msgctxt "shortcode-vc"
+msgid "The icon to use in relation with the link"
+msgstr ""
+
+#: inc/vcMapping/section.php:146
+msgctxt "shortcode-vc"
+msgid "Link Icon Position"
+msgstr ""
+
+#: inc/vcMapping/section.php:151 inc/vcMapping/section.php:216
+msgctxt "shortcode-vc"
+msgid "The position of the icon relative to the link label"
+msgstr ""
+
+#: inc/vcMapping/section.php:156 inc/vcMapping/section.php:221
+#, fuzzy
+msgctxt "shortcode-vc"
+msgid "After Label"
+msgstr "Etichetta Cta"
+
+#: inc/vcMapping/section.php:157 inc/vcMapping/section.php:222
+msgctxt "shortcode-vc"
+msgid "Before Label"
+msgstr ""
+
+#: inc/vcMapping/section.php:172
+#, fuzzy
+msgctxt "shortcode-vc"
+msgid "Link2 Label"
+msgstr "Come aprire il link"
+
+#: inc/vcMapping/section.php:185
+#, fuzzy
+msgctxt "shortcode-vc"
+msgid "Link2 Url"
+msgstr "Come aprire il link"
+
+#: inc/vcMapping/section.php:198
+#, fuzzy
+msgctxt "shortcode-vc"
+msgid "Link2 Icon"
+msgstr "Icona sito"
+
+#: inc/vcMapping/section.php:211
+msgctxt "shortcode-vc"
+msgid "Link2 Icon Position"
+msgstr ""
+
+#: inc/vcMapping/section.php:233
+msgctxt "shortcode-vc"
+msgid "Style of the links."
+msgstr ""
+
+#: inc/vcMapping/section.php:237
+#, fuzzy
+msgctxt "shortcode-vc"
+msgid "The style of the links buttons."
+msgstr "Testo per bottone invio form."
+
+#: inc/vcMapping/section.php:240
+msgctxt "shortcode-vc"
+msgid "Filled"
+msgstr ""
+
+#: inc/vcMapping/terms.php:33
+#, fuzzy
+msgctxt "shortcode-vc"
+msgid "Qibla Categories Grid"
+msgstr "Categorie"
+
+#: inc/vcMapping/terms.php:53
+msgctxt "shortcode-sc"
+msgid "How to order the terms."
+msgstr ""
+
+#: inc/vcMapping/terms.php:55
+#, fuzzy
+msgctxt "shortcode-vc"
+msgid "Name"
+msgstr "Il tuo Nome"
+
+#: inc/vcMapping/terms.php:56
+msgctxt "shortcode-vc"
+msgid "Slug"
+msgstr ""
+
+#: inc/vcMapping/terms.php:57
+msgctxt "shortcode-vc"
+msgid "Term Group"
+msgstr ""
+
+#: inc/vcMapping/terms.php:58
+msgctxt "shortcode-vc"
+msgid "Term ID"
+msgstr ""
+
+#: inc/vcMapping/terms.php:59
+#, fuzzy
+msgctxt "shortcode-vc"
+msgid "Description"
+msgstr "Descrizione archivio"
+
+#: inc/vcMapping/terms.php:65
+msgctxt "shortcode-vc"
+msgid "Terms"
+msgstr ""
+
+#: inc/vcMapping/terms.php:74
+msgctxt "shortcode-vc"
+msgid "Items Grid"
+msgstr ""
+
+#: inc/vcMapping/testimonial.php:27
+#, fuzzy
+msgctxt "shortcode-vc"
+msgid "Qibla Testimonials"
+msgstr "Testimonial"
+
+#: inc/vcMapping/testimonial.php:30
+#, fuzzy
+msgctxt "shortcode-vc"
+msgid "Testimonials"
+msgstr "Testimonial"
+
+#: inc/vcMapping/testimonial.php:38
+msgctxt "shortcode-vc"
+msgid "The title to use within the section"
+msgstr ""
+
+#: inc/vcMapping/testimonial.php:69
+msgctxt "shortcode-vc"
+msgid "Activate Slider"
+msgstr "Attiva slider"
+
+#: inc/vcMapping/testimonial.php:73
+msgctxt "shortcode-vc"
+msgid "Slide the card for the testimonials."
+msgstr "Aggiunti il valore di rating per il testimonial."
+
+#: inc/vcMapping/testimonial.php:82
+#, fuzzy
+msgctxt "shortcode-vc"
+msgid "Show Rating"
+msgstr "La tua classificazione"
+
+#: inc/vcMapping/testimonial.php:86
+#, fuzzy
+msgctxt "shortcode-vc"
+msgid "Show or not the star rating."
+msgstr "Imposta un numero per la classificazione."
+
+#: inc/vcMapping/testimonial.php:95
+#, fuzzy
+msgctxt "shortcode-vc"
+msgid "Show Avatar"
+msgstr "Avatar"
+
+#: inc/vcMapping/testimonial.php:99
+msgctxt "shortcode-vc"
+msgid "Show or not testimonial's avatar."
+msgstr ""
+
+#: inc/widgetFields/cf7Fields.php:56
+msgid "Contact Form Title"
+msgstr "Titolo form di contatto"
+
+#: inc/widgetFields/cf7Fields.php:74
+msgid "Select the Contact Form"
+msgstr "Seleziona la form di contatto"
+
+#: src/Admin/Metabox/Listings.php:66
+msgid "Listing Option"
+msgstr "Opzioni Listing"
+
+#: src/Admin/Metabox/Listings.php:99 src/Admin/Metabox/Page.php:92
+msgid "Hero Image"
+msgstr "Immagine Testata"
+
+#: src/Admin/Metabox/Listings.php:114 src/Taxonomy/Locations.php:42
+msgid "Location"
+msgstr "Location"
+
+#: src/Admin/Metabox/Listings.php:130
+msgid "Additional Info"
+msgstr "Informazioni Aggiuntive"
+
+#: src/Admin/Metabox/Listings.php:159
+msgid "Gallery"
+msgstr "Galleria"
+
+#: src/Admin/Metabox/Page.php:58
+msgid "Page Options"
+msgstr "Opzioni di pagina"
+
+#: src/Admin/Metabox/Page.php:107
+msgid "Hero Map"
+msgstr ""
+
+#: src/Admin/Metabox/Page.php:122
+msgid "Hero Slider"
+msgstr ""
+
+#: src/Admin/Metabox/Review.php:65
+msgid "Review"
+msgstr "Recensione"
+
+#: src/Admin/Metabox/Sidebar.php:67 src/Admin/Termbox/Sidebar.php:51
+#: src/Admin/Termbox/TaxonomyRelation.php:50
+msgid "Sidebar"
+msgstr "Barra laterale"
+
+#: src/Admin/Metabox/Store.php:65
+msgid "You are not allowed to store post meta."
+msgstr "Non hai il permesso per salvare i meta dati."
+
+#: src/Admin/Metabox/StoreComments.php:55
+msgid "You are not allowed to store comments meta."
+msgstr "Non hai i permessi per salvare i metadati dei commenti."
+
+#: src/Admin/Metabox/Testimonial.php:51
+msgid "Extra Info"
+msgstr "Informazioni Extra"
+
+#: src/Admin/Page/Qibla.php:48 src/Admin/Page/Qibla.php:49
+msgctxt "admin-menu"
+msgid "Qibla"
+msgstr "Qibla"
+
+#: src/Admin/Page/Settings.php:49 src/Admin/Page/Settings.php:50
+#: src/Admin/Page/Settings.php:71
+msgid "Theme Options"
+msgstr "Opzioni Tema"
+
+#: src/Admin/Page/UsefulLinks.php:43 src/Admin/Page/UsefulLinks.php:44
+#: src/Admin/Page/UsefulLinks.php:91
+msgid "Useful Links"
+msgstr ""
+
+#: src/Admin/PermalinkSettings.php:85
+msgid "Qibla Post Type &amp; Taxonomies Permalinks"
+msgstr "Impostazioni Permalinks per Tipologie Post &amp; Tassonomie"
+
+#: src/Admin/Settings/AbstractSettingsForm.php:138
+msgid "Save Options"
+msgstr "Salva Opzioni"
+
+#: src/Admin/Settings/Controller.php:309
+msgid "Options have been reset correctly."
+msgstr "Opzioni resettate correttamente."
+
+#: src/Admin/Settings/Controller.php:332
+msgid "Congratulation. Options have been imported correctly."
+msgstr "Congratulazioni. Le opzioni sono state importate correttamente."
+
+#: src/Admin/Settings/Controller.php:349
+msgid "Congratulation. Settings have been saved correctly."
+msgstr "Congratulazioni. Le impostazioni sono state salvate correttamente."
+
+#: src/Admin/Settings/Panel.php:85
+#, php-format
+msgid "Version: %s"
+msgstr "Versione: %s"
+
+#: src/Admin/Settings/Panel.php:93
+msgid "App&Map"
+msgstr ""
+
+#: src/Admin/Termbox/Icon.php:49
+msgid "Icon"
+msgstr "Icona"
+
+#: src/Admin/Termbox/Jumbotron.php:47
+msgid "Jumbotron"
+msgstr "Hero Image"
+
+#: src/Admin/Termbox/JumbotronSlider.php:50
+msgid "Slider"
+msgstr ""
+
+#: src/Admin/Termbox/Store.php:66
+#, fuzzy
+msgid "You are not allowed to store term meta."
+msgstr "Non hai il permesso per salvare i meta dati."
+
+#: src/Admin/Termbox/Thumbnail.php:51
+msgid "Thumbnail"
+msgstr "Immagine"
+
+#: src/Exceptions/InvalidPostException.php:49
+#, php-format
+msgid "%s cannot retrieve post."
+msgstr "%s non riesce a recuperare l'articolo."
+
+#: src/Exceptions/UpdatePostException.php:47
+#, php-format
+msgid "%s cannot update post. %s"
+msgstr "%s non riesce ad aggiornare l'articolo. %s"
+
+#: src/Filter/Form.php:174
+msgid "Other filters"
+msgstr "Altri filtri"
+
+#: src/Filter/Form.php:212
+msgid "Close"
+msgstr "Chiudi"
+
+#: src/Filter/Form.php:218
+msgid "Update"
+msgstr "Aggiorna"
+
+#: src/Filter/ListingsCategoriesField.php:106
+#, fuzzy
+msgid "All Categories"
+msgstr "tutte le categorie"
+
+#: src/Filter/ListingsCategoriesField.php:114
+#: src/Taxonomy/ListingCategories.php:56
+msgid "Categories"
+msgstr "Categorie"
+
+#: src/Filter/ListingsLocationsField.php:135
+#, fuzzy
+msgid "All Locations"
+msgstr "tutte le aree"
+
+#: src/Filter/ListingsLocationsField.php:143 src/Taxonomy/Locations.php:43
+msgid "Locations"
+msgstr "Locazioni"
+
+#: src/Form/Abstracts/MediaType.php:57
+msgid "Add Media"
+msgstr "Aggiungi Media"
+
+#: src/Form/Abstracts/MediaType.php:58
+msgid "Upload Media"
+msgstr "Carica Media"
+
+#: src/Form/Abstracts/MediaType.php:166
+msgid "Error Media not found."
+msgstr "Errore, media non trovato."
+
+#: src/Form/Exceptions/ExceptionUpload.php:60
+msgid "The file exceed the max size defined by the server."
+msgstr "Il file eccede la dimensione massima predefinita dal server."
+
+#: src/Form/Exceptions/ExceptionUpload.php:63
+msgid "The file exceed the size defined by the form."
+msgstr "Il file eccede le dimensioni massime definite dalla form."
+
+#: src/Form/Exceptions/ExceptionUpload.php:66
+msgid "The file was not uploaded correctly."
+msgstr "Il file non &egrave; stato caricato correttamente."
+
+#: src/Form/Exceptions/ExceptionUpload.php:69
+msgid "Missed file."
+msgstr "File mancante."
+
+#: src/Form/Exceptions/ExceptionUpload.php:72
+msgid "Temporary directory missed."
+msgstr "Directory temporanea non trovata."
+
+#: src/Form/Exceptions/ExceptionUpload.php:75
+msgid "Ops! Seems it is not possible to write the file."
+msgstr "Attenzione! Impossibile scrivere il file."
+
+#: src/Form/Exceptions/ExceptionUpload.php:78
+msgid "The file extension mismatched."
+msgstr "L'estensione del file non &egrave; permessa."
+
+#: src/Form/Exceptions/ExceptionUpload.php:81
+msgid "The resolution of the image is not correct."
+msgstr "La risoluzione dell'immagine non &egrave; corretta."
+
+#: src/Form/Exceptions/ExceptionUpload.php:84
+msgid "Unknown error message during upload."
+msgstr "Errore sconosciuto durante l'upload del file."
+
+#: src/Form/Types/File.php:63
+msgid "Drop files here to upload"
+msgstr "Sposta i files qui per caricare"
+
+#: src/Form/Types/File.php:67
+msgid "Your browser does not support drag'n'drop file uploads."
+msgstr "Il tuo browser non supporta il drag'n'drop per l'upload dei files."
+
+#: src/Form/Types/File.php:71
+msgid ""
+"Please use the fallback form below to upload your files like in the olden "
+"days."
+msgstr ""
+"Per favore usa la form seguente per caricare i tuoi files, come ai vecchi "
+"tempi."
+
+#: src/Form/Types/File.php:75
+msgid "File is too big ({{filesize}}MiB). Max filesize: {{maxFilesize}}MiB."
+msgstr "File troppo grande ({{filesize}}MiB). Massimo: {{maxFilesize}}MiB."
+
+#: src/Form/Types/File.php:79
+msgid "You can not upload files of this type."
+msgstr "Non puoi caricare files di questo tipo."
+
+#: src/Form/Types/File.php:83
+msgid "Server responded with {{statusCode}} code."
+msgstr "Il server ha risposto con un codice {{statusCode}}."
+
+#: src/Form/Types/File.php:87
+msgid "Cancel upload"
+msgstr "Upload cancellato"
+
+#: src/Form/Types/File.php:91
+msgid "Are you sure you want to cancel this upload?"
+msgstr "Sei sicuro di voler cancellare questo upload?"
+
+#: src/Form/Types/File.php:95
+msgid "Remove file"
+msgstr "Rimuovi File"
+
+#: src/Form/Types/File.php:99
+msgid "You can not upload any more files."
+msgstr "Non puoi caricare altri files."
+
+#: src/Form/Types/File.php:196
+msgid "Choose File"
+msgstr "Seleziona un file"
+
+#: src/Form/Types/IconList.php:127
+msgid "None"
+msgstr "Nessuno"
+
+#: src/Form/Types/MediaImage.php:51
+msgid "Add Image"
+msgstr "Aggiungi immagine"
+
+#: src/Form/Types/MediaImage.php:52
+msgid "Upload Image"
+msgstr "Carica immagine"
+
+#: src/Form/Types/Select.php:188
+msgid "Select an option"
+msgstr "Seleziona un opzione"
+
+#: src/Form/Types/Submit.php:48
+msgid "Submit"
+msgstr "Invia"
+
+#: src/Front/ContactForm/DirectorRequestFormContactForm.php:71
+msgid "Ops! Some content is not valid. Please check it."
+msgstr ""
+"Attenzione! Qualche contenuto non &egrave; valido. Per favore controlla."
+
+#: src/Front/ContactForm/Modal/RequestModalContactFormController.php:52
+msgid "Contact the owner"
+msgstr "Contatta il titolare"
+
+#: src/Front/ContactForm/Modal/RequestModalContactFormController.php:53
+msgid "We'll reply you as soon as possible"
+msgstr "Ti risponderemo prima possibile"
+
+#: src/Front/ContactForm/RequestFormContactFormController.php:80
+msgid "Thank you the email has been send successfully."
+msgstr "Grazie, la tua email &egrave; stata inviata con successo."
+
+#: src/Front/ContactForm/RequestFormContactFormController.php:83
+msgid "Ops! An error occurred. Try in a few minutes."
+msgstr ""
+"Attenzione! Si &egrave; verificato un errore. Riprova tra qualche minuto."
+
+#: src/Front/CustomFields/Jumbotron.php:280
+msgid "See gallery"
+msgstr "Visualizza Gallery"
+
+#: src/Front/CustomFields/ListingsLocation.php:108
+msgid "Business Phone"
+msgstr "Telefono"
+
+#: src/Front/CustomFields/ListingsLocation.php:120
+msgid "Site Url"
+msgstr "Indirizzo Sito"
+
+#: src/Front/Walker/NavMainWalker.php:239
+#, php-format
+msgid "Hello, %s"
+msgstr "Ciao, %s"
+
+#: src/Front/Walker/NavMainWalker.php:328
+msgid "Sign out"
+msgstr "Esci"
+
+#: src/Functions/Archive.php:51
+msgid "results"
+msgstr "risultati"
+
+#: src/Functions/Archive.php:77
+msgctxt "found-posts-separator"
+msgid "of"
+msgstr "di"
+
+#: src/Functions/Post.php:298
+msgid "Continue Reading"
+msgstr "Continua a leggere"
+
+#: src/Functions/Term.php:250 src/Functions/Term.php:373
+#: src/Functions/Term.php:393 src/Template/AmenitiesTemplate.php:138
+msgid "Other"
+msgstr "Altro"
+
+#: src/Init.php:83 src/Init.php:95 src/Loader.php:129 src/Loader.php:141
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: src/LoginRegister/Login/DirectorRequestFormLogin.php:50
+msgid "Incorrect user or password."
+msgstr "Utente o password incorretta."
+
+#: src/LoginRegister/Login/LoginFormController.php:76
+msgid "Invalid User. Please try again."
+msgstr "Utente invalido. Riprova."
+
+#: src/LoginRegister/Login/RequestFormLogin.php:74
+msgid ""
+"Ops! Something went wrong during login. Please check the username and "
+"password"
+msgstr ""
+"Attenzione! Qualcosa &egrave; andato storto durante il login. Per favore "
+"controlla utente e password"
+
+#: src/LoginRegister/Login/RequestFormLoginAjax.php:89
+msgid "Ops! Something went wrong during login. Please try in a few minutes."
+msgstr ""
+"Attenzione! Qualcosa &egrave; andato storto durante il login. Prova tra "
+"qualche minuto."
+
+#: src/LoginRegister/LostPassword/DirectorRequestFormLostPassword.php:50
+#: src/LoginRegister/Register/DirectorRequestFormRegister.php:83
+msgid "Incorrect username or email."
+msgstr "Nome utente o email non valida."
+
+#: src/LoginRegister/LostPassword/LostPasswordEmailer.php:73
+#, php-format
+msgid "[%s] Password Reset"
+msgstr "[%s] Resetta la password"
+
+#: src/LoginRegister/LostPassword/LostPasswordEmailer.php:95
+msgid "Someone has requested a password reset for the following account:"
+msgstr "Qualcuno ha richiesto un reset della password per il seguente account:"
+
+#: src/LoginRegister/LostPassword/LostPasswordEmailer.php:98
+#, php-format
+msgid "Username: %s"
+msgstr "Nome utente: %s"
+
+#: src/LoginRegister/LostPassword/LostPasswordEmailer.php:100
+msgid "If this was a mistake, just ignore this email and nothing will happen."
+msgstr "Se c'&egrave; stato un errore, semplicemente ignora la email."
+
+#: src/LoginRegister/LostPassword/LostPasswordEmailer.php:103
+msgid "To reset your password, visit the following address:"
+msgstr "Per resettare la password, visita la seguente pagina:"
+
+#: src/LoginRegister/LostPassword/LostPasswordEmailer.php:118
+msgid "The new password has been sent to your email."
+msgstr "La nuova password &egrave; stati inviata alla tua email."
+
+#: src/LoginRegister/LostPassword/RequestFormLostPassword.php:73
+msgid ""
+"Ops! Something went wrong during password reset. Please contact our support "
+"or try in a few minutes."
+msgstr ""
+"Attenzione! Qualcosa &egrave; andato storto durante il reset della password. "
+"Per favore contatta il nostro supporto o prova tra qualche minuto."
+
+#: src/LoginRegister/LostPassword/RequestFormLostPasswordAjax.php:88
+msgid ""
+"Ops! Something went wrong during password reset. Please try in a few minutes."
+msgstr ""
+"Attenzione! Qualcosa &egrave; andato storto durante il reset della password. "
+"Per favore prova tra qualche minuto."
+
+#: src/LoginRegister/Register/RegisterFormController.php:124
+#, php-format
+msgid "User with name %s already exists. Please choose another one."
+msgstr "Nome utente %s esiste gi&agrave;. Scrivine un'altro."
+
+#: src/LoginRegister/Register/RegisterFormController.php:132
+msgid "You all ready have an account with this email. Try to login."
+msgstr ""
+"Hai gi&agrave; un account con questa email. Prova ad effettuare il login."
+
+#: src/LoginRegister/Register/RegisterFormFacade.php:96
+msgid "Sign Up"
+msgstr "Registrati"
+
+#: src/LoginRegister/Register/RequestFormRegister.php:84
+msgid ""
+"Ops! Something went wrong. We cannot log In right know. Please try in a few "
+"minutes."
+msgstr ""
+"Attenzione! Qualcosa &egrave; andato storto. Impossibile effettuare il "
+"login. Prova tra qualche minuto."
+
+#: src/LoginRegister/Register/RequestFormRegisterAjax.php:99
+#, fuzzy
+msgid ""
+"Ops! Something went wrong. Please try in a few minutes or contact our "
+"support."
+msgstr ""
+"Attenzione! Qualcosa &egrave; andato storto durante il login. Prova tra "
+"qualche minuto."
+
+#: src/Notice/NoticeUpdateMetaListings.php:69
+#, fuzzy
+msgid "Qibla Update"
+msgstr "Aggiorna"
+
+#: src/Notice/NoticeUpdateMetaListings.php:74
+msgid ""
+"Qibla need to update the listings meta data in order to make the site work "
+"properly."
+msgstr ""
+
+#: src/Notice/NoticeUpdateMetaListings.php:80
+msgid ""
+"Since we introduced the Geolocation feature, qibla need to access to "
+"address, latitude and longitude data in a different manner. This is why we "
+"need to update the current information stored into the db. <br><br> Old data "
+"will not be deleted to ensure data re-storing. By the way with the new "
+"update all new listings will save the address information only in the new "
+"format."
+msgstr ""
+
+#: src/Notice/NoticeUpdateMetaListings.php:87
+#, fuzzy, php-format
+msgid "You have %s listings stored."
+msgstr "Hai %s listings salvati."
+
+#: src/Notice/NoticeUpdateMetaListings.php:92
+#, php-format
+msgid "And %s need a manual update."
+msgstr ""
+
+#: src/Notice/NoticeUpdateMetaListings.php:97
+msgid "This may take a while. Please, be patient."
+msgstr ""
+
+#: src/Notice/NoticeUpdateMetaListings.php:104
+msgid ""
+"For some reason one or more listings locations cannot be updated correctly "
+"and need manual action by you."
+msgstr ""
+
+#: src/Notice/NoticeUpdateMetaListings.php:111
+msgid "To prevent to show a lots of content here the first 10."
+msgstr ""
+
+#: src/PostType/AbstractPostType.php:99
+#, php-format
+msgid "Add %s"
+msgstr "Aggiungi %s"
+
+#: src/PostType/AbstractPostType.php:100 src/PostType/AbstractPostType.php:102
+#: src/Taxonomy/AbstractTaxonomy.php:128
+#, php-format
+msgid "New %s"
+msgstr "Nuovo %s"
+
+#: src/PostType/AbstractPostType.php:101 src/Taxonomy/AbstractTaxonomy.php:124
+#, php-format
+msgid "Edit %s"
+msgstr "Modifica %s"
+
+#: src/PostType/AbstractPostType.php:103 src/Taxonomy/AbstractTaxonomy.php:125
+#, php-format
+msgid "View %s"
+msgstr "Visualizza %s"
+
+#: src/PostType/AbstractPostType.php:104 src/Taxonomy/AbstractTaxonomy.php:131
+#, php-format
+msgid "Search %s"
+msgstr "Cerca %s"
+
+#: src/PostType/AbstractPostType.php:105
+#, php-format
+msgid "%s not found"
+msgstr "%s non trovato"
+
+#: src/PostType/AbstractPostType.php:106
+#, php-format
+msgid "%s not found in trash"
+msgstr "%s non trovato nel cestino"
+
+#: src/PostType/AbstractPostType.php:107 src/Taxonomy/AbstractTaxonomy.php:129
+#, php-format
+msgid "Parent %s"
+msgstr "Genitore %s"
+
+#: src/PostType/AbstractPostType.php:108 src/Search/Field/Taxonomy.php:87
+#: src/Taxonomy/AbstractTaxonomy.php:123
+#, php-format
+msgid "All %s"
+msgstr "Tutti %s"
+
+#: src/PostType/AbstractPostType.php:109
+#, php-format
+msgid "%s Archives"
+msgstr "%s Archivi"
+
+#: src/PostType/AbstractPostType.php:110
+#, php-format
+msgid "Insert into %s"
+msgstr "Inerisci in %s"
+
+#: src/PostType/AbstractPostType.php:111
+#, php-format
+msgid "Uploaded to this %s"
+msgstr "Carica allegando a %s"
+
+#: src/PostType/Listings.php:51
+msgid "Listing"
+msgstr ""
+
+#: src/PostType/Listings.php:86
+msgctxt "admin-table-list"
+msgid "Location"
+msgstr "Locazioni"
+
+#: src/PostType/Listings.php:89
+msgctxt "admin-table-list"
+msgid "Category"
+msgstr "Categorie"
+
+#: src/PostType/Listings.php:94
+msgctxt "admin-table-list"
+msgid "Featured"
+msgstr "In Evidenza"
+
+#: src/PostType/Listings.php:99
+msgctxt "admin-table-list"
+msgid "Author"
+msgstr "Autore"
+
+#: src/PostType/Listings.php:103
+msgctxt "admin-table-list"
+msgid "Reviews"
+msgstr "Recensioni"
+
+#: src/PostType/Testimonial.php:49
+msgid "testimonial"
+msgstr "testimonial"
+
+#: src/PostType/Testimonial.php:50
+msgid "Testimonials"
+msgstr "Testimonial"
+
+#: src/PostType/Testimonial.php:81
+msgid "Avatar"
+msgstr "Avatar"
+
+#: src/Request/Nonce.php:142
+msgid "You are not allowed to submit this data."
+msgstr "Non hai i permessi per inviare questi dati."
+
+#: src/Review/Rating.php:176 src/Reviewer/ReviewerData.php:160
+msgid "Unknown"
+msgstr "Sconosciuto"
+
+#: src/Review/Rating.php:192
+msgid "Very Poor"
+msgstr "Scarso"
+
+#: src/Review/Rating.php:193
+msgid "Not Bad"
+msgstr "Non male"
+
+#: src/Review/Rating.php:194
+msgid "Average"
+msgstr "Mediocre"
+
+#: src/Review/Rating.php:195
+msgid "Good"
+msgstr "Buono"
+
+#: src/Review/Rating.php:196
+msgid "Perfect"
+msgstr "Perfetto"
+
+#: src/Review/RatingField.php:52
+msgid "Your Rating"
+msgstr "La tua classificazione"
+
+#: src/Review/ReviewForm.php:121
+msgid "Write a Review"
+msgstr "Scrivi una recensione"
+
+#: src/Review/ReviewForm.php:122
+msgid "Submit review"
+msgstr "Invia recensione"
+
+#: src/Review/ReviewForm.php:124
+msgid "Your Review"
+msgstr "La tua recensione"
+
+#: src/Review/ReviewList.php:69
+#, php-format
+msgid "One review to %2$s"
+msgid_plural "%1$s reviews to %2$s"
+msgstr[0] "Una recesione per %2$s"
+msgstr[1] "%1$s recensioni di %2$s"
+
+#: src/Review/ReviewList.php:77
+#, php-format
+msgid "One review"
+msgid_plural "%1$s reviews"
+msgstr[0] "Una recensione"
+msgstr[1] "%1$s recensioni"
+
+#: src/Review/ReviewTitleField.php:53
+msgid "Title's review"
+msgstr "Titolo recesione"
+
+#: src/Review/ReviewWalker.php:113
+msgid "Reply"
+msgstr "Rispondi"
+
+#: src/Reviewer/ReviewerData.php:187
+#, php-format
+msgid "1 review"
+msgid_plural "%1$s reviews"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/Search/SearchResultTitle.php:87
+#, php-format
+msgid "Search Results for &#8220;%s&#8221;"
+msgstr "Risultati della ricerca per &#8220;%s&#8221;"
+
+#: src/Shortcode/TermsLocationsFake.php:59
+#, fuzzy
+msgctxt "shortcode-vc"
+msgid "Qibla Locations Grid"
+msgstr "Locazioni"
+
+#: src/Shortcode/TermsLocationsFake.php:62
+#, fuzzy
+msgctxt "shortcode-vc"
+msgid "Locations Grid"
+msgstr "Locazioni"
+
+#: src/Task/Request/RequestTask.php:105
+#, php-format
+msgid "Invalid request for task %1$s. %2$s"
+msgstr ""
+
+#: src/Task/TaskRefactorListingsMetaLocation.php:278
+msgid ""
+"Task Completed: Unfortunately some posts has not processed correctly. See "
+"list below. You should edit them manually."
+msgstr ""
+
+#: src/Task/TaskRefactorListingsMetaLocation.php:280
+msgid "Task Completed: Everything ok."
+msgstr ""
+
+#: src/Taxonomy/AbstractTaxonomy.php:126
+#, php-format
+msgid "Update %s"
+msgstr "Aggiorna %s"
+
+#: src/Taxonomy/AbstractTaxonomy.php:127
+#, php-format
+msgid "Add New %s"
+msgstr "Aggiungi nuovo %s"
+
+#: src/Taxonomy/AbstractTaxonomy.php:130
+#, php-format
+msgid "Parent %s:"
+msgstr "Genitore %s:"
+
+#: src/Taxonomy/AbstractTaxonomy.php:132
+#, php-format
+msgid "Popular %s"
+msgstr "Popolare %s"
+
+#: src/Taxonomy/AbstractTaxonomy.php:134
+#, php-format
+msgid "Separate %s with comma"
+msgstr "Separa %s con virgola"
+
+#: src/Taxonomy/AbstractTaxonomy.php:137
+#, php-format
+msgid "Add or remove %s"
+msgstr "Aggiungi o rimuovi %s"
+
+#: src/Taxonomy/AbstractTaxonomy.php:139
+#, php-format
+msgid "Choose from most used %s"
+msgstr "Seleziona tra i pi&ugrave; usati %s"
+
+#: src/Taxonomy/AbstractTaxonomy.php:142
+#, php-format
+msgid "No %s found."
+msgstr "Nessun %s trovato."
+
+#: src/Taxonomy/Amenities.php:51
+msgid "Amenity"
+msgstr "Amenity"
+
+#: src/Taxonomy/Amenities.php:52 src/Template/AmenitiesTemplate.php:202
+msgid "Amenities"
+msgstr "Amenities"
+
+#: src/Taxonomy/Amenities.php:79
+msgid "Name"
+msgstr ""
+
+#: src/Taxonomy/Amenities.php:80
+msgid "Description"
+msgstr ""
+
+#: src/Taxonomy/Amenities.php:81
+msgid "Slug"
+msgstr ""
+
+#: src/Taxonomy/Amenities.php:84
+msgctxt "admin-table-list"
+msgid "Group"
+msgstr "Gruppo"
+
+#: src/Taxonomy/Amenities.php:88
+msgctxt "admin-table-list"
+msgid "Relations"
+msgstr "Relazioni"
+
+#: src/Taxonomy/Amenities.php:90
+msgid "Posts"
+msgstr ""
+
+#: src/Taxonomy/ListingCategories.php:55
+msgid "Category"
+msgstr "Categoria"
+
+#: src/Taxonomy/ListingsAddress.php:66
+#, fuzzy
+msgid "Addresses"
+msgstr "Indirizzo"
+
+#: src/Template/OpeningHours.php:110
+msgid "No opening hours created."
+msgstr "Nessun orario di apertura creato."
+
+#: src/Template/ShareAndWish.php:77
+msgid "Save"
+msgstr ""
+
+#: src/Template/ShareAndWish.php:79
+msgid "Share"
+msgstr ""
+
+#: src/Update/UpdateManageListingsUserCapability.php:127
+#, fuzzy
+msgid "Listings Author"
+msgstr "Listings"
+
+#: src/User/User.php:116
+msgid ""
+"We sent you an email to your address with a link to confirm your account."
+msgstr ""
+
+#: src/User/User.php:124
+msgid ""
+"Sorry something went wrong, please try again later or contact the "
+"administrator."
+msgstr ""
+
+#: src/User/User.php:150
+msgid "Your password has been reset."
+msgstr ""
+
+#: src/User/User.php:152
+msgid "Login."
+msgstr ""
+
+#: src/User/User.php:234
+msgid "Invalid username or password."
+msgstr "Nome utente o password non valida."
+
+#: src/User/User.php:239
+msgid "User logged in successfully."
+msgstr "Utente loggato correttamente."
+
+#: src/Widget/ContactForm7.php:88
+msgid "Dl Contact Form 7"
+msgstr ""
+
+#: src/Wishlist/Request/RequestCrudController.php:64
+msgid "Item allready exists."
+msgstr ""
+
+#: src/Wishlist/Request/RequestCrudController.php:70
+#, fuzzy
+msgid "Wishlist Updated."
+msgstr "Aggiorna"
+
+#: src/Wishlist/Request/RequestCrudController.php:77
+#, fuzzy
+msgid "Wishlist emptied correctly."
+msgstr "Il file non &egrave; stato caricato correttamente."
+
+#: src/Wishlist/Request/RequestCrudController.php:83
+msgid "Item removed from wishlist."
+msgstr "Elemento rimosso dai preferiti"
+
+#: src/Wishlist/Request/RequestCrudController.php:88
+#, fuzzy
+msgid "Unknown action."
+msgstr "Sconosciuto"
+
+#: src/Wishlist/Request/RequestCrudController.php:96
+msgid "Unknow error occured during processing wishlist action"
+msgstr ""
+
+#: src/Wishlist/Template.php:88
+msgid "Add to Wishlist"
+msgstr "Aggiungi ai preferiti"
+
+#: src/Woocommerce/MyAccountNavigation.php:125
+msgctxt "my-account"
+msgid "My Profile"
+msgstr "Il mio profilo"
+
+#: src/Woocommerce/MyAccountNavigation.php:126
+msgctxt "my-account"
+msgid "Edit Profile"
+msgstr "Modifica profilo"
+
+#: src/Woocommerce/MyAccountNavigation.php:127
+#: src/Woocommerce/WishlistEndPoint.php:123
+msgctxt "my-account"
+msgid "My Favorites"
+msgstr "I miei preferiti"
+
+#: src/Woocommerce/MyAccountNavigation.php:128
+msgctxt "my-account"
+msgid "Orders"
+msgstr "Ordini"
+
+#: src/Woocommerce/MyAccountNavigation.php:129
+msgctxt "my-account"
+msgid "Billing Info"
+msgstr "Info di fatturazione"
+
+#: src/Woocommerce/MyAccountNavigation.php:130
+msgctxt "my-account"
+msgid "Log out"
+msgstr "Esci"
+
+#: src/Woocommerce/MyAccountNavigation.php:136
+msgctxt "my-account"
+msgid "My Listings"
+msgstr "I miei annunci"
+
+#: src/Woocommerce/WishlistEndPoint.php:69
+msgctxt "endpoint"
+msgid "My Favorites"
+msgstr "I miei preferiti"
+
+#: src/Woocommerce/WishlistEndPoint.php:125
+msgctxt "my-account"
+msgid "Endpoint for the page \"my account &rarr; my favorites\""
+msgstr "Endpoint per la pagina “mio account &rarr; i miei preferiti”"
+
+#: views/customFields/button.php:40 views/shortcodes/listings.php:112
+msgid "Placeholder text"
+msgstr ""
+
+#: views/customFields/listings/openingHours.php:36
+msgid "We're currently open."
+msgstr "Al momento siamo aperti."
+
+#: views/customFields/listings/openingHours.php:37
+msgid "We're currently closed."
+msgstr "Al momento siamo chiusi."
+
+#: views/customFields/listings/openingHours.php:38
+#, php-format
+msgid "We're open again on %2$s (%1$s) from %3$s to %4$s"
+msgstr "Siamo di nuovo aperti da %2$s (%1$s) a %3$s to %4$s"
+
+#: views/customFields/listings/openingHours.php:39
+#, php-format
+msgid "Opening Hours today: %1$s"
+msgstr "Orario di apertura oggi: %1$s"
+
+#: views/noContentListings.php:29
+msgid "Sorry, no posts matched your criteria."
+msgstr "Scusa, nessun elemento trovato"
+
+#: views/noContentListings.php:34
+msgid "Restart the search"
+msgstr "Reimposta la ricerca"
+
+#: views/review/comment.php:68
+msgid "Your Review is awaiting moderation."
+msgstr "La tua recensione &egrave; in attesa di moderazione."
+
+#: views/shortcodes/testimonial.php:55 views/shortcodes/testimonial.php:74
+#, php-format
+msgid "out of %1$s5%2$s"
+msgstr "%1$s di 5 %2$s"
+
+#: views/socialsLinks.php:30
+msgid "Follow Us On:"
+msgstr "Seguici su:"
+
+#: views/task/taskRefactorListingsMetaLocationTrigger.php:31
+msgid "Update Locations Data"
+msgstr "Base per tassonomia Locations"
+
+#: views/togglers.php:3
+msgid "Filters"
+msgstr "Filtri"
+
+#: views/togglers.php:10
+msgid "Map"
+msgstr "Mappa"
+
+#: views/togglers.php:17
+msgctxt "filter-toggler"
+msgid "Listings"
+msgstr ""
+
+#: views/usefulLinks/adminUsefulLinks.php:16
+msgid "Documentation"
+msgstr ""
+
+#: views/usefulLinks/adminUsefulLinks.php:19
+msgid "Read"
+msgstr ""
+
+#: views/usefulLinks/adminUsefulLinks.php:28
+msgid ""
+"Read the documentation before asking us anything! Most of the times the "
+"answer is already there."
+msgstr ""
+
+#: views/usefulLinks/adminUsefulLinks.php:36
+msgid "Shop Themes and Plugins"
+msgstr ""
+
+#: views/usefulLinks/adminUsefulLinks.php:39
+msgid "Shop"
+msgstr ""
+
+#: views/usefulLinks/adminUsefulLinks.php:48
+msgid "Like what you see? Start shopping into our digital store."
+msgstr ""
+
+#: views/usefulLinks/adminUsefulLinks.php:57
+msgid "Need a customization?"
+msgstr ""
+
+#: views/usefulLinks/adminUsefulLinks.php:61
+msgid "Contact"
+msgstr ""
+
+#: views/usefulLinks/adminUsefulLinks.php:70
+msgid ""
+"Do you need help for installing the theme or building a new feature? Please "
+"ask us, we can help you."
+msgstr ""
+
+#: views/usefulLinks/adminUsefulLinks.php:78
+msgid "Qibla2app"
+msgstr ""
+
+#: views/usefulLinks/adminUsefulLinks.php:81
+msgid "More"
+msgstr ""
+
+#: views/usefulLinks/adminUsefulLinks.php:90
+msgid ""
+"Do you know that we are the only WordPress vendor that allows you to build a "
+"native app?"
+msgstr ""
+
+#: views/wishlist/empty.php:33
+msgid "You haven't any favorite right now."
+msgstr "Non hai alcun elemento tra i preferiti per ora."
+
+#: views/wishlist/empty.php:38
+msgid ""
+"When navigate the site, save the items you wish so, you'll find them here."
+msgstr "Quando navighi il sito, salva gli elementi così da trovarli qui."
+
+#: views/woocommerce/form-login.php:61
+msgid "Social Sign In"
+msgstr "Social login"
+
+#~ msgid "Cancel"
+#~ msgstr "Cancella"
+
+#~ msgid "User created Successfully."
+#~ msgstr "Utente creato correttamente."
+
+#~ msgctxt "endpoint"
+#~ msgid "%s"
+#~ msgstr "%s"
+
+#~ msgctxt "settings"
+#~ msgid "Select the position of the sidebar for all single listings."
+#~ msgstr ""
+#~ "Seleziona la posizione della barra laterale per la pagina degli articoli."
+
+#~ msgctxt "endpoint"
+#~ msgid "My Favorite"
+#~ msgstr "I miei preferiti"
+
+#~ msgid "Type"
+#~ msgstr "Tipo"
+
+#, fuzzy
+#~| msgid "Categories"
+#~ msgctxt "autocomplete"
+#~ msgid "Categories"
+#~ msgstr "Categorie"
+
+#, fuzzy
+#~| msgid "Amenities"
+#~ msgctxt "autocomplete"
+#~ msgid "Amentities"
+#~ msgstr "Amenities"
+
+#~ msgid "Format"
+#~ msgstr "Formato"
+
+#~ msgid "Formats"
+#~ msgstr "Formati"
+
+#~ msgctxt "default-options"
+#~ msgid "Start typing for listing, locations or categories"
+#~ msgstr "Cerca per listing, location o categorie"
+
+#~ msgctxt "settings"
+#~ msgid "Add your google analytics code here."
+#~ msgstr "Aggiungi il codice di google analytics qui."
+
+#, fuzzy
+#~| msgid "Main Navigation"
+#~ msgctxt "shortcode-vc"
+#~ msgid "Navigation Type"
+#~ msgstr "Navigazione Principale"
+
+#, fuzzy
+#~| msgid "Select the position of the sidebar."
+#~ msgctxt "shortcode-vc"
+#~ msgid "Select the type of the navigation to show underneath the search."
+#~ msgstr "Seleziona la posizione della barra laterale."
+
+#, fuzzy
+#~| msgid "Main Navigation"
+#~ msgctxt "shortcode-vc"
+#~ msgid "Navigation Menu"
+#~ msgstr "Navigazione Principale"
+
+#, fuzzy
+#~| msgid "Main Navigation"
+#~ msgctxt "shortcode-nav"
+#~ msgid "Navigation Menu"
+#~ msgstr "Navigazione Principale"
+
+#~ msgid "Search Navigation"
+#~ msgstr "Navigazione di Ricerca"
+
+#~ msgid "Search for a place."
+#~ msgstr "Cerca una location."
+
+#~ msgid "New User? %s"
+#~ msgstr "Nuovo Utente? %s"
+
+#~ msgid "Create an account"
+#~ msgstr "Crea un account"
+
+#~ msgid "Forgot your password? %s"
+#~ msgstr "Dimenticato la password? %s"
+
+#~ msgid "Get it back!"
+#~ msgstr "Riprendila!"
+
+#~ msgid "Discovery all activities"
+#~ msgstr "Scopri tutte le attività"
+
+#~ msgid "You are not allowed to store post meta"
+#~ msgstr "Non hai il permesso per salvare i meta dati"
+
+#~ msgid "Password will be emailed to you."
+#~ msgstr "La password ti verr&agrave; inviata via email."
+
+#~ msgid "Site Link"
+#~ msgstr "Link al sito"
+
+#~ msgid "Add the link of the partner site."
+#~ msgstr "Aggiunti il link del sito partner."
+
+#~ msgid ""
+#~ "If you want to open the link in the current browser tab or within a new "
+#~ "one."
+#~ msgstr ""
+#~ "Se vuoi aprire il link nella schermata del browser corrente o in una "
+#~ "nuova finestra."
+
+#~ msgid "On same browser tab."
+#~ msgstr "Nella stessa scheda del browser."
+
+#~ msgid "On new tab."
+#~ msgstr "In una nuova scheda."
+
+#~ msgctxt "settings"
+#~ msgid "Sticky Navigation"
+#~ msgstr "Navigazione Fissa"
+
+#~ msgid "Password has been reset."
+#~ msgstr "Password resettata correttamente."
+
+#~ msgid "%1$s"
+#~ msgstr "%1$s"
+
+#~ msgctxt "admin-menu"
+#~ msgid "Theme Options"
+#~ msgstr "Opzioni Tema"
+
+#~ msgid ""
+#~ "Only letters, numbers, spaces, scores, underscores, comma and colons. Min "
+#~ "5 max 10 letters."
+#~ msgstr ""
+#~ "Solo lettere, numeri, spazi, trattini, trattini bassi, punti e virgole."

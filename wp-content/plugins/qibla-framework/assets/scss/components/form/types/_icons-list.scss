@@ -1,0 +1,102 @@
+//
+// Form Type Icons List
+//
+.dltype-current-icons-grid {
+  background:    $color-white;
+  border-bottom: 4px solid $color-white;
+  border-top:    4px solid $color-white;
+  box-shadow:    0 0 1px darken($color-gray, 15%);
+  display:       block;
+  //flex-direction:  row;
+  //flex-wrap:       wrap;
+  height:        280px;
+  //justify-content: space-between;
+  margin-top:    0;
+  overflow:      scroll;
+  padding:       0 4px;
+  position:      relative;
+  width:         100%;
+  z-index:       1000;
+
+  &__item {
+    border:     1px solid $color-border;
+    cursor:     pointer;
+    display:    block;
+    float:      left;
+    margin:     1px;
+    padding:    .31em; // 5px
+    text-align: center;
+    width:      31px;
+
+    i {
+      transition: all .2s ease-in-out;
+    }
+
+    &:hover {
+      background:   $color-primary;
+      border-color: $color-primary--dark;
+      color:        $color-white;
+      i {
+        transform: scale(1.5);
+      }
+    }
+  }
+}
+
+.dltype-icon-list-current {
+  background-color: $color-white;
+  border:           1px solid $color-gray;
+  cursor:           pointer;
+  display:          inline;
+  // Override the default font size of the vendor.
+  // scss-lint:disable ImportantRule
+  font-size:        1.3rem !important;
+  height:           19px;
+  margin-left:      .33em;
+  margin-top:       .1rem;
+  padding:          .1rem 1.1em .1rem .2em;
+  position:         relative;
+  width:            15px;
+
+  &:hover::after {
+    color: $color-gray;
+  }
+
+  span {
+    align-items: center;
+    border-left: 1px solid $color-border;
+    bottom:      0;
+    color:       $color-gray;
+    display:     flex;
+    font-size:   .7rem;
+    padding:     0 .31em 3px;
+    position:    absolute;
+    right:       0;
+    top:         0;
+  }
+}
+
+.dltype-icon-list-current,
+.dltype-icon-list-current::after {
+  vertical-align: middle;
+}
+
+//
+// Table categories
+//
+.dl-is-listings-type-table-list[class*="edit-tags-"] .dltype-current-icons-grid {
+  max-width: 560px
+}
+
+.dl-is-listings-type-table-list[class*="term-"] .dltype-current-icons-grid {
+  max-width: 535px;
+}
+
+//
+// MEDIA QUERIES
+//
+@media only screen and (max-width: 768px) {
+  .dltype-icon-list-current {
+    margin-left: 0;
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Base Events",
+  "slug": "events",
+  "posts": [
+    {
+      "name": "this-is-qibla",
+      "option": "page_on_front",
+      "postType": "page"
+    }
+  ],
+  "importers": [
+    "demo"
+  ],
+  "actions": [
+    {
+      "label": "Import",
+      "queryArgs": {
+        "import": "events"
+      }
+    }
+  ]
+}

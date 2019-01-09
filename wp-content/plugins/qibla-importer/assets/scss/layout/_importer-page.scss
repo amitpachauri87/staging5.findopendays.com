@@ -1,0 +1,30 @@
+//
+// Layout Importer Page
+//
+
+.toplevel_page_qb-importer,
+.qibla_page_qb-importer {
+  // Page Description
+  .dlimppage-description {
+    background-color: #fff;
+    border-radius:    6px;
+    margin-bottom:    2.8em;
+    padding:          2em 2em 2.6em;
+
+    &::before {
+      background: url(../img/logo-theme.png) no-repeat center center;
+      content:    '';
+      display:    block;
+      height:     82px;
+      width:      244px;
+      margin:     0 auto 2.8em;
+    }
+
+    p {
+      font-size:  1.25rem;
+      max-width:  65%;
+      margin:     0 auto;
+      text-align: center;
+    }
+  }
+}

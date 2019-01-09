@@ -1,0 +1,873 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Qibla Listings\n"
+"POT-Creation-Date: 2018-07-26 15:53+0200\n"
+"PO-Revision-Date: 2018-07-26 15:54+0200\n"
+"Last-Translator: Alfio <alfio.piccione@gmail.com>\n"
+"Language-Team: Appandmap\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c;_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_ex:1,2c;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: vendor\n"
+"X-Poedit-SearchPathExcluded-1: tests\n"
+"X-Poedit-SearchPathExcluded-2: node_modules\n"
+
+#: inc/filtersAdmin.php:69
+msgid "Qibla Listings Warnings"
+msgstr ""
+
+#: inc/listingFormFields/additionalInfoFields.php:72
+msgid "Type the open hours"
+msgstr "Scrivi le ore"
+
+#: inc/listingFormFields/additionalInfoFields.php:73
+msgid "Please enter valid text. No html allowed."
+msgstr "Inserisci un testo privo di html."
+
+#: inc/listingFormFields/additionalInfoFields.php:76
+msgctxt "placeholder"
+msgid ""
+"Fri 10:00 am - 8:30pm\n"
+"Sat - Thu 10:00 am - 5:30 pm"
+msgstr ""
+"Fri 10:00 am - 8:30pm\n"
+"Sat - Thu 10:00 am - 5:30 pm"
+
+#: inc/listingFormFields/additionalInfoFields.php:89
+msgid "Your listing email"
+msgstr "La tua email"
+
+#: inc/listingFormFields/additionalInfoFields.php:90
+msgid "Please provide a valid email address."
+msgstr "Assicurati che l'indirizzo sia una email valida."
+
+#: inc/listingFormFields/additionalInfoFields.php:95
+msgctxt "placeholder"
+msgid "Es. joe.doe@gmail.com"
+msgstr ""
+
+#: inc/listingFormFields/additionalInfoFields.php:109
+msgid "Your listing phone number"
+msgstr "Il tuo numero di teleforo"
+
+#: inc/listingFormFields/additionalInfoFields.php:110
+msgid "Please enter valid phone number."
+msgstr "Inserisci un numero di telefono valido."
+
+#: inc/listingFormFields/additionalInfoFields.php:115
+msgctxt "placeholder"
+msgid "Es. 555-2033012"
+msgstr ""
+
+#: inc/listingFormFields/additionalInfoFields.php:129
+msgid "Listing website URL"
+msgstr "Indirizzo sito URL"
+
+#: inc/listingFormFields/additionalInfoFields.php:131
+msgid "Please enter a valid url address. Do not exclude http/s"
+msgstr "Inserisci un indirizzo web valido, non escludere http/s"
+
+#: inc/listingFormFields/additionalInfoFields.php:138
+msgctxt "placeholder"
+msgid "https://www.my-awesome-site.com"
+msgstr ""
+
+#: inc/listingFormFields/baseFields.php:100
+msgid "Title"
+msgstr "Titolo"
+
+#: inc/listingFormFields/baseFields.php:104
+msgctxt "placeholder"
+msgid "My awesome title"
+msgstr "Il mio fantastico titolo"
+
+#: inc/listingFormFields/baseFields.php:107
+#: inc/listingFormFields/baseFields.php:124
+#: inc/listingFormFields/contentFields.php:65
+msgid "Please only valid characters."
+msgstr "Solo caratteri validi."
+
+#: inc/listingFormFields/baseFields.php:121
+msgid "Tag line"
+msgstr ""
+
+#: inc/listingFormFields/baseFields.php:129
+msgctxt "placeholder"
+msgid "My awesome tag line."
+msgstr "La mia fantastica tag line."
+
+#: inc/listingFormFields/baseFields.php:143
+msgid "Upload the Main image"
+msgstr "Carica l'immagine principale"
+
+#: inc/listingFormFields/baseFields.php:147
+msgid "Please enter a valid image format."
+msgstr "Assicurati che il formato immagine sia valido."
+
+#: inc/listingFormFields/baseFields.php:153
+msgctxt "placeholder"
+msgid "Drop your listing main image here"
+msgstr "Trascina l'immagine principale qui"
+
+#: inc/listingFormFields/buttonFields.php:53
+msgid "Button text"
+msgstr ""
+
+#: inc/listingFormFields/buttonFields.php:55
+msgid "Please enter label for button."
+msgstr ""
+
+#: inc/listingFormFields/buttonFields.php:60
+msgctxt "placeholder"
+msgid "Get ticket at &pound;29"
+msgstr ""
+
+#: inc/listingFormFields/buttonFields.php:73
+msgid "Button url"
+msgstr ""
+
+#: inc/listingFormFields/buttonFields.php:75
+#: inc/listingFormFields/socialsFields.php:57
+#: inc/listingFormFields/socialsFields.php:78
+#: inc/listingFormFields/socialsFields.php:99
+#: inc/listingFormFields/socialsFields.php:120
+#: inc/listingFormFields/socialsFields.php:141
+msgid "Please enter valid url."
+msgstr "Inserisci un url valido."
+
+#: inc/listingFormFields/buttonFields.php:80
+msgctxt "placeholder"
+msgid "http://www.site.com"
+msgstr ""
+
+#: inc/listingFormFields/buttonFields.php:94
+msgid "Button target"
+msgstr ""
+
+#: inc/listingFormFields/buttonFields.php:95
+msgid "Make this as internal link (default: external)"
+msgstr ""
+
+#: inc/listingFormFields/contentFields.php:53
+msgid "Listing content"
+msgstr "Contenuto per il Listing"
+
+#: inc/listingFormFields/galleryFields.php:95
+msgid "Upload images for gallery"
+msgstr "Carica immagini per la galleria"
+
+#: inc/listingFormFields/galleryFields.php:100
+msgid "Please enter valid images format."
+msgstr "Assicurati che le immagini siano nel formato corretto."
+
+#: inc/listingFormFields/galleryFields.php:102
+msgid "Gallery images"
+msgstr "Galleria Immagini"
+
+#: inc/listingFormFields/locationFields.php:54
+msgid "Address"
+msgstr "Indirizzo"
+
+#: inc/listingFormFields/locationFields.php:60
+msgid "Please only valid address."
+msgstr "Assicurati di inserire un indirizzo valido."
+
+#: inc/listingFormFields/socialsFields.php:55
+msgid "Facebook"
+msgstr ""
+
+#: inc/listingFormFields/socialsFields.php:62
+msgctxt "placeholder"
+msgid "http://www.facebook.com/YourFBPage"
+msgstr ""
+
+#: inc/listingFormFields/socialsFields.php:76
+msgid "Twitter"
+msgstr ""
+
+#: inc/listingFormFields/socialsFields.php:83
+msgctxt "placeholder"
+msgid "http://www.twitter.com/YourProfile"
+msgstr ""
+
+#: inc/listingFormFields/socialsFields.php:97
+msgid "Instagram"
+msgstr ""
+
+#: inc/listingFormFields/socialsFields.php:104
+msgctxt "placeholder"
+msgid "http://www.instagram.com/YourProfile"
+msgstr ""
+
+#: inc/listingFormFields/socialsFields.php:118
+msgid "Linkedin"
+msgstr ""
+
+#: inc/listingFormFields/socialsFields.php:125
+msgctxt "placeholder"
+msgid "http://www.linkedin.com/in/YourProfile"
+msgstr ""
+
+#: inc/listingFormFields/socialsFields.php:139
+msgid "Trip Advisor"
+msgstr ""
+
+#: inc/listingFormFields/socialsFields.php:146
+msgctxt "placeholder"
+msgid "http://www.tripadvisor.com/YourProfile"
+msgstr ""
+
+#: inc/listingFormFields/taxTermsFields.php:55
+msgid "Location"
+msgstr "Luogo"
+
+#: inc/listingFormFields/taxTermsFields.php:65
+msgid "Please select a location."
+msgstr "Seleziona un luogo."
+
+#: inc/listingFormFields/taxTermsFields.php:79
+msgid "Categories"
+msgstr "Categorie"
+
+#: inc/listingFormFields/taxTermsFields.php:92
+msgid "Please select a category."
+msgstr "Seleziona una catagoria."
+
+#: inc/listingFormFields/taxTermsFields.php:106
+msgid "Amenities"
+msgstr "Servizi"
+
+#: inc/listingFormFields/taxTermsFields.php:114
+msgid "Please select at least an amenity."
+msgstr "Seleziona almeno un servizio."
+
+#: inc/metaboxFields/listingAdditionalFields.php:39
+msgid "Listing Visibility Duration"
+msgstr "Durata visibilità Listing"
+
+#: inc/metaboxFields/listingAdditionalFields.php:41
+msgid ""
+"Set after how many days from the publish, the listing will be disabled. -1 "
+"to unlimited."
+msgstr ""
+"Imposta dopo quanti giorni dalla pubblicazione il listing verrà "
+"disabilitato. -1 per illimitato."
+
+#: inc/metaboxFields/listingPackageRelated.php:49
+msgid "Package Post"
+msgstr "Pacchetto"
+
+#: inc/metaboxFields/listingPackageRelated.php:51
+msgid "Select what package must be related with this listing."
+msgstr "Seleziona il pacchetto correlato con questo listing."
+
+#: inc/metaboxFields/listingPackageRelated.php:53
+msgid "None"
+msgstr "Nessuno"
+
+#: inc/metaboxFields/listingPackageRestrictions/additionalInfoFields.php:48
+msgid "Allow featured"
+msgstr "Permetti in evidenza"
+
+#: inc/metaboxFields/listingPackageRestrictions/additionalInfoFields.php:54
+msgid "If set every listing created with this package will be set as featured."
+msgstr ""
+"Se impostato qualsiasi listing creato con questo pacchetto verrà marcato in "
+"evidenza."
+
+#: inc/metaboxFields/listingPackageRestrictions/additionalInfoFields.php:68
+msgid "Allow set open hours"
+msgstr "Permetti di settare gli orari di apertura"
+
+#: inc/metaboxFields/listingPackageRestrictions/additionalInfoFields.php:73
+msgid "To allow or not to set the open hours for listing."
+msgstr "Permettere o meno di settare gli orari di apertura."
+
+#: inc/metaboxFields/listingPackageRestrictions/additionalInfoFields.php:85
+msgid "Allow business email address"
+msgstr "Permetti indirizzo email"
+
+#: inc/metaboxFields/listingPackageRestrictions/additionalInfoFields.php:91
+msgid ""
+"To allow or not to set the web site url for listing. This will allow users "
+"to contact the owner via contact form."
+msgstr ""
+"Permettere o meno di impostare il sito web per il listing. Questo permetterà "
+"agli utenti di contattare il properietario tramite il modulo di contatto."
+
+#: inc/metaboxFields/listingPackageRestrictions/additionalInfoFields.php:105
+msgid "Allow business phone number"
+msgstr "Permetti numero di telefono"
+
+#: inc/metaboxFields/listingPackageRestrictions/additionalInfoFields.php:110
+#: inc/metaboxFields/listingPackageRestrictions/additionalInfoFields.php:127
+msgid "To allow or not to set the web site url for listing."
+msgstr "Permettere o meno di impostare la url del sito web."
+
+#: inc/metaboxFields/listingPackageRestrictions/additionalInfoFields.php:122
+msgid "Allow web site url"
+msgstr "Permetti sito web url"
+
+#: inc/metaboxFields/listingPackageRestrictions/baseFields.php:47
+msgid "Visibility Duration"
+msgstr "Durata Visibility"
+
+#: inc/metaboxFields/listingPackageRestrictions/baseFields.php:49
+msgid ""
+"Visibility is expressed in days since the listing is published. Then the "
+"post will be set as Pending. -1 means no expiration."
+msgstr ""
+"La visibilità è espressa in giorni da quando il listing viene pubblicato. "
+"Poi il post sarà settato in stato di Pending. - 1 senza scadenza."
+
+#: inc/metaboxFields/listingPackageRestrictions/baseFields.php:68
+msgid "Allow subtitle"
+msgstr "Permetti sottotitolo"
+
+#: inc/metaboxFields/listingPackageRestrictions/baseFields.php:73
+msgid "To allow or not to have a subtitle"
+msgstr "Permetter o meno di impostare un sottotitolo"
+
+#: inc/metaboxFields/listingPackageRestrictions/mediaFields.php:48
+msgid "Allow Gallery"
+msgstr "Permetti galleria"
+
+#: inc/metaboxFields/listingPackageRestrictions/mediaFields.php:53
+msgid "To allow or not to set images for gallery."
+msgstr "Permettere o meno di aggiungere una galleria."
+
+#: inc/metaboxFields/listingPackageRestrictions/mediaFields.php:63
+msgid "Max Gallery Images"
+msgstr "Numero massimo di immagini per la galleria"
+
+#: inc/metaboxFields/listingPackageRestrictions/mediaFields.php:65
+msgid ""
+"Maximum number of images that can be uploaded to use in gallery. Allow "
+"Gallery must enabled."
+msgstr "Numero massimo di immagini che possono essere caricate nella galleria."
+
+#: inc/metaboxFields/listingPackageRestrictions/socialsFields.php:48
+msgid "Allow facebook"
+msgstr "Permetti Facebook"
+
+#: inc/metaboxFields/listingPackageRestrictions/socialsFields.php:64
+msgid "Allow twitter"
+msgstr "Permetti Twitter"
+
+#: inc/metaboxFields/listingPackageRestrictions/socialsFields.php:80
+msgid "Allow instagram"
+msgstr "Permetti Instagram"
+
+#: inc/metaboxFields/listingPackageRestrictions/socialsFields.php:96
+msgid "Allow linkedin"
+msgstr "Permetti Linkedin"
+
+#: inc/metaboxFields/listingPackageRestrictions/socialsFields.php:112
+msgid "Allow tripadvisor"
+msgstr "Permetti tripadvisor"
+
+#: inc/metaboxFields/packageFields/baseFields.php:48
+#: inc/metaboxFields/packageFields/baseFields.php:86
+msgid "Set Extra information about the package"
+msgstr "Aggiungi informazioni extra riguardo al pacchetto"
+
+#: inc/metaboxFields/packageFields/baseFields.php:50
+msgid "A short description that will be showed within the price table."
+msgstr "Una breve descrizione verrà mostrata all'interno della tabella prezzo."
+
+#: inc/metaboxFields/packageFields/baseFields.php:68
+msgid "Package Highlight"
+msgstr "Pacchetto in evidenza"
+
+#: inc/metaboxFields/packageFields/baseFields.php:70
+msgid "If you want to highlight this package like a featured package."
+msgstr "Se vuoi settare il pacchetto in evidenza."
+
+#: inc/metaboxFields/packageFields/baseFields.php:88
+msgid ""
+"Set one info per line like: icon-check|Allowed for 30 days. Get icons name "
+"from https://icons8.com/line-awesome by removing the la- prefixes."
+msgstr ""
+"Imposta una info per linea, ad esempio icon-check|Allowed for 30 days. Per "
+"l'icona vedi https://icons8.com/line-awesome e rimuovi il prefisso la-."
+
+#: inc/metaboxFields/packageFields/baseFields.php:93
+msgid ""
+"icon-check|Allowed for 30 days\n"
+"icon-check|Allow Gallery"
+msgstr ""
+
+#: inc/metaboxFields/packageFields/productFields.php:45
+msgid "Free Listing"
+msgstr "Listing Gratuito"
+
+#: inc/metaboxFields/packageFields/productFields.php:67
+msgid "Related Product"
+msgstr "Prodotto Correlato"
+
+#: inc/metaboxFields/packageFields/productFields.php:72
+#, php-format
+msgid ""
+"Select what product must be related with this listing. Listing product "
+"only.\n"
+"Choose the listing product related to this package or %s."
+msgstr ""
+"Seleziona quale prodotto deve essere correlato con questo listing. Solo "
+"prodotti listing.\n"
+"Seleziona il prodotto listing correlato al pacchetto oppure %s."
+
+#: inc/metaboxFields/packageFields/productFields.php:76
+msgid "create a new one"
+msgstr "creane uno nuovo"
+
+#: inc/productTypesList.php:36
+msgid "Listing Product"
+msgstr "Prodotto Listing"
+
+#: inc/productTypesList.php:42
+msgid "Price"
+msgstr "Prezzo"
+
+#: inc/requirements.php:36
+#, php-format
+msgid ""
+"This plugin require at least php version 5.4 yours is %s. Continue at your "
+"own risk."
+msgstr ""
+
+#: inc/requirements.php:50
+#, php-format
+msgid ""
+"This plugin require at least wordpress version 4.6 yours is %s. The plugin "
+"may not work properly."
+msgstr ""
+
+#: inc/settingFields/listingsFields.php:47
+msgid "Expired listing email"
+msgstr "Email di listing in scadenza"
+
+#: inc/settingFields/listingsFields.php:49
+msgid ""
+"You can use the following placeholder:\n"
+"{{username}} where you want to show the username\n"
+"{{listing_name}} where show the listing post title"
+msgstr ""
+"Puoi usare i seguenti segnaposto:\n"
+"{{username}} verrà tradotto nel nome dell'utente\n"
+"{{listing_name}} verrà tradotto nel titolo del listing"
+
+#: inc/vcMapping/listingPackage.php:27
+msgctxt "shortcode-vc"
+msgid "Qibla Listings Packages Table"
+msgstr ""
+
+#: inc/vcMapping/listingPackage.php:29
+msgctxt "shortcode-vc"
+msgid "Qibla"
+msgstr ""
+
+#: inc/vcMapping/listingPackage.php:30
+msgctxt "shortcode-vc"
+msgid "Listings Packages Table"
+msgstr ""
+
+#: inc/vcMapping/listingPackage.php:35
+msgctxt "shortcode-vc"
+msgid "Select Packages"
+msgstr "Seleziona i pacchetti"
+
+#: inc/vcMapping/listingPackage.php:46
+msgctxt "shortcode-vc"
+msgid "Layout"
+msgstr ""
+
+#: inc/vcMapping/listingPackage.php:48 inc/vcMapping/listingPackage.php:67
+#: inc/vcMapping/listingPackage.php:78 inc/vcMapping/listingPackage.php:92
+msgctxt "shortcode-vc-group"
+msgid "Layout"
+msgstr ""
+
+#: inc/vcMapping/listingPackage.php:50
+msgctxt "shortcode-vc"
+msgid "Set the layout, container width or boxed (default: container width)"
+msgstr ""
+
+#: inc/vcMapping/listingPackage.php:57
+msgctxt "shortcode-vc"
+msgid "Container Width"
+msgstr ""
+
+#: inc/vcMapping/listingPackage.php:58
+msgctxt "shortcode-vc"
+msgid "Boxed"
+msgstr ""
+
+#: inc/vcMapping/listingPackage.php:64
+msgctxt "shortcode-vc"
+msgid "Background Color"
+msgstr ""
+
+#: inc/vcMapping/listingPackage.php:69
+msgctxt "shortcode-vc"
+msgid "Select the color for the background of the section."
+msgstr ""
+
+#: inc/vcMapping/listingPackage.php:77
+msgctxt "shortcode-vc"
+msgid "Padding Top"
+msgstr ""
+
+#: inc/vcMapping/listingPackage.php:80
+msgctxt "shortcode-vc"
+msgid "Padding top for section es: (22px, 2em, 3rem)"
+msgstr ""
+
+#: inc/vcMapping/listingPackage.php:91
+msgctxt "shortcode-vc"
+msgid "Padding Bottom"
+msgstr ""
+
+#: inc/vcMapping/listingPackage.php:94
+msgctxt "shortcode-vc"
+msgid "Padding bottom for section es: (22px, 2em, 3rem)"
+msgstr ""
+
+#: src/Admin/Metabox/ListingPackageRelated.php:53
+#: src/Admin/Metabox/PackageOptions.php:50
+msgid "Package Options"
+msgstr "Opzioni Pacchetto"
+
+#: src/Admin/Metabox/ListingPackageRelated.php:79
+msgid "Package"
+msgstr "Pacchetto"
+
+#: src/Admin/Metabox/ListingRestrictions.php:50
+msgid "Listing Restrictions"
+msgstr "Restrizioni Listing"
+
+#: src/Admin/Metabox/ListingRestrictions.php:71
+msgid "Base Restrictions"
+msgstr "Restrizioni Base"
+
+#: src/Admin/Metabox/ListingRestrictions.php:88
+msgid "Additional Info Restrictions"
+msgstr "Restrizioni Informazioni Addizionali"
+
+#: src/Admin/Metabox/ListingRestrictions.php:105
+msgid "Socials Restrictions"
+msgstr "Restrizioni Socials"
+
+#: src/Admin/Metabox/ListingRestrictions.php:122
+msgid "Media Restrictions"
+msgstr "Restrizioni Media"
+
+#: src/Admin/Metabox/PackageOptions.php:71
+msgid "Base Options"
+msgstr "Opzioni Base"
+
+#: src/Admin/Metabox/PackageOptions.php:88
+msgid "Product"
+msgstr "Prodotto"
+
+#: src/Admin/Page/ListingPackage.php:46 src/Admin/Page/ListingPackage.php:47
+msgctxt "admin-menu"
+msgid "Package Manager"
+msgstr "Gestore Pacchetti"
+
+#: src/Crud/Request/RequestPostDeleteController.php:70
+msgctxt "manager-posts"
+msgid "There was an error trying to delete the post. Try in a few minutes"
+msgstr "Si è verificato un errore eliminando il post. Prova tra qualche minuto"
+
+#: src/Crud/Request/RequestPostDeleteController.php:77
+#, php-format
+msgctxt "manage-posts"
+msgid "Post %s has been deleted successfully"
+msgstr "Il post %s è stato eliminato correttamente"
+
+#: src/Front/ListingForm/AfterSubmitTasks.php:210
+msgid "Your Post has been created succesfully."
+msgstr "Il you post è stato creato correttamente."
+
+#: src/Front/ListingForm/Controller.php:117
+msgid "Post has been created successfully."
+msgstr "Articolo creato correttamente."
+
+#: src/Front/ListingForm/Controller.php:126
+#, php-format
+msgid "Post named %s exists."
+msgstr "Il post con nome %s esiste già."
+
+#: src/Front/ListingForm/Controller.php:159
+#, php-format
+msgid "Post has been updated successfully. View %s "
+msgstr "Il post è stato aggiornato correttamente. Vai a %s"
+
+#: src/Front/ListingForm/Controller.php:175
+#, php-format
+msgid "Error during create or update post. %s"
+msgstr "Errore durante la creazione o aggiornamento del post. %s"
+
+#: src/Front/ListingForm/Director.php:119
+#: src/Front/ListingForm/RequestFileHandlerAjax.php:372
+msgid "Sorry! Some fields seems not be valid. Please check them."
+msgstr "Spiacenti! Sembra che qualche campo non sia valido. Controlla."
+
+#: src/Front/ListingForm/RequestFileHandlerAjax.php:299
+#: src/Front/ListingForm/RequestFileHandlerAjax.php:332
+msgid "Files stored successfully."
+msgstr "File caricati correttamente."
+
+#: src/Front/ListingForm/RequestFileHandlerAjax.php:355
+msgctxt "listing-submit"
+msgid "Files Sync success."
+msgstr "Sincronizzazione files avvenuta con successo."
+
+#: src/Front/ListingForm/RequestFileHandlerAjax.php:365
+msgid "Some file return an error during upload. Aborting"
+msgstr "Qualche file ha ritornato un errore durante il caricamento"
+
+#: src/Front/ListingForm/Template.php:118
+msgid "Add your Listing"
+msgstr "Aggiungi Listing"
+
+#: src/Front/Listings/EditListingLinkTemplate.php:128
+msgid "Edit this listing"
+msgstr "Modifica questo listing"
+
+#: src/Functions/General.php:99
+msgid ""
+"Qibla Listing has been deactivated. The plugin require: Qibla Framework and "
+"WooCommerce, that are not currently active or installed."
+msgstr ""
+
+#: src/Listing/Expire/EmailOnExpiration.php:158
+#, php-format
+msgctxt "expired_email"
+msgid "Listing %s Expired"
+msgstr "Il listing %s è scaduto"
+
+#: src/Listing/ManagerPosts/Actions.php:110
+msgctxt "account-posts-manager"
+msgid "Edit"
+msgstr "Modifica"
+
+#: src/Listing/ManagerPosts/Actions.php:121
+msgctxt "account-posts-manager"
+msgid "Delete"
+msgstr "Elimina"
+
+#: src/Listing/ManagerPosts/MyListingsEndPoint.php:91
+msgctxt "endpoint"
+msgid "My Listings"
+msgstr "I miei annunci"
+
+#: src/Listing/ManagerPosts/MyListingsEndPoint.php:141
+msgctxt "my-account"
+msgid "My Listings"
+msgstr "I miei annunci"
+
+#: src/Listing/ManagerPosts/MyListingsEndPoint.php:143
+msgctxt "my-account"
+msgid "Endpoint for the page \"my account &rarr; my listings\""
+msgstr "Endpoint per la pagina “mio account &rarr; i miei annunci“"
+
+#: src/Listing/ManagerPosts/Template.php:114
+msgid "Never"
+msgstr "Mai"
+
+#: src/Listing/ManagerPosts/Template.php:121
+msgctxt "manager-posts"
+msgid "Qibla Expired"
+msgstr ""
+
+#: src/Package/PackageFormBuilder.php:149
+msgid "Submit Changes"
+msgstr "Salva modifiche"
+
+#: src/Package/PackageFormBuilder.php:152
+msgid "Create my Listing"
+msgstr "Crea il mio listing"
+
+#: src/PostStatus/Expired.php:47
+msgctxt "post-status"
+msgid "Expired"
+msgstr "Scaduto"
+
+#: src/PostStatus/Expired.php:55
+#, php-format
+msgid "Expired <span class=\"count\">(%s)</span>"
+msgid_plural "Expired <span class=\"count\">(%s)</span>"
+msgstr[0] "Scaduto <span class=\"count\">(%s)</span>"
+msgstr[1] "<span class=\"count\">(%s)</span>"
+
+#: src/PostStatus/SoftDeleted.php:47
+msgctxt "post-status"
+msgid "Soft Deleted"
+msgstr "Cancellato"
+
+#: src/PostStatus/SoftDeleted.php:55
+#, php-format
+msgid "Deleted <span class=\"count\">(%s)</span>"
+msgid_plural "Deleted <span class=\"count\">(%s)</span>"
+msgstr[0] "Cancellato <span class=\"count\">(%s)</span>"
+msgstr[1] "Cancellato <span class=\"count\">(%s)</span>"
+
+#: src/PostType/AbstractPostType.php:75
+#, php-format
+msgid "Add %s"
+msgstr "Aggiungi %s"
+
+#: src/PostType/AbstractPostType.php:76 src/PostType/AbstractPostType.php:78
+#, php-format
+msgid "New %s"
+msgstr "Nuovo %s"
+
+#: src/PostType/AbstractPostType.php:77
+#, php-format
+msgid "Edit %s"
+msgstr "Modifica %s"
+
+#: src/PostType/AbstractPostType.php:79
+#, php-format
+msgid "View %s"
+msgstr "Visualizza %s"
+
+#: src/PostType/AbstractPostType.php:80
+#, php-format
+msgid "Search %s"
+msgstr "Cerca %s"
+
+#: src/PostType/AbstractPostType.php:81
+#, php-format
+msgid "%s not found"
+msgstr "%s non trovato"
+
+#: src/PostType/AbstractPostType.php:82
+#, php-format
+msgid "%s not found in trash"
+msgstr "%s non trovato nel cestino"
+
+#: src/PostType/AbstractPostType.php:83
+#, php-format
+msgid "Parent %s"
+msgstr ""
+
+#: src/PostType/AbstractPostType.php:84
+#, php-format
+msgid "All %s"
+msgstr "Tutti %s"
+
+#: src/PostType/AbstractPostType.php:85
+#, php-format
+msgid "%s Archives"
+msgstr "%s Archivi"
+
+#: src/PostType/AbstractPostType.php:86
+#, php-format
+msgid "Insert into %s"
+msgstr "Inserisci in %s"
+
+#: src/PostType/AbstractPostType.php:87
+#, php-format
+msgid "Uploaded to this %s"
+msgstr "Caricato in %s"
+
+#: src/PostType/ListingPackage.php:47
+msgid "Listing Package"
+msgstr "Pacchetto Listing"
+
+#: src/PostType/ListingPackage.php:48
+msgid "Packages"
+msgstr "Pacchetti"
+
+#: src/Shortcode/ListingPackage.php:195
+msgid "Free"
+msgstr "Gratis"
+
+#: src/Shortcode/ListingPackage.php:302
+msgctxt "listing-package"
+msgid "Choose this plan"
+msgstr "Seleziona un piano"
+
+#: views/admin/product/dataTabs/pricing.php:35
+msgid "Regular price"
+msgstr "Prezzo normale"
+
+#: views/admin/product/dataTabs/pricing.php:43
+msgid "Sale price"
+msgstr "Prezzo in saldo"
+
+#: views/admin/product/dataTabs/pricing.php:44
+msgid "Schedule"
+msgstr "Pianificato"
+
+#: views/admin/product/dataTabs/pricing.php:56
+msgid "Sale price dates"
+msgstr "Data prezzo in saldo"
+
+#: views/admin/product/dataTabs/pricing.php:59
+msgctxt "placeholder"
+msgid "From&hellip;"
+msgstr "Da&hellip;"
+
+#: views/admin/product/dataTabs/pricing.php:66
+msgctxt "placeholder"
+msgid "To&hellip;"
+msgstr "A&hellip;"
+
+#: views/admin/product/dataTabs/pricing.php:71
+msgid "Cancel"
+msgstr "Cancella"
+
+#: views/admin/product/dataTabs/pricing.php:72
+msgid "The sale will end at the beginning of the set date."
+msgstr "Il saldo finirà all'inizio della data."
+
+#: views/listings/managerTmpl.php:30
+msgctxt "account-posts-manager"
+msgid "Listing"
+msgstr "Listing"
+
+#: views/listings/managerTmpl.php:31
+msgctxt "account-posts-manager"
+msgid "Type"
+msgstr ""
+
+#: views/listings/managerTmpl.php:32
+msgctxt "account-posts-manager"
+msgid "Status"
+msgstr "Stato"
+
+#: views/listings/managerTmpl.php:33
+msgctxt "account-posts-manager"
+msgid "Actions"
+msgstr "Azioni"
+
+#: views/listings/managerTmpl.php:70
+#, php-format
+msgctxt "manager-posts"
+msgid "Expiry date: %s"
+msgstr "Scaduto in data: %s"
+
+#: views/listings/managerTmpl.php:103
+msgctxt "manager-posts"
+msgid "There are no listings right now."
+msgstr "Non ci sono listings al momento."
+
+#~ msgctxt "placeholder"
+#~ msgid "My awesome hotel"
+#~ msgstr "Il mio bel hotel"
+
+#~ msgctxt "placeholder"
+#~ msgid "Best place in the whole world."
+#~ msgstr "Il miglior posto nel mondo."

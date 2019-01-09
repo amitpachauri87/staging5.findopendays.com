@@ -1,0 +1,36 @@
+== 1.2.4 - 2018/06/12 ==
+Add: Support for WooCommerce 3.4.2
+
+== 1.2.3 - 2018/02/10 ==
+Add: Filter "qibla_wc_listings_listing_related_product" for filter product fieldsets.
+
+== 1.2.2 - 2018/02/10 ==
+Add: Support for WooCommerce 3.3.1
+
+== 1.2.1 - 2017/12/16 ==
+Tweak: Unmark as deprecated the class `WooCommerceTemplate`, not possible to use the framework implemenation due to the path used there.
+
+== 1.2.0 - 2017/09/06 ==
+Fix: wrong conditional statement when check for recipient type.
+Fix: strpos third parameter is the offset not a strictly comparison.
+Fix: Don't add `woocommerce` class to the body element in single listing if the product isn't related.
+Fix: Don't show the price element when isn't possible to retrieve the product price.
+Add: AddListingToCartOnBooking to allow us to add the listing post within the booking product cart item data.
+Add: Filter email recipient on new order and new booking.
+
+== 1.1.3 - 2017/08/16 ==
+Fix: Fatal Error caused when a product type element cannot be created but the product is associated to a listing. Generally because the product associated isn't of type of Booking.
+
+== 1.1.2 - 2017/07/02 ==
+Fix: Fatal error if WooCommerce is not active when retrieve the product.
+Dev: Deprecated WooCommerceTemplate class in favor of the one provided by the Framework.
+
+== 1.1.1 - 2017/05/19 ==
+Fix: Compatibility with php >= 5.3.x
+Fix: Prevent issues if the product has no name when try to retrieve it to decide to show or not the product fieldset.
+
+== 1.1.0 - 2017/04/24 ==
+Remove: Tgmpa lib. Overriding the one provided by the qibla.
+
+== 1.0.0 - 2017/04/11 ==
+Initial Release

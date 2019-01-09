@@ -1,0 +1,1094 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Qibla\n"
+"POT-Creation-Date: 2018-07-26 15:54+0200\n"
+"PO-Revision-Date: 2018-07-26 15:55+0200\n"
+"Last-Translator: Alfio <alfio.piccione@gmail.com>\n"
+"Language-Team: Southemes\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;_ngettext_noop:1,2;"
+"_n_noop:1,2;_ex:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;"
+"esc_html_e;esc_html_x:1,2c;_c;_nc:4c,1,2;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: bower_components\n"
+"X-Poedit-SearchPathExcluded-1: node_modules\n"
+"X-Poedit-SearchPathExcluded-2: vendor\n"
+"X-Poedit-SearchPathExcluded-3: assets\n"
+
+#: author.php:45
+#, php-format
+msgid "%s Author Avatar"
+msgstr "%s Avatar Autore"
+
+#: comments.php:65
+msgid "There are no comments yet."
+msgstr "Non ci sono commenti."
+
+#: comments.php:69
+msgid "Comments are closed."
+msgstr "I commenti sono chiusi."
+
+#: inc/requirements.php:36
+#, php-format
+msgid ""
+"Qibla theme require at least php version 5.3 yours is %s. Restoring the "
+"previous theme."
+msgstr ""
+"Qibla richiede almeno php 5.3, la tua versione è %s. Riattiva il tema "
+"precedente."
+
+#: inc/requirements.php:50
+#, php-format
+msgid ""
+"Qibla theme require at least WordPress version 4.6 yours is %s. The theme "
+"may not work properly."
+msgstr ""
+"Qibla richiede almeno WordPress versione 4.6, la versione attuale è %s. Il "
+"tema potrebbe non funzionare correttamente."
+
+#: inc/sidebarsList.php:31
+msgid "Blog Sidebar"
+msgstr "Barra laterale del blog"
+
+#: inc/sidebarsList.php:32
+msgid "This sidebar will appear in blog archives."
+msgstr "Questa barra laterale verrà mostrata nell'archivio del blog."
+
+#: inc/sidebarsList.php:35
+msgid "Page Sidebar"
+msgstr "Barra laterale delle pagine"
+
+#: inc/sidebarsList.php:36
+msgid "This sidebar will appear within the pages."
+msgstr "Questa barra laterale verrà mostrata nelle pagine."
+
+#: inc/sidebarsList.php:39
+msgid "Footer Row 1"
+msgstr "Footer"
+
+#: inc/sidebarsList.php:40
+msgid "This sidebar will appear at the footer of the site."
+msgstr "Questa barra laterale verrà mostrata nel footer del sito."
+
+#: inc/sidebarsList.php:50
+msgid "My Account Sidebar"
+msgstr "Barra laterale account utente"
+
+#: inc/sidebarsList.php:51
+msgid "This sidebar will appear within the WooCommerce My Account pages."
+msgstr "Questa sidebar verrà mostrata nella pagine di gestione utente."
+
+#: inc/sidebarsList.php:54
+msgid "Shop Sidebar"
+msgstr "Barra laterale negozio"
+
+#: inc/sidebarsList.php:55
+msgid "This sidebar will appear within the shop pages."
+msgstr "Questa barra laterale verrà mostrata nelle pagine del negozio."
+
+#: inc/sidebarsList.php:58
+msgid "Single Product Sidebar"
+msgstr "Barra laterale prodotto"
+
+#: inc/sidebarsList.php:59
+msgid "This sidebar will appear within the single product page"
+msgstr "Questa barra laterale verrà mostrata nella pagina del prodotto."
+
+#: inc/tgmpaPluginsList.php:44
+msgid "Qibla Framework"
+msgstr "Qibla Framework"
+
+#: inc/tgmpaPluginsList.php:56
+msgid "Qibla Importer"
+msgstr "Qibla Importer"
+
+#: inc/tgmpaPluginsList.php:67
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: inc/tgmpaPluginsList.php:75
+msgid "Qibla Listings"
+msgstr "Qibla Listings"
+
+#: inc/tgmpaPluginsList.php:86
+msgid "Qibla Events"
+msgstr ""
+
+#: inc/tgmpaPluginsList.php:97
+msgid "Qibla WooCommerce Listings"
+msgstr "Qibla WooCommerce Listings"
+
+#: inc/tgmpaPluginsList.php:108
+msgid "Envato Auto Updater"
+msgstr "Envato Auto Updater"
+
+#: inc/tgmpaPluginsList.php:119
+msgid "WP Social Login"
+msgstr ""
+
+#: inc/tgmpaPluginsList.php:126
+msgid "Visual Composer"
+msgstr ""
+
+#: inc/tgmpaPluginsList.php:136
+msgid "Sassy Social Share"
+msgstr ""
+
+#: inc/tgmpaPluginsList.php:146
+msgid "Opening Hours"
+msgstr ""
+
+#: inc/tgmpaPluginsList.php:156
+msgid "Revolution Slider"
+msgstr ""
+
+#: libs/tgmpa/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr "Installa i plugins richiesti"
+
+#: libs/tgmpa/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr "Installa i plugins"
+
+#. translators: %s: plugin name.
+#: libs/tgmpa/class-tgm-plugin-activation.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr "Installa il plugin: %s"
+
+#. translators: %s: plugin name.
+#: libs/tgmpa/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr "Aggiorna il plugin: %s"
+
+#: libs/tgmpa/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr "Qualcosa è andato storto con le API del plugin."
+
+#. translators: 1: plugin name(s).
+#: libs/tgmpa/class-tgm-plugin-activation.php:343
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] "Questo tema richiede il seguente plugin: %1$s."
+msgstr[1] "Questo tema richiede i seguenti plugins: %1$s."
+
+#. translators: 1: plugin name(s).
+#: libs/tgmpa/class-tgm-plugin-activation.php:349
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] "Il tema raccomanda il seguente plugin: %1$s."
+msgstr[1] "Il tema raccomanda i seguenti plugins: %1$s."
+
+#. translators: 1: plugin name(s).
+#: libs/tgmpa/class-tgm-plugin-activation.php:355
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+"Il seguente plugin necessita di essere aggiornato all'ultima versione per "
+"garantire la massima compatibilità con il tema: %1$s."
+msgstr[1] ""
+"I seguenti plugins necessitano di essere aggiornati all'ultima versione per "
+"garantire la massima compatibilità con il tema: %1$s."
+
+#. translators: 1: plugin name(s).
+#: libs/tgmpa/class-tgm-plugin-activation.php:361
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] "C'è un nuovo update per: %1$s."
+msgstr[1] "Ci sono nuovi update per i seguenti plugins: %1$s."
+
+#. translators: 1: plugin name(s).
+#: libs/tgmpa/class-tgm-plugin-activation.php:367
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "Questo plugin &grave; richiesto ma inattivo: %1$s."
+msgstr[1] "Questi plugin sono richiesti ma inattivi: %1$s."
+
+#. translators: 1: plugin name(s).
+#: libs/tgmpa/class-tgm-plugin-activation.php:373
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "Questo plugin &grave; raccomandato ma inattivo: %1$s."
+msgstr[1] "Questi plugin sono raccomandati ma inattivi: %1$s."
+
+#: libs/tgmpa/class-tgm-plugin-activation.php:378
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "Installando il plugin"
+msgstr[1] "Installando i plugins"
+
+#: libs/tgmpa/class-tgm-plugin-activation.php:383
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] "Aggiornando il plugin"
+msgstr[1] "Aggiornando i plugins"
+
+#: libs/tgmpa/class-tgm-plugin-activation.php:388
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "Attivando il plugin"
+msgstr[1] "Attivando i plugins"
+
+#: libs/tgmpa/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr "Ritorna all'installatore dei plugins"
+
+#: libs/tgmpa/class-tgm-plugin-activation.php:393
+#: libs/tgmpa/class-tgm-plugin-activation.php:918
+#: libs/tgmpa/class-tgm-plugin-activation.php:2624
+#: libs/tgmpa/class-tgm-plugin-activation.php:3669
+msgid "Return to the Dashboard"
+msgstr "Ritorna alla bacheca"
+
+#: libs/tgmpa/class-tgm-plugin-activation.php:394
+#: libs/tgmpa/class-tgm-plugin-activation.php:3248
+msgid "Plugin activated successfully."
+msgstr "Plugin attivato correttamente."
+
+#: libs/tgmpa/class-tgm-plugin-activation.php:395
+#: libs/tgmpa/class-tgm-plugin-activation.php:3041
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] "Il seguente plugin è stato attivato correttamente:"
+msgstr[1] "I seguenti plugins sono stati attivati correttamente:"
+
+#. translators: 1: plugin name.
+#: libs/tgmpa/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "Nessuna azione da compiere. Il plugin %1$s è già attivo."
+
+#. translators: 1: plugin name.
+#: libs/tgmpa/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+"Plugin non attivo. Una nuova versione di %s è richiesta per questo tema. Per "
+"favore aggiorna il plugin."
+
+#. translators: 1: dashboard link.
+#: libs/tgmpa/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Tutti i plugins sono stati installati ed attivati correttamente. %1$s"
+
+#: libs/tgmpa/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr "Nascondi questa info"
+
+#: libs/tgmpa/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+"Ci sono uno o più plugins richiesti o raccomandati da installare, aggiornare "
+"o attivare."
+
+#: libs/tgmpa/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr "Per favore contatta l'amministratore di questo sito per aiuti."
+
+#: libs/tgmpa/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+"Questo plugin necessita di essere aggiornato per essere compatibile con il "
+"tuo tema."
+
+#: libs/tgmpa/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr "Aggiornamento richiesto"
+
+#: libs/tgmpa/class-tgm-plugin-activation.php:725
+msgid "Set the parent_slug config variable instead."
+msgstr "Imposta la variabile parent_slug invece."
+
+#: libs/tgmpa/class-tgm-plugin-activation.php:1025
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+"Il pacchetto remoto di questo plugin non contiene la cartella con il "
+"necessario nome e la rinominazione non è possibile."
+
+#: libs/tgmpa/class-tgm-plugin-activation.php:1025
+#: libs/tgmpa/class-tgm-plugin-activation.php:1028
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+"Per favore contatta l'autore del plugin e chiedi di creare una versione del "
+"plugin compatibile con le linee guida di WordPress."
+
+#: libs/tgmpa/class-tgm-plugin-activation.php:1028
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+"Il pacchetto del plugin remoto consiste in più di un file che non sono "
+"inclusi nella directory."
+
+#: libs/tgmpa/class-tgm-plugin-activation.php:1212
+#: libs/tgmpa/class-tgm-plugin-activation.php:3037
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr "e"
+
+#. translators: %s: version number
+#: libs/tgmpa/class-tgm-plugin-activation.php:2073
+#, php-format
+msgid "TGMPA v%s"
+msgstr "TGMPA versione %s"
+
+#: libs/tgmpa/class-tgm-plugin-activation.php:2364
+msgid "Required"
+msgstr "Richiesto"
+
+#: libs/tgmpa/class-tgm-plugin-activation.php:2367
+msgid "Recommended"
+msgstr "Raccomandato"
+
+#: libs/tgmpa/class-tgm-plugin-activation.php:2383
+msgid "WordPress Repository"
+msgstr ""
+
+#: libs/tgmpa/class-tgm-plugin-activation.php:2386
+msgid "External Source"
+msgstr "Risorsa Esterna"
+
+#: libs/tgmpa/class-tgm-plugin-activation.php:2389
+msgid "Pre-Packaged"
+msgstr "Incorporato"
+
+#: libs/tgmpa/class-tgm-plugin-activation.php:2406
+msgid "Not Installed"
+msgstr "Non installato"
+
+#: libs/tgmpa/class-tgm-plugin-activation.php:2410
+msgid "Installed But Not Activated"
+msgstr "Installato ma non attivo"
+
+#: libs/tgmpa/class-tgm-plugin-activation.php:2412
+msgid "Active"
+msgstr "Attivo"
+
+#: libs/tgmpa/class-tgm-plugin-activation.php:2418
+msgid "Required Update not Available"
+msgstr "Aggiornamento non disponibile"
+
+#: libs/tgmpa/class-tgm-plugin-activation.php:2421
+msgid "Requires Update"
+msgstr "Aggiornamento richiesto"
+
+#: libs/tgmpa/class-tgm-plugin-activation.php:2424
+msgid "Update recommended"
+msgstr "Aggiornamento raccomandato"
+
+#. translators: 1: number of plugins.
+#: libs/tgmpa/class-tgm-plugin-activation.php:2479
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "Tutti <span class=\"count\">(%s)</span>"
+msgstr[1] "Tutti <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: libs/tgmpa/class-tgm-plugin-activation.php:2483
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] "Da Installare <span class=\"count\">(%s)</span>"
+msgstr[1] "Da Installare <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: libs/tgmpa/class-tgm-plugin-activation.php:2487
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] "Aggiornamento disponibile <span class=\"count\">(%s)</span>"
+msgstr[1] "Aggiornamento disponibile <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: libs/tgmpa/class-tgm-plugin-activation.php:2491
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] "Da attivare  <span class=\"count\">(%s)</span>"
+msgstr[1] "Da attivare  <span class=\"count\">(%s)</span>"
+
+#: libs/tgmpa/class-tgm-plugin-activation.php:2581
+msgid "Installed version:"
+msgstr "Installata versione:"
+
+#: libs/tgmpa/class-tgm-plugin-activation.php:2589
+msgid "Minimum required version:"
+msgstr "Minima versione richiesta:"
+
+#: libs/tgmpa/class-tgm-plugin-activation.php:2601
+msgid "Available version:"
+msgstr "Versione disponibile:"
+
+#: libs/tgmpa/class-tgm-plugin-activation.php:2624
+msgid "No plugins to install, update or activate."
+msgstr "Nessun plugin da installare, aggiornare o attivare."
+
+#: libs/tgmpa/class-tgm-plugin-activation.php:2638
+msgid "Plugin"
+msgstr "Plugin"
+
+#: libs/tgmpa/class-tgm-plugin-activation.php:2639
+msgid "Source"
+msgstr "Sorgente"
+
+#: libs/tgmpa/class-tgm-plugin-activation.php:2640
+msgid "Type"
+msgstr "Typo"
+
+#: libs/tgmpa/class-tgm-plugin-activation.php:2644
+msgid "Version"
+msgstr "Versione"
+
+#: libs/tgmpa/class-tgm-plugin-activation.php:2645
+msgid "Status"
+msgstr "Stato"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: libs/tgmpa/class-tgm-plugin-activation.php:2692
+#, php-format
+msgid "Install %2$s"
+msgstr "Installa %2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: libs/tgmpa/class-tgm-plugin-activation.php:2697
+#, php-format
+msgid "Update %2$s"
+msgstr "Aggiorna %2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: libs/tgmpa/class-tgm-plugin-activation.php:2703
+#, php-format
+msgid "Activate %2$s"
+msgstr "Attiva %2$s"
+
+#: libs/tgmpa/class-tgm-plugin-activation.php:2773
+msgid "Upgrade message from the plugin author:"
+msgstr "Messaggio di aggiornamento dall'autore del plugin:"
+
+#: libs/tgmpa/class-tgm-plugin-activation.php:2806
+msgid "Install"
+msgstr "Installa"
+
+#: libs/tgmpa/class-tgm-plugin-activation.php:2812
+msgid "Update"
+msgstr "Aggiorna"
+
+#: libs/tgmpa/class-tgm-plugin-activation.php:2815
+msgid "Activate"
+msgstr "Attiva"
+
+#: libs/tgmpa/class-tgm-plugin-activation.php:2846
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+"Nessun plugin selezionato per l'installazione. Nessuna azione da eseguire."
+
+#: libs/tgmpa/class-tgm-plugin-activation.php:2848
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+"Nessun plugin selezionato per l'aggiornamento. Nessuna azione da eseguire."
+
+#: libs/tgmpa/class-tgm-plugin-activation.php:2889
+msgid "No plugins are available to be installed at this time."
+msgstr "Nessun plugin è disponibile per essere installato al momento."
+
+#: libs/tgmpa/class-tgm-plugin-activation.php:2891
+msgid "No plugins are available to be updated at this time."
+msgstr "Nessun plugin è disponibile per essere aggiornato al momento."
+
+#: libs/tgmpa/class-tgm-plugin-activation.php:2997
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+"Nessun plugin selezionato per l'attivazione. Nessuna azione da eseguire."
+
+#: libs/tgmpa/class-tgm-plugin-activation.php:3023
+msgid "No plugins are available to be activated at this time."
+msgstr "Nessun plugin disponibile per essere attivato al momento."
+
+#: libs/tgmpa/class-tgm-plugin-activation.php:3247
+msgid "Plugin activation failed."
+msgstr "Attivazione fallita."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: libs/tgmpa/class-tgm-plugin-activation.php:3587
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "Aggiornando il plugin %1$s (%2$d/%3$d)"
+
+#. translators: 1: plugin name, 2: error message.
+#: libs/tgmpa/class-tgm-plugin-activation.php:3590
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "Si è verificato un errore installando %1$s: <strong>%2$s</strong>."
+
+#. translators: 1: plugin name.
+#: libs/tgmpa/class-tgm-plugin-activation.php:3592
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr "Installazione fallita per il plugin %1$s."
+
+#: libs/tgmpa/class-tgm-plugin-activation.php:3596
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+"L'installazione ed attivazione sta per iniziare. Il processo potrebbe "
+"necessitare di un pò di tempo, sii paziente."
+
+#. translators: 1: plugin name.
+#: libs/tgmpa/class-tgm-plugin-activation.php:3598
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s installato ed attivato correttamente."
+
+#: libs/tgmpa/class-tgm-plugin-activation.php:3598
+#: libs/tgmpa/class-tgm-plugin-activation.php:3606
+msgid "Show Details"
+msgstr "Mostra dettagli"
+
+#: libs/tgmpa/class-tgm-plugin-activation.php:3598
+#: libs/tgmpa/class-tgm-plugin-activation.php:3606
+msgid "Hide Details"
+msgstr "Nascondi dettagli"
+
+#: libs/tgmpa/class-tgm-plugin-activation.php:3599
+msgid "All installations and activations have been completed."
+msgstr "Tutte le installazioni e le attivazioni sono state completate."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: libs/tgmpa/class-tgm-plugin-activation.php:3601
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Installando ed attivando il plugin %1$s (%2$d/%3$d)"
+
+#: libs/tgmpa/class-tgm-plugin-activation.php:3604
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+"Il processo di installazione è iniziato. Il processo potrebbe necessitare di "
+"un pò di tempo, sii paziente."
+
+#. translators: 1: plugin name.
+#: libs/tgmpa/class-tgm-plugin-activation.php:3606
+#, php-format
+msgid "%1$s installed successfully."
+msgstr "%1$s installato correttamente."
+
+#: libs/tgmpa/class-tgm-plugin-activation.php:3607
+msgid "All installations have been completed."
+msgstr "Tutte le installazioni sono state completate."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: libs/tgmpa/class-tgm-plugin-activation.php:3609
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Installando il plugin %1$s (%2$d/%3$d)"
+
+#: src/Archive/Title.php:121
+#, php-format
+msgid "Search Result: %s"
+msgstr "Risultati di ricerca: %s"
+
+#: src/Archive/Title.php:125
+msgid "Shop"
+msgstr "Negozio"
+
+#: src/Exception/InvalidPostException.php:77
+#, php-format
+msgid "%s cannot retrieve post."
+msgstr "%s non è riuscito a prelevare gli articoli."
+
+#: src/Functions/AfterSetupTheme.php:99
+msgid "Main Nav"
+msgstr "Navigazione Principale"
+
+#: src/Functions/Archives.php:70
+#, php-format
+msgid "We had found %s posts based on your search"
+msgstr "Abbiamo trovato %s articoli basati sulla tua ricerca"
+
+#: src/Functions/Archives.php:148 src/Functions/Comments.php:114
+#: src/Functions/Posts.php:404 src/Functions/Posts.php:418
+#: src/Functions/Woocommerce/Reviews.php:121
+msgid "Page"
+msgstr "Pagina"
+
+#: src/Functions/Archives.php:151
+msgid "Previous Page"
+msgstr "Pagina precedente"
+
+#: src/Functions/Archives.php:155
+msgid "Next Page"
+msgstr "Pagina successiva"
+
+#: src/Functions/Comments.php:70
+#, php-format
+msgid "One response to %2$s"
+msgid_plural "%1$s responses to %2$s"
+msgstr[0] "Una risposta a %2$s"
+msgstr[1] "%1$s ha %2$s risposte"
+
+#: src/Functions/Comments.php:76
+#, php-format
+msgid "One response"
+msgid_plural "%1$s responses"
+msgstr[0] "Una risposta"
+msgstr[1] "%1$s risposte"
+
+#: src/Functions/Comments.php:117
+msgid "Previous Comments"
+msgstr "Commenti precedenti"
+
+#: src/Functions/Comments.php:121
+msgid "Next Comments"
+msgstr "Prossimi commenti"
+
+#: src/Functions/Comments.php:195
+#, php-format
+msgid "Logged in as <strong>%1$s</strong>. <a href=\"%2$s\">Log out?</a>"
+msgstr ""
+
+#: src/Functions/Footer.php:59
+#, php-format
+msgid "Proudly by %1$s - Theme Name: %2$s"
+msgstr "Con orgoglio da %1$s - Nome tema: %2$s"
+
+#: src/Functions/Footer.php:60
+msgid "Southemes"
+msgstr "Southemes"
+
+#: src/Functions/Footer.php:61
+msgid "Qibla"
+msgstr "Qibla"
+
+#: src/Functions/Posts.php:199
+msgid "Published On: "
+msgstr "Publicato il: "
+
+#: src/Functions/Posts.php:561
+msgid "Continue Reading"
+msgstr "Continua a leggere"
+
+#: src/Functions/Posts.php:692
+msgid "Sorry this page doesn't exists"
+msgstr "Spiacenti, questa pagina non esiste"
+
+#: src/Functions/Posts.php:695
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+"Sembra che non ci sia nulla in questa pagina o la pagina non esiste. Una "
+"ricerca può essere di aiuto?"
+
+#: src/Functions/Woocommerce/Reviews.php:78
+#, php-format
+msgid "%1$s review for %2$s%3$s%4$s"
+msgid_plural "%1$s reviews for %2$s%3$s%4$s"
+msgstr[0] "%1$s recensioni per %2$s%3$s%4$s"
+msgstr[1] "%1$s recensioni per %2$s%3$s%4$s"
+
+#: src/Functions/Woocommerce/Reviews.php:85
+msgid "Reviews"
+msgstr "Recensioni"
+
+#: src/Functions/Woocommerce/Reviews.php:124
+msgid "Previous Reviews"
+msgstr "Recensioni precedenti"
+
+#: src/Functions/Woocommerce/Reviews.php:128
+msgid "Next Reviews"
+msgstr "Recensioni successive"
+
+#: src/Functions/Woocommerce/Reviews.php:187
+msgid "Add a review"
+msgstr "Scrivi una recensione"
+
+#: src/Functions/Woocommerce/Reviews.php:188
+#, php-format
+msgid "Be the first to review &ldquo;%s&rdquo;"
+msgstr "Sii il primo a recensire &ldquo;%s&rdquo;"
+
+#: src/Functions/Woocommerce/Reviews.php:189
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "Lascia un pensiero riguardo a %s"
+
+#: src/Functions/Woocommerce/Reviews.php:194
+msgid "Name"
+msgstr "Nome"
+
+#: src/Functions/Woocommerce/Reviews.php:199
+msgid "Email"
+msgstr "Email"
+
+#: src/Functions/Woocommerce/Reviews.php:203
+msgid "Submit"
+msgstr "Invia"
+
+#: src/Functions/Woocommerce/Reviews.php:212
+#, php-format
+msgid "You must be %s to post a review."
+msgstr "Devi essere %s per recensire il prodotto."
+
+#: src/Functions/Woocommerce/Reviews.php:213
+msgid "logged in"
+msgstr "loggato"
+
+#: src/Functions/Woocommerce/Reviews.php:220
+msgid "Your Rating"
+msgstr "La tua classificazione"
+
+#: src/Functions/Woocommerce/Reviews.php:222
+msgid "Rate&hellip;"
+msgstr "Seleziona un valore&hellip;"
+
+#: src/Functions/Woocommerce/Reviews.php:223
+msgid "Perfect"
+msgstr "Perfetto"
+
+#: src/Functions/Woocommerce/Reviews.php:224
+msgid "Good"
+msgstr "Buono"
+
+#: src/Functions/Woocommerce/Reviews.php:225
+msgid "Average"
+msgstr "Soddisfacente"
+
+#: src/Functions/Woocommerce/Reviews.php:226
+msgid "Not that bad"
+msgstr "Non male"
+
+#: src/Functions/Woocommerce/Reviews.php:227
+msgid "Very Poor"
+msgstr "Veramente scarso"
+
+#: src/Functions/Woocommerce/Reviews.php:234
+msgid "Your Review"
+msgstr "La tua recensione"
+
+#: src/Jumbotron.php:170
+msgid "Posts"
+msgstr "Articoli"
+
+#: src/Loader.php:128 src/Loader.php:140
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: src/MainNav.php:86
+msgid "Create a Menu"
+msgstr "Crea un menu"
+
+#: src/Woocommerce/CartCounterTemplate.php:52
+msgid "View cart"
+msgstr "Vai al carrello"
+
+#: template-parts/content-none.php:29
+msgid "Content not found"
+msgstr "Contenuto non trovato"
+
+#: template-parts/content-none.php:32
+msgid "We are sorry, seems there is nothing to show."
+msgstr "Siamo spiacenti, sembra non ci sia nulla da mostrare."
+
+#: views/header/navMain.php:22
+msgid "Jump to the main content"
+msgstr "Vai al contenuto principale"
+
+#: views/pagination/archivePagination.php:13
+#: views/pagination/paginatePagination.php:13
+msgid "Pages:"
+msgstr "Pagine:"
+
+#: views/posts/adjacentPosts.php:24
+#, php-format
+msgid "%s post"
+msgstr "%s articolo"
+
+#: views/posts/meta/author.php:13
+msgid "Author: "
+msgstr "Autore: "
+
+#: views/posts/meta/listTerms.php:12
+msgid "Posted In: "
+msgstr "Pubblicato il: "
+
+#: views/posts/meta/tags.php:18
+msgid "Tags:"
+msgstr "Etichette:"
+
+#: woocommerce/cart/cart-totals.php:27
+msgid "Cart Totals"
+msgstr "Totale Carrello"
+
+#: woocommerce/cart/cart-totals.php:33 woocommerce/cart/cart-totals.php:35
+msgid "Subtotal"
+msgstr "Subtotale"
+
+#: woocommerce/cart/cart-totals.php:63 woocommerce/cart/cart-totals.php:65
+msgid "Shipping"
+msgstr "Spedizione"
+
+#: woocommerce/cart/cart-totals.php:82
+#, php-format
+msgid "estimated for %s"
+msgstr "stimato per %s"
+
+#: woocommerce/cart/cart-totals.php:114 woocommerce/cart/cart-totals.php:116
+#: woocommerce/cart/cart.php:164 woocommerce/order/order-details.php:50
+msgid "Total"
+msgstr "Totale"
+
+#: woocommerce/cart/cart.php:66
+msgid "Remove this item"
+msgstr "Rimuovi questo elemento"
+
+#: woocommerce/cart/cart.php:89 woocommerce/order/order-details.php:49
+msgid "Product"
+msgstr "Prodotto"
+
+#: woocommerce/cart/cart.php:130
+msgid "Available on backorder"
+msgstr "Disponibile su ordinazione"
+
+#: woocommerce/cart/cart.php:138
+msgid "Quantity"
+msgstr "Quantità"
+
+#: woocommerce/cart/cart.php:186 woocommerce/checkout/form-coupon.php:42
+msgid "Coupon:"
+msgstr "Sconto:"
+
+#: woocommerce/cart/cart.php:194 woocommerce/checkout/form-coupon.php:50
+msgid "Coupon code"
+msgstr "Codice Sconto"
+
+#: woocommerce/cart/cart.php:200 woocommerce/cart/cart.php:201
+#: woocommerce/checkout/form-coupon.php:56
+#: woocommerce/checkout/form-coupon.php:57
+msgid "Apply Coupon"
+msgstr "Applica lo sconto"
+
+#: woocommerce/cart/cart.php:208 woocommerce/cart/cart.php:209
+msgid "Update Cart"
+msgstr "Aggiorna il carrello"
+
+#: woocommerce/cart/cross-sells.php:24
+msgid "You may be interested in&hellip;"
+msgstr "Puoi essere interessato in&hellip;"
+
+#: woocommerce/cart/proceed-to-checkout-button.php:23
+msgid "Checkout"
+msgstr "Cassa"
+
+#: woocommerce/checkout/form-checkout.php:27
+msgid "You must be logged in to checkout."
+msgstr "Devi essere loggato per effettuare il pagamento."
+
+#: woocommerce/checkout/form-checkout.php:62
+msgid "Your order"
+msgstr "Il tuo ordine"
+
+#: woocommerce/checkout/form-coupon.php:29
+msgid "Have a coupon?"
+msgstr "Hai un codice sconto?"
+
+#: woocommerce/checkout/form-coupon.php:30
+msgid "Click here to enter your code"
+msgstr "Clicca ed inserisci il codice sconto"
+
+#: woocommerce/checkout/payment.php:36
+msgid ""
+"Sorry, it seems that there are no available payment methods for your state. "
+"Please contact us if you require assistance or wish to make alternate "
+"arrangements."
+msgstr ""
+"Spiacenti, sembra che non ci siano metodi di pagamento disponibili per il "
+"tuo stato. Contattaci per richiedere assistenza o se desideri organizzarti "
+"diversamente."
+
+#: woocommerce/checkout/payment.php:40
+msgid "Please fill in your details above to see available payment methods."
+msgstr ""
+"Per favore, inserisci i tuoi dati per vedere i metodi di pagamento "
+"disponibili."
+
+#: woocommerce/checkout/payment.php:52
+msgid ""
+"Since your browser does not support JavaScript, or it is disabled, please "
+"ensure you click the <em>Update Totals</em> button before placing your "
+"order. You may be charged more than the amount stated above if you fail to "
+"do so."
+msgstr ""
+"Visto che il tuo browser non supporta JavaScript, o è disabilitato, sii "
+"sicuro di cliccare <em>Aggiorna Totale</em> prima di effettuare l'ordine. "
+"Potresti dover pagare di più di quanto dovresti se dimentichi di farlo."
+
+#: woocommerce/checkout/payment.php:58 woocommerce/checkout/payment.php:59
+msgid "Update totals"
+msgstr "Aggiorna totale"
+
+#: woocommerce/checkout/thankyou.php:28
+msgid ""
+"Unfortunately your order cannot be processed as the originating bank/"
+"merchant has declined your transaction. Please attempt your purchase again."
+msgstr ""
+"Sfortunatamente il tuo ordine non può essere processato in quanto il "
+"servizio ha rifiutato la transazione. Prova ad effettuare nuovamente "
+"l'acquisto."
+
+#: woocommerce/checkout/thankyou.php:35
+msgid "Pay"
+msgstr "Paga"
+
+#: woocommerce/checkout/thankyou.php:39
+msgid "My Account"
+msgstr "Il mio account"
+
+#: woocommerce/checkout/thankyou.php:49 woocommerce/checkout/thankyou.php:139
+msgid "Thank you. Your order has been received."
+msgstr "Grazie. Il tuo ordine è stato ricevuto."
+
+#: woocommerce/checkout/thankyou.php:56
+msgid "Order Number:"
+msgstr "Ordine numero:"
+
+#: woocommerce/checkout/thankyou.php:62
+msgid "Date:"
+msgstr "Data:"
+
+#: woocommerce/checkout/thankyou.php:68
+msgid "Total:"
+msgstr "Totale:"
+
+#: woocommerce/checkout/thankyou.php:75
+msgid "Payment Method:"
+msgstr "Metodo di pagamento:"
+
+#: woocommerce/checkout/thankyou.php:112
+msgid "Billing Address"
+msgstr "Indirizzo di fatturazione"
+
+#: woocommerce/checkout/thankyou.php:116 woocommerce/checkout/thankyou.php:127
+msgid "N/A"
+msgstr "N/A"
+
+#: woocommerce/checkout/thankyou.php:123
+msgid "Shipping Address"
+msgstr "Indirizzo di spedizione"
+
+#: woocommerce/myaccount/orders.php:67
+#, php-format
+msgid "%s for %s item"
+msgid_plural "%s for %s items"
+msgstr[0] "%s per %s prodotto"
+msgstr[1] "%s per %s prodotti"
+
+#: woocommerce/myaccount/orders.php:91
+msgid "Previous Orders"
+msgstr "Ordini precedenti"
+
+#: woocommerce/myaccount/orders.php:100
+msgid "Next Orders"
+msgstr "Ordini più recenti"
+
+#: woocommerce/myaccount/orders.php:113
+msgid "Go Shop"
+msgstr "Vai al negozio"
+
+#: woocommerce/myaccount/orders.php:115
+msgid "No order has been made yet."
+msgstr "Nessun ordine effettuato, ancora."
+
+#: woocommerce/order/order-details-customer.php:20
+msgid "Customer Details"
+msgstr "Dettagli Acquirente"
+
+#: woocommerce/order/order-details-customer.php:25
+msgid "Note:"
+msgstr "Note:"
+
+#: woocommerce/order/order-details-customer.php:32
+msgid "Email:"
+msgstr "Email:"
+
+#: woocommerce/order/order-details-customer.php:39
+msgid "Phone:"
+msgstr "Telefono:"
+
+#: woocommerce/order/order-details.php:43
+msgid "Order Details"
+msgstr "Dettagli ordine"
+
+#: woocommerce/single-product-reviews.php:65
+msgid "There are no reviews yet."
+msgstr "Non ci sono recensioni, ancora."
+
+#: woocommerce/single-product-reviews.php:69
+msgid "Reviews are closed."
+msgstr "Le recensioni sono chiuse."
+
+#: woocommerce/single-product-reviews.php:79
+msgid ""
+"Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+"Solo utenti loggati che hanno acquistato questo prodotto possono lasciare "
+"una recensione."
+
+#: woocommerce/single-product/add-to-cart/variable.php:35
+msgid "This product is currently out of stock and unavailable."
+msgstr "Questo prodotto è esaurito."
+
+#: woocommerce/single-product/add-to-cart/variable.php:54
+msgid "Clear"
+msgstr "Cancella"
+
+#: woocommerce/single-product/review-meta.php:26
+msgid "Your comment is awaiting approval"
+msgstr "Il tuo commento è in fase di approvazione"
+
+#: woocommerce/single-product/review.php:43
+msgid "verified"
+msgstr "verificato"
+
+#~ msgid "Sorry, no posts matched your criteria."
+#~ msgstr "Spiacenti, nessuna corrispondenza trovata."
+
+#~ msgid "Restart the search"
+#~ msgstr "Inizia una ricerca"
+
+#~ msgid "WordPress Contact Form 7"
+#~ msgstr "WordPress Contact Form 7"
+
+#~ msgid "View"
+#~ msgstr "Visualizza"
+
+#~ msgid "Cancel"
+#~ msgstr "Cancella"

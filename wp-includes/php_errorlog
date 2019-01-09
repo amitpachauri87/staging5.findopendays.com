@@ -1,0 +1,4 @@
+[19-Nov-2018 08:39:27 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function is_robots() in /home/findopen/public_html/wp-includes/template-loader.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/findopen/public_html/wp-includes/template-loader.php on line 28

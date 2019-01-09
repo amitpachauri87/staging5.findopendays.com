@@ -1,0 +1,145 @@
+2018-11-21T08:37:18+00:00 CRITICAL Uncaught Exception: TCPDF ERROR: Could not include font definition file: lato in /home/findopen/staging/5/wp-content/themes/qibla/html2pdf/vendor/tecnickcom/tcpdf/tcpdf.php:2927
+Stack trace:
+#0 /home/findopen/staging/5/wp-content/themes/qibla/html2pdf/vendor/tecnickcom/tcpdf/tcpdf.php(4275): TCPDF->Error('Could not inclu...')
+#1 /home/findopen/staging/5/wp-content/themes/qibla/html2pdf/vendor/tecnickcom/tcpdf/tcpdf.php(4436): TCPDF->AddFont('lato', '', '', true)
+#2 /home/findopen/staging/5/wp-content/themes/qibla/html2pdf/src/Parsing/Css.php(371): TCPDF->SetFont('lato', 'U', 10)
+#3 /home/findopen/staging/5/wp-content/themes/qibla/html2pdf/src/Html2Pdf.php(4038): Spipu\Html2Pdf\Parsing\Css->fontSet()
+#4 /home/findopen/staging/5/wp-content/themes/qibla/html2pdf/src/Html2Pdf.php(1439): Spipu\Html2Pdf\Html2Pdf->_tag_open_A(Array)
+#5 /home/findopen/staging/5/wp-content/themes/qibla/html2pdf/src/Html2Pdf.php(1407): Spipu\Html2Pdf\Html2Pdf->_executeAction(Object(Spipu\Html2Pdf\Parsing\Node))
+#6 /home/findopen/stagin
+
+2018-11-21T08:37:31+00:00 CRITICAL Uncaught Exception: TCPDF ERROR: Could not include font definition file: lato in /home/findopen/staging/5/wp-content/themes/qibla/html2pdf/vendor/tecnickcom/tcpdf/tcpdf.php:2927
+Stack trace:
+#0 /home/findopen/staging/5/wp-content/themes/qibla/html2pdf/vendor/tecnickcom/tcpdf/tcpdf.php(4275): TCPDF->Error('Could not inclu...')
+#1 /home/findopen/staging/5/wp-content/themes/qibla/html2pdf/vendor/tecnickcom/tcpdf/tcpdf.php(4436): TCPDF->AddFont('lato', '', '', true)
+#2 /home/findopen/staging/5/wp-content/themes/qibla/html2pdf/src/Parsing/Css.php(371): TCPDF->SetFont('lato', 'U', 10)
+#3 /home/findopen/staging/5/wp-content/themes/qibla/html2pdf/src/Html2Pdf.php(4038): Spipu\Html2Pdf\Parsing\Css->fontSet()
+#4 /home/findopen/staging/5/wp-content/themes/qibla/html2pdf/src/Html2Pdf.php(1439): Spipu\Html2Pdf\Html2Pdf->_tag_open_A(Array)
+#5 /home/findopen/staging/5/wp-content/themes/qibla/html2pdf/src/Html2Pdf.php(1407): Spipu\Html2Pdf\Html2Pdf->_executeAction(Object(Spipu\Html2Pdf\Parsing\Node))
+#6 /home/findopen/stagin
+
+2018-11-21T08:38:10+00:00 CRITICAL Uncaught Exception: TCPDF ERROR: Could not include font definition file: lato in /home/findopen/staging/5/wp-content/themes/qibla/html2pdf/vendor/tecnickcom/tcpdf/tcpdf.php:2927
+Stack trace:
+#0 /home/findopen/staging/5/wp-content/themes/qibla/html2pdf/vendor/tecnickcom/tcpdf/tcpdf.php(4275): TCPDF->Error('Could not inclu...')
+#1 /home/findopen/staging/5/wp-content/themes/qibla/html2pdf/vendor/tecnickcom/tcpdf/tcpdf.php(4436): TCPDF->AddFont('lato', '', '', true)
+#2 /home/findopen/staging/5/wp-content/themes/qibla/html2pdf/src/Parsing/Css.php(371): TCPDF->SetFont('lato', 'U', 10)
+#3 /home/findopen/staging/5/wp-content/themes/qibla/html2pdf/src/Html2Pdf.php(4038): Spipu\Html2Pdf\Parsing\Css->fontSet()
+#4 /home/findopen/staging/5/wp-content/themes/qibla/html2pdf/src/Html2Pdf.php(1439): Spipu\Html2Pdf\Html2Pdf->_tag_open_A(Array)
+#5 /home/findopen/staging/5/wp-content/themes/qibla/html2pdf/src/Html2Pdf.php(1407): Spipu\Html2Pdf\Html2Pdf->_executeAction(Object(Spipu\Html2Pdf\Parsing\Node))
+#6 /home/findopen/stagin
+
+2018-11-21T08:38:13+00:00 CRITICAL Uncaught Exception: TCPDF ERROR: Could not include font definition file: lato in /home/findopen/staging/5/wp-content/themes/qibla/html2pdf/vendor/tecnickcom/tcpdf/tcpdf.php:2927
+Stack trace:
+#0 /home/findopen/staging/5/wp-content/themes/qibla/html2pdf/vendor/tecnickcom/tcpdf/tcpdf.php(4275): TCPDF->Error('Could not inclu...')
+#1 /home/findopen/staging/5/wp-content/themes/qibla/html2pdf/vendor/tecnickcom/tcpdf/tcpdf.php(4436): TCPDF->AddFont('lato', '', '', true)
+#2 /home/findopen/staging/5/wp-content/themes/qibla/html2pdf/src/Parsing/Css.php(371): TCPDF->SetFont('lato', 'U', 10)
+#3 /home/findopen/staging/5/wp-content/themes/qibla/html2pdf/src/Html2Pdf.php(4038): Spipu\Html2Pdf\Parsing\Css->fontSet()
+#4 /home/findopen/staging/5/wp-content/themes/qibla/html2pdf/src/Html2Pdf.php(1439): Spipu\Html2Pdf\Html2Pdf->_tag_open_A(Array)
+#5 /home/findopen/staging/5/wp-content/themes/qibla/html2pdf/src/Html2Pdf.php(1407): Spipu\Html2Pdf\Html2Pdf->_executeAction(Object(Spipu\Html2Pdf\Parsing\Node))
+#6 /home/findopen/stagin
+
+2018-11-21T08:41:11+00:00 CRITICAL Uncaught Exception: TCPDF ERROR: Could not include font definition file: lato in /home/findopen/staging/5/wp-content/themes/qibla/html2pdf/vendor/tecnickcom/tcpdf/tcpdf.php:2927
+Stack trace:
+#0 /home/findopen/staging/5/wp-content/themes/qibla/html2pdf/vendor/tecnickcom/tcpdf/tcpdf.php(4275): TCPDF->Error('Could not inclu...')
+#1 /home/findopen/staging/5/wp-content/themes/qibla/html2pdf/vendor/tecnickcom/tcpdf/tcpdf.php(4436): TCPDF->AddFont('lato', '', '', true)
+#2 /home/findopen/staging/5/wp-content/themes/qibla/html2pdf/src/Parsing/Css.php(371): TCPDF->SetFont('lato', 'U', 10)
+#3 /home/findopen/staging/5/wp-content/themes/qibla/html2pdf/src/Html2Pdf.php(4038): Spipu\Html2Pdf\Parsing\Css->fontSet()
+#4 /home/findopen/staging/5/wp-content/themes/qibla/html2pdf/src/Html2Pdf.php(1439): Spipu\Html2Pdf\Html2Pdf->_tag_open_A(Array)
+#5 /home/findopen/staging/5/wp-content/themes/qibla/html2pdf/src/Html2Pdf.php(1407): Spipu\Html2Pdf\Html2Pdf->_executeAction(Object(Spipu\Html2Pdf\Parsing\Node))
+#6 /home/findopen/stagin
+
+2018-11-21T08:42:45+00:00 CRITICAL Uncaught Exception: TCPDF ERROR: Could not include font definition file: lato in /home/findopen/staging/5/wp-content/themes/qibla/html2pdf/vendor/tecnickcom/tcpdf/tcpdf.php:2927
+Stack trace:
+#0 /home/findopen/staging/5/wp-content/themes/qibla/html2pdf/vendor/tecnickcom/tcpdf/tcpdf.php(4275): TCPDF->Error('Could not inclu...')
+#1 /home/findopen/staging/5/wp-content/themes/qibla/html2pdf/vendor/tecnickcom/tcpdf/tcpdf.php(4436): TCPDF->AddFont('lato', '', '', true)
+#2 /home/findopen/staging/5/wp-content/themes/qibla/html2pdf/src/Parsing/Css.php(371): TCPDF->SetFont('lato', 'U', 18)
+#3 /home/findopen/staging/5/wp-content/themes/qibla/html2pdf/src/Html2Pdf.php(4038): Spipu\Html2Pdf\Parsing\Css->fontSet()
+#4 /home/findopen/staging/5/wp-content/themes/qibla/html2pdf/src/Html2Pdf.php(1439): Spipu\Html2Pdf\Html2Pdf->_tag_open_A(Array)
+#5 /home/findopen/staging/5/wp-content/themes/qibla/html2pdf/src/Html2Pdf.php(1407): Spipu\Html2Pdf\Html2Pdf->_executeAction(Object(Spipu\Html2Pdf\Parsing\Node))
+#6 /home/findopen/stagin
+
+2018-11-21T09:52:07+00:00 CRITICAL Uncaught Error: Call to undefined function get_author_meta() in /home/findopen/staging/5/wp-content/themes/qibla/inc/booking_popup.php:28
+Stack trace:
+#0 /home/findopen/staging/5/wp-content/themes/qibla/functions.php(421): include()
+#1 /home/findopen/staging/5/wp-includes/shortcodes.php(319): create_functionality_for_book_open_day('', '', 'book_open_day')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 /home/findopen/staging/5/wp-includes/shortcodes.php(197): preg_replace_callback('/\\[(\\[?)(book_o...', 'do_shortcode_ta...', '[book_open_day]')
+#4 /home/findopen/staging/5/wp-content/plugins/popup-maker/classes/Helpers.php(18): do_shortcode('[book_open_day]')
+#5 /home/findopen/staging/5/wp-content/plugins/popup-maker/classes/Site/Popups.php(121): PUM_Helpers::do_shortcode('[book_open_day]')
+#6 /home/findopen/staging/5/wp-content/plugins/popup-maker/classes/Site/Popups.php(98): PUM_Site_Popups::preload_popup(Object(WP_Post))
+#7 /home/findopen/staging/5/wp-includes/class-wp-hook.php(286): PUM_Site_Popups::loa
+
+2018-11-21T09:52:12+00:00 CRITICAL Uncaught Error: Call to undefined function get_author_meta() in /home/findopen/staging/5/wp-content/themes/qibla/inc/booking_popup.php:28
+Stack trace:
+#0 /home/findopen/staging/5/wp-content/themes/qibla/functions.php(421): include()
+#1 /home/findopen/staging/5/wp-includes/shortcodes.php(319): create_functionality_for_book_open_day('', '', 'book_open_day')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 /home/findopen/staging/5/wp-includes/shortcodes.php(197): preg_replace_callback('/\\[(\\[?)(book_o...', 'do_shortcode_ta...', '[book_open_day]')
+#4 /home/findopen/staging/5/wp-content/plugins/popup-maker/classes/Helpers.php(18): do_shortcode('[book_open_day]')
+#5 /home/findopen/staging/5/wp-content/plugins/popup-maker/classes/Site/Popups.php(121): PUM_Helpers::do_shortcode('[book_open_day]')
+#6 /home/findopen/staging/5/wp-content/plugins/popup-maker/classes/Site/Popups.php(98): PUM_Site_Popups::preload_popup(Object(WP_Post))
+#7 /home/findopen/staging/5/wp-includes/class-wp-hook.php(286): PUM_Site_Popups::loa
+
+2018-11-21T11:14:08+00:00 CRITICAL Uncaught Error: Call to a member function insert() on null in /home/findopen/staging/5/wp-content/themes/qibla/functions.php:442
+Stack trace:
+#0 /home/findopen/staging/5/wp-includes/class-wp-hook.php(286): _submit_review('')
+#1 /home/findopen/staging/5/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /home/findopen/staging/5/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home/findopen/staging/5/wp-admin/admin-ajax.php(100): do_action('wp_ajax_submit_...')
+#4 {main}
+  thrown
+
+2018-11-21T11:14:53+00:00 CRITICAL Uncaught Error: Call to undefined function NOW() in /home/findopen/staging/5/wp-content/themes/qibla/functions.php:454
+Stack trace:
+#0 /home/findopen/staging/5/wp-includes/class-wp-hook.php(286): _submit_review('')
+#1 /home/findopen/staging/5/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /home/findopen/staging/5/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home/findopen/staging/5/wp-admin/admin-ajax.php(100): do_action('wp_ajax_submit_...')
+#4 {main}
+  thrown
+
+2018-11-21T11:24:26+00:00 CRITICAL Uncaught Error: Call to undefined function NOW() in /home/findopen/staging/5/wp-content/themes/qibla/functions.php:454
+Stack trace:
+#0 /home/findopen/staging/5/wp-includes/class-wp-hook.php(286): _submit_review('')
+#1 /home/findopen/staging/5/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /home/findopen/staging/5/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home/findopen/staging/5/wp-admin/admin-ajax.php(100): do_action('wp_ajax_submit_...')
+#4 {main}
+  thrown
+
+2018-11-21T11:26:19+00:00 CRITICAL Uncaught Error: Call to undefined function NOW() in /home/findopen/staging/5/wp-content/themes/qibla/functions.php:454
+Stack trace:
+#0 /home/findopen/staging/5/wp-includes/class-wp-hook.php(286): _submit_review('')
+#1 /home/findopen/staging/5/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /home/findopen/staging/5/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home/findopen/staging/5/wp-admin/admin-ajax.php(100): do_action('wp_ajax_submit_...')
+#4 {main}
+  thrown
+
+2018-11-21T11:26:28+00:00 CRITICAL Uncaught Error: Call to undefined function NOW() in /home/findopen/staging/5/wp-content/themes/qibla/functions.php:454
+Stack trace:
+#0 /home/findopen/staging/5/wp-includes/class-wp-hook.php(286): _submit_review('')
+#1 /home/findopen/staging/5/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /home/findopen/staging/5/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home/findopen/staging/5/wp-admin/admin-ajax.php(100): do_action('wp_ajax_submit_...')
+#4 {main}
+  thrown
+
+2018-11-21T11:29:20+00:00 CRITICAL Uncaught Error: Call to undefined function NOW() in /home/findopen/staging/5/wp-content/themes/qibla/functions.php:454
+Stack trace:
+#0 /home/findopen/staging/5/wp-includes/class-wp-hook.php(286): _submit_review('')
+#1 /home/findopen/staging/5/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /home/findopen/staging/5/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home/findopen/staging/5/wp-admin/admin-ajax.php(100): do_action('wp_ajax_submit_...')
+#4 {main}
+  thrown
+
+2018-11-21T11:30:35+00:00 CRITICAL Uncaught Error: Call to undefined function NOW() in /home/findopen/staging/5/wp-content/themes/qibla/functions.php:453
+Stack trace:
+#0 /home/findopen/staging/5/wp-includes/class-wp-hook.php(286): _submit_review('')
+#1 /home/findopen/staging/5/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /home/findopen/staging/5/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home/findopen/staging/5/wp-admin/admin-ajax.php(100): do_action('wp_ajax_submit_...')
+#4 {main}
+  thrown
+

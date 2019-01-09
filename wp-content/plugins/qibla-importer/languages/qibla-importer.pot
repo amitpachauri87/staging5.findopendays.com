@@ -1,0 +1,307 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qibla Importer 1.0.0\n"
+"POT-Creation-Date: 2017-10-18 11:09+0200\n"
+"PO-Revision-Date: 2017-01-08 19:27+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c;"
+"_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_ex:1,2c;esc_attr__;esc_attr_e;"
+"esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: bower_components\n"
+"X-Poedit-SearchPathExcluded-1: node_modules\n"
+"X-Poedit-SearchPathExcluded-2: vendor\n"
+"X-Poedit-SearchPathExcluded-3: assets\n"
+
+#: inc/filtersAdmin.php:66
+msgid "Qibla Warnings"
+msgstr ""
+
+#: inc/requirements.php:37
+#, php-format
+msgid ""
+"This plugin require at least php version 5.3 yours is %s. Continue at your "
+"own risk."
+msgstr ""
+
+#: inc/requirements.php:50
+#, php-format
+msgid ""
+"This plugin require at least wordpress version 4.6 yours is %s. The plugin "
+"may not work properly."
+msgstr ""
+
+#: src/Admin/Page/Import.php:49 src/Admin/Page/Import.php:50
+msgid "Demo Importer"
+msgstr ""
+
+#: src/Admin/Page/Import.php:75
+msgid "Qibla Demo Imports"
+msgstr ""
+
+#: src/Admin/Page/Import.php:77
+msgid ""
+"Starting from scratch is heavy, we know that. Click on \"import\" button and "
+"wait until the download is completed. Don't close this page during the "
+"download! You can browse your dashboard by opening a new tab instead."
+msgstr ""
+
+#: src/Demo.php:75
+msgid "Invalid demo name."
+msgstr ""
+
+#: src/Demo.php:160
+#, php-format
+msgid "Property %1$s does not exists for %2$s."
+msgstr ""
+
+#: src/DemoList.php:63
+#, php-format
+msgid "%s not a directory. Aborting."
+msgstr ""
+
+#: src/Importer/AjaxController.php:144
+msgid "Demo Content imported."
+msgstr ""
+
+#: src/Importer/AjaxController.php:173
+msgid "Wrong demo slug. Aborting."
+msgstr ""
+
+#: src/Importer/AjaxController.php:176
+msgid "You allready have imported the demo content."
+msgstr ""
+
+#: src/Importer/Controller.php:159
+msgid "Demo imported correctly. Have fun!"
+msgstr ""
+
+#: src/Importer/ImportDemo.php:70
+#, php-format
+msgid "%s invalid data format"
+msgstr ""
+
+#: src/Importer/ImportThemeOptions.php:78 src/Importer/ImportWidgets.php:88
+msgid "Cannot import Theme Option. Data is empty."
+msgstr ""
+
+#: src/Importer/ImportWidgets.php:129
+msgid "Sidebar does not exist in theme (using Inactive)"
+msgstr ""
+
+#: src/Importer/ImportWidgets.php:156
+msgid "Site does not support widget"
+msgstr ""
+
+#: src/Importer/ImportWidgets.php:190
+msgid "Widget already exists"
+msgstr ""
+
+#: src/Importer/ImportWidgets.php:244
+msgid "Imported"
+msgstr ""
+
+#: src/Importer/ImportWidgets.php:247
+msgid "Imported to Inactive"
+msgstr ""
+
+#: src/Importer/ImportWidgets.php:260
+msgid "No Title"
+msgstr ""
+
+#: src/Init.php:73 src/Init.php:135
+msgid "Init has been performed."
+msgstr ""
+
+#: src/Init.php:105 src/Init.php:118 src/Loader.php:126 src/Loader.php:139
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: src/Scripts/Scripts.php:81
+#, php-format
+msgid "The list %s does not exists"
+msgstr ""
+
+#: wordpress-importer/WXRImporter.php:170
+msgid "Could not open the file for parsing"
+msgstr ""
+
+#: wordpress-importer/WXRImporter.php:207
+#: wordpress-importer/WXRImporter.php:325
+#: wordpress-importer/WXRImporter.php:400
+#, php-format
+msgid ""
+"This WXR file (version %s) is newer than the importer (version %s) and may "
+"not be supported. Please consider updating."
+msgstr ""
+
+#: wordpress-importer/WXRImporter.php:553
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: wordpress-importer/WXRImporter.php:615
+msgid "Invalid author mapping"
+msgstr ""
+
+#: wordpress-importer/WXRImporter.php:719
+msgid "Cannot import auto-draft posts"
+msgstr ""
+
+#: wordpress-importer/WXRImporter.php:808
+#, php-format
+msgid "Failed to import \"%s\": Invalid post type %s"
+msgstr ""
+
+#: wordpress-importer/WXRImporter.php:819
+#, php-format
+msgid "%s \"%s\" already exists."
+msgstr ""
+
+#: wordpress-importer/WXRImporter.php:897
+#, php-format
+msgid "Skipping attachment \"%s\", fetching attachments disabled"
+msgstr ""
+
+#: wordpress-importer/WXRImporter.php:912
+#, php-format
+msgid "Failed to import \"%s\" (%s)"
+msgstr ""
+
+#: wordpress-importer/WXRImporter.php:945
+#: wordpress-importer/WXRImporter.php:1820
+#, php-format
+msgid "Imported \"%s\" (%s)"
+msgstr ""
+
+#: wordpress-importer/WXRImporter.php:950
+#, php-format
+msgid "Post %d remapped to %d"
+msgstr ""
+
+#: wordpress-importer/WXRImporter.php:1097
+msgid "Invalid file type"
+msgstr ""
+
+#: wordpress-importer/WXRImporter.php:1594
+#, php-format
+msgid "Failed to import user \"%s\""
+msgstr ""
+
+#: wordpress-importer/WXRImporter.php:1616
+#, php-format
+msgid "Imported user \"%s\""
+msgstr ""
+
+#: wordpress-importer/WXRImporter.php:1620
+#, php-format
+msgid "User %d remapped to %d"
+msgstr ""
+
+#: wordpress-importer/WXRImporter.php:1795
+#, php-format
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: wordpress-importer/WXRImporter.php:1825
+#, php-format
+msgid "Term %d remapped to %d"
+msgstr ""
+
+#: wordpress-importer/WXRImporter.php:1882
+#, php-format
+msgid "Remote server returned %1$d %2$s for %3$s"
+msgstr ""
+
+#: wordpress-importer/WXRImporter.php:1896
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: wordpress-importer/WXRImporter.php:1902
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: wordpress-importer/WXRImporter.php:1908
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: wordpress-importer/WXRImporter.php:1934
+#, php-format
+msgid "Running post-processing for post %d"
+msgstr ""
+
+#: wordpress-importer/WXRImporter.php:1947
+#, php-format
+msgid "Could not find the post parent for \"%s\" (post #%d)"
+msgstr ""
+
+#: wordpress-importer/WXRImporter.php:1952
+#, php-format
+msgid "Post %d was imported with parent %d, but could not be found"
+msgstr ""
+
+#: wordpress-importer/WXRImporter.php:1966
+#, php-format
+msgid "Could not find the author for \"%s\" (post #%d)"
+msgstr ""
+
+#: wordpress-importer/WXRImporter.php:1971
+#, php-format
+msgid "Post %d was imported with author \"%s\", but could not be found"
+msgstr ""
+
+#: wordpress-importer/WXRImporter.php:1997
+#, php-format
+msgid "Post %d was marked for post-processing, but none was required."
+msgstr ""
+
+#: wordpress-importer/WXRImporter.php:2008
+#, php-format
+msgid "Could not update \"%s\" (post #%d) with mapped data"
+msgstr ""
+
+#: wordpress-importer/WXRImporter.php:2054
+#, php-format
+msgid "Could not find the menu object for \"%s\" (post #%d)"
+msgstr ""
+
+#: wordpress-importer/WXRImporter.php:2059
+#, php-format
+msgid ""
+"Post %d was imported with object \"%d\" of type \"%s\", but could not be "
+"found"
+msgstr ""
+
+#: wordpress-importer/WXRImporter.php:2081
+#, php-format
+msgid "Could not find the comment parent for comment #%d"
+msgstr ""
+
+#: wordpress-importer/WXRImporter.php:2085
+#, php-format
+msgid "Comment %d was imported with parent %d, but could not be found"
+msgstr ""
+
+#: wordpress-importer/WXRImporter.php:2099
+#, php-format
+msgid "Could not find the author for comment #%d"
+msgstr ""
+
+#: wordpress-importer/WXRImporter.php:2103
+#, php-format
+msgid "Comment %d was imported with author %d, but could not be found"
+msgstr ""
+
+#: wordpress-importer/WXRImporter.php:2120
+#, php-format
+msgid "Could not update comment #%d with mapped data"
+msgstr ""

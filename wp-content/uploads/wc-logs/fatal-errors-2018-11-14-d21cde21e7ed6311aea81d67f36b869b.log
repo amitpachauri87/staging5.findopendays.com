@@ -1,0 +1,89 @@
+2018-11-14T11:03:10+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WP_Statistics_Welcome::do_welcome(), 0 passed in /home/findopen/public_html/wp-content/plugins/wp-statistics/includes/classes/class-wp-statistics-admin.php on line 684 and exactly 2 expected in /home/findopen/public_html/wp-content/plugins/wp-statistics/includes/classes/class-wp-statistics-welcome.php:52
+Stack trace:
+#0 /home/findopen/public_html/wp-content/plugins/wp-statistics/includes/classes/class-wp-statistics-admin.php(684): WP_Statistics_Welcome::do_welcome()
+#1 /home/findopen/public_html/wp-includes/class-wp-hook.php(286): WP_Statistics_Admin->upgrade_plugin(Object(Plugin_Upgrader), Array)
+#2 /home/findopen/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 /home/findopen/public_html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /home/findopen/public_html/wp-admin/includes/class-wp-upgrader.php(793): do_action('upgrader_proces...', Object(Plugin_Upgrader), Array)
+#5 /home/findopen/public_html/wp-
+
+2018-11-14T11:28:16+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WP_Statistics_Welcome::do_welcome(), 0 passed in /home/findopen/public_html/wp-content/plugins/wp-statistics/includes/classes/class-wp-statistics-admin.php on line 684 and exactly 2 expected in /home/findopen/public_html/wp-content/plugins/wp-statistics/includes/classes/class-wp-statistics-welcome.php:52
+Stack trace:
+#0 /home/findopen/public_html/wp-content/plugins/wp-statistics/includes/classes/class-wp-statistics-admin.php(684): WP_Statistics_Welcome::do_welcome()
+#1 /home/findopen/public_html/wp-includes/class-wp-hook.php(286): WP_Statistics_Admin->upgrade_plugin(Object(Plugin_Upgrader), Array)
+#2 /home/findopen/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 /home/findopen/public_html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /home/findopen/public_html/wp-admin/includes/class-plugin-upgrader.php(303): do_action('upgrader_proces...', Object(Plugin_Upgrader), Array)
+#5 /home/findopen/public_html
+
+2018-11-14T14:04:07+00:00 CRITICAL Uncaught Error: Class 'Astoundify_PluginUpdater_Integration_WPJobManager' not found in /home/findopen/public_html/wp-content/plugins/wp-job-manager-stats/wp-job-manager-stats.php:108
+Stack trace:
+#0 /home/findopen/public_html/wp-includes/class-wp-hook.php(286): wpjms_updater('')
+#1 /home/findopen/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /home/findopen/public_html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home/findopen/public_html/wp-content/plugins/qibla-framework/src/Form/Ajax/AjaxStoreMediaFile.php(64): do_action('admin_init')
+#4 /home/findopen/public_html/wp-content/plugins/qibla-events/src/Front/ListingForm/RequestFileHandlerAjax.php(249): QiblaFramework\Form\Ajax\AjaxStoreMediaFile->initializeEnv()
+#5 /home/findopen/public_html/wp-content/plugins/qibla-events/src/Front/ListingForm/RequestFileHandlerAjax.php(392): AppMapEvents\Front\ListingForm\RequestFileHandlerAjax->handleRequest()
+#6 /home/findopen/public_html/wp-includes/class-wp-hook.php(
+
+2018-11-14T14:04:08+00:00 CRITICAL Uncaught Error: Class 'Astoundify_PluginUpdater_Integration_WPJobManager' not found in /home/findopen/public_html/wp-content/plugins/wp-job-manager-stats/wp-job-manager-stats.php:108
+Stack trace:
+#0 /home/findopen/public_html/wp-includes/class-wp-hook.php(286): wpjms_updater('')
+#1 /home/findopen/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /home/findopen/public_html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home/findopen/public_html/wp-content/plugins/qibla-framework/src/Form/Ajax/AjaxStoreMediaFile.php(64): do_action('admin_init')
+#4 /home/findopen/public_html/wp-content/plugins/qibla-events/src/Front/ListingForm/RequestFileHandlerAjax.php(249): QiblaFramework\Form\Ajax\AjaxStoreMediaFile->initializeEnv()
+#5 /home/findopen/public_html/wp-content/plugins/qibla-events/src/Front/ListingForm/RequestFileHandlerAjax.php(392): AppMapEvents\Front\ListingForm\RequestFileHandlerAjax->handleRequest()
+#6 /home/findopen/public_html/wp-includes/class-wp-hook.php(
+
+2018-11-14T14:06:03+00:00 CRITICAL Uncaught Error: Class 'Astoundify_PluginUpdater_Integration_WPJobManager' not found in /home/findopen/public_html/wp-content/plugins/wp-job-manager-stats/wp-job-manager-stats.php:108
+Stack trace:
+#0 /home/findopen/public_html/wp-includes/class-wp-hook.php(286): wpjms_updater('')
+#1 /home/findopen/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /home/findopen/public_html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home/findopen/public_html/wp-content/plugins/qibla-framework/src/Form/Ajax/AjaxStoreMediaFile.php(64): do_action('admin_init')
+#4 /home/findopen/public_html/wp-content/plugins/qibla-events/src/Front/ListingForm/RequestFileHandlerAjax.php(249): QiblaFramework\Form\Ajax\AjaxStoreMediaFile->initializeEnv()
+#5 /home/findopen/public_html/wp-content/plugins/qibla-events/src/Front/ListingForm/RequestFileHandlerAjax.php(392): AppMapEvents\Front\ListingForm\RequestFileHandlerAjax->handleRequest()
+#6 /home/findopen/public_html/wp-includes/class-wp-hook.php(
+
+2018-11-14T14:06:03+00:00 CRITICAL Uncaught Error: Class 'Astoundify_PluginUpdater_Integration_WPJobManager' not found in /home/findopen/public_html/wp-content/plugins/wp-job-manager-stats/wp-job-manager-stats.php:108
+Stack trace:
+#0 /home/findopen/public_html/wp-includes/class-wp-hook.php(286): wpjms_updater('')
+#1 /home/findopen/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /home/findopen/public_html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home/findopen/public_html/wp-content/plugins/qibla-framework/src/Form/Ajax/AjaxStoreMediaFile.php(64): do_action('admin_init')
+#4 /home/findopen/public_html/wp-content/plugins/qibla-events/src/Front/ListingForm/RequestFileHandlerAjax.php(249): QiblaFramework\Form\Ajax\AjaxStoreMediaFile->initializeEnv()
+#5 /home/findopen/public_html/wp-content/plugins/qibla-events/src/Front/ListingForm/RequestFileHandlerAjax.php(392): AppMapEvents\Front\ListingForm\RequestFileHandlerAjax->handleRequest()
+#6 /home/findopen/public_html/wp-includes/class-wp-hook.php(
+
+2018-11-14T14:06:58+00:00 CRITICAL Uncaught Error: Class 'Astoundify_PluginUpdater_Integration_WPJobManager' not found in /home/findopen/public_html/wp-content/plugins/wp-job-manager-stats/wp-job-manager-stats.php:108
+Stack trace:
+#0 /home/findopen/public_html/wp-includes/class-wp-hook.php(286): wpjms_updater('')
+#1 /home/findopen/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /home/findopen/public_html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home/findopen/public_html/wp-content/plugins/qibla-framework/src/Form/Ajax/AjaxStoreMediaFile.php(64): do_action('admin_init')
+#4 /home/findopen/public_html/wp-content/plugins/qibla-events/src/Front/ListingForm/RequestFileHandlerAjax.php(249): QiblaFramework\Form\Ajax\AjaxStoreMediaFile->initializeEnv()
+#5 /home/findopen/public_html/wp-content/plugins/qibla-events/src/Front/ListingForm/RequestFileHandlerAjax.php(392): AppMapEvents\Front\ListingForm\RequestFileHandlerAjax->handleRequest()
+#6 /home/findopen/public_html/wp-includes/class-wp-hook.php(
+
+2018-11-14T14:06:58+00:00 CRITICAL Uncaught Error: Class 'Astoundify_PluginUpdater_Integration_WPJobManager' not found in /home/findopen/public_html/wp-content/plugins/wp-job-manager-stats/wp-job-manager-stats.php:108
+Stack trace:
+#0 /home/findopen/public_html/wp-includes/class-wp-hook.php(286): wpjms_updater('')
+#1 /home/findopen/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /home/findopen/public_html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home/findopen/public_html/wp-content/plugins/qibla-framework/src/Form/Ajax/AjaxStoreMediaFile.php(64): do_action('admin_init')
+#4 /home/findopen/public_html/wp-content/plugins/qibla-events/src/Front/ListingForm/RequestFileHandlerAjax.php(249): QiblaFramework\Form\Ajax\AjaxStoreMediaFile->initializeEnv()
+#5 /home/findopen/public_html/wp-content/plugins/qibla-events/src/Front/ListingForm/RequestFileHandlerAjax.php(392): AppMapEvents\Front\ListingForm\RequestFileHandlerAjax->handleRequest()
+#6 /home/findopen/public_html/wp-includes/class-wp-hook.php(
+
+2018-11-14T15:42:39+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (22112018) at position 7 (8): Unexpected character in /home/findopen/public_html/wp-content/themes/qibla/functions.php:291
+Stack trace:
+#0 /home/findopen/public_html/wp-content/themes/qibla/functions.php(291): DateTime->__construct('22112018')
+#1 /home/findopen/public_html/wp-includes/class-wp-hook.php(286): custom_code_for_add_listing_fix('')
+#2 /home/findopen/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 /home/findopen/public_html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /home/findopen/public_html/wp-admin/admin-header.php(142): do_action('admin_head')
+#5 /home/findopen/public_html/wp-admin/edit.php(303): require_once('/home/findopen/...')
+#6 {main}
+  thrown
+

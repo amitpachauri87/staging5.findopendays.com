@@ -1,0 +1,66 @@
+//
+// Footer Layout
+//
+.dlfooter {
+  @include enumerate-props($boxmodel_footer);
+
+  &,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @include enumerate-props($typography_footer);
+  }
+
+  a {
+    @include anchor-text(map-get($typography_footer, 'link'), map-get($typography_footer, 'link-hover'));
+  }
+
+  // Colophon
+  .dlcolophon {
+    @include enumerate-props($boxmodel_colophon);
+    @include enumerate-props($typography_colophon);
+    line-height: 1;
+    padding:     ($global-vertical-padding / 2) 0;
+
+    a {
+      @include anchor-text(map-get($typography_colophon, 'link'), map-get($typography_colophon, 'link-hover'));
+    }
+
+    .dlcontainer {
+      align-items:    center;
+      -ms-flex-align: center;
+    }
+
+    p,
+    &__content {
+      @include enumerate-props($typography_colophon-content);
+      margin: 0;
+    }
+  }
+
+  // Copyright
+  .dlcopyright {
+    &__content:only-child {
+      width: 100%;
+    }
+  }
+}
+
+//
+// MEDIA QUERIES
+//
+@media only screen and (min-width: map-get($breakpoints, 'md')) {
+
+  .dlfooter {
+    .dlcolophon {
+      p,
+      &__content {
+        text-align: right;
+      }
+    }
+  }
+
+}

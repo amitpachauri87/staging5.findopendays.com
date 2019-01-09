@@ -1,0 +1,659 @@
+[08-May-2018 08:42:38 UTC] PHP Warning:  sprintf(): Too few arguments in /home/odays033/staging/1/wp-admin/includes/class-bulk-upgrader-skin.php on line 150
+[08-May-2018 09:20:17 UTC] PHP Warning:  file_get_contents(https://odays.co/wp-content/plugins/maintenance/images/mt-sample-background.jpg): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/odays033/staging/1/wp-content/plugins/maintenance/includes/functions.php on line 677
+[10-May-2018 07:18:20 UTC] PHP Warning:  sprintf(): Too few arguments in /home/odays033/staging/1/wp-admin/includes/class-bulk-upgrader-skin.php on line 150
+[10-May-2018 12:05:46 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'events' not found or invalid function name in /home/odays033/staging/1/wp-includes/class-wp-hook.php on line 288
+[10-May-2018 12:05:46 UTC] PHP Warning:  call_user_func() expects parameter 1 to be a valid callback, function 'events_metaboxes_html' not found or invalid function name in /home/odays033/staging/1/wp-admin/includes/template.php on line 1063
+[10-May-2018 12:07:15 UTC] PHP Warning:  call_user_func() expects parameter 1 to be a valid callback, function 'events_metaboxes_html' not found or invalid function name in /home/odays033/staging/1/wp-admin/includes/template.php on line 1063
+[16-May-2018 15:57:17 UTC] PHP Warning:  sprintf(): Too few arguments in /home/odays033/staging/1/wp-admin/includes/class-bulk-upgrader-skin.php on line 150
+[16-May-2018 15:57:17 UTC] PHP Warning:  sprintf(): Too few arguments in /home/odays033/staging/1/wp-admin/includes/class-bulk-upgrader-skin.php on line 150
+[16-May-2018 16:53:19 UTC] PHP Warning:  strtolower() expects parameter 1 to be string, array given in /home/odays033/staging/1/wp-content/plugins/qibla-framework/src/Form/Types/Select.php on line 110
+[18-May-2018 13:06:56 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Qibla\Autoloader::addNamespaces() must be of the type array, integer given, called in /home/odays033/staging/1/wp-content/themes/qibla/functions.php on line 58 and defined in /home/odays033/staging/1/wp-content/themes/qibla/src/Autoloader.php:141
+Stack trace:
+#0 /home/odays033/staging/1/wp-content/themes/qibla/functions.php(58): Qibla\Autoloader->addNamespaces(1)
+#1 /home/odays033/staging/1/wp-includes/class-wp-hook.php(286): {closure}('')
+#2 /home/odays033/staging/1/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 /home/odays033/staging/1/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /home/odays033/staging/1/wp-settings.php(450): do_action('init')
+#5 /home/odays033/staging/1/wp-config.php(92): require_once('/home/odays033/...')
+#6 /home/odays033/staging/1/wp-load.php(37): require_once('/home/odays033/...')
+#7 /home/odays033/staging/1/wp-admin/admin-ajax.php(22): require_once('/home/odays033/...')
+#8 {main}
+  thrown in /home/odays033/staging/1/wp-content/themes/qibla/src/Autoloader.php on line 141
+[18-May-2018 13:44:16 UTC] PHP Fatal error:  Uncaught Error: Class 'QiblaFramework\Init' not found in /home/odays033/staging/1/wp-content/plugins/qibla-events/index.php:91
+Stack trace:
+#0 /home/odays033/staging/1/wp-includes/class-wp-hook.php(286): {closure}('')
+#1 /home/odays033/staging/1/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /home/odays033/staging/1/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home/odays033/staging/1/wp-settings.php(327): do_action('plugins_loaded')
+#4 /home/odays033/staging/1/wp-config.php(92): require_once('/home/odays033/...')
+#5 /home/odays033/staging/1/wp-load.php(37): require_once('/home/odays033/...')
+#6 /home/odays033/staging/1/wp-admin/admin-ajax.php(22): require_once('/home/odays033/...')
+#7 {main}
+  thrown in /home/odays033/staging/1/wp-content/plugins/qibla-events/index.php on line 91
+[18-May-2018 13:46:23 UTC] PHP Fatal error:  Interface 'AppMapEvents\RegisterInterface' not found in /home/odays033/staging/1/wp-content/plugins/qibla-events/src/Scripts/Register.php on line 34
+[18-May-2018 13:46:35 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'AppMapEvents\Admin\Settings\PermalinkSettingsFieldsFilter' not found in /home/odays033/staging/1/wp-includes/class-wp-hook.php on line 286
+[18-May-2018 13:46:35 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/odays033/staging/1/wp-content/plugins/qibla-framework/src/Admin/PermalinkSettings.php on line 180
+[18-May-2018 13:49:38 UTC] PHP Fatal error:  Uncaught Error: Class 'Qibla\Loader' not found in /home/odays033/staging/1/wp-content/themes/qibla/functions.php:74
+Stack trace:
+#0 /home/odays033/staging/1/wp-includes/class-wp-hook.php(286): {closure}('')
+#1 /home/odays033/staging/1/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /home/odays033/staging/1/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home/odays033/staging/1/wp-settings.php(450): do_action('init')
+#4 /home/odays033/staging/1/wp-config.php(92): require_once('/home/odays033/...')
+#5 /home/odays033/staging/1/wp-load.php(37): require_once('/home/odays033/...')
+#6 /home/odays033/staging/1/wp-admin/admin-ajax.php(22): require_once('/home/odays033/...')
+#7 {main}
+  thrown in /home/odays033/staging/1/wp-content/themes/qibla/functions.php on line 74
+[19-May-2018 10:38:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function QiblaFramework\Functions\pathFromThemeFallbackToPlugins() in /home/odays033/staging/1/wp-content/plugins/qibla-framework/src/Taxonomy/ListingsAddress.php:56
+Stack trace:
+#0 /home/odays033/staging/1/wp-content/plugins/qibla-framework/inc/filters.php(168): QiblaFramework\Taxonomy\ListingsAddress->__construct()
+#1 /home/odays033/staging/1/wp-content/plugins/qibla-framework/index.php(67): include('/home/odays033/...')
+#2 /home/odays033/staging/1/wp-includes/class-wp-hook.php(286): {closure}('')
+#3 /home/odays033/staging/1/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#4 /home/odays033/staging/1/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#5 /home/odays033/staging/1/wp-settings.php(327): do_action('plugins_loaded')
+#6 /home/odays033/staging/1/wp-config.php(92): require_once('/home/odays033/...')
+#7 /home/odays033/staging/1/wp-load.php(37): require_once('/home/odays033/...')
+#8 /home/odays033/staging/1/wp-admin/admin-ajax.php(22): requi in /home/odays033/staging/1/wp-content/plugins/qibla-framework/src/Taxonomy/ListingsAddress.php on line 56
+[21-May-2018 11:36:07 UTC] PHP Warning:  strtolower() expects parameter 1 to be string, array given in /home/odays033/staging/1/wp-content/plugins/qibla-framework/src/Form/Types/Select.php on line 110
+[21-May-2018 11:36:17 UTC] PHP Warning:  strtolower() expects parameter 1 to be string, array given in /home/odays033/staging/1/wp-content/plugins/qibla-framework/src/Form/Types/Select.php on line 110
+[21-May-2018 11:36:36 UTC] PHP Warning:  strtolower() expects parameter 1 to be string, array given in /home/odays033/staging/1/wp-content/plugins/qibla-framework/src/Form/Types/Select.php on line 110
+[21-May-2018 11:37:22 UTC] PHP Warning:  strtolower() expects parameter 1 to be string, array given in /home/odays033/staging/1/wp-content/plugins/qibla-framework/src/Form/Types/Select.php on line 110
+[21-May-2018 11:37:43 UTC] PHP Warning:  strtolower() expects parameter 1 to be string, array given in /home/odays033/staging/1/wp-content/plugins/qibla-framework/src/Form/Types/Select.php on line 110
+[31-May-2018 11:07:37 UTC] PHP Warning:  array_merge(): Argument #2 is not an array in /home/odays033/staging/1/wp-content/plugins/qibla-framework/index.php on line 67
+[31-May-2018 11:07:37 UTC] PHP Warning:  array_merge(): Argument #1 is not an array in /home/odays033/staging/1/wp-content/plugins/qibla-framework/index.php on line 71
+[31-May-2018 11:07:37 UTC] PHP Fatal error:  Uncaught TypeError: Argument 2 passed to QiblaFramework\Init::__construct() must be of the type array, null given, called in /home/odays033/staging/1/wp-content/plugins/qibla-framework/index.php on line 83 and defined in /home/odays033/staging/1/wp-content/plugins/qibla-framework/src/Init.php:66
+Stack trace:
+#0 /home/odays033/staging/1/wp-content/plugins/qibla-framework/index.php(83): QiblaFramework\Init->__construct(Object(QiblaFramework\Loader), NULL)
+#1 /home/odays033/staging/1/wp-includes/class-wp-hook.php(286): {closure}('')
+#2 /home/odays033/staging/1/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 /home/odays033/staging/1/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /home/odays033/staging/1/wp-settings.php(327): do_action('plugins_loaded')
+#5 /home/odays033/staging/1/wp-config.php(92): require_once('/home/odays033/...')
+#6 /home/odays033/staging/1/wp-load.php(37): require_once('/home/odays033/...')
+#7 /home/odays033/staging/1/wp-admin/admin-ajax.php(22): require_ in /home/odays033/staging/1/wp-content/plugins/qibla-framework/src/Init.php on line 66
+[31-May-2018 11:09:37 UTC] PHP Fatal error:  Uncaught Error: Class 'AppMapEvents\DetachFilters' not found in /home/odays033/staging/1/wp-content/plugins/qibla-events/inc/filters.php:48
+Stack trace:
+#0 /home/odays033/staging/1/wp-content/plugins/qibla-events/index.php(75): include()
+#1 /home/odays033/staging/1/wp-includes/class-wp-hook.php(286): {closure}('')
+#2 /home/odays033/staging/1/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 /home/odays033/staging/1/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /home/odays033/staging/1/wp-settings.php(327): do_action('plugins_loaded')
+#5 /home/odays033/staging/1/wp-config.php(92): require_once('/home/odays033/...')
+#6 /home/odays033/staging/1/wp-load.php(37): require_once('/home/odays033/...')
+#7 /home/odays033/staging/1/wp-admin/admin-ajax.php(22): require_once('/home/odays033/...')
+#8 {main}
+  thrown in /home/odays033/staging/1/wp-content/plugins/qibla-events/inc/filters.php on line 48
+[10-Jul-2018 09:18:24 UTC] PHP Warning:  strtolower() expects parameter 1 to be string, array given in /home/odays033/public_html/wp-content/plugins/qibla-framework/src/Form/Types/Select.php on line 110
+[11-Jul-2018 14:05:28 UTC] PHP Notice:  Trying to get property of non-object in /home/odays033/public_html/wp-content/plugins/qibla-events/inc/filtersAdmin.php on line 293
+[11-Jul-2018 14:05:28 UTC] PHP Notice:  Trying to get property of non-object in /home/odays033/public_html/wp-content/plugins/qibla-events/inc/filtersAdmin.php on line 293
+[11-Jul-2018 14:05:28 UTC] PHP Notice:  Trying to get property of non-object in /home/odays033/public_html/wp-content/plugins/qibla-events/inc/filtersAdmin.php on line 293
+[11-Jul-2018 14:05:28 UTC] PHP Notice:  Trying to get property of non-object in /home/odays033/public_html/wp-content/plugins/qibla-events/inc/filtersAdmin.php on line 293
+[11-Jul-2018 14:05:28 UTC] PHP Notice:  Trying to get property of non-object in /home/odays033/public_html/wp-content/plugins/qibla-events/inc/filtersAdmin.php on line 293
+[11-Jul-2018 14:05:28 UTC] PHP Notice:  Trying to get property of non-object in /home/odays033/public_html/wp-content/plugins/qibla-events/inc/filtersAdmin.php on line 293
+[11-Jul-2018 14:05:28 UTC] PHP Notice:  Trying to get property of non-object in /home/odays033/public_html/wp-content/plugins/qibla-events/inc/filtersAdmin.php on line 293
+[11-Jul-2018 14:05:28 UTC] PHP Notice:  Trying to get property of non-object in /home/odays033/public_html/wp-content/plugins/qibla-events/inc/filtersAdmin.php on line 293
+[11-Jul-2018 14:05:28 UTC] PHP Notice:  Trying to get property of non-object in /home/odays033/public_html/wp-content/plugins/qibla-events/inc/filtersAdmin.php on line 293
+[11-Jul-2018 14:05:28 UTC] PHP Notice:  Trying to get property of non-object in /home/odays033/public_html/wp-content/plugins/qibla-events/inc/filtersAdmin.php on line 293
+[11-Jul-2018 14:05:28 UTC] PHP Notice:  Trying to get property of non-object in /home/odays033/public_html/wp-content/plugins/qibla-events/inc/filtersAdmin.php on line 293
+[11-Jul-2018 14:05:28 UTC] PHP Notice:  Trying to get property of non-object in /home/odays033/public_html/wp-content/plugins/qibla-events/inc/filtersAdmin.php on line 293
+[11-Jul-2018 14:05:28 UTC] PHP Notice:  Trying to get property of non-object in /home/odays033/public_html/wp-content/plugins/qibla-events/inc/filtersAdmin.php on line 293
+[11-Jul-2018 14:05:28 UTC] PHP Notice:  Trying to get property of non-object in /home/odays033/public_html/wp-content/plugins/qibla-events/inc/filtersAdmin.php on line 293
+[11-Jul-2018 14:05:28 UTC] PHP Notice:  Trying to get property of non-object in /home/odays033/public_html/wp-content/plugins/qibla-events/inc/filtersAdmin.php on line 293
+[11-Jul-2018 14:05:28 UTC] PHP Notice:  Trying to get property of non-object in /home/odays033/public_html/wp-content/plugins/qibla-events/inc/filtersAdmin.php on line 293
+[11-Jul-2018 14:05:28 UTC] PHP Notice:  Trying to get property of non-object in /home/odays033/public_html/wp-content/plugins/qibla-events/inc/filtersAdmin.php on line 293
+[11-Jul-2018 14:05:28 UTC] PHP Notice:  Trying to get property of non-object in /home/odays033/public_html/wp-content/plugins/qibla-events/inc/filtersAdmin.php on line 293
+[11-Jul-2018 14:05:28 UTC] PHP Notice:  Trying to get property of non-object in /home/odays033/public_html/wp-content/plugins/qibla-events/inc/filtersAdmin.php on line 293
+[11-Jul-2018 14:05:28 UTC] PHP Notice:  Trying to get property of non-object in /home/odays033/public_html/wp-content/plugins/qibla-events/inc/filtersAdmin.php on line 293
+[11-Jul-2018 14:05:28 UTC] PHP Notice:  Trying to get property of non-object in /home/odays033/public_html/wp-content/plugins/qibla-events/inc/filtersAdmin.php on line 293
+[11-Jul-2018 14:05:28 UTC] PHP Notice:  Trying to get property of non-object in /home/odays033/public_html/wp-content/plugins/qibla-events/inc/filtersAdmin.php on line 293
+[11-Jul-2018 14:05:28 UTC] PHP Notice:  Trying to get property of non-object in /home/odays033/public_html/wp-content/plugins/qibla-events/inc/filtersAdmin.php on line 293
+[11-Jul-2018 14:05:28 UTC] PHP Notice:  Trying to get property of non-object in /home/odays033/public_html/wp-content/plugins/qibla-events/inc/filtersAdmin.php on line 293
+[11-Jul-2018 14:05:28 UTC] PHP Notice:  Trying to get property of non-object in /home/odays033/public_html/wp-content/plugins/qibla-events/inc/filtersAdmin.php on line 293
+[11-Jul-2018 14:05:28 UTC] PHP Notice:  Trying to get property of non-object in /home/odays033/public_html/wp-content/plugins/qibla-events/inc/filtersAdmin.php on line 293
+[11-Jul-2018 14:05:28 UTC] PHP Notice:  Trying to get property of non-object in /home/odays033/public_html/wp-content/plugins/qibla-events/inc/filtersAdmin.php on line 293
+[11-Jul-2018 14:05:28 UTC] PHP Notice:  Trying to get property of non-object in /home/odays033/public_html/wp-content/plugins/qibla-events/inc/filtersAdmin.php on line 293
+[11-Jul-2018 14:05:28 UTC] PHP Notice:  Trying to get property of non-object in /home/odays033/public_html/wp-content/plugins/qibla-events/inc/filtersAdmin.php on line 293
+[11-Jul-2018 14:05:28 UTC] PHP Notice:  Trying to get property of non-object in /home/odays033/public_html/wp-content/plugins/qibla-events/inc/filtersAdmin.php on line 293
+[11-Jul-2018 14:05:28 UTC] PHP Notice:  Trying to get property of non-object in /home/odays033/public_html/wp-content/plugins/qibla-events/inc/filtersAdmin.php on line 293
+[11-Jul-2018 14:05:28 UTC] PHP Notice:  Trying to get property of non-object in /home/odays033/public_html/wp-content/plugins/qibla-events/inc/filtersAdmin.php on line 293
+[11-Jul-2018 14:05:28 UTC] PHP Notice:  Trying to get property of non-object in /home/odays033/public_html/wp-content/plugins/qibla-events/inc/filtersAdmin.php on line 293
+[11-Jul-2018 14:05:28 UTC] PHP Notice:  Trying to get property of non-object in /home/odays033/public_html/wp-content/plugins/qibla-events/inc/filtersAdmin.php on line 293
+[11-Jul-2018 14:05:28 UTC] PHP Notice:  Trying to get property of non-object in /home/odays033/public_html/wp-content/plugins/qibla-events/inc/filtersAdmin.php on line 293
+[11-Jul-2018 14:05:28 UTC] PHP Notice:  Trying to get property of non-object in /home/odays033/public_html/wp-content/plugins/qibla-events/inc/filtersAdmin.php on line 293
+[11-Jul-2018 14:05:28 UTC] PHP Notice:  Trying to get property of non-object in /home/odays033/public_html/wp-content/plugins/qibla-events/inc/filtersAdmin.php on line 293
+[11-Jul-2018 14:05:28 UTC] PHP Notice:  Trying to get property of non-object in /home/odays033/public_html/wp-content/plugins/qibla-events/inc/filtersAdmin.php on line 293
+[11-Jul-2018 14:05:28 UTC] PHP Notice:  Trying to get property of non-object in /home/odays033/public_html/wp-content/plugins/qibla-events/inc/filtersAdmin.php on line 293
+[11-Jul-2018 14:05:28 UTC] PHP Notice:  Trying to get property of non-object in /home/odays033/public_html/wp-content/plugins/qibla-events/inc/filtersAdmin.php on line 293
+[11-Jul-2018 14:05:28 UTC] PHP Notice:  Trying to get property of non-object in /home/odays033/public_html/wp-content/plugins/qibla-events/inc/filtersAdmin.php on line 293
+[11-Jul-2018 14:05:28 UTC] PHP Notice:  Trying to get property of non-object in /home/odays033/public_html/wp-content/plugins/qibla-events/inc/filtersAdmin.php on line 293
+[11-Jul-2018 14:05:28 UTC] PHP Notice:  Trying to get property of non-object in /home/odays033/public_html/wp-content/plugins/qibla-events/inc/filtersAdmin.php on line 293
+[11-Jul-2018 14:05:28 UTC] PHP Notice:  Trying to get property of non-object in /home/odays033/public_html/wp-content/plugins/qibla-events/inc/filtersAdmin.php on line 293
+[11-Jul-2018 14:05:28 UTC] PHP Notice:  Trying to get property of non-object in /home/odays033/public_html/wp-content/plugins/qibla-events/inc/filtersAdmin.php on line 293
+[11-Jul-2018 14:05:28 UTC] PHP Notice:  Trying to get property of non-object in /home/odays033/public_html/wp-content/plugins/qibla-events/inc/filtersAdmin.php on line 293
+[11-Jul-2018 14:05:28 UTC] PHP Notice:  Trying to get property of non-object in /home/odays033/public_html/wp-content/plugins/qibla-events/inc/filtersAdmin.php on line 293
+[11-Jul-2018 14:05:28 UTC] PHP Notice:  Trying to get property of non-object in /home/odays033/public_html/wp-content/plugins/qibla-events/inc/filtersAdmin.php on line 293
+[11-Jul-2018 14:05:28 UTC] PHP Notice:  Trying to get property of non-object in /home/odays033/public_html/wp-content/plugins/qibla-events/inc/filtersAdmin.php on line 293
+[11-Jul-2018 14:05:28 UTC] PHP Notice:  Trying to get property of non-object in /home/odays033/public_html/wp-content/plugins/qibla-events/inc/filtersAdmin.php on line 293
+[11-Jul-2018 14:05:28 UTC] PHP Notice:  Trying to get property of non-object in /home/odays033/public_html/wp-content/plugins/qibla-events/inc/filtersAdmin.php on line 293
+[11-Jul-2018 14:05:28 UTC] PHP Notice:  Trying to get property of non-object in /home/odays033/public_html/wp-content/plugins/qibla-events/inc/filtersAdmin.php on line 293
+[11-Jul-2018 14:05:54 UTC] PHP Fatal error:  Maximum execution time of 24 seconds exceeded in /home/odays033/public_html/wp-content/plugins/sg-cachepress/php-compatibility-checker/vendor/squizlabs/php_codesniffer/CodeSniffer/File.php on line 3293
+[20-Jul-2018 08:30:19 UTC] PHP Fatal error:  Uncaught PHPExcel_Exception: Invalid cell coordinate A in /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Cell.php:594
+Stack trace:
+#0 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Cell.php(733): PHPExcel_Cell::coordinateFromString('A')
+#1 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Worksheet/AutoFilter.php(127): PHPExcel_Cell::rangeBoundaries('A:AG')
+#2 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Reader/Excel2007.php(1571): PHPExcel_Worksheet_AutoFilter->setRange('A:AG')
+#3 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/IOFactory.php(192): PHPExcel_Reader_Excel2007->load('/home/odays033/...')
+#4 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/libraries/XmlImportXLSParse.php(35): PHPExcel_IOFactory::load('/home/odays033/...')
+#5 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/libraries/XmlImportXLSParse.p in /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Cell.php on line 594
+[20-Jul-2018 08:30:36 UTC] PHP Fatal error:  Uncaught PHPExcel_Exception: Invalid cell coordinate A in /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Cell.php:594
+Stack trace:
+#0 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Cell.php(733): PHPExcel_Cell::coordinateFromString('A')
+#1 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Worksheet/AutoFilter.php(127): PHPExcel_Cell::rangeBoundaries('A:AG')
+#2 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Reader/Excel2007.php(1571): PHPExcel_Worksheet_AutoFilter->setRange('A:AG')
+#3 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/IOFactory.php(192): PHPExcel_Reader_Excel2007->load('/home/odays033/...')
+#4 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/libraries/XmlImportXLSParse.php(35): PHPExcel_IOFactory::load('/home/odays033/...')
+#5 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/libraries/XmlImportXLSParse.p in /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Cell.php on line 594
+[20-Jul-2018 08:30:48 UTC] PHP Fatal error:  Uncaught PHPExcel_Exception: Invalid cell coordinate A in /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Cell.php:594
+Stack trace:
+#0 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Cell.php(733): PHPExcel_Cell::coordinateFromString('A')
+#1 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Worksheet/AutoFilter.php(127): PHPExcel_Cell::rangeBoundaries('A:AG')
+#2 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Reader/Excel2007.php(1571): PHPExcel_Worksheet_AutoFilter->setRange('A:AG')
+#3 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/IOFactory.php(192): PHPExcel_Reader_Excel2007->load('/home/odays033/...')
+#4 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/libraries/XmlImportXLSParse.php(35): PHPExcel_IOFactory::load('/home/odays033/...')
+#5 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/libraries/XmlImportXLSParse.p in /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Cell.php on line 594
+[20-Jul-2018 08:30:57 UTC] PHP Fatal error:  Uncaught PHPExcel_Exception: Invalid cell coordinate A in /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Cell.php:594
+Stack trace:
+#0 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Cell.php(733): PHPExcel_Cell::coordinateFromString('A')
+#1 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Worksheet/AutoFilter.php(127): PHPExcel_Cell::rangeBoundaries('A:AG')
+#2 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Reader/Excel2007.php(1571): PHPExcel_Worksheet_AutoFilter->setRange('A:AG')
+#3 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/IOFactory.php(192): PHPExcel_Reader_Excel2007->load('/home/odays033/...')
+#4 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/libraries/XmlImportXLSParse.php(35): PHPExcel_IOFactory::load('/home/odays033/...')
+#5 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/libraries/XmlImportXLSParse.p in /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Cell.php on line 594
+[23-Jul-2018 06:32:41 UTC] PHP Fatal error:  Uncaught PHPExcel_Exception: Invalid cell coordinate A in /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Cell.php:594
+Stack trace:
+#0 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Cell.php(733): PHPExcel_Cell::coordinateFromString('A')
+#1 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Worksheet/AutoFilter.php(127): PHPExcel_Cell::rangeBoundaries('A:AF')
+#2 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Reader/Excel2007.php(990): PHPExcel_Worksheet_AutoFilter->setRange('A:AF')
+#3 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/IOFactory.php(192): PHPExcel_Reader_Excel2007->load('/home/odays033/...')
+#4 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/libraries/XmlImportXLSParse.php(35): PHPExcel_IOFactory::load('/home/odays033/...')
+#5 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/libraries/XmlImportXLSParse.ph in /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Cell.php on line 594
+[23-Jul-2018 06:33:21 UTC] PHP Fatal error:  Uncaught PHPExcel_Exception: Invalid cell coordinate A in /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Cell.php:594
+Stack trace:
+#0 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Cell.php(733): PHPExcel_Cell::coordinateFromString('A')
+#1 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Worksheet/AutoFilter.php(127): PHPExcel_Cell::rangeBoundaries('A:AF')
+#2 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Reader/Excel2007.php(990): PHPExcel_Worksheet_AutoFilter->setRange('A:AF')
+#3 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/IOFactory.php(192): PHPExcel_Reader_Excel2007->load('/home/odays033/...')
+#4 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/libraries/XmlImportXLSParse.php(35): PHPExcel_IOFactory::load('/home/odays033/...')
+#5 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/libraries/XmlImportXLSParse.ph in /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Cell.php on line 594
+[23-Jul-2018 06:34:01 UTC] PHP Fatal error:  Uncaught PHPExcel_Exception: Invalid cell coordinate A in /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Cell.php:594
+Stack trace:
+#0 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Cell.php(733): PHPExcel_Cell::coordinateFromString('A')
+#1 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Worksheet/AutoFilter.php(127): PHPExcel_Cell::rangeBoundaries('A:AF')
+#2 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Reader/Excel2007.php(990): PHPExcel_Worksheet_AutoFilter->setRange('A:AF')
+#3 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/IOFactory.php(192): PHPExcel_Reader_Excel2007->load('/home/odays033/...')
+#4 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/libraries/XmlImportXLSParse.php(35): PHPExcel_IOFactory::load('/home/odays033/...')
+#5 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/libraries/XmlImportXLSParse.ph in /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Cell.php on line 594
+[23-Jul-2018 06:34:48 UTC] PHP Fatal error:  Uncaught PHPExcel_Exception: Invalid cell coordinate A in /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Cell.php:594
+Stack trace:
+#0 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Cell.php(733): PHPExcel_Cell::coordinateFromString('A')
+#1 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Worksheet/AutoFilter.php(127): PHPExcel_Cell::rangeBoundaries('A:AF')
+#2 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Reader/Excel2007.php(990): PHPExcel_Worksheet_AutoFilter->setRange('A:AF')
+#3 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/IOFactory.php(192): PHPExcel_Reader_Excel2007->load('/home/odays033/...')
+#4 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/libraries/XmlImportXLSParse.php(35): PHPExcel_IOFactory::load('/home/odays033/...')
+#5 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/libraries/XmlImportXLSParse.ph in /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Cell.php on line 594
+[23-Jul-2018 07:11:26 UTC] PHP Fatal error:  Uncaught PHPExcel_Exception: Invalid cell coordinate A in /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Cell.php:594
+Stack trace:
+#0 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Cell.php(733): PHPExcel_Cell::coordinateFromString('A')
+#1 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Worksheet/AutoFilter.php(127): PHPExcel_Cell::rangeBoundaries('A:AF')
+#2 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Reader/Excel2007.php(990): PHPExcel_Worksheet_AutoFilter->setRange('A:AF')
+#3 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/IOFactory.php(192): PHPExcel_Reader_Excel2007->load('/home/odays033/...')
+#4 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/libraries/XmlImportXLSParse.php(35): PHPExcel_IOFactory::load('/home/odays033/...')
+#5 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/libraries/XmlImportXLSParse.ph in /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Cell.php on line 594
+[23-Jul-2018 07:12:48 UTC] PHP Fatal error:  Uncaught PHPExcel_Exception: Invalid cell coordinate A in /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Cell.php:594
+Stack trace:
+#0 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Cell.php(733): PHPExcel_Cell::coordinateFromString('A')
+#1 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Worksheet/AutoFilter.php(127): PHPExcel_Cell::rangeBoundaries('A:AF')
+#2 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Reader/Excel2007.php(990): PHPExcel_Worksheet_AutoFilter->setRange('A:AF')
+#3 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/IOFactory.php(192): PHPExcel_Reader_Excel2007->load('/home/odays033/...')
+#4 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/libraries/XmlImportXLSParse.php(35): PHPExcel_IOFactory::load('/home/odays033/...')
+#5 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/libraries/XmlImportXLSParse.ph in /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Cell.php on line 594
+[23-Jul-2018 07:18:58 UTC] PHP Fatal error:  Uncaught PHPExcel_Exception: Invalid cell coordinate A in /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Cell.php:594
+Stack trace:
+#0 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Cell.php(733): PHPExcel_Cell::coordinateFromString('A')
+#1 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Worksheet/AutoFilter.php(127): PHPExcel_Cell::rangeBoundaries('A:AF')
+#2 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Reader/Excel2007.php(990): PHPExcel_Worksheet_AutoFilter->setRange('A:AF')
+#3 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/IOFactory.php(192): PHPExcel_Reader_Excel2007->load('/home/odays033/...')
+#4 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/libraries/XmlImportXLSParse.php(35): PHPExcel_IOFactory::load('/home/odays033/...')
+#5 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/libraries/XmlImportXLSParse.ph in /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Cell.php on line 594
+[23-Jul-2018 07:19:30 UTC] PHP Fatal error:  Uncaught PHPExcel_Exception: Invalid cell coordinate A in /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Cell.php:594
+Stack trace:
+#0 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Cell.php(733): PHPExcel_Cell::coordinateFromString('A')
+#1 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Worksheet/AutoFilter.php(127): PHPExcel_Cell::rangeBoundaries('A:AF')
+#2 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Reader/Excel2007.php(990): PHPExcel_Worksheet_AutoFilter->setRange('A:AF')
+#3 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/IOFactory.php(192): PHPExcel_Reader_Excel2007->load('/home/odays033/...')
+#4 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/libraries/XmlImportXLSParse.php(35): PHPExcel_IOFactory::load('/home/odays033/...')
+#5 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/libraries/XmlImportXLSParse.ph in /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Cell.php on line 594
+[23-Jul-2018 07:19:52 UTC] PHP Fatal error:  Uncaught PHPExcel_Exception: Invalid cell coordinate A in /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Cell.php:594
+Stack trace:
+#0 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Cell.php(733): PHPExcel_Cell::coordinateFromString('A')
+#1 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Worksheet/AutoFilter.php(127): PHPExcel_Cell::rangeBoundaries('A:AF')
+#2 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Reader/Excel2007.php(990): PHPExcel_Worksheet_AutoFilter->setRange('A:AF')
+#3 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/IOFactory.php(192): PHPExcel_Reader_Excel2007->load('/home/odays033/...')
+#4 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/libraries/XmlImportXLSParse.php(35): PHPExcel_IOFactory::load('/home/odays033/...')
+#5 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/libraries/XmlImportXLSParse.ph in /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Cell.php on line 594
+[23-Jul-2018 07:20:38 UTC] PHP Fatal error:  Uncaught PHPExcel_Exception: Invalid cell coordinate A in /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Cell.php:594
+Stack trace:
+#0 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Cell.php(733): PHPExcel_Cell::coordinateFromString('A')
+#1 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Worksheet/AutoFilter.php(127): PHPExcel_Cell::rangeBoundaries('A:AF')
+#2 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Reader/Excel2007.php(990): PHPExcel_Worksheet_AutoFilter->setRange('A:AF')
+#3 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/IOFactory.php(192): PHPExcel_Reader_Excel2007->load('/home/odays033/...')
+#4 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/libraries/XmlImportXLSParse.php(35): PHPExcel_IOFactory::load('/home/odays033/...')
+#5 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/libraries/XmlImportXLSParse.ph in /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Cell.php on line 594
+[23-Jul-2018 07:20:58 UTC] PHP Fatal error:  Uncaught PHPExcel_Exception: Invalid cell coordinate A in /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Cell.php:594
+Stack trace:
+#0 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Cell.php(733): PHPExcel_Cell::coordinateFromString('A')
+#1 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Worksheet/AutoFilter.php(127): PHPExcel_Cell::rangeBoundaries('A:AF')
+#2 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Reader/Excel2007.php(990): PHPExcel_Worksheet_AutoFilter->setRange('A:AF')
+#3 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/IOFactory.php(192): PHPExcel_Reader_Excel2007->load('/home/odays033/...')
+#4 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/libraries/XmlImportXLSParse.php(35): PHPExcel_IOFactory::load('/home/odays033/...')
+#5 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/libraries/XmlImportXLSParse.ph in /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Cell.php on line 594
+[23-Jul-2018 07:21:26 UTC] PHP Fatal error:  Uncaught PHPExcel_Exception: Invalid cell coordinate A in /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Cell.php:594
+Stack trace:
+#0 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Cell.php(733): PHPExcel_Cell::coordinateFromString('A')
+#1 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Worksheet/AutoFilter.php(127): PHPExcel_Cell::rangeBoundaries('A:AF')
+#2 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Reader/Excel2007.php(990): PHPExcel_Worksheet_AutoFilter->setRange('A:AF')
+#3 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/IOFactory.php(192): PHPExcel_Reader_Excel2007->load('/home/odays033/...')
+#4 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/libraries/XmlImportXLSParse.php(35): PHPExcel_IOFactory::load('/home/odays033/...')
+#5 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/libraries/XmlImportXLSParse.ph in /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Cell.php on line 594
+[23-Jul-2018 07:25:03 UTC] PHP Fatal error:  Uncaught PHPExcel_Exception: Invalid cell coordinate A in /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Cell.php:594
+Stack trace:
+#0 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Cell.php(733): PHPExcel_Cell::coordinateFromString('A')
+#1 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Worksheet/AutoFilter.php(127): PHPExcel_Cell::rangeBoundaries('A:AF')
+#2 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Reader/Excel2007.php(990): PHPExcel_Worksheet_AutoFilter->setRange('A:AF')
+#3 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/IOFactory.php(192): PHPExcel_Reader_Excel2007->load('/home/odays033/...')
+#4 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/libraries/XmlImportXLSParse.php(35): PHPExcel_IOFactory::load('/home/odays033/...')
+#5 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/libraries/XmlImportXLSParse.ph in /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Cell.php on line 594
+[23-Jul-2018 10:12:31 UTC] PHP Fatal error:  Uncaught PHPExcel_Exception: Invalid cell coordinate A in /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Cell.php:594
+Stack trace:
+#0 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Cell.php(733): PHPExcel_Cell::coordinateFromString('A')
+#1 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Worksheet/AutoFilter.php(127): PHPExcel_Cell::rangeBoundaries('A:AG')
+#2 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Reader/Excel2007.php(990): PHPExcel_Worksheet_AutoFilter->setRange('A:AG')
+#3 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/IOFactory.php(192): PHPExcel_Reader_Excel2007->load('/home/odays033/...')
+#4 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/libraries/XmlImportXLSParse.php(35): PHPExcel_IOFactory::load('/home/odays033/...')
+#5 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/libraries/XmlImportXLSParse.ph in /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Cell.php on line 594
+[23-Jul-2018 10:55:49 UTC] PHP Fatal error:  Uncaught PHPExcel_Exception: Invalid cell coordinate A in /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Cell.php:594
+Stack trace:
+#0 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Cell.php(733): PHPExcel_Cell::coordinateFromString('A')
+#1 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Worksheet/AutoFilter.php(127): PHPExcel_Cell::rangeBoundaries('A:AG')
+#2 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Reader/Excel2007.php(1571): PHPExcel_Worksheet_AutoFilter->setRange('A:AG')
+#3 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/IOFactory.php(192): PHPExcel_Reader_Excel2007->load('/home/odays033/...')
+#4 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/libraries/XmlImportXLSParse.php(35): PHPExcel_IOFactory::load('/home/odays033/...')
+#5 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/libraries/XmlImportXLSParse.p in /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Cell.php on line 594
+[26-Jul-2018 07:58:00 UTC] PHP Fatal error:  Uncaught PHPExcel_Exception: Invalid cell coordinate A in /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Cell.php:594
+Stack trace:
+#0 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Cell.php(733): PHPExcel_Cell::coordinateFromString('A')
+#1 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Worksheet/AutoFilter.php(127): PHPExcel_Cell::rangeBoundaries('A:AF')
+#2 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Reader/Excel2007.php(1571): PHPExcel_Worksheet_AutoFilter->setRange('A:AF')
+#3 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/IOFactory.php(192): PHPExcel_Reader_Excel2007->load('/home/odays033/...')
+#4 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/libraries/XmlImportXLSParse.php(35): PHPExcel_IOFactory::load('/home/odays033/...')
+#5 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/libraries/XmlImportXLSParse.p in /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Cell.php on line 594
+[26-Jul-2018 08:00:18 UTC] PHP Fatal error:  Uncaught PHPExcel_Exception: Invalid cell coordinate A in /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Cell.php:594
+Stack trace:
+#0 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Cell.php(733): PHPExcel_Cell::coordinateFromString('A')
+#1 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Worksheet/AutoFilter.php(127): PHPExcel_Cell::rangeBoundaries('A:AF')
+#2 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Reader/Excel2007.php(990): PHPExcel_Worksheet_AutoFilter->setRange('A:AF')
+#3 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/IOFactory.php(192): PHPExcel_Reader_Excel2007->load('/home/odays033/...')
+#4 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/libraries/XmlImportXLSParse.php(35): PHPExcel_IOFactory::load('/home/odays033/...')
+#5 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/libraries/XmlImportXLSParse.ph in /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Cell.php on line 594
+[26-Jul-2018 08:00:58 UTC] PHP Fatal error:  Uncaught PHPExcel_Exception: Invalid cell coordinate A in /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Cell.php:594
+Stack trace:
+#0 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Cell.php(733): PHPExcel_Cell::coordinateFromString('A')
+#1 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Worksheet/AutoFilter.php(127): PHPExcel_Cell::rangeBoundaries('A:AF')
+#2 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Reader/Excel2007.php(990): PHPExcel_Worksheet_AutoFilter->setRange('A:AF')
+#3 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/IOFactory.php(192): PHPExcel_Reader_Excel2007->load('/home/odays033/...')
+#4 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/libraries/XmlImportXLSParse.php(35): PHPExcel_IOFactory::load('/home/odays033/...')
+#5 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/libraries/XmlImportXLSParse.ph in /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Cell.php on line 594
+[26-Jul-2018 08:01:06 UTC] PHP Fatal error:  Uncaught PHPExcel_Exception: Invalid cell coordinate A in /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Cell.php:594
+Stack trace:
+#0 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Cell.php(733): PHPExcel_Cell::coordinateFromString('A')
+#1 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Worksheet/AutoFilter.php(127): PHPExcel_Cell::rangeBoundaries('A:AF')
+#2 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Reader/Excel2007.php(990): PHPExcel_Worksheet_AutoFilter->setRange('A:AF')
+#3 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/IOFactory.php(192): PHPExcel_Reader_Excel2007->load('/home/odays033/...')
+#4 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/libraries/XmlImportXLSParse.php(35): PHPExcel_IOFactory::load('/home/odays033/...')
+#5 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/libraries/XmlImportXLSParse.ph in /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Cell.php on line 594
+[26-Jul-2018 08:01:19 UTC] PHP Fatal error:  Uncaught PHPExcel_Exception: Invalid cell coordinate A in /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Cell.php:594
+Stack trace:
+#0 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Cell.php(733): PHPExcel_Cell::coordinateFromString('A')
+#1 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Worksheet/AutoFilter.php(127): PHPExcel_Cell::rangeBoundaries('A:AF')
+#2 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Reader/Excel2007.php(1571): PHPExcel_Worksheet_AutoFilter->setRange('A:AF')
+#3 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/IOFactory.php(192): PHPExcel_Reader_Excel2007->load('/home/odays033/...')
+#4 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/libraries/XmlImportXLSParse.php(35): PHPExcel_IOFactory::load('/home/odays033/...')
+#5 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/libraries/XmlImportXLSParse.p in /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Cell.php on line 594
+[26-Jul-2018 08:01:40 UTC] PHP Fatal error:  Uncaught PHPExcel_Exception: Invalid cell coordinate A in /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Cell.php:594
+Stack trace:
+#0 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Cell.php(733): PHPExcel_Cell::coordinateFromString('A')
+#1 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Worksheet/AutoFilter.php(127): PHPExcel_Cell::rangeBoundaries('A:AF')
+#2 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Reader/Excel2007.php(990): PHPExcel_Worksheet_AutoFilter->setRange('A:AF')
+#3 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/IOFactory.php(192): PHPExcel_Reader_Excel2007->load('/home/odays033/...')
+#4 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/libraries/XmlImportXLSParse.php(35): PHPExcel_IOFactory::load('/home/odays033/...')
+#5 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/libraries/XmlImportXLSParse.ph in /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Cell.php on line 594
+[26-Jul-2018 08:04:15 UTC] PHP Fatal error:  Uncaught PHPExcel_Exception: Invalid cell coordinate A in /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Cell.php:594
+Stack trace:
+#0 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Cell.php(733): PHPExcel_Cell::coordinateFromString('A')
+#1 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Worksheet/AutoFilter.php(127): PHPExcel_Cell::rangeBoundaries('A:AF')
+#2 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Reader/Excel2007.php(1571): PHPExcel_Worksheet_AutoFilter->setRange('A:AF')
+#3 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/IOFactory.php(192): PHPExcel_Reader_Excel2007->load('/home/odays033/...')
+#4 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/libraries/XmlImportXLSParse.php(35): PHPExcel_IOFactory::load('/home/odays033/...')
+#5 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/libraries/XmlImportXLSParse.p in /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Cell.php on line 594
+[26-Jul-2018 09:06:25 UTC] PHP Fatal error:  Uncaught PHPExcel_Exception: Invalid cell coordinate A in /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Cell.php:594
+Stack trace:
+#0 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Cell.php(733): PHPExcel_Cell::coordinateFromString('A')
+#1 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Worksheet/AutoFilter.php(127): PHPExcel_Cell::rangeBoundaries('A:AF')
+#2 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Reader/Excel2007.php(1571): PHPExcel_Worksheet_AutoFilter->setRange('A:AF')
+#3 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/IOFactory.php(192): PHPExcel_Reader_Excel2007->load('/home/odays033/...')
+#4 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/libraries/XmlImportXLSParse.php(35): PHPExcel_IOFactory::load('/home/odays033/...')
+#5 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/libraries/XmlImportXLSParse.p in /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Cell.php on line 594
+[08-Aug-2018 09:22:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_current_screen() in /home/odays033/public_html/wp-content/plugins/qibla-events/inc/filtersAdmin.php:296
+Stack trace:
+#0 /home/odays033/public_html/wp-includes/class-wp-hook.php(286): {closure}(Array)
+#1 /home/odays033/public_html/wp-includes/plugin.php(203): WP_Hook->apply_filters(Array, Array)
+#2 /home/odays033/public_html/wp-content/plugins/qibla-events/src/Admin/Metabox/ListingPackageRelated.php(60): apply_filters('qibla_listing_p...', Array)
+#3 /home/odays033/public_html/wp-content/plugins/qibla-events/inc/filtersAdmin.php(123): AppMapEvents\Admin\Metabox\ListingPackageRelated->__construct()
+#4 /home/odays033/public_html/wp-includes/class-wp-hook.php(286): {closure}(37631, Object(WP_Post), false)
+#5 /home/odays033/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#6 /home/odays033/public_html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#7 /home/odays033/public_html/wp-includes/post.php(3673): do_action('save_post', in /home/odays033/public_html/wp-content/plugins/qibla-events/inc/filtersAdmin.php on line 296
+[08-Aug-2018 11:14:48 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (15/03/2018) at position 0 (1): Unexpected character in /home/odays033/public_html/wp-content/themes/qibla/functions.php:290
+Stack trace:
+#0 /home/odays033/public_html/wp-content/themes/qibla/functions.php(290): DateTime->__construct('15/03/2018')
+#1 /home/odays033/public_html/wp-includes/class-wp-hook.php(286): custom_code_for_add_listing_fix('')
+#2 /home/odays033/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 /home/odays033/public_html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /home/odays033/public_html/wp-settings.php(450): do_action('init')
+#5 /home/odays033/public_html/wp-config.php(91): require_once('/home/odays033/...')
+#6 /home/odays033/public_html/wp-load.php(37): require_once('/home/odays033/...')
+#7 /home/odays033/public_html/wp-admin/admin-ajax.php(22): require_once('/home/odays033/...')
+#8 {main}
+  thrown in /home/odays033/public_html/wp-content/themes/qibla/functions.php on line 290
+[08-Aug-2018 11:14:57 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (15/03/2018) at position 0 (1): Unexpected character in /home/odays033/public_html/wp-content/themes/qibla/functions.php:290
+Stack trace:
+#0 /home/odays033/public_html/wp-content/themes/qibla/functions.php(290): DateTime->__construct('15/03/2018')
+#1 /home/odays033/public_html/wp-includes/class-wp-hook.php(286): custom_code_for_add_listing_fix('')
+#2 /home/odays033/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 /home/odays033/public_html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /home/odays033/public_html/wp-settings.php(450): do_action('init')
+#5 /home/odays033/public_html/wp-config.php(91): require_once('/home/odays033/...')
+#6 /home/odays033/public_html/wp-load.php(37): require_once('/home/odays033/...')
+#7 /home/odays033/public_html/wp-admin/admin.php(31): require_once('/home/odays033/...')
+#8 /home/odays033/public_html/wp-admin/edit.php(10): require_once('/home/odays033/...')
+# in /home/odays033/public_html/wp-content/themes/qibla/functions.php on line 290
+[08-Aug-2018 11:16:30 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (15/03/2018) at position 0 (1): Unexpected character in /home/odays033/public_html/wp-content/themes/qibla/functions.php:290
+Stack trace:
+#0 /home/odays033/public_html/wp-content/themes/qibla/functions.php(290): DateTime->__construct('15/03/2018')
+#1 /home/odays033/public_html/wp-includes/class-wp-hook.php(286): custom_code_for_add_listing_fix('')
+#2 /home/odays033/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 /home/odays033/public_html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /home/odays033/public_html/wp-settings.php(450): do_action('init')
+#5 /home/odays033/public_html/wp-config.php(91): require_once('/home/odays033/...')
+#6 /home/odays033/public_html/wp-load.php(37): require_once('/home/odays033/...')
+#7 /home/odays033/public_html/wp-admin/admin.php(31): require_once('/home/odays033/...')
+#8 /home/odays033/public_html/wp-admin/edit.php(10): require_once('/home/odays033/...')
+# in /home/odays033/public_html/wp-content/themes/qibla/functions.php on line 290
+[08-Aug-2018 11:16:44 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (15/03/2018) at position 0 (1): Unexpected character in /home/odays033/public_html/wp-content/themes/qibla/functions.php:290
+Stack trace:
+#0 /home/odays033/public_html/wp-content/themes/qibla/functions.php(290): DateTime->__construct('15/03/2018')
+#1 /home/odays033/public_html/wp-includes/class-wp-hook.php(286): custom_code_for_add_listing_fix('')
+#2 /home/odays033/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 /home/odays033/public_html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /home/odays033/public_html/wp-settings.php(450): do_action('init')
+#5 /home/odays033/public_html/wp-config.php(91): require_once('/home/odays033/...')
+#6 /home/odays033/public_html/wp-load.php(37): require_once('/home/odays033/...')
+#7 /home/odays033/public_html/wp-admin/admin.php(31): require_once('/home/odays033/...')
+#8 /home/odays033/public_html/wp-admin/edit.php(10): require_once('/home/odays033/...')
+# in /home/odays033/public_html/wp-content/themes/qibla/functions.php on line 290
+[08-Aug-2018 11:16:59 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (15/03/2018) at position 0 (1): Unexpected character in /home/odays033/public_html/wp-content/themes/qibla/functions.php:290
+Stack trace:
+#0 /home/odays033/public_html/wp-content/themes/qibla/functions.php(290): DateTime->__construct('15/03/2018')
+#1 /home/odays033/public_html/wp-includes/class-wp-hook.php(286): custom_code_for_add_listing_fix('')
+#2 /home/odays033/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 /home/odays033/public_html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /home/odays033/public_html/wp-settings.php(450): do_action('init')
+#5 /home/odays033/public_html/wp-config.php(91): require_once('/home/odays033/...')
+#6 /home/odays033/public_html/wp-load.php(37): require_once('/home/odays033/...')
+#7 /home/odays033/public_html/wp-admin/admin.php(31): require_once('/home/odays033/...')
+#8 /home/odays033/public_html/wp-admin/index.php(10): require_once('/home/odays033/...')
+ in /home/odays033/public_html/wp-content/themes/qibla/functions.php on line 290
+[08-Aug-2018 11:17:12 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (15/03/2018) at position 0 (1): Unexpected character in /home/odays033/public_html/wp-content/themes/qibla/functions.php:290
+Stack trace:
+#0 /home/odays033/public_html/wp-content/themes/qibla/functions.php(290): DateTime->__construct('15/03/2018')
+#1 /home/odays033/public_html/wp-includes/class-wp-hook.php(286): custom_code_for_add_listing_fix('')
+#2 /home/odays033/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 /home/odays033/public_html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /home/odays033/public_html/wp-settings.php(450): do_action('init')
+#5 /home/odays033/public_html/wp-config.php(91): require_once('/home/odays033/...')
+#6 /home/odays033/public_html/wp-load.php(37): require_once('/home/odays033/...')
+#7 /home/odays033/public_html/wp-admin/admin.php(31): require_once('/home/odays033/...')
+#8 /home/odays033/public_html/wp-admin/index.php(10): require_once('/home/odays033/...')
+ in /home/odays033/public_html/wp-content/themes/qibla/functions.php on line 290
+[08-Aug-2018 11:17:14 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (15/03/2018) at position 0 (1): Unexpected character in /home/odays033/public_html/wp-content/themes/qibla/functions.php:290
+Stack trace:
+#0 /home/odays033/public_html/wp-content/themes/qibla/functions.php(290): DateTime->__construct('15/03/2018')
+#1 /home/odays033/public_html/wp-includes/class-wp-hook.php(286): custom_code_for_add_listing_fix('')
+#2 /home/odays033/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 /home/odays033/public_html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /home/odays033/public_html/wp-settings.php(450): do_action('init')
+#5 /home/odays033/public_html/wp-config.php(91): require_once('/home/odays033/...')
+#6 /home/odays033/public_html/wp-load.php(37): require_once('/home/odays033/...')
+#7 /home/odays033/public_html/wp-admin/admin.php(31): require_once('/home/odays033/...')
+#8 /home/odays033/public_html/wp-admin/index.php(10): require_once('/home/odays033/...')
+ in /home/odays033/public_html/wp-content/themes/qibla/functions.php on line 290
+[08-Aug-2018 12:51:32 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/odays033/public_html/wp-content/themes/qibla/functions.php on line 326
+[08-Aug-2018 12:52:12 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/odays033/public_html/wp-content/themes/qibla/functions.php on line 326
+[08-Aug-2018 12:52:34 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/odays033/public_html/wp-content/themes/qibla/functions.php on line 326
+[08-Aug-2018 12:53:32 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/odays033/public_html/wp-content/themes/qibla/functions.php on line 326
+[08-Aug-2018 12:54:12 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/odays033/public_html/wp-content/themes/qibla/functions.php on line 326
+[08-Aug-2018 12:54:34 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/odays033/public_html/wp-content/themes/qibla/functions.php on line 326
+[08-Aug-2018 12:56:12 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/odays033/public_html/wp-content/themes/qibla/functions.php on line 326
+[14-Aug-2018 11:10:43 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/odays033/public_html/wp-content/themes/qibla/functions.php on line 391
+[14-Aug-2018 11:10:58 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/odays033/public_html/wp-content/themes/qibla/functions.php on line 391
+[14-Aug-2018 11:10:58 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/odays033/public_html/wp-content/themes/qibla/functions.php on line 391
+[14-Aug-2018 12:31:21 UTC] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home/odays033/public_html/wp-content/themes/qibla/functions.php on line 396
+[23-Aug-2018 12:00:57 UTC] PHP Fatal error:  Uncaught PHPExcel_Exception: Invalid cell coordinate A in /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Cell.php:594
+Stack trace:
+#0 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Cell.php(733): PHPExcel_Cell::coordinateFromString('A')
+#1 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Worksheet/AutoFilter.php(127): PHPExcel_Cell::rangeBoundaries('A:AF')
+#2 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Reader/Excel2007.php(990): PHPExcel_Worksheet_AutoFilter->setRange('A:AF')
+#3 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/IOFactory.php(192): PHPExcel_Reader_Excel2007->load('/home/odays033/...')
+#4 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/libraries/XmlImportXLSParse.php(35): PHPExcel_IOFactory::load('/home/odays033/...')
+#5 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/libraries/XmlImportXLSParse.ph in /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Cell.php on line 594
+[23-Aug-2018 12:01:59 UTC] PHP Fatal error:  Uncaught PHPExcel_Exception: Invalid cell coordinate A in /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Cell.php:594
+Stack trace:
+#0 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Cell.php(733): PHPExcel_Cell::coordinateFromString('A')
+#1 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Worksheet/AutoFilter.php(127): PHPExcel_Cell::rangeBoundaries('A:AF')
+#2 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Reader/Excel2007.php(990): PHPExcel_Worksheet_AutoFilter->setRange('A:AF')
+#3 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/IOFactory.php(192): PHPExcel_Reader_Excel2007->load('/home/odays033/...')
+#4 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/libraries/XmlImportXLSParse.php(35): PHPExcel_IOFactory::load('/home/odays033/...')
+#5 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/libraries/XmlImportXLSParse.ph in /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Cell.php on line 594
+[23-Aug-2018 12:02:17 UTC] PHP Fatal error:  Uncaught PHPExcel_Exception: Invalid cell coordinate A in /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Cell.php:594
+Stack trace:
+#0 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Cell.php(733): PHPExcel_Cell::coordinateFromString('A')
+#1 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Worksheet/AutoFilter.php(127): PHPExcel_Cell::rangeBoundaries('A:AF')
+#2 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Reader/Excel2007.php(990): PHPExcel_Worksheet_AutoFilter->setRange('A:AF')
+#3 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/IOFactory.php(192): PHPExcel_Reader_Excel2007->load('/home/odays033/...')
+#4 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/libraries/XmlImportXLSParse.php(35): PHPExcel_IOFactory::load('/home/odays033/...')
+#5 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/libraries/XmlImportXLSParse.ph in /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Cell.php on line 594
+[23-Aug-2018 12:03:54 UTC] PHP Fatal error:  Uncaught PHPExcel_Exception: Invalid cell coordinate A in /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Cell.php:594
+Stack trace:
+#0 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Cell.php(733): PHPExcel_Cell::coordinateFromString('A')
+#1 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Worksheet/AutoFilter.php(127): PHPExcel_Cell::rangeBoundaries('A:AF')
+#2 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Reader/Excel2007.php(990): PHPExcel_Worksheet_AutoFilter->setRange('A:AF')
+#3 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/IOFactory.php(192): PHPExcel_Reader_Excel2007->load('/home/odays033/...')
+#4 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/libraries/XmlImportXLSParse.php(35): PHPExcel_IOFactory::load('/home/odays033/...')
+#5 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/libraries/XmlImportXLSParse.ph in /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Cell.php on line 594
+[23-Aug-2018 12:04:38 UTC] PHP Fatal error:  Uncaught PHPExcel_Exception: Invalid cell coordinate A in /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Cell.php:594
+Stack trace:
+#0 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Cell.php(733): PHPExcel_Cell::coordinateFromString('A')
+#1 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Worksheet/AutoFilter.php(127): PHPExcel_Cell::rangeBoundaries('A:AF')
+#2 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Reader/Excel2007.php(990): PHPExcel_Worksheet_AutoFilter->setRange('A:AF')
+#3 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/IOFactory.php(192): PHPExcel_Reader_Excel2007->load('/home/odays033/...')
+#4 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/libraries/XmlImportXLSParse.php(35): PHPExcel_IOFactory::load('/home/odays033/...')
+#5 /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/libraries/XmlImportXLSParse.ph in /home/odays033/public_html/wp-content/plugins/wp-all-import-pro/classes/PHPExcel/Cell.php on line 594
+[30-Aug-2018 12:11:01 UTC] PHP Warning:  Missing argument 1 for WP_Statistics_Welcome::do_welcome(), called in /home/odays033/public_html/wp-content/plugins/wp-statistics/includes/classes/class-wp-statistics-admin.php on line 684 and defined in /home/odays033/public_html/wp-content/plugins/wp-statistics/includes/classes/class-wp-statistics-welcome.php on line 52
+[30-Aug-2018 12:11:01 UTC] PHP Warning:  Missing argument 2 for WP_Statistics_Welcome::do_welcome(), called in /home/odays033/public_html/wp-content/plugins/wp-statistics/includes/classes/class-wp-statistics-admin.php on line 684 and defined in /home/odays033/public_html/wp-content/plugins/wp-statistics/includes/classes/class-wp-statistics-welcome.php on line 52
+[14-Nov-2018 11:03:10 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function WP_Statistics_Welcome::do_welcome(), 0 passed in /home/findopen/public_html/wp-content/plugins/wp-statistics/includes/classes/class-wp-statistics-admin.php on line 684 and exactly 2 expected in /home/findopen/public_html/wp-content/plugins/wp-statistics/includes/classes/class-wp-statistics-welcome.php:52
+Stack trace:
+#0 /home/findopen/public_html/wp-content/plugins/wp-statistics/includes/classes/class-wp-statistics-admin.php(684): WP_Statistics_Welcome::do_welcome()
+#1 /home/findopen/public_html/wp-includes/class-wp-hook.php(286): WP_Statistics_Admin->upgrade_plugin(Object(Plugin_Upgrader), Array)
+#2 /home/findopen/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 /home/findopen/public_html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /home/findopen/public_html/wp-admin/includes/class-wp-upgrader.php(793): do_action('upgrader_proces...', Object(Plugin_Upgrader), Array)
+#5 /home/findopen/public_html/wp- in /home/findopen/public_html/wp-content/plugins/wp-statistics/includes/classes/class-wp-statistics-welcome.php on line 52
+[14-Nov-2018 11:28:16 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function WP_Statistics_Welcome::do_welcome(), 0 passed in /home/findopen/public_html/wp-content/plugins/wp-statistics/includes/classes/class-wp-statistics-admin.php on line 684 and exactly 2 expected in /home/findopen/public_html/wp-content/plugins/wp-statistics/includes/classes/class-wp-statistics-welcome.php:52
+Stack trace:
+#0 /home/findopen/public_html/wp-content/plugins/wp-statistics/includes/classes/class-wp-statistics-admin.php(684): WP_Statistics_Welcome::do_welcome()
+#1 /home/findopen/public_html/wp-includes/class-wp-hook.php(286): WP_Statistics_Admin->upgrade_plugin(Object(Plugin_Upgrader), Array)
+#2 /home/findopen/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 /home/findopen/public_html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /home/findopen/public_html/wp-admin/includes/class-plugin-upgrader.php(303): do_action('upgrader_proces...', Object(Plugin_Upgrader), Array)
+#5 /home/findopen/public_html in /home/findopen/public_html/wp-content/plugins/wp-statistics/includes/classes/class-wp-statistics-welcome.php on line 52
+[14-Nov-2018 15:42:39 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (22112018) at position 7 (8): Unexpected character in /home/findopen/public_html/wp-content/themes/qibla/functions.php:291
+Stack trace:
+#0 /home/findopen/public_html/wp-content/themes/qibla/functions.php(291): DateTime->__construct('22112018')
+#1 /home/findopen/public_html/wp-includes/class-wp-hook.php(286): custom_code_for_add_listing_fix('')
+#2 /home/findopen/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 /home/findopen/public_html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /home/findopen/public_html/wp-admin/admin-header.php(142): do_action('admin_head')
+#5 /home/findopen/public_html/wp-admin/edit.php(303): require_once('/home/findopen/...')
+#6 {main}
+  thrown in /home/findopen/public_html/wp-content/themes/qibla/functions.php on line 291
+[15-Nov-2018 07:38:23 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Vc_Navbar::__construct() must be an instance of WP_Post, integer given, called in /home/findopen/public_html/wp-content/plugins/js_composer/include/templates/editors/frontend_editor.tpl.php on line 36 and defined in /home/findopen/public_html/wp-content/plugins/js_composer/include/classes/editors/navbar/class-vc-navbar.php:43
+Stack trace:
+#0 /home/findopen/public_html/wp-content/plugins/js_composer/include/templates/editors/frontend_editor.tpl.php(36): Vc_Navbar->__construct(39509)
+#1 /home/findopen/public_html/wp-content/plugins/js_composer/include/helpers/helpers.php(993): require('/home/findopen/...')
+#2 /home/findopen/public_html/wp-content/plugins/js_composer/include/classes/editors/class-vc-frontend-editor.php(473): vc_include_template('editors/fronten...', Array)
+#3 /home/findopen/public_html/wp-content/plugins/js_composer/include/classes/editors/class-vc-frontend-editor.php(449): Vc_Frontend_Editor->render('editor')
+#4 /home/findopen/public_html/wp-content/plug in /home/findopen/public_html/wp-content/plugins/js_composer/include/classes/editors/navbar/class-vc-navbar.php on line 43
+[15-Nov-2018 08:18:33 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (22112018) at position 7 (8): Unexpected character in /home/findopen/public_html/wp-content/themes/qibla/functions.php:291
+Stack trace:
+#0 /home/findopen/public_html/wp-content/themes/qibla/functions.php(291): DateTime->__construct('22112018')
+#1 /home/findopen/public_html/wp-includes/class-wp-hook.php(286): custom_code_for_add_listing_fix('')
+#2 /home/findopen/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 /home/findopen/public_html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /home/findopen/public_html/wp-admin/admin-header.php(142): do_action('admin_head')
+#5 /home/findopen/public_html/wp-admin/edit-form-advanced.php(483): require_once('/home/findopen/...')
+#6 /home/findopen/public_html/wp-admin/post.php(174): include('/home/findopen/...')
+#7 {main}
+  thrown in /home/findopen/public_html/wp-content/themes/qibla/functions.php on line 291
+[20-Nov-2018 14:18:00 UTC] PHP Parse error:  syntax error, unexpected ''<h4>'' (T_CONSTANT_ENCAPSED_STRING) in /home/findopen/staging/5/wp-content/themes/qibla/functions.php on line 462
+[21-Nov-2018 08:37:18 UTC] PHP Fatal error:  Uncaught Exception: TCPDF ERROR: Could not include font definition file: lato in /home/findopen/staging/5/wp-content/themes/qibla/html2pdf/vendor/tecnickcom/tcpdf/tcpdf.php:2927
+Stack trace:
+#0 /home/findopen/staging/5/wp-content/themes/qibla/html2pdf/vendor/tecnickcom/tcpdf/tcpdf.php(4275): TCPDF->Error('Could not inclu...')
+#1 /home/findopen/staging/5/wp-content/themes/qibla/html2pdf/vendor/tecnickcom/tcpdf/tcpdf.php(4436): TCPDF->AddFont('lato', '', '', true)
+#2 /home/findopen/staging/5/wp-content/themes/qibla/html2pdf/src/Parsing/Css.php(371): TCPDF->SetFont('lato', 'U', 10)
+#3 /home/findopen/staging/5/wp-content/themes/qibla/html2pdf/src/Html2Pdf.php(4038): Spipu\Html2Pdf\Parsing\Css->fontSet()
+#4 /home/findopen/staging/5/wp-content/themes/qibla/html2pdf/src/Html2Pdf.php(1439): Spipu\Html2Pdf\Html2Pdf->_tag_open_A(Array)
+#5 /home/findopen/staging/5/wp-content/themes/qibla/html2pdf/src/Html2Pdf.php(1407): Spipu\Html2Pdf\Html2Pdf->_executeAction(Object(Spipu\Html2Pdf\Parsing\Node))
+#6 /home/findopen/stagin in /home/findopen/staging/5/wp-content/themes/qibla/html2pdf/vendor/tecnickcom/tcpdf/tcpdf.php on line 2927
+[21-Nov-2018 08:37:31 UTC] PHP Fatal error:  Uncaught Exception: TCPDF ERROR: Could not include font definition file: lato in /home/findopen/staging/5/wp-content/themes/qibla/html2pdf/vendor/tecnickcom/tcpdf/tcpdf.php:2927
+Stack trace:
+#0 /home/findopen/staging/5/wp-content/themes/qibla/html2pdf/vendor/tecnickcom/tcpdf/tcpdf.php(4275): TCPDF->Error('Could not inclu...')
+#1 /home/findopen/staging/5/wp-content/themes/qibla/html2pdf/vendor/tecnickcom/tcpdf/tcpdf.php(4436): TCPDF->AddFont('lato', '', '', true)
+#2 /home/findopen/staging/5/wp-content/themes/qibla/html2pdf/src/Parsing/Css.php(371): TCPDF->SetFont('lato', 'U', 10)
+#3 /home/findopen/staging/5/wp-content/themes/qibla/html2pdf/src/Html2Pdf.php(4038): Spipu\Html2Pdf\Parsing\Css->fontSet()
+#4 /home/findopen/staging/5/wp-content/themes/qibla/html2pdf/src/Html2Pdf.php(1439): Spipu\Html2Pdf\Html2Pdf->_tag_open_A(Array)
+#5 /home/findopen/staging/5/wp-content/themes/qibla/html2pdf/src/Html2Pdf.php(1407): Spipu\Html2Pdf\Html2Pdf->_executeAction(Object(Spipu\Html2Pdf\Parsing\Node))
+#6 /home/findopen/stagin in /home/findopen/staging/5/wp-content/themes/qibla/html2pdf/vendor/tecnickcom/tcpdf/tcpdf.php on line 2927
+[21-Nov-2018 08:38:10 UTC] PHP Fatal error:  Uncaught Exception: TCPDF ERROR: Could not include font definition file: lato in /home/findopen/staging/5/wp-content/themes/qibla/html2pdf/vendor/tecnickcom/tcpdf/tcpdf.php:2927
+Stack trace:
+#0 /home/findopen/staging/5/wp-content/themes/qibla/html2pdf/vendor/tecnickcom/tcpdf/tcpdf.php(4275): TCPDF->Error('Could not inclu...')
+#1 /home/findopen/staging/5/wp-content/themes/qibla/html2pdf/vendor/tecnickcom/tcpdf/tcpdf.php(4436): TCPDF->AddFont('lato', '', '', true)
+#2 /home/findopen/staging/5/wp-content/themes/qibla/html2pdf/src/Parsing/Css.php(371): TCPDF->SetFont('lato', 'U', 10)
+#3 /home/findopen/staging/5/wp-content/themes/qibla/html2pdf/src/Html2Pdf.php(4038): Spipu\Html2Pdf\Parsing\Css->fontSet()
+#4 /home/findopen/staging/5/wp-content/themes/qibla/html2pdf/src/Html2Pdf.php(1439): Spipu\Html2Pdf\Html2Pdf->_tag_open_A(Array)
+#5 /home/findopen/staging/5/wp-content/themes/qibla/html2pdf/src/Html2Pdf.php(1407): Spipu\Html2Pdf\Html2Pdf->_executeAction(Object(Spipu\Html2Pdf\Parsing\Node))
+#6 /home/findopen/stagin in /home/findopen/staging/5/wp-content/themes/qibla/html2pdf/vendor/tecnickcom/tcpdf/tcpdf.php on line 2927
+[21-Nov-2018 08:38:13 UTC] PHP Fatal error:  Uncaught Exception: TCPDF ERROR: Could not include font definition file: lato in /home/findopen/staging/5/wp-content/themes/qibla/html2pdf/vendor/tecnickcom/tcpdf/tcpdf.php:2927
+Stack trace:
+#0 /home/findopen/staging/5/wp-content/themes/qibla/html2pdf/vendor/tecnickcom/tcpdf/tcpdf.php(4275): TCPDF->Error('Could not inclu...')
+#1 /home/findopen/staging/5/wp-content/themes/qibla/html2pdf/vendor/tecnickcom/tcpdf/tcpdf.php(4436): TCPDF->AddFont('lato', '', '', true)
+#2 /home/findopen/staging/5/wp-content/themes/qibla/html2pdf/src/Parsing/Css.php(371): TCPDF->SetFont('lato', 'U', 10)
+#3 /home/findopen/staging/5/wp-content/themes/qibla/html2pdf/src/Html2Pdf.php(4038): Spipu\Html2Pdf\Parsing\Css->fontSet()
+#4 /home/findopen/staging/5/wp-content/themes/qibla/html2pdf/src/Html2Pdf.php(1439): Spipu\Html2Pdf\Html2Pdf->_tag_open_A(Array)
+#5 /home/findopen/staging/5/wp-content/themes/qibla/html2pdf/src/Html2Pdf.php(1407): Spipu\Html2Pdf\Html2Pdf->_executeAction(Object(Spipu\Html2Pdf\Parsing\Node))
+#6 /home/findopen/stagin in /home/findopen/staging/5/wp-content/themes/qibla/html2pdf/vendor/tecnickcom/tcpdf/tcpdf.php on line 2927
+[21-Nov-2018 08:41:11 UTC] PHP Fatal error:  Uncaught Exception: TCPDF ERROR: Could not include font definition file: lato in /home/findopen/staging/5/wp-content/themes/qibla/html2pdf/vendor/tecnickcom/tcpdf/tcpdf.php:2927
+Stack trace:
+#0 /home/findopen/staging/5/wp-content/themes/qibla/html2pdf/vendor/tecnickcom/tcpdf/tcpdf.php(4275): TCPDF->Error('Could not inclu...')
+#1 /home/findopen/staging/5/wp-content/themes/qibla/html2pdf/vendor/tecnickcom/tcpdf/tcpdf.php(4436): TCPDF->AddFont('lato', '', '', true)
+#2 /home/findopen/staging/5/wp-content/themes/qibla/html2pdf/src/Parsing/Css.php(371): TCPDF->SetFont('lato', 'U', 10)
+#3 /home/findopen/staging/5/wp-content/themes/qibla/html2pdf/src/Html2Pdf.php(4038): Spipu\Html2Pdf\Parsing\Css->fontSet()
+#4 /home/findopen/staging/5/wp-content/themes/qibla/html2pdf/src/Html2Pdf.php(1439): Spipu\Html2Pdf\Html2Pdf->_tag_open_A(Array)
+#5 /home/findopen/staging/5/wp-content/themes/qibla/html2pdf/src/Html2Pdf.php(1407): Spipu\Html2Pdf\Html2Pdf->_executeAction(Object(Spipu\Html2Pdf\Parsing\Node))
+#6 /home/findopen/stagin in /home/findopen/staging/5/wp-content/themes/qibla/html2pdf/vendor/tecnickcom/tcpdf/tcpdf.php on line 2927
+[21-Nov-2018 08:42:45 UTC] PHP Fatal error:  Uncaught Exception: TCPDF ERROR: Could not include font definition file: lato in /home/findopen/staging/5/wp-content/themes/qibla/html2pdf/vendor/tecnickcom/tcpdf/tcpdf.php:2927
+Stack trace:
+#0 /home/findopen/staging/5/wp-content/themes/qibla/html2pdf/vendor/tecnickcom/tcpdf/tcpdf.php(4275): TCPDF->Error('Could not inclu...')
+#1 /home/findopen/staging/5/wp-content/themes/qibla/html2pdf/vendor/tecnickcom/tcpdf/tcpdf.php(4436): TCPDF->AddFont('lato', '', '', true)
+#2 /home/findopen/staging/5/wp-content/themes/qibla/html2pdf/src/Parsing/Css.php(371): TCPDF->SetFont('lato', 'U', 18)
+#3 /home/findopen/staging/5/wp-content/themes/qibla/html2pdf/src/Html2Pdf.php(4038): Spipu\Html2Pdf\Parsing\Css->fontSet()
+#4 /home/findopen/staging/5/wp-content/themes/qibla/html2pdf/src/Html2Pdf.php(1439): Spipu\Html2Pdf\Html2Pdf->_tag_open_A(Array)
+#5 /home/findopen/staging/5/wp-content/themes/qibla/html2pdf/src/Html2Pdf.php(1407): Spipu\Html2Pdf\Html2Pdf->_executeAction(Object(Spipu\Html2Pdf\Parsing\Node))
+#6 /home/findopen/stagin in /home/findopen/staging/5/wp-content/themes/qibla/html2pdf/vendor/tecnickcom/tcpdf/tcpdf.php on line 2927
+[21-Nov-2018 11:14:08 UTC] PHP Fatal error:  Uncaught Error: Call to a member function insert() on null in /home/findopen/staging/5/wp-content/themes/qibla/functions.php:442
+Stack trace:
+#0 /home/findopen/staging/5/wp-includes/class-wp-hook.php(286): _submit_review('')
+#1 /home/findopen/staging/5/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /home/findopen/staging/5/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home/findopen/staging/5/wp-admin/admin-ajax.php(100): do_action('wp_ajax_submit_...')
+#4 {main}
+  thrown in /home/findopen/staging/5/wp-content/themes/qibla/functions.php on line 442
+[21-Nov-2018 11:14:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function NOW() in /home/findopen/staging/5/wp-content/themes/qibla/functions.php:454
+Stack trace:
+#0 /home/findopen/staging/5/wp-includes/class-wp-hook.php(286): _submit_review('')
+#1 /home/findopen/staging/5/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /home/findopen/staging/5/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home/findopen/staging/5/wp-admin/admin-ajax.php(100): do_action('wp_ajax_submit_...')
+#4 {main}
+  thrown in /home/findopen/staging/5/wp-content/themes/qibla/functions.php on line 454
+[21-Nov-2018 11:24:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function NOW() in /home/findopen/staging/5/wp-content/themes/qibla/functions.php:454
+Stack trace:
+#0 /home/findopen/staging/5/wp-includes/class-wp-hook.php(286): _submit_review('')
+#1 /home/findopen/staging/5/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /home/findopen/staging/5/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home/findopen/staging/5/wp-admin/admin-ajax.php(100): do_action('wp_ajax_submit_...')
+#4 {main}
+  thrown in /home/findopen/staging/5/wp-content/themes/qibla/functions.php on line 454
+[21-Nov-2018 11:26:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function NOW() in /home/findopen/staging/5/wp-content/themes/qibla/functions.php:454
+Stack trace:
+#0 /home/findopen/staging/5/wp-includes/class-wp-hook.php(286): _submit_review('')
+#1 /home/findopen/staging/5/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /home/findopen/staging/5/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home/findopen/staging/5/wp-admin/admin-ajax.php(100): do_action('wp_ajax_submit_...')
+#4 {main}
+  thrown in /home/findopen/staging/5/wp-content/themes/qibla/functions.php on line 454
+[21-Nov-2018 11:26:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function NOW() in /home/findopen/staging/5/wp-content/themes/qibla/functions.php:454
+Stack trace:
+#0 /home/findopen/staging/5/wp-includes/class-wp-hook.php(286): _submit_review('')
+#1 /home/findopen/staging/5/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /home/findopen/staging/5/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home/findopen/staging/5/wp-admin/admin-ajax.php(100): do_action('wp_ajax_submit_...')
+#4 {main}
+  thrown in /home/findopen/staging/5/wp-content/themes/qibla/functions.php on line 454
+[21-Nov-2018 11:29:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function NOW() in /home/findopen/staging/5/wp-content/themes/qibla/functions.php:454
+Stack trace:
+#0 /home/findopen/staging/5/wp-includes/class-wp-hook.php(286): _submit_review('')
+#1 /home/findopen/staging/5/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /home/findopen/staging/5/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home/findopen/staging/5/wp-admin/admin-ajax.php(100): do_action('wp_ajax_submit_...')
+#4 {main}
+  thrown in /home/findopen/staging/5/wp-content/themes/qibla/functions.php on line 454
+[21-Nov-2018 11:30:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function NOW() in /home/findopen/staging/5/wp-content/themes/qibla/functions.php:453
+Stack trace:
+#0 /home/findopen/staging/5/wp-includes/class-wp-hook.php(286): _submit_review('')
+#1 /home/findopen/staging/5/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /home/findopen/staging/5/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home/findopen/staging/5/wp-admin/admin-ajax.php(100): do_action('wp_ajax_submit_...')
+#4 {main}
+  thrown in /home/findopen/staging/5/wp-content/themes/qibla/functions.php on line 453

@@ -1,0 +1,41 @@
+//
+// Hero map
+//
+.dl-hero-map .dlheromap {
+  position: relative;
+  &__search {
+    margin:   0 auto;
+    position: relative;
+    width:    100%;
+    .dlsearch {
+      margin: 0 auto;
+    }
+  }
+}
+
+// Header in hero map page.
+.dl-hero-map .dlheader--original-skin-transparent:not(.dlheader--is-sticky) {
+  background: $color-background-overlay;
+  .dlsearch__form input[type="search"] {
+    color: $color-white;
+  }
+}
+
+// Media Query
+@media only screen and (min-width: map-get($breakpoints, 'nm')) {
+  .dl-hero-map .dlheromap {
+    position: relative;
+    &__search {
+      bottom:    2rem;
+      left:      0;
+      margin:    0 auto;
+      max-width: 1080px;
+      position:  absolute;
+      right:     0;
+      width:     90%;
+      .dlsearch {
+        margin: 0 auto;
+      }
+    }
+  }
+}

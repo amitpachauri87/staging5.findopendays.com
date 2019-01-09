@@ -1,0 +1,56 @@
+{
+  "name": "Base Demo",
+  "slug": "base",
+  "posts": [
+    {
+      "name": "this-is-qibla",
+      "option": "page_on_front",
+      "postType": "page"
+    },
+    {
+      "name": "qibla-magazine",
+      "option": "page_for_posts",
+      "postType": "page"
+    },
+    {
+      "name": "shop",
+      "option": "woocommerce_shop_page_id",
+      "postType": "page"
+    },
+    {
+      "name": "my-account",
+      "option": "woocommerce_myaccount_page_id",
+      "postType": "page"
+    },
+    {
+      "name": "cart",
+      "option": "woocommerce_cart_page_id",
+      "postType": "page"
+    },
+    {
+      "name": "checkout",
+      "option": "woocommerce_checkout_page_id",
+      "postType": "page"
+    }
+  ],
+  "navLocations": [
+    {
+      "location": "nav_main",
+      "menu": "main"
+    }
+  ],
+  "importers": [
+    "demo",
+    "settings",
+    "themeOptions",
+    "widgets"
+  ],
+  "actions": [
+    {
+      "label": "Import",
+      "queryArgs": {
+        "import": "base"
+      }
+    }
+  ]
+}

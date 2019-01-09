@@ -1,0 +1,1195 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: QiblaEvents 1.0.0\n"
+"POT-Creation-Date: 2018-07-26 15:52+0200\n"
+"PO-Revision-Date: 2017-01-08 19:27+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c;"
+"_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_ex:1,2c;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: bower_components\n"
+"X-Poedit-SearchPathExcluded-1: node_modules\n"
+"X-Poedit-SearchPathExcluded-2: vendor\n"
+"X-Poedit-SearchPathExcluded-3: assets\n"
+
+#: inc/filtersAdmin.php:314
+msgid "Qibla Events Warning"
+msgstr ""
+
+#: inc/filtersFront.php:422
+msgid "Edit this event"
+msgstr ""
+
+#: inc/filtersFront.php:466 inc/listingFormFields/taxTermsFields.php:106
+#: src/Taxonomy/Tags.php:59
+msgid "Tags"
+msgstr ""
+
+#: inc/listingFormFields/additionalInfoFields.php:68
+msgid "Your event email"
+msgstr ""
+
+#: inc/listingFormFields/additionalInfoFields.php:69
+msgid "Please provide a valid email address."
+msgstr ""
+
+#: inc/listingFormFields/additionalInfoFields.php:74
+msgctxt "placeholder"
+msgid "Es. joe.doe@gmail.com"
+msgstr ""
+
+#: inc/listingFormFields/additionalInfoFields.php:88
+msgid "Your event phone number"
+msgstr ""
+
+#: inc/listingFormFields/additionalInfoFields.php:89
+msgid "Please enter valid phone number."
+msgstr ""
+
+#: inc/listingFormFields/additionalInfoFields.php:94
+msgctxt "placeholder"
+msgid "Es. 555-2033012"
+msgstr ""
+
+#: inc/listingFormFields/additionalInfoFields.php:108
+msgid "Event website URL"
+msgstr ""
+
+#: inc/listingFormFields/additionalInfoFields.php:110
+msgid "Please enter a valid url address. Do not exclude http/s"
+msgstr ""
+
+#: inc/listingFormFields/additionalInfoFields.php:117
+msgctxt "placeholder"
+msgid "https://www.my-awesome-site.com"
+msgstr ""
+
+#: inc/listingFormFields/baseFields.php:110
+msgid "Title"
+msgstr ""
+
+#: inc/listingFormFields/baseFields.php:114
+msgctxt "placeholder"
+msgid "My awesome title"
+msgstr ""
+
+#: inc/listingFormFields/baseFields.php:117
+#: inc/listingFormFields/baseFields.php:134
+#: inc/listingFormFields/contentFields.php:65
+msgid "Please only valid characters."
+msgstr ""
+
+#: inc/listingFormFields/baseFields.php:131
+msgid "Tag line"
+msgstr ""
+
+#: inc/listingFormFields/baseFields.php:139
+msgctxt "placeholder"
+msgid "My awesome tag line."
+msgstr ""
+
+#: inc/listingFormFields/baseFields.php:153
+msgid "Upload the Main image"
+msgstr ""
+
+#: inc/listingFormFields/baseFields.php:157
+msgid "Please enter a valid image format."
+msgstr ""
+
+#: inc/listingFormFields/baseFields.php:163
+msgctxt "placeholder"
+msgid "Drop your listing main image here"
+msgstr ""
+
+#: inc/listingFormFields/buttonFields.php:53
+msgid "Button url"
+msgstr ""
+
+#: inc/listingFormFields/buttonFields.php:55
+#: inc/listingFormFields/socialsFields.php:57
+#: inc/listingFormFields/socialsFields.php:78
+#: inc/listingFormFields/socialsFields.php:99
+#: inc/listingFormFields/socialsFields.php:120
+#: inc/listingFormFields/socialsFields.php:141
+msgid "Please enter valid url."
+msgstr ""
+
+#: inc/listingFormFields/buttonFields.php:60
+msgctxt "placeholder"
+msgid "http://www.site.com"
+msgstr ""
+
+#: inc/listingFormFields/buttonFields.php:73
+msgid "Button text"
+msgstr ""
+
+#: inc/listingFormFields/buttonFields.php:75
+msgid "Please enter label for button."
+msgstr ""
+
+#: inc/listingFormFields/buttonFields.php:80
+msgctxt "placeholder"
+msgid "Get ticket at &pound;29"
+msgstr ""
+
+#: inc/listingFormFields/buttonFields.php:94
+msgid "Button target"
+msgstr ""
+
+#: inc/listingFormFields/buttonFields.php:95
+msgid "Make this as internal link (default: external)"
+msgstr ""
+
+#: inc/listingFormFields/calendarFields.php:57
+#: src/Admin/Metabox/EventDates.php:57
+msgid "Event Dates"
+msgstr ""
+
+#: inc/listingFormFields/calendarFields.php:67
+msgid "Please select at least one date from the calendar."
+msgstr ""
+
+#: inc/listingFormFields/calendarFields.php:81
+#: inc/metaboxFields/eventsOptionFields.php:72
+msgid "Start Time"
+msgstr ""
+
+#: inc/listingFormFields/calendarFields.php:87
+#: inc/listingFormFields/calendarFields.php:107
+msgid "Please select time."
+msgstr ""
+
+#: inc/listingFormFields/calendarFields.php:101
+#: inc/metaboxFields/eventsOptionFields.php:88
+msgid "End Time"
+msgstr ""
+
+#: inc/listingFormFields/contentFields.php:52
+msgid "Listing content"
+msgstr ""
+
+#: inc/listingFormFields/galleryFields.php:95
+msgid "Upload images for gallery"
+msgstr ""
+
+#: inc/listingFormFields/galleryFields.php:101
+msgid "Please enter valid images format."
+msgstr ""
+
+#: inc/listingFormFields/galleryFields.php:103
+msgid "Gallery images"
+msgstr ""
+
+#: inc/listingFormFields/locationFields.php:54
+#: src/Front/CustomFields/EventsLocation.php:94
+msgid "Address"
+msgstr ""
+
+#: inc/listingFormFields/locationFields.php:59
+msgid "Please only valid address."
+msgstr ""
+
+#: inc/listingFormFields/socialsFields.php:55
+msgid "Facebook"
+msgstr ""
+
+#: inc/listingFormFields/socialsFields.php:62
+msgctxt "placeholder"
+msgid "http://www.facebook.com/YourFBPage"
+msgstr ""
+
+#: inc/listingFormFields/socialsFields.php:76
+msgid "Twitter"
+msgstr ""
+
+#: inc/listingFormFields/socialsFields.php:83
+msgctxt "placeholder"
+msgid "http://www.twitter.com/YourProfile"
+msgstr ""
+
+#: inc/listingFormFields/socialsFields.php:97
+msgid "Instagram"
+msgstr ""
+
+#: inc/listingFormFields/socialsFields.php:104
+msgctxt "placeholder"
+msgid "http://www.instagram.com/YourProfile"
+msgstr ""
+
+#: inc/listingFormFields/socialsFields.php:118
+msgid "Linkedin"
+msgstr ""
+
+#: inc/listingFormFields/socialsFields.php:125
+msgctxt "placeholder"
+msgid "http://www.linkedin.com/in/YourProfile"
+msgstr ""
+
+#: inc/listingFormFields/socialsFields.php:139
+msgid "Trip Advisor"
+msgstr ""
+
+#: inc/listingFormFields/socialsFields.php:146
+msgctxt "placeholder"
+msgid "http://www.tripadvisor.com/YourProfile"
+msgstr ""
+
+#: inc/listingFormFields/taxTermsFields.php:55
+#: src/Taxonomy/Locations.php:55
+msgid "Location"
+msgstr ""
+
+#: inc/listingFormFields/taxTermsFields.php:65
+msgid "Please select a location."
+msgstr ""
+
+#: inc/listingFormFields/taxTermsFields.php:79
+#: src/Taxonomy/EventCategories.php:57
+msgid "Categories"
+msgstr ""
+
+#: inc/listingFormFields/taxTermsFields.php:92
+msgid "Please select a category."
+msgstr ""
+
+#: inc/listingFormFields/taxTermsFields.php:114
+msgid "Please select at least an amenity."
+msgstr ""
+
+#: inc/localizedScriptsList.php:63
+msgid "Calendar"
+msgstr ""
+
+#: inc/metaboxFields/listingAdditionalFields.php:39
+msgid "Listing Visibility Duration"
+msgstr ""
+
+#: inc/metaboxFields/listingAdditionalFields.php:41
+msgid ""
+"Set after how many days from the publish, the listing will be "
+"disabled. -1 to unlimited."
+msgstr ""
+
+#: inc/metaboxFields/listingPackageRelated.php:49
+msgid "Package Post"
+msgstr ""
+
+#: inc/metaboxFields/listingPackageRelated.php:51
+msgid "Select what package must be related with this listing."
+msgstr ""
+
+#: inc/metaboxFields/listingPackageRelated.php:53
+msgid "None"
+msgstr ""
+
+#: inc/metaboxFields/listingPackageRestrictions/additionalInfoFields.php:48
+msgid "Allow featured"
+msgstr ""
+
+#: inc/metaboxFields/listingPackageRestrictions/additionalInfoFields.php:54
+msgid ""
+"If set every listing created with this package will be set as featured."
+msgstr ""
+
+#: inc/metaboxFields/listingPackageRestrictions/additionalInfoFields.php:68
+msgid "Allow business email address"
+msgstr ""
+
+#: inc/metaboxFields/listingPackageRestrictions/additionalInfoFields.php:74
+msgid ""
+"To allow or not to set the web site url for listing. This will allow "
+"users to contact the owner via contact form."
+msgstr ""
+
+#: inc/metaboxFields/listingPackageRestrictions/additionalInfoFields.php:88
+msgid "Allow business phone number"
+msgstr ""
+
+#: inc/metaboxFields/listingPackageRestrictions/additionalInfoFields.php:93
+#: inc/metaboxFields/listingPackageRestrictions/additionalInfoFields.php:110
+msgid "To allow or not to set the web site url for listing."
+msgstr ""
+
+#: inc/metaboxFields/listingPackageRestrictions/additionalInfoFields.php:105
+msgid "Allow web site url"
+msgstr ""
+
+#: inc/metaboxFields/listingPackageRestrictions/baseFields.php:47
+msgid "Visibility Duration"
+msgstr ""
+
+#: inc/metaboxFields/listingPackageRestrictions/baseFields.php:49
+msgid ""
+"Visibility is expressed in days since the listing is published. Then "
+"the post will be set as Pending. -1 means no expiration."
+msgstr ""
+
+#: inc/metaboxFields/listingPackageRestrictions/baseFields.php:68
+msgid "Allow subtitle"
+msgstr ""
+
+#: inc/metaboxFields/listingPackageRestrictions/baseFields.php:73
+msgid "To allow or not to have a subtitle"
+msgstr ""
+
+#: inc/metaboxFields/listingPackageRestrictions/mediaFields.php:48
+msgid "Allow Gallery"
+msgstr ""
+
+#: inc/metaboxFields/listingPackageRestrictions/mediaFields.php:53
+msgid "To allow or not to set images for gallery."
+msgstr ""
+
+#: inc/metaboxFields/listingPackageRestrictions/mediaFields.php:63
+msgid "Max Gallery Images"
+msgstr ""
+
+#: inc/metaboxFields/listingPackageRestrictions/mediaFields.php:65
+msgid ""
+"Maximum number of images that can be uploaded to use in gallery. Allow "
+"Gallery must enabled."
+msgstr ""
+
+#: inc/metaboxFields/listingPackageRestrictions/socialsFields.php:48
+msgid "Allow facebook"
+msgstr ""
+
+#: inc/metaboxFields/listingPackageRestrictions/socialsFields.php:64
+msgid "Allow twitter"
+msgstr ""
+
+#: inc/metaboxFields/listingPackageRestrictions/socialsFields.php:80
+msgid "Allow instagram"
+msgstr ""
+
+#: inc/metaboxFields/listingPackageRestrictions/socialsFields.php:96
+msgid "Allow linkedin"
+msgstr ""
+
+#: inc/metaboxFields/listingPackageRestrictions/socialsFields.php:112
+msgid "Allow tripadvisor"
+msgstr ""
+
+#: inc/metaboxFields/packageFields/baseFields.php:48
+#: inc/metaboxFields/packageFields/baseFields.php:86
+msgid "Set Extra information about the package"
+msgstr ""
+
+#: inc/metaboxFields/packageFields/baseFields.php:50
+msgid "A short description that will be showed within the price table."
+msgstr ""
+
+#: inc/metaboxFields/packageFields/baseFields.php:68
+msgid "Package Highlight"
+msgstr ""
+
+#: inc/metaboxFields/packageFields/baseFields.php:70
+msgid "If you want to highlight this package like a featured package."
+msgstr ""
+
+#: inc/metaboxFields/packageFields/baseFields.php:88
+msgid ""
+"Set one info per line like: icon-check|Allowed for 30 days. Get icons "
+"name from https://icons8.com/line-awesome by removing the la- prefixes."
+msgstr ""
+
+#: inc/metaboxFields/packageFields/baseFields.php:93
+msgid ""
+"icon-check|Allowed for 30 days\n"
+"icon-check|Allow Gallery"
+msgstr ""
+
+#: inc/metaboxFields/packageFields/productFields.php:46
+msgid "Free Listing"
+msgstr ""
+
+#: inc/metaboxFields/packageFields/productFields.php:68
+msgid "Related Product"
+msgstr ""
+
+#: inc/metaboxFields/packageFields/productFields.php:73
+#, php-format
+msgid ""
+"Select what product must be related with this listing. Listing product "
+"only.\n"
+"Choose the listing product related to this package or %s."
+msgstr ""
+
+#: inc/metaboxFields/packageFields/productFields.php:77
+msgid "create a new one"
+msgstr ""
+
+#: inc/requirements.php:37
+#, php-format
+msgid ""
+"This plugin require at least php version 5.3 yours is %s. Continue at "
+"your own risk."
+msgstr ""
+
+#: inc/requirements.php:50
+#, php-format
+msgid ""
+"This plugin require at least WordPress version 4.6 yours is %s. The "
+"plugin may not work properly."
+msgstr ""
+
+#: inc/settingFields/permalinkSettingsFields.php:46
+msgctxt "settings-permalink"
+msgid "Events cpt base"
+msgstr ""
+
+#: inc/settingFields/permalinkSettingsFields.php:69
+msgctxt "settings-permalink"
+msgid "Tags tax base"
+msgstr ""
+
+#: inc/settingFields/permalinkSettingsFields.php:92
+msgctxt "settings-permalink"
+msgid "Listings Categories tax base"
+msgstr ""
+
+#: inc/settingFields/permalinkSettingsFields.php:115
+msgctxt "settings-permalink"
+msgid "Locations tax base"
+msgstr ""
+
+#: inc/settingFields/permalinkSettingsFields.php:138
+msgctxt "settings-permalink"
+msgid "Dates tax base"
+msgstr ""
+
+#: inc/sidebarsList.php:29
+msgid "Events Sidebar"
+msgstr ""
+
+#: inc/sidebarsList.php:30
+msgid "This sidebar will appear within the single events page"
+msgstr ""
+
+#: inc/sidebarsList.php:33
+msgid "Archive Events Sidebar"
+msgstr ""
+
+#: inc/sidebarsList.php:34
+msgid "This sidebar will appear within the Archive Events page"
+msgstr ""
+
+#: inc/vcMapping/events.php:32
+msgctxt "shortcode-vc"
+msgid "Qibla Events"
+msgstr ""
+
+#: inc/vcMapping/events.php:34 inc/vcMapping/listingPackage.php:29
+#: inc/vcMapping/search.php:31 src/Shortcode/EventMaps.php:60
+#: src/Shortcode/Terms.php:59 src/Shortcode/TermsLocations.php:59
+msgctxt "shortcode-vc"
+msgid "Qibla"
+msgstr ""
+
+#: inc/vcMapping/events.php:35
+msgctxt "shortcode-vc"
+msgid "Events Posts"
+msgstr ""
+
+#: inc/vcMapping/events.php:41 src/Shortcode/Terms.php:60
+msgctxt "shortcode-vc"
+msgid "Event Categories"
+msgstr ""
+
+#: inc/vcMapping/events.php:42
+msgctxt "shortcode-vc"
+msgid "Category to show."
+msgstr ""
+
+#: inc/vcMapping/events.php:48 inc/vcMapping/events.php:64
+#: inc/vcMapping/events.php:80 src/Filter/EventsGeneralTaxField.php:253
+#: src/Shortcode/EventMaps.php:64 src/Shortcode/EventMaps.php:70
+msgid "All"
+msgstr ""
+
+#: inc/vcMapping/events.php:57 src/Shortcode/TermsLocations.php:60
+msgctxt "shortcode-vc"
+msgid "Event Locations"
+msgstr ""
+
+#: inc/vcMapping/events.php:58
+msgctxt "shortcode-vc"
+msgid "Location to show."
+msgstr ""
+
+#: inc/vcMapping/events.php:73
+msgctxt "shortcode-vc"
+msgid "Event Tags"
+msgstr ""
+
+#: inc/vcMapping/events.php:74
+msgctxt "shortcode-vc"
+msgid "Tags to show."
+msgstr ""
+
+#: inc/vcMapping/events.php:89
+msgctxt "shortcode-vc"
+msgid "Event Dates"
+msgstr ""
+
+#: inc/vcMapping/events.php:90
+msgctxt "shortcode-vc"
+msgid "format: yyyy-mm-dd (enter a maximum of two comma-separated dates)"
+msgstr ""
+
+#: inc/vcMapping/events.php:101
+msgctxt "shortcode-vc"
+msgid "Events Number"
+msgstr ""
+
+#: inc/vcMapping/events.php:102
+msgctxt "shortcode-vc"
+msgid "Type the number of posts to show."
+msgstr ""
+
+#: inc/vcMapping/events.php:110
+msgctxt "shortcode-vc"
+msgid "Show post title"
+msgstr ""
+
+#: inc/vcMapping/events.php:111
+msgctxt "shortcode-vc"
+msgid "To show or not the post title."
+msgstr ""
+
+#: inc/vcMapping/events.php:116 inc/vcMapping/events.php:129
+#: inc/vcMapping/events.php:143 inc/vcMapping/events.php:156
+#: inc/vcMapping/events.php:169
+msgctxt "shortcode-vc"
+msgid "Yes"
+msgstr ""
+
+#: inc/vcMapping/events.php:117 inc/vcMapping/events.php:130
+#: inc/vcMapping/events.php:144 inc/vcMapping/events.php:157
+#: inc/vcMapping/events.php:170
+msgctxt "shortcode-vc"
+msgid "No"
+msgstr ""
+
+#: inc/vcMapping/events.php:123
+msgctxt "shortcode-vc"
+msgid "Show Sub-title"
+msgstr ""
+
+#: inc/vcMapping/events.php:124
+msgctxt "shortcode-vc"
+msgid "To show or not the subtitle."
+msgstr ""
+
+#: inc/vcMapping/events.php:136
+msgctxt "shortcode-vc"
+msgid "Show only Featured"
+msgstr ""
+
+#: inc/vcMapping/events.php:137
+msgctxt "shortcode-vc"
+msgid "Flag to show only featured listings."
+msgstr ""
+
+#: inc/vcMapping/events.php:150
+msgctxt "shortcode-vc"
+msgid "Show Featured Image"
+msgstr ""
+
+#: inc/vcMapping/events.php:151
+msgctxt "shortcode-vc"
+msgid "To show or not the featured image."
+msgstr ""
+
+#: inc/vcMapping/events.php:163
+msgctxt "shortcode-vc"
+msgid "Show Address"
+msgstr ""
+
+#: inc/vcMapping/events.php:164
+msgctxt "shortcode-vc"
+msgid "To show or not the location address."
+msgstr ""
+
+#: inc/vcMapping/events.php:176
+msgctxt "shortcode-vc"
+msgid "Columns"
+msgstr ""
+
+#: inc/vcMapping/events.php:177
+msgctxt "shortcode-vc"
+msgid "Number of columns per row."
+msgstr ""
+
+#: inc/vcMapping/events.php:183
+msgctxt "shortcode-vc"
+msgid "Two"
+msgstr ""
+
+#: inc/vcMapping/events.php:184
+msgctxt "shortcode-vc"
+msgid "Three"
+msgstr ""
+
+#: inc/vcMapping/events.php:185
+msgctxt "shortcode-vc"
+msgid "Four"
+msgstr ""
+
+#: inc/vcMapping/events.php:191
+msgctxt "shortcode-vc"
+msgid "Order By"
+msgstr ""
+
+#: inc/vcMapping/events.php:193
+msgctxt "shortcode-vc"
+msgid ""
+"In which order the posts must appear. See https://goo.gl/hvEHcL for "
+"more info."
+msgstr ""
+
+#: inc/vcMapping/events.php:201
+msgctxt "shortcode-vc"
+msgid "Date"
+msgstr ""
+
+#: inc/vcMapping/events.php:202
+msgctxt "shortcode-vc"
+msgid "Event Date"
+msgstr ""
+
+#: inc/vcMapping/events.php:203
+msgctxt "shortcode-vc"
+msgid "ID"
+msgstr ""
+
+#: inc/vcMapping/events.php:204
+msgctxt "shortcode-vc"
+msgid "Author"
+msgstr ""
+
+#: inc/vcMapping/events.php:205
+msgctxt "shortcode-vc"
+msgid "Title"
+msgstr ""
+
+#: inc/vcMapping/events.php:206
+msgctxt "shortcode-vc"
+msgid "Random"
+msgstr ""
+
+#: inc/vcMapping/events.php:212
+msgctxt "shortcode-vc"
+msgid "Order"
+msgstr ""
+
+#: inc/vcMapping/events.php:213
+msgctxt "shortcode-vc"
+msgid "Ascending or Descending order."
+msgstr ""
+
+#: inc/vcMapping/events.php:218
+msgctxt "shortcode-vc"
+msgid "Descending"
+msgstr ""
+
+#: inc/vcMapping/events.php:219
+msgctxt "shortcode-vc"
+msgid "Ascending"
+msgstr ""
+
+#: inc/vcMapping/events.php:225 inc/vcMapping/listingPackage.php:46
+msgctxt "shortcode-vc"
+msgid "Layout"
+msgstr ""
+
+#: inc/vcMapping/events.php:227 inc/vcMapping/events.php:246
+#: inc/vcMapping/events.php:257 inc/vcMapping/events.php:271
+#: inc/vcMapping/listingPackage.php:48
+#: inc/vcMapping/listingPackage.php:67
+#: inc/vcMapping/listingPackage.php:78
+#: inc/vcMapping/listingPackage.php:92
+msgctxt "shortcode-vc-group"
+msgid "Layout"
+msgstr ""
+
+#: inc/vcMapping/events.php:229 inc/vcMapping/listingPackage.php:50
+msgctxt "shortcode-vc"
+msgid ""
+"Set the layout, container width or boxed (default: container width)"
+msgstr ""
+
+#: inc/vcMapping/events.php:236 inc/vcMapping/listingPackage.php:57
+msgctxt "shortcode-vc"
+msgid "Container Width"
+msgstr ""
+
+#: inc/vcMapping/events.php:237 inc/vcMapping/listingPackage.php:58
+msgctxt "shortcode-vc"
+msgid "Boxed"
+msgstr ""
+
+#: inc/vcMapping/events.php:243 inc/vcMapping/listingPackage.php:64
+msgctxt "shortcode-vc"
+msgid "Background Color"
+msgstr ""
+
+#: inc/vcMapping/events.php:248 inc/vcMapping/listingPackage.php:69
+msgctxt "shortcode-vc"
+msgid "Select the color for the background of the section."
+msgstr ""
+
+#: inc/vcMapping/events.php:256 inc/vcMapping/listingPackage.php:77
+msgctxt "shortcode-vc"
+msgid "Padding Top"
+msgstr ""
+
+#: inc/vcMapping/events.php:259 inc/vcMapping/listingPackage.php:80
+msgctxt "shortcode-vc"
+msgid "Padding top for section es: (22px, 2em, 3rem)"
+msgstr ""
+
+#: inc/vcMapping/events.php:270 inc/vcMapping/listingPackage.php:91
+msgctxt "shortcode-vc"
+msgid "Padding Bottom"
+msgstr ""
+
+#: inc/vcMapping/events.php:273 inc/vcMapping/listingPackage.php:94
+msgctxt "shortcode-vc"
+msgid "Padding bottom for section es: (22px, 2em, 3rem)"
+msgstr ""
+
+#: inc/vcMapping/listingPackage.php:27
+msgctxt "shortcode-vc"
+msgid "Qibla Events Packages Table"
+msgstr ""
+
+#: inc/vcMapping/listingPackage.php:30
+msgctxt "shortcode-vc"
+msgid "Events Packages Table"
+msgstr ""
+
+#: inc/vcMapping/listingPackage.php:35
+msgctxt "shortcode-vc"
+msgid "Select Packages"
+msgstr ""
+
+#: inc/vcMapping/search.php:28
+msgctxt "shortcode-vc"
+msgid "Qibla Events Search"
+msgstr ""
+
+#: inc/vcMapping/search.php:30
+msgctxt "shortcode-vc"
+msgid "Search Shortcode"
+msgstr ""
+
+#: inc/vcMapping/search.php:32
+msgctxt "shortcode-vc"
+msgid "The Qibla Search engine as shortcode."
+msgstr ""
+
+#: inc/vcMapping/search.php:37
+msgctxt "shortcode-vc"
+msgid "Search Type"
+msgstr ""
+
+#: inc/vcMapping/search.php:41
+msgctxt "shortcode-sc"
+msgid "Select the type of the search to show."
+msgstr ""
+
+#: inc/vcMapping/search.php:43
+msgctxt "shortcode-vc"
+msgid "Simple Search"
+msgstr ""
+
+#: inc/vcMapping/search.php:44
+msgctxt "shortcode-vc"
+msgid "Dates and Categories"
+msgstr ""
+
+#: inc/vcMapping/search.php:45
+msgctxt "shortcode-vc"
+msgid "Search and Geocode"
+msgstr ""
+
+#: inc/vcMapping/search.php:46
+msgctxt "shortcode-vc"
+msgid "Search, Geocode and Categories"
+msgstr ""
+
+#: src/Admin/Metabox/ListingPackageRelated.php:53
+#: src/Admin/Metabox/PackageOptions.php:50
+msgid "Package Options"
+msgstr ""
+
+#: src/Admin/Metabox/ListingPackageRelated.php:79
+msgid "Package"
+msgstr ""
+
+#: src/Admin/Metabox/ListingRestrictions.php:50
+msgid "Listing Restrictions"
+msgstr ""
+
+#: src/Admin/Metabox/ListingRestrictions.php:71
+msgid "Base Restrictions"
+msgstr ""
+
+#: src/Admin/Metabox/ListingRestrictions.php:88
+msgid "Additional Info Restrictions"
+msgstr ""
+
+#: src/Admin/Metabox/ListingRestrictions.php:105
+msgid "Socials Restrictions"
+msgstr ""
+
+#: src/Admin/Metabox/ListingRestrictions.php:122
+msgid "Media Restrictions"
+msgstr ""
+
+#: src/Admin/Metabox/PackageOptions.php:71
+msgid "Base Options"
+msgstr ""
+
+#: src/Admin/Metabox/PackageOptions.php:88
+msgid "Product"
+msgstr ""
+
+#: src/Admin/Page/EventPackage.php:46 src/Admin/Page/EventPackage.php:47
+msgctxt "admin-menu"
+msgid "Package Manager"
+msgstr ""
+
+#: src/Crud/Request/RequestPostDeleteController.php:70
+msgctxt "manager-posts"
+msgid ""
+"There was an error trying to delete the post. Try in a few minutes"
+msgstr ""
+
+#: src/Crud/Request/RequestPostDeleteController.php:77
+#, php-format
+msgctxt "manage-posts"
+msgid "Post %s has been deleted successfully"
+msgstr ""
+
+#: src/Filter/EventsDateTaxOptions.php:86
+#: src/Filter/EventsDateTaxOptions.php:90
+#: src/Filter/EventsDateTaxOptions.php:128
+#: src/Filter/EventsDateTaxOptions.php:139
+#: src/Filter/EventsDateTaxOptions.php:156 src/Search/Field/Dates.php:84
+msgid "All Dates"
+msgstr ""
+
+#: src/Filter/EventsDateTaxOptions.php:91
+msgid "from today to a year"
+msgstr ""
+
+#: src/Filter/EventsDateTaxOptions.php:95
+msgid "To Day"
+msgstr ""
+
+#: src/Filter/EventsDateTaxOptions.php:100
+msgid "Tomorrow"
+msgstr ""
+
+#: src/Filter/EventsDateTaxOptions.php:105
+msgid "Week End"
+msgstr ""
+
+#: src/Filter/EventsDateTaxOptions.php:110
+msgid "This Week"
+msgstr ""
+
+#: src/Filter/EventsDateTaxOptions.php:115
+msgid "Next Week"
+msgstr ""
+
+#: src/Filter/EventsDateTaxOptions.php:120
+msgid "This Month"
+msgstr ""
+
+#: src/Filter/EventsGeneralTaxField.php:261
+msgid "All Categories"
+msgstr ""
+
+#: src/Filter/EventsGeneralTaxField.php:264
+msgid "All Locations"
+msgstr ""
+
+#: src/Front/CustomFields/RelatedPosts.php:101
+msgid "Discover all the events"
+msgstr ""
+
+#: src/Front/ListingForm/AfterSubmitTasks.php:210
+msgid "Your Post has been created succesfully."
+msgstr ""
+
+#: src/Front/ListingForm/Controller.php:117
+msgid "Post has been created successfully."
+msgstr ""
+
+#: src/Front/ListingForm/Controller.php:126
+#, php-format
+msgid "Post named %s exists."
+msgstr ""
+
+#: src/Front/ListingForm/Controller.php:160
+#, php-format
+msgid "Post has been updated successfully. View %s "
+msgstr ""
+
+#: src/Front/ListingForm/Controller.php:176
+#, php-format
+msgid "Error during create or update post. %s"
+msgstr ""
+
+#: src/Front/ListingForm/Director.php:119
+#: src/Front/ListingForm/RequestFileHandlerAjax.php:372
+msgid "Sorry! Some fields seems not be valid. Please check them."
+msgstr ""
+
+#: src/Front/ListingForm/RequestFileHandlerAjax.php:299
+#: src/Front/ListingForm/RequestFileHandlerAjax.php:332
+msgid "Files stored successfully."
+msgstr ""
+
+#: src/Front/ListingForm/RequestFileHandlerAjax.php:355
+msgctxt "listing-submit"
+msgid "Files Sync success."
+msgstr ""
+
+#: src/Front/ListingForm/RequestFileHandlerAjax.php:365
+msgid "Some file return an error during upload. Aborting"
+msgstr ""
+
+#: src/Front/ListingForm/Template.php:118
+msgid "Add your Event"
+msgstr ""
+
+#: src/Functions/General.php:128
+msgid ""
+"Qibla Events has been deactivated. The plugin require: Qibla Framework "
+"and Qibla Listings, that are not currently active or installed."
+msgstr ""
+
+#: src/Functions/Template.php:141
+msgid "Add to Calendar"
+msgstr ""
+
+#: src/Listing/Expire/EmailOnExpiration.php:158
+#, php-format
+msgctxt "expired_email"
+msgid "Events %s Expired"
+msgstr ""
+
+#: src/Package/PackageFormBuilder.php:150
+msgid "Submit Changes"
+msgstr ""
+
+#: src/Package/PackageFormBuilder.php:153
+msgid "Create my Event"
+msgstr ""
+
+#: src/PostType/Events.php:51
+msgid "Event"
+msgstr ""
+
+#: src/PostType/Events.php:52
+msgid "Events"
+msgstr ""
+
+#: src/PostType/Events.php:86
+msgctxt "admin-table-list"
+msgid "Event Date"
+msgstr ""
+
+#: src/PostType/Events.php:87
+msgctxt "admin-table-list"
+msgid "Location"
+msgstr ""
+
+#: src/PostType/Events.php:90
+msgctxt "admin-table-list"
+msgid "Category"
+msgstr ""
+
+#: src/PostType/Events.php:95
+msgctxt "admin-table-list"
+msgid "Featured"
+msgstr ""
+
+#: src/PostType/Events.php:100
+msgctxt "admin-table-list"
+msgid "Author"
+msgstr ""
+
+#: src/PostType/Events.php:104
+msgctxt "admin-table-list"
+msgid "Reviews"
+msgstr ""
+
+#: src/PostType/Events.php:144 src/PostType/Events.php:155
+msgid "[No End Time]"
+msgstr ""
+
+#: src/PostType/Events.php:200
+msgid "Yes"
+msgstr ""
+
+#: src/PostType/Events.php:202
+msgid "No"
+msgstr ""
+
+#: src/PostType/ListingPackage.php:48
+msgid "Event Package"
+msgstr ""
+
+#: src/PostType/ListingPackage.php:49
+msgid "Packages"
+msgstr ""
+
+#: src/Search/Field/Taxonomy.php:87
+#, php-format
+msgid "All %s"
+msgstr ""
+
+#: src/Shortcode/EventMaps.php:58
+msgctxt "shortcode-vc"
+msgid "Event Map"
+msgstr ""
+
+#: src/Shortcode/ListingPackage.php:195
+msgid "Free"
+msgstr ""
+
+#: src/Shortcode/ListingPackage.php:302
+msgctxt "listing-package"
+msgid "Choose this plan"
+msgstr ""
+
+#: src/Shortcode/Terms.php:57
+msgctxt "shortcode-vc"
+msgid "Qibla Event Categories Grid"
+msgstr ""
+
+#: src/Shortcode/TermsLocations.php:57
+msgctxt "shortcode-vc"
+msgid "Qibla Event Locations Grid"
+msgstr ""
+
+#: src/Taxonomy/EventCategories.php:56
+msgid "Category"
+msgstr ""
+
+#: src/Taxonomy/EventDates.php:56
+msgid "Date"
+msgstr ""
+
+#: src/Taxonomy/EventDates.php:57
+msgid "Dates"
+msgstr ""
+
+#: src/Taxonomy/Locations.php:56
+msgid "Locations"
+msgstr ""
+
+#: src/Taxonomy/Tags.php:58
+msgid "Tag"
+msgstr ""
+
+#: src/Taxonomy/Tags.php:86
+msgid "Name"
+msgstr ""
+
+#: src/Taxonomy/Tags.php:87
+msgid "Description"
+msgstr ""
+
+#: src/Taxonomy/Tags.php:88
+msgid "Slug"
+msgstr ""
+
+#: src/Taxonomy/Tags.php:91
+msgctxt "admin-table-list"
+msgid "Group"
+msgstr ""
+
+#: src/Taxonomy/Tags.php:95
+msgctxt "admin-table-list"
+msgid "Relations"
+msgstr ""
+
+#: src/Taxonomy/Tags.php:97
+msgid "Posts"
+msgstr ""
+
+#: views/events/buttonEvents.php:40 views/shortcodes/events.php:109
+msgid "Placeholder text"
+msgstr ""
+
+#: views/events/eventsDate.php:35 views/events/eventsSidebarCard.php:46
+msgctxt "data-in"
+msgid "From"
+msgstr ""
+
+#: views/events/eventsDate.php:43 views/events/eventsSidebarCard.php:52
+msgctxt "data-out"
+msgid "to"
+msgstr ""
+
+#: views/events/eventsLocation.php:37
+msgid "See on google map"
+msgstr ""
+
+#: views/events/managerTmpl.php:30
+msgctxt "account-posts-manager"
+msgid "Listing"
+msgstr ""
+
+#: views/events/managerTmpl.php:31
+msgctxt "account-posts-manager"
+msgid "Status"
+msgstr ""
+
+#: views/events/managerTmpl.php:32
+msgctxt "account-posts-manager"
+msgid "Actions"
+msgstr ""
+
+#: views/events/managerTmpl.php:69
+#, php-format
+msgctxt "manager-posts"
+msgid "Expiry date: %s"
+msgstr ""
+
+#: views/events/managerTmpl.php:98
+msgctxt "manager-posts"
+msgid "There are no listings right now."
+msgstr ""
+
+#: views/loop/noContentEvents.php:32
+msgid "Sorry, no posts matched your criteria."
+msgstr ""
+
+#: views/loop/noContentEvents.php:37
+msgid "Restart the search"
+msgstr ""
+
+#: views/loopFooter.php:39 views/shortcodes/events.php:143
+msgid "Event date"
+msgstr ""
+
+#: views/relatedPosts.php:39
+msgid "Related Posts"
+msgstr ""

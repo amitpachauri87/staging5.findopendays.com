@@ -1,0 +1,20 @@
+2018-11-15T07:38:23+00:00 CRITICAL Uncaught TypeError: Argument 1 passed to Vc_Navbar::__construct() must be an instance of WP_Post, integer given, called in /home/findopen/public_html/wp-content/plugins/js_composer/include/templates/editors/frontend_editor.tpl.php on line 36 and defined in /home/findopen/public_html/wp-content/plugins/js_composer/include/classes/editors/navbar/class-vc-navbar.php:43
+Stack trace:
+#0 /home/findopen/public_html/wp-content/plugins/js_composer/include/templates/editors/frontend_editor.tpl.php(36): Vc_Navbar->__construct(39509)
+#1 /home/findopen/public_html/wp-content/plugins/js_composer/include/helpers/helpers.php(993): require('/home/findopen/...')
+#2 /home/findopen/public_html/wp-content/plugins/js_composer/include/classes/editors/class-vc-frontend-editor.php(473): vc_include_template('editors/fronten...', Array)
+#3 /home/findopen/public_html/wp-content/plugins/js_composer/include/classes/editors/class-vc-frontend-editor.php(449): Vc_Frontend_Editor->render('editor')
+#4 /home/findopen/public_html/wp-content/plug
+
+2018-11-15T08:18:33+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (22112018) at position 7 (8): Unexpected character in /home/findopen/public_html/wp-content/themes/qibla/functions.php:291
+Stack trace:
+#0 /home/findopen/public_html/wp-content/themes/qibla/functions.php(291): DateTime->__construct('22112018')
+#1 /home/findopen/public_html/wp-includes/class-wp-hook.php(286): custom_code_for_add_listing_fix('')
+#2 /home/findopen/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 /home/findopen/public_html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /home/findopen/public_html/wp-admin/admin-header.php(142): do_action('admin_head')
+#5 /home/findopen/public_html/wp-admin/edit-form-advanced.php(483): require_once('/home/findopen/...')
+#6 /home/findopen/public_html/wp-admin/post.php(174): include('/home/findopen/...')
+#7 {main}
+  thrown
+

@@ -1,0 +1,228 @@
+== 2.5.1 - 2018/07/26 ==
+Add: option button target in single events.
+Add: event_tags taxonomy for retrieved events in short-code
+Add: custom button in single listings
+Add: listingsArchiveType method in Context
+Fix: various fix.
+
+== 2.5.0 - 2018/07/13 ==
+Fix: suggestions, given the support when the slug of taxonomies is changed.
+Fix: Various arrangements and removal of dirty code.
+Fix: Related events order by date and time.
+Fix: Events shortcode add option for order by "Event Date".
+Fix: Undefined function get_current_screen in admin hook "qibla_fw_termbox_thumbnail_screen"
+Add: button for remove title group.
+Add: Support for Reviewer plugin.
+Add: option for set default address in google map.
+Add: Term color scoped style in listings card.
+Add: Geocoded add slug in nav suggestion data.
+Add: Term color scoped style in events card.
+Add: Support for WooCommerce 3.4.3
+
+== 2.4.0 - 2018/06/06 ==
+Add: new page template Events Search.
+Add: Font Awesome 5 icons divided into two types, solid and regular.
+
+== 2.3.0 - 2018/05/03 ==
+Add: New select2 theme.
+Add: New design for listings filters.
+Add: Added sidebar archive listings.
+Add: Events plugin.
+Fix: Various fixes for IE11.
+
+== 2.2.2 - 2018/04/03 ==
+Tweak: update qibla-framework and qibla-listings
+
+== 2.2.1 - 2018/04/03 ==
+Add: added filter 'qibla_sidebar_in_singular_post_type' in sidebar function.
+Fix: Style for Homepage full width template.
+
+== 2.2.0 - 2018/03/28 ==
+Add: Added Glyphs Icons.
+Add: Added homepage boxed and full width template.
+Add: Support for WooCommerce 3.3.4
+
+== 2.1.0 - 2018/02/10 ==
+Fix: Added mixin that takes care of hiding the header in the deployment phase.
+Add: Count result and ordering template in shop page.
+Add: introduced new functions countAndOrderWrapStart and countAndOrderWrapEnd to add wrapper for WC result count and ordering form
+Add: Map Icons.
+Add: Support for WooCommerce 3.3.1
+
+== 2.0.1 - 2017/12/19 ==
+Fix: Header set 100% width of the header on the .dlheader class to override the "auto" width set by the .unscreen-reader-text class.
+Fix: Checked if QiblaFramework exists and assigns a default value you have conditional
+
+== 2.0.0 - 2017/12/16 ==
+Add: Support for WooCommerce 3.2.6.
+Fix: Author page doesn't show because of the FilterProductsQuery set the queried_object too early.
+Fix: Material icons doesn't load due to missing rules in generated vendor.min.css.
+Fix: Loop footer listings doesn't show full content if meta is empty.
+Fix: Page not fully load when there are no posts in a listings archive.
+Fix: Tinymce buttons overflow the container in small devices.
+Remove: Post Formats support has been removed for Listings Post type.
+Dev: Allow `picture` and `source` in `ksesPost` function.
+Dev: Introduce `before` and `after` actions in archive title template.
+Dev: Add filter `qibla_discard_init_loader` to allow third party plugin or child themes to prevent the init of the theme and made their own.
+
+== 1.7.1 - 2017/10/21 ==
+Fix: Hero full height up to 1366px.
+Fix: Hero within singular listings height. Overwritten by the rule for the other pages.
+Fix: Listings Archive without the map has an additional margin between header and filters.
+Fix: Vertical align for Hero content when header is set as transparent and within the single post.
+
+== 1.7.0- 2017/10/18 ==
+Add: Material Icons.
+Add: Support for WooCommerce 3.2.x.
+Fix: Wrong text domain in WooCommerce templates.
+Fix: Smooth scroll issue with hidden elements.
+Fix: All third menu level items get border radius.
+Fix: Escape html class attribute values in scopeClass.
+Fix: Hero content not centered within the homepage when header is set as sticky.
+Fix: Hero doesn't appear in search results page.
+Fix: Sidebar doesn't appear in search results page.
+Fix: Hero height different when header is set as sticky.
+Fix: WooCommerce Products list layout broken in widget when product has no price.
+Fix: Header extra horizontal padding between 1025 and 1080 viewport.
+
+== 1.6.1 - 201709/12 ==
+Fix: Login register collapse issue in mobile devices after social login has been introduced.
+Fix: Unexpected scroll to top on anchors with '#' as fragment.
+Fix: Modal Login Register on small screens is cut off.
+Fix: Box model issue on small devices due to a Owl Carousel bug when used within a flexbox container.
+Tweak: Social Login box model within WooCommerce my account page.
+Remove: Remove Contact Form 7 from the list of the suggested plugins. Never used on theme.
+
+== 1.6.0 - 2017/09/06 ==
+Fix: Remove the link from user within the comment form that point to the admin edit profile.
+Add: Smooth scrolling for internal anchor links.
+Add: Localization for it_IT.
+Tweak: Align amenities icons within the single listing.
+Tweak: Reduce the font size for the listing package price, so high price value do not break the UI.
+Improve: Logo MV by introduce new hooks to perform actions before and after the logo markup is rendered. Also, the img now is wrapped in a `<picture>` element.
+
+== 2017/08/16 - 1.5.1 ==
+Fix: Dropdown input is higher than than others.
+Fix: Don't use html markup within the translation text in review form.
+Fix: quantity increment/decrement width within the cart.
+Fix: Login/Register modal doesn't have correct height on Safari.
+Fix: Rename languages/qibla-it_IT.mo/.po to languages/it_IT.mo/.po. Files within the theme doesn't need the textdomain prefix.
+Fix: Modal Contact Form on single listing cannot scroll the content correctly due to content alignment.
+Fix: Missed borders style for search navigation items.
+Fix: Search input height value is wrong on Safari.
+Fix: WooCommerce table links that are btn must not get the link-text style.
+Fix: Modal height in IE10, the modal get the whole height of the window.
+Fix: Alert within the contact form modal is cropped.
+Tweak: Set the overflow for the modal to auto, don't show scroll bars if not necessary.
+Tweak: Alerts components in small devices. Remove icon and improve typography.
+Improve: Mobile Header.
+Refactor: Template for the Cart Counter is now a class.
+Dev: Move the qibla_did_init hook at the end, so other code may act with actions previously added.
+Dev: Introduce the TemplateInterface.
+Dev: Apply the 'qibla_kses_image_allowed_attrs' directly to the img list.
+
+== 2017/07/02 - 1.5.0 ==
+Add: Support for WooCommerce 3.1.0
+Add: Required fields now have an asterisk associated to their labels.
+Fix: Front page hero title doesn't resize like other pages. Create problems with long text in small devices.
+Fix: See Gallery label disappeared from the single listing page.
+Fix: Checkout review order table Total column shrink if the name of the product is to long.
+Fix: Incoherent style for quantity element within the single product on small devices.
+Fix: Reflect the search icon in search form. Make it ltr compliant.
+Fix: Sanitize Html Class attribute values when using the scopeClass function.
+Fix: Widget cart buttons no wrap text when button label is too long.
+Fix: Mini cart products number overflow.
+Fix: Icons in square article variant go under the article title when the title go in two lines.
+Improve: ksesPost function by including: select, option, optgroup tags.
+Improve: Typography smoothing.
+Improve: Buttons box model.
+Tweak: Add the global border radius to checkbox type, make it coherent with the theme style.
+Tweak: Enhance the radio button style.
+Tweak: Show the Comment closed text only within the 'post' post type. Not necessary within pages and other types.
+Tweak: UI, better highlight the checkbox and radio button when element has status of checked.
+Dev: New css util class .u-highlight-text to allow text to have the same brand color.
+Dev: Filter for walker class name to main nav arguments. Filter is named "qibla_nav_main_walker".
+Dev: Introduce $responsive parameter to the btn mixin. Allow to include media query or not.
+Dev: Restructure how the --card and --overlay modifier apply their styles. Overlay is for article with thumbnails.
+
+== 2017/05/19 1.4.0 ==
+Add: Support for WooCommerce 3.0.7.
+Add: New attributes for sections shortcode. Now it is possibile to set two buttons and define a stile 'big' for the container.
+Fix: Suggestions navigation is cut off the hero if theme use a video background in homepage.
+Fix: Font size increased within article boxes. Keep it only for singular post content paragraphs.
+Fix: Text selection colors are no applied correctly.
+Fix: Section Shortcode buttons are not styled properly when the background image is set.
+Fix: Section Shortcode content is not styled correctly when the background image is set.
+Fix: WooCommerce quantity incrementer show up even when the product is sold individually.
+Fix: Search navigation content is centered in IE10 when other browsers display the text left aligned.
+Fix: $data value in TemplateEngine is not filtered correctly.
+Fix: Box model for coupon form within the cart in small devices.
+Fix: Regenerate the dynamic.css file on theme upgrade. This ensure new styles are applied after the theme is updated.
+Tweak: Show a generic "Posts" title in jumbo-tron when the front page is the blog page too.
+Tweak: Box model for the search navigation items.
+Tweak: Comments box-model in small devices. Give more space for comment text.
+Dev: Remove localization for Exception/Error's text.
+Dev: Booking tax query filter is now hooked in parse_tax_query. Allow to set multiple condition within different code context.
+
+== 2017/05/02 1.3.0 ==
+Fix: WooCommerce single product thumbnail width.
+Add: Style for autocomplete feature.
+Add: Compatibility to WooCommerce 3.0.5.
+Dev: Remove the dllabels localized script. Never used.
+
+== 2017/04/24 1.2.1 ==
+Fix: Deprecated WC_Customer::get_country use WC()->customer->get_billing_country() instead.
+Fix: Remove the leading backslash from the functions names. It's not necessary and may cause issues in some php configurations.
+Tweak: Remove box-shadow from hamburger menu on focus state.
+Tweak: Add border radius on product price for listings post article to match the theme style.
+Tweak: Increase the overlay for color by .4 to .5 alpha.
+Tweak: Select2 borders bottom doesn't rounded when list is closed.
+
+== 2017/04/20 1.2.0 ==
+Fix: The blog show the latest post title when the reading settings for front page is set to show the latest posts.
+Fix: Filter query booking products during 'pre_get_posts' doesn't works as expected in some cases.
+Add: Compatibility to WooCommerce 3.0.4
+Add: Custom Header Theme Support. Video too. Yes!
+Improve: Set the script protocol url to relative for google fonts. Future thanks us.
+Improve: Comment reply form links style.
+Improve: Refactor comments css style after listing's Reviews have been introduced.
+Tweak: Reduce the height of the custom logo to match the css max-height property.
+Tweak: Add +.1rem to the singular content font-size property.
+Tweak: Don't use the brand color for author name in comment, it can be confused with links.
+Tweak: Vertical Spacing between elements in single listings header.
+Tweak: Lighten the Hero overlay color.
+Move: Gravatar and Rating filters from the default WooCommerce hooks. Now in review.php template. Add consistence after the listing's Reviews.
+Remove: Header Background functions and hooks. Theme never supported the custom-header.
+Remove: WooCommerce archive product page title. We don't use it.
+Remove: getProductGalleryIds function. No longer necessary after Wc 3.x support.
+Remove: Functions for backward compatibility with WordPress 3.4.x: sanitize_hex_color, sanitize_hex_color_no_hash, maybe_hash_hex_color
+Dev: Deprecated getImageIdByUrl() in favor of attachment_url_to_postid().
+Dev: Introduce new classes for custom post's Exceptions.
+Dev: Introduce two new filters within the post title template. 'qibla_before_post_title' and 'qibla_after_post_title'.
+
+== 2017/04/11 1.1.0 ==
+Fix: Missed mail to social meta icon in singular listings.
+Fix: Show Archive title for date archive pages. We don't use jumbotron there.
+Fix: Select2 style on open state borders.
+Fix: Post title doesn't appear for custom internal loop if the postTitleTmpl has been called with screen-reader-text argument.
+Fix: Split mark and selection pseudoclasses. mark must not share the properties with the selection or will not work on Firefox.
+Fix: Input with appearance none create issues in Firefox.
+Fix: Input text not showing correctly in winIE 10 UA.
+Fix: Main content doesn't stretch correctly in winIE 10.
+Fix: Adjacent posts navigation box model in winIE 10.
+Fix: Sidebar width in winIE 10.
+Add: Compatibility with WooCommerce 3.0.0. This version of the theme is not offering backward compatibility and update to WooCommerce 3.0 is mandatory.
+Add: Compatibility with WooCommerce Booking Plugin 1.10.0.
+Add: Moved some logic regarding Jumbotron (Hero Image) from Framework to theme. Add more internal consistence.
+Add: New conditional function isDateArchive to test if the current page is a date blog post archive.
+Add: Introduce new action "qibla_before_single_listing_loop_entry_content" in format standard before the main content.
+Add: New filters within the loopFooter View before and after the footer content.
+Add: New actions within the loopFooter.php view named respectively 'qibla_before_loop_footer' and 'qibla_after_loop_footer'.
+Add: qibla woocommerce listings plugin to the list of the plugins required by the theme.
+Improve: Partial refactor the Jumbotron class to able to work with Shop page and add make it much coherent with Framework.
+Improve: Alerts styles. Make them much cleaner and scss scalable by introducing mixins.
+Update: Requirements plugins versions for Framework and Importer to 1.1.0.
+Remove: PhotoSwipe from theme. Use the one provided by the framework. The script was included for WooCommerce but it's no longer necessary.
+
+== 2017/03/23 1.0.0 ==
+Initial release

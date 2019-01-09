@@ -1,0 +1,9 @@
+2018-11-23T10:15:14+00:00 CRITICAL Uncaught Error: Unsupported operand types in /home/findopen/staging/5/wp-content/plugins/qibla-events/src/Package/PackageFormBuilder.php:207
+Stack trace:
+#0 /home/findopen/staging/5/wp-content/plugins/qibla-events/src/Package/PackageFormBuilder.php(365): AppMapEvents\Package\PackageFormBuilder->buildForm()
+#1 /home/findopen/staging/5/wp-content/plugins/qibla-events/src/Front/ListingForm/RequestForm.php(75): AppMapEvents\Package\PackageFormBuilder::getFormHelper(Object(WP_Post), Object(WP_Post), 'edit')
+#2 /home/findopen/staging/5/wp-content/plugins/qibla-events/src/Front/ListingForm/RequestForm.php(175): AppMapEvents\Front\ListingForm\RequestForm->__construct(Object(WP_Post), Object(WP_Post), 'edit')
+#3 /home/findopen/staging/5/wp-includes/class-wp-hook.php(286): AppMapEvents\Front\ListingForm\RequestForm::handleRequestFilter('')
+#4 /home/findopen/staging/5/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#5 /home/findopen/staging/5/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+

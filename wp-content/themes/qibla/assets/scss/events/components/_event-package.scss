@@ -1,0 +1,108 @@
+//
+// Events Package.
+//
+.single-event_package {
+  // Calendar.
+  #multidates_qibla_listing_form-meta-event_dates_multidatespicker {
+    .ui-datepicker-inline {
+      max-width: 100%;
+      width:     100%;
+    }
+    table.ui-datepicker-calendar {
+      border-collapse: separate;
+    }
+    .ui-datepicker-calendar td {
+      border: 1px solid transparent;
+    }
+    #ui-datepicker-div {
+      display: none;
+    }
+    .ui-datepicker .ui-datepicker-calendar .ui-state-highlight a {
+      background: $color-primary;
+      color:      $color-white;
+    }
+    .ui-datepicker .ui-datepicker-calendar .ui-state-highlight.ui-datepicker-today a {
+      background: #555;
+      color:      $color-white;
+    }
+    .ui-datepicker .ui-datepicker-calendar .ui-state-highlight a:hover {
+      background: $color-primary;
+      color:      $color-white;
+    }
+    .ui-state-default, .ui-widget-content .ui-state-default {
+      border-color: #333;
+      background:   #eee;
+    }
+    .ui-state-default, .ui-widget-content .ui-state-default:hover {
+      background: #ddd;
+    }
+    .ui-state-highlight, .ui-widget-content .ui-state-highlight {
+      border-color: $color-primary;
+      background:   #555;
+      color:        $color-white;
+    }
+    .ui-state-highlight, .ui-widget-content .ui-state-highlight.ui-state-active {
+      border: 1px solid #555;
+    }
+
+    .ui-datepicker table .ui-state-hover,
+    .ui-datepicker table .ui-state-active {
+      color: #555;
+    }
+
+    .ui-datepicker table .ui-datepicker-today .ui-state-active {
+      color: $color-white !important;
+    }
+
+    .ui-widget-header {
+      background:  $color-white;
+      border:      0;
+      color:       $color-gray;
+      font-weight: bold;
+      .ui-datepicker-title {
+        margin:     0 auto;
+        text-align: center;
+      }
+    }
+
+    .ui-datepicker table td a {
+      height:      100%;
+      line-height: 3;
+      text-align:  center;
+    }
+
+    .ui-datepicker .ui-datepicker-prev,
+    .ui-datepicker .ui-datepicker-next {
+      font-size:   inherit;
+      font-weight: normal;
+      text-align:  center;
+      top:         0;
+
+      &:hover {
+        background: $color-white;
+      }
+
+      &::after,
+      &::before {
+        line-height: inherit;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: map-get($breakpoints, 'md')) {
+
+  .dlform--listing {
+    .dl-field--dates {
+      // Override float.
+      // scss-lint:disable ImportantRule
+      float: left !important;
+    }
+    .dl-field--time {
+      // Override float.
+      // scss-lint:disable ImportantRule
+      float: right !important;
+    }
+  }
+
+}

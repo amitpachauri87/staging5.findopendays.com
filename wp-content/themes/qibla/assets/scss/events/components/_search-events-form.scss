@@ -1,0 +1,48 @@
+//
+// Search Form
+//
+
+// Container for search
+.page-template-events-search {
+  .dljumbotron .dlcontainer {
+    width: 100%;
+  }
+}
+
+.dlsearch--dates {
+  .dlsearch__input-wrapper {
+    input[type="search"] {
+      height:  auto;
+      padding: .7rem;
+    }
+  }
+}
+
+@media only screen and (min-width: map-get($breakpoints, 'md')) {
+
+  // Container for search
+  .page-template-events-search {
+    .dljumbotron .dlcontainer {
+      width: 80%;
+    }
+  }
+
+}
+
+@media only screen and (min-width: map-get($breakpoints, 'nm')) {
+
+  .dlsearch--dates {
+    #search_events_form {
+      .dlsearch__form-fields {
+        display:      flex;
+        flex-grow:    1;
+        margin-right: 0.63em;
+      }
+    }
+    .dlsearch__input-wrapper {
+      flex-basis: 50%;
+      width:      50%;
+    }
+  }
+
+}

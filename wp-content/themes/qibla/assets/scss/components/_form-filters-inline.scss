@@ -1,0 +1,273 @@
+//
+// Form Filters inline Component
+//
+.dlform-filter {
+  background-color: $color-white;
+  // Keep 0 for horizontal padding, we add them later depending on archive listings. See below.
+  padding:          ($global-padding / 2) 0;
+  position:         fixed;
+  // Make the element large such as the container to prevent wrong shrink when the content is missed.
+  // This fix the width of the element even when the number of the items contained are less than the element
+  // numbers allowed by the .multicheck-list flex value.
+  width:            100%;
+  z-index:          9896;
+
+  // Fields
+  .dl-field {
+    display:        inline-block;
+    margin-bottom:  .5em;
+    margin-right:   .5em;
+    text-transform: capitalize;
+
+    // Separate the fields.
+    ~ .dl-field {
+      margin-right: .5em;
+      margin-top:   0;
+    }
+
+    > label {
+      @extend .screen-reader-text;
+    }
+  }
+
+  // Hidden Fields
+  &__hidden-fields {
+    margin-top: $global-padding;
+  }
+
+  // Multi-check field
+  @include multicheck-list-flex;
+
+  .multicheck-list {
+    padding-bottom: 5rem;
+    padding-right:  $padding-container;
+    &__item {
+      margin-bottom: .5em;
+      input[type="checkbox"]:checked + label {
+        font-weight: 700;
+      }
+      label {
+        font-weight: 400;
+      }
+    }
+  }
+
+  // Form actions
+  &__actions {
+    text-align: right;
+    width:      100%;
+
+    .dlform-filter__action + .dlform-filter__action {
+      margin-left: 1em;
+    }
+    .dlform-filter__action.btn-clear {
+      background: transparent;
+      border:     0;
+      color:      $color-primary;
+      padding:    0;
+    }
+  }
+
+  // States
+  &--open {
+    // Workaround
+    // Needed on small devices. This overlap the google map when it's opened.
+    // On IE 10 There are problems with the following rules when applied directly to the opened form.
+    .dlgoogle-map-full-screen & {
+      bottom:   0;
+      position: absolute;
+      top:      0;
+      z-index:  9899;
+    }
+
+    .dlform-filter__actions {
+      background-color: $color-white;
+      bottom:           0;
+      left:             0;
+      padding:          $global-padding / 2;
+      position:         fixed;
+      transform:        translate3d(0, 0, 0);
+      z-index:          9999;
+    }
+  }
+
+  &--fixed {
+    left:     0;
+    position: fixed;
+    right:    0;
+    top:      0;
+  }
+}
+
+// Form Filter Mobile whit admin bar.
+@include filter-position('.admin-bar.dl-is-listings-archive .dlheader--mobile.dlheader--is-sticky + .dlwrapper .dlform-filter');
+@media only screen and (max-width: 782px) {
+  .dl-is-listings-archive .dlheader--mobile.dlheader--is-sticky + .dlwrapper .dlform-filter {
+    top: 0;
+  }
+}
+
+.dl-is-listings-archive .dlheader--mobile.dlheader--is-sticky + .dlwrapper .dlform-filter {
+  z-index: 99999;
+}
+
+.dlform-filter:not(.dlform-filter--open) {
+  .dlform-filter__hidden-fields {
+    // Temporary.
+    display: none;
+  }
+}
+
+//
+// Form filter Map variants
+//
+.dl-is-listings-archive {
+  // Map variant
+  &--with-map .dlform-filter {
+    border:              1px solid transparent;
+    border-bottom-color: $color-border;
+    // Add padding when with map.
+    padding-left:        $padding-container;
+    padding-right:       $padding-container;
+  }
+
+  // No Map variant
+  &--no-map .dlform-filter {
+    position: relative;
+
+    // Add a wide background strip.
+    &::before {
+      @include wide-background-strip;
+      display: flex;
+    }
+  }
+}
+
+//
+// MEDIA QUERIES
+//
+@media only screen and (min-width: map-get($breakpoints, 'sm')) {
+
+  //
+  // Form Filters
+  //
+  .dlform-filter {
+    @include cf;
+
+    // Fields
+    .dl-field {
+      float:        left;
+      margin-right: .5em;
+      width:        auto;
+
+      ~ .dl-field {
+        // Reset the small device margin for fields.
+        margin-top: 0;
+      }
+
+      &--multi-check,
+      &--checkbox {
+        // Checkboxes are treated differently.
+        // scss-lint:disable ImportantRule
+        float:  none !important;
+        margin: 0;
+        width:  100% !important;
+      }
+    }
+
+    // Hidden Fields
+    &__hidden-fields {
+      clear:      both;
+      margin-top: ($global-vertical-margin + $global-padding);
+    }
+  }
+}
+
+@media only screen and (min-width: map-get($breakpoints, 'md')) {
+
+  //
+  // Form Filters
+  //
+  .dlform-filter {
+
+    // The Hidden Fields
+    &__hidden-fields {
+      width: 100%;
+    }
+  }
+
+}
+
+@media only screen and (max-width: 640px) {
+
+  //
+  // Mobile Filter Drop-down.
+  //
+  .dlform-filter {
+    .select2-dropdown {
+      left:     0;
+      margin:   0 auto;
+      position: fixed;
+      right:    0;
+      // Override Width.
+      // scss-lint:disable ImportantRule
+      width:    98% !important;
+      .select2-results ul {
+        max-height: 250px;
+      }
+    }
+  }
+
+}
+
+@media only screen and (max-width: 400px) {
+  //
+  // Mobile Filter Drop-down.
+  //
+  .dlform-filter {
+    .select2-container {
+      // Override Position.
+      // scss-lint:disable ImportantRule
+      top: auto !important;
+    }
+  }
+}
+
+@media only screen and (min-width: map-get($breakpoints, 'nm')) {
+
+  //
+  // Form Filters
+  //
+  .dlform-filter {
+    position: relative;
+    z-index:  auto;
+    // Hidden Fields
+    &__hidden-fields {
+      clear: both;
+    }
+  }
+
+  //
+  // Form filter Map variants
+  //
+  .dl-is-listings-archive {
+    // Map Variant
+    &--with-map .dlform-filter {
+      padding-left:  $global-padding;
+      padding-right: $global-padding;
+
+      // States
+      &--open {
+        .dlform-filter__actions {
+          @include enumerate-props($boxmodel_listings-archive_main);
+        }
+      }
+    }
+
+    // No map variant
+    &--no-map .dlform-filter {
+      padding-left:  0;
+      padding-right: 0;
+    }
+  }
+}

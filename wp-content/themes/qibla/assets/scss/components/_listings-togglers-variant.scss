@@ -1,0 +1,109 @@
+//
+// Components Filters Toggler
+//
+.dltoggler {
+  @extend .dlbtn;
+  background-color: $color-white;
+  border:           1px solid $color-input-border;
+  color:            $color-gray--light;
+  font-size:        1rem;
+  font-weight:      400;
+  line-height:      1.2;
+  min-height:       33px;
+  // Override padding btn.
+  padding:          .45rem .69rem;
+  position:         relative;
+
+  // The icon associated to the filter btn.
+  i {
+    display:     inline-block;
+    font-size:   20px;
+    line-height: 22px;
+    margin:      0 auto;
+  }
+}
+
+.dlform-filter:not(.dlform-filter--open) .dltoggler {
+  border-color: $color-input-border;
+}
+
+.dltoggler:hover,
+.dltoggler:active {
+  background-color: $color-white;
+  // Override Border color.
+  // scss-lint:disable ImportantRule
+  border:           1px solid $color-primary !important;
+  color:            $color-primary;
+}
+
+.dlform-filter--open .dltoggler {
+  background-color: $color-primary;
+  // Override Border color.
+  // scss-lint:disable ImportantRule
+  border:           1px solid $color-primary !important;
+  color:            $color-white;
+}
+
+#dllistings_filter_toggler.dllistings-toggler--active {
+  left: $global-horizontal-margin;
+}
+
+#dllistings_map_toggler.dllistings-toggler--active {
+  right: $global-horizontal-margin;
+}
+
+//
+// MEDIA QUERIES
+//
+
+@media only screen and (max-width: 63.94em) {
+
+  //
+  // Togglers No Map Variant
+  //
+  .dl-is-listings-archive--with-map {
+    .dltogglers .dltoggler--map-open,
+    .dltogglers .dltoggler-map {
+      @include flexboxtweener;
+      border-radius:   100px;
+      bottom:          2rem;
+      box-shadow:      0 1px 1px $color-border;
+      display:         flex;
+      height:          40px;
+      justify-content: space-between;
+      padding:         .45rem 0;
+      position:        fixed;
+      right:           .9rem;
+      text-align:      center;
+      width:           40px;
+      // Below the filters form.
+      z-index:         9897;
+
+      &:hover {
+        // Override Border color.
+        // scss-lint:disable ImportantRule
+        border-color: $color-primary !important;
+      }
+
+      // Label
+      span {
+        @include screen-reader-text;
+      }
+    }
+  }
+
+}
+
+@media only screen and (min-width: 64em) {
+
+  .dltogglers {
+    clear:  none;
+    float:  right;
+    margin: 0;
+  }
+
+  .dlform-filter .dltogglers {
+    float: left;
+  }
+
+}

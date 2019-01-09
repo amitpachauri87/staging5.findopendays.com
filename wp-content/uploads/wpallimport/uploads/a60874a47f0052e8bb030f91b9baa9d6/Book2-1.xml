@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<node>
+		<title><![CDATA[Aston University - Undergraduate Open Day]]></title>
+		<subtitle><![CDATA[Aston University]]></subtitle>
+		<eventinformation><![CDATA[ Over the last 20 years we have consistently been ranked as a top university for graduate employability (80 in the World and 12th in the UK according QS Graduate Employability Rankings).]]></eventinformation>
+		<address><![CDATA[Aston Triangle  Birmingham B4 7ET]]></address>
+		<location><![CDATA[Birmingham]]></location>
+		<category><![CDATA[University]]></category>
+		<phone><![CDATA[0121 3593611]]></phone>
+		<website><![CDATA[http://www.aston.ac.uk/]]></website>
+		<bookingurl><![CDATA[http://www.aston.ac.uk/opendays/open-day-pre-registration/]]></bookingurl>
+		<tags><![CDATA[Academy]]></tags>
+		<date><![CDATA[2018-07-06]]></date>
+		<starttime><![CDATA[10.00]]></starttime>
+		<endtime><![CDATA[14.00]]></endtime>
+		<buttontext><![CDATA[Booking Info]]></buttontext>
+		<featuredimage><![CDATA[university6.jpg]]></featuredimage>
+	</node>
+	<node>
+		<title><![CDATA[College of St Mark & St John - Teaching Open Day]]></title>
+		<subtitle><![CDATA[College of St Mark & St John]]></subtitle>
+		<eventinformation><![CDATA[Experience everyday life at Plymouth Marjon University at one of our inspiring open day events. Come to the campus, find out more about our courses, talk to course leaders and take a look around our accommodation and world-class facilities. Plymouth Marjon University is a trading name of the University of St Mark & St John. A progressive university where students can (and do) achieve their full potential.]]></eventinformation>
+		<address><![CDATA[Derriford Road  Plymouth PL6 8BH]]></address>
+		<location><![CDATA[Plymouth]]></location>
+		<category><![CDATA[University]]></category>
+		<phone><![CDATA[01752 636700]]></phone>
+		<website><![CDATA[http://www.marjon.ac.uk/]]></website>
+		<bookingurl><![CDATA[https://www.marjon.ac.uk/courses/open-days/registration/]]></bookingurl>
+		<tags><![CDATA[Independent]]></tags>
+		<date><![CDATA[2018-06-09]]></date>
+		<starttime><![CDATA[10.00]]></starttime>
+		<endtime><![CDATA[14.30]]></endtime>
+		<buttontext><![CDATA[Booking Info]]></buttontext>
+		<featuredimage><![CDATA[university7.jpg]]></featuredimage>
+	</node>
+	<node>
+		<title><![CDATA[Edge Hill University - Postgraduate]]></title>
+		<subtitle><![CDATA[Edge Hill University]]></subtitle>
+		<eventinformation><![CDATA[Student guides will take you on a tour of the halls of residence and faculty buildings, highlighting the wide range of impressive facilities and resources we offer. Edge Hill is a leading campus university with a strong focus on employability, delivering an outstanding student experience]]></eventinformation>
+		<address><![CDATA[St Helens Road  Ormskirk L39 4QP]]></address>
+		<location><![CDATA[Ormskirk]]></location>
+		<category><![CDATA[University]]></category>
+		<phone><![CDATA[01695 575171]]></phone>
+		<website><![CDATA[http://www.edgehill.ac.uk/]]></website>
+		<bookingurl><![CDATA[https://think.edgehill.ac.uk/form/odbf]]></bookingurl>
+		<tags><![CDATA[Sixth Form]]></tags>
+		<date><![CDATA[2018-06-16]]></date>
+		<starttime><![CDATA[10.00]]></starttime>
+		<endtime><![CDATA[15.00]]></endtime>
+		<buttontext><![CDATA[Booking Info]]></buttontext>
+		<featuredimage><![CDATA[university8.jpg]]></featuredimage>
+	</node>
+	<node>
+		<title><![CDATA[Edge Hill University - Postgraduate]]></title>
+		<subtitle><![CDATA[Edge Hill University]]></subtitle>
+		<eventinformation><![CDATA[Student guides will take you on a tour of the halls of residence and faculty buildings, highlighting the wide range of impressive facilities and resources we offer. Edge Hill is a leading campus university with a strong focus on employability, delivering an outstanding student experience]]></eventinformation>
+		<address><![CDATA[St Helens Road  Ormskirk L39 4QP]]></address>
+		<location><![CDATA[Ormskirk]]></location>
+		<category><![CDATA[University]]></category>
+		<phone><![CDATA[01695 575171]]></phone>
+		<website><![CDATA[http://www.edgehill.ac.uk/]]></website>
+		<bookingurl><![CDATA[https://think.edgehill.ac.uk/form/odbf]]></bookingurl>
+		<tags><![CDATA[Academy]]></tags>
+		<date><![CDATA[2018-08-18]]></date>
+		<starttime><![CDATA[10.00]]></starttime>
+		<endtime><![CDATA[15.00]]></endtime>
+		<buttontext><![CDATA[Booking Info]]></buttontext>
+		<featuredimage><![CDATA[university9.jpg]]></featuredimage>
+	</node>
+	<node>
+		<title><![CDATA[Glasgow University - Computer Science]]></title>
+		<subtitle><![CDATA[Glasgow University]]></subtitle>
+		<eventinformation><![CDATA[Open Day gives you a chance to meet our first class teaching staff and to find out more about studying here. From discovering isotopes to detecting gravitational waves, our inspiring people have been changing the world since 1451.]]></eventinformation>
+		<address><![CDATA[  Glasgow G12 8QQ]]></address>
+		<location><![CDATA[Glasgow]]></location>
+		<category><![CDATA[University]]></category>
+		<phone><![CDATA[0141 330 2000]]></phone>
+		<website><![CDATA[http://www.gla.ac.uk]]></website>
+		<bookingurl><![CDATA[https://www.eventbrite.co.uk/e/june-undergraduate-open-day-2017-tickets-30551798251]]></bookingurl>
+		<tags><![CDATA[Independent]]></tags>
+		<date><![CDATA[2018-06-14]]></date>
+		<starttime><![CDATA[10.00]]></starttime>
+		<endtime><![CDATA[14.00]]></endtime>
+		<buttontext><![CDATA[Booking Info]]></buttontext>
+		<featuredimage><![CDATA[university4.jpg]]></featuredimage>
+	</node>
+</data>
